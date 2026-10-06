@@ -1,0 +1,14 @@
+import type {RefObject} from 'react';
+import {basemap} from '../data/basemap';
+import {places,works,placeDetails,sources} from '../data/content';
+export function SourceDialog({dialog,placeId,workId,reduced,onReduced}:{dialog:RefObject<HTMLDialogElement|null>;placeId:string|null;workId:string;reduced:boolean;onReduced:(v:boolean)=>void}){
+ const place=places.find(p=>p.id===placeId);const work=place?works.find(w=>w.id===workId):undefined;const detail=placeDetails.find(d=>d.placeId===placeId);
+ return <dialog ref={dialog} className="sources-dialog"><div className="dialog-header"><div><span className="eyebrow">有据可寻</span><h2>资料与来源</h2></div><button autoFocus aria-label="关闭资料与来源" onClick={()=>dialog.current?.close()}>×</button></div><label className="motion-setting"><input type="checkbox" checked={reduced} onChange={e=>onReduced(e.target.checked)}/> 减弱过渡动画（静观）</label>
+ {work&&<article data-testid="current-work-source"><strong>当前作品 · {work.author}《{work.title}》</strong><p>{work.variant}</p><a href={work.source} target="_blank" rel="noreferrer">{work.sourceTitle} ↗</a><p>仅录公版古典原文，短解读为本项目原创；未复制来源的现代译文、评论或教学内容。</p></article>}
+ {place&&<article><strong>{place.name} · 位置与文化来源</strong><p>{place.precision}；{place.coordinateSystem}，{place.coordinates.join(' / ')}。</p><a href={place.coordinateSource} target="_blank" rel="noreferrer">位置来源 ↗</a>{detail?.historySources.map(s=><p key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a></p>)}<p>采用现代景区或区域位置，与作品中的地点关联；不据此认定古代建筑轮廓或作者落笔点。全国图片锚点为城市区域入口，不是经纬度配准。</p></article>}
+ <article id="basemap-provenance"><strong>原底图信息</strong><p>{basemap.title} · {basemap.variant}</p><p>原底图审图号：{basemap.reviewNumber}；图面署名：{basemap.imprint}。</p><p>{basemap.acquisition}</p><a href={basemap.source} target="_blank" rel="noreferrer">自然资源部标准地图服务 ↗</a><p>原始 JPG：5826 × 7249，6,827,440 字节。SHA-256：</p><code className="source-hash">{basemap.sha256}</code><a href={`${import.meta.env.BASE_URL}${basemap.file}`} target="_blank" rel="noreferrer">查看完整原图 ↗</a></article>
+ <article><strong>项目改动与呈现方式</strong><p>{basemap.changes}</p><p>西湖局部由 L7 / MapLibre 呈现，数据为 OpenStreetMap 的现代湖岸、岛屿与堤道，WGS84 / ODbL；全国图片保持完整、等比例，未裁切或改色。两种视图共用应用中的一个按需创建的局部地图实例。</p><a href={`${import.meta.env.BASE_URL}legal/data-licenses.txt`} target="_blank" rel="noreferrer">本地来源与许可清单 ↗</a></article>
+ {sources.map(s=><article key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a><small>{s.organization}</small><p>{s.scope}</p></article>)}
+ <article><strong>原创视觉</strong><p>纸纤维、湖上小景与界面代码由本项目制作，SVG 为艺术点景，非历史复原。未使用 AI 生成图或古画扫描；纸感只作用于外围界面和阅读案，不覆盖全国原图。系统宋体优先，无外站字体依赖。</p></article>
+ <article className="known-gap"><strong>资料缺口与成品审核状态</strong><p>成品未送审；原底图编号不等于本项目成品已获审核。原图实际下载地址、下载时间未提供。湖心亭历次营建年表尚未完成地方志复核；本轮不开展古址精确考证。其他地点未采集新照片和局部地图，页面只显示已有资料。</p></article></dialog>;
+}

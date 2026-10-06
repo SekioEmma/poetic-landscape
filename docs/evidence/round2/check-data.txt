@@ -1,0 +1,5 @@
+
+> poetic-landscape@0.1.0 check:data
+> node scripts/check-data.mjs
+
+PASS: 6 places, 8 works, 8 exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + 6 image anchors; UTF-8.

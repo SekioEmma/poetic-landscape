@@ -1,0 +1,6 @@
+# Preserve original asset and recorded source hashes across checkouts.
+* -text
+*.jpg binary
+*.png binary
+*.zip binary
+*.eps binary

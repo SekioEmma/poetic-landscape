@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "packages": {
+    "@antv/l7": "2.29.1",
+    "@antv/l7-maps": "2.29.1",
+    "maplibre-gl": "6.12.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@turf/bbox": "7.2.0",
+    "@turf/simplify": "7.2.0",
+    "@types/node": "22.18.6",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "6.0.1",
+    "osmtogeojson": "3.0.0-beta.5",
+    "typescript": "5.9.3",
+    "vite": "8.3.2"
+  },
+  "compatibility": "AntV L7 2.29.1 + paired MapLibre adapter 2.29.1 + MapLibre GL 6.12.0, pinned local bridge; actual dev and production browser tests."
+}

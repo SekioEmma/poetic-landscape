@@ -1,0 +1,11 @@
+{
+ "round":2,
+ "places":[
+  {"id":"huxin","works":["huxinting-kanxue"]},
+  {"id":"huanghe","works":["huanghelou","song-menghaoran"]},
+  {"id":"dufu","works":["maowu"]},
+  {"id":"xihu","works":["yin-hushang","qiantang-chunxing"]},
+  {"id":"hanshan","works":["fengqiao-yebo"]},
+  {"id":"guazhou","works":["bochuan-guazhou"]}
+ ]
+}

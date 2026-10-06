@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-05",
+  "package": "G:\\project\\数媒\\poetic-landscape\\releases\\诗文山河_首轮静态包_2026-10-05.zip",
+  "packageBytes": 7828917,
+  "packageSHA256": "dd4b170d36725accd571c7d3b903af325be700409b471bcbfea692f56c4894ef",
+  "officialJPGSHA256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+  "officialJPGArchiveSHA256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+  "buildPassed": true,
+  "dataCheckPassed": true,
+  "indexAtArchiveRoot": true,
+  "localPreview": "http://127.0.0.1:4173/",
+  "publicDeployment": false,
+  "entries": [
+    {
+      "path": "assets/huxin-2017.jpg",
+      "bytes": 2008926
+    },
+    {
+      "path": "assets/index-BctjBi_W.css",
+      "bytes": 110979
+    },
+    {
+      "path": "assets/index-Dqc9jmc5.js",
+      "bytes": 250137
+    },
+    {
+      "path": "assets/lake-scene.svg",
+      "bytes": 1708
+    },
+    {
+      "path": "assets/MapAdapter-Dj1SwK1H.js",
+      "bytes": 2498208
+    },
+    {
+      "path": "assets/maplibre-gl-worker-MfjJLauD.js",
+      "bytes": 510701
+    },
+    {
+      "path": "assets/official-china-gs20232763.jpg",
+      "bytes": 6827440
+    },
+    {
+      "path": "assets/paper.svg",
+      "bytes": 691
+    },
+    {
+      "path": "geodata/causeways.json",
+      "bytes": 6503
+    },
+    {
+      "path": "geodata/land.json",
+      "bytes": 286071
+    },
+    {
+      "path": "geodata/local-labels.json",
+      "bytes": 366
+    },
+    {
+      "path": "geodata/westlake.json",
+      "bytes": 77850
+    },
+    {
+      "path": "legal/basemap-manifest.json",
+      "bytes": 4148
+    },
+    {
+      "path": "legal/data-licenses.txt",
+      "bytes": 9596
+    },
+    {
+      "path": "legal/dependency-notices.txt",
+      "bytes": 360727
+    },
+    {
+      "path": "index.html",
+      "bytes": 425
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "date": "2026-10-05",
+  "phase": "official GS(2023)2763 integration",
+  "browser": "Codex in-app browser; exact browser version not exposed",
+  "method": "CUA actual UI actions, read-only DOM inspection and viewed screenshots",
+  "checks": [
+    {
+      "case": "development local keeps one map",
+      "result": {
+        "canvases": 2,
+        "map": {
+          "cameraBounds": "[[120.09890059557449,30.21874148618693],[120.2084419212398,30.27788355155208]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "officialHidden": true
+      }
+    },
+    {
+      "case": "production 1440 official overview",
+      "result": {
+        "anchorErrors": [
+          {
+            "errorX": 0.0009438448904575124,
+            "errorY": 0.002987671529922409,
+            "id": "huxin"
+          },
+          {
+            "errorX": 0.0066883782525337665,
+            "errorY": 0.004596072931178696,
+            "id": "huanghe"
+          },
+          {
+            "errorX": 0.008471357016219372,
+            "errorY": 0.0031993285526823456,
+            "id": "dufu"
+          }
+        ],
+        "blend": "normal",
+        "detail": false,
+        "filter": "none",
+        "loaded": true,
+        "map": {
+          "cameraBounds": "[[-73.1250000000984,-39.3834246603385],[179.99999999990087,74.77069707890325]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "natural": [
+          5826,
+          7249
+        ],
+        "overflow": false,
+        "ratioError": 0.000013282888864374344,
+        "sheet": {
+          "bottom": 740.0000076293945,
+          "height": 636,
+          "left": 611.4285888671875,
+          "right": 1122.5714721679688,
+          "top": 104.00000762939452,
+          "width": 511.1428833007813,
+          "x": 611.4285888671875,
+          "y": 104.00000762939452
+        },
+        "size": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "case": "production original and highlight",
+      "result": {
+        "highlight": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+        "map": {
+          "cameraBounds": "[[110.14515119171415,23.40643439824413],[135.84532467017328,37.21649100321358]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "paragraphs": 4,
+        "selectedImage": "huxin"
+      }
+    },
+    {
+      "case": "viewer Escape leaves selected reading",
+      "result": {
+        "dialogOpen": false,
+        "selected": "湖心亭"
+      }
+    },
+    {
+      "case": "production local one persistent instance",
+      "result": {
+        "canvases": 2,
+        "map": {
+          "cameraBounds": "[[120.09890059557307,30.21874148618879],[120.20844192123843,30.277883551553984]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "officialHidden": true,
+        "panel": {
+          "bottom": 834.0000686645508,
+          "height": 729.0000610351562,
+          "left": 1011.0000610351562,
+          "right": 1415.0000915527344,
+          "top": 105.00000762939452,
+          "width": 404.0000305175781,
+          "x": 1011.0000610351562,
+          "y": 105.00000762939452
+        },
+        "selectedMarker": {
+          "bottom": 468.0000343322754,
+          "height": 44.000003814697266,
+          "left": 526,
+          "right": 653.0000076293945,
+          "top": 424.0000305175781,
+          "width": 127.00000762939452,
+          "x": 526,
+          "y": 424.0000305175781
+        }
+      }
+    },
+    {
+      "case": "production photograph and license readable",
+      "result": {
+        "caption": "今日图景 · 湖心亭岛\n\n西湖水面上的湖心亭岛。照片记录现代景观，不是张岱时代建筑的证明。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。",
+        "loaded": true,
+        "naturalWidth": 4032
+      }
+    },
+    {
+      "case": "keyboard tabs",
+      "result": {
+        "focus": "tab-此地",
+        "selectedTab": "此地"
+      }
+    },
+    {
+      "case": "rapid selection synchronized image directory panel",
+      "result": {
+        "directory": "杜甫草堂",
+        "heading": "杜甫草堂",
+        "image": "dufu",
+        "map": {
+          "cameraBounds": "[[98.54895010550257,21.11432605513093],[133.89139405641498,39.989766392508415]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "dufu",
+          "testid": "map"
+        }
+      }
+    },
+    {
+      "case": "production 1366 resize complete raster and no drift",
+      "result": {
+        "anchorErrors": [
+          {
+            "dx": 0.00016860097616699932,
+            "dy": 0.006910091762733828,
+            "id": "huxin"
+          },
+          {
+            "dx": 0.0054325846270444345,
+            "dy": 0.0007949062899399451,
+            "id": "huanghe"
+          },
+          {
+            "dx": 0.005794788364511305,
+            "dy": 0.0007033914446878953,
+            "id": "dufu"
+          }
+        ],
+        "detail": false,
+        "map": {
+          "cameraBounds": "[[28.495256284469917,-5.638692614137497],[176.18014947851276,60.9501731494409]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "overflow": false,
+        "sheet": {
+          "bottom": 608.0000381469727,
+          "height": 504.0000305175781,
+          "left": 627.607177734375,
+          "right": 1032.6697082519531,
+          "top": 104.00000762939452,
+          "width": 405.0625305175781,
+          "x": 627.607177734375,
+          "y": 104.00000762939452
+        },
+        "size": [
+          1366,
+          768
+        ]
+      }
+    },
+    {
+      "case": "production 390 complete image no drift",
+      "result": {
+        "anchorErrors": [
+          {
+            "dx": 0.008764819922078004,
+            "dy": 0.006428284157664166,
+            "id": "huxin"
+          },
+          {
+            "dx": 0.006120916498190354,
+            "dy": 0.007688859262572123,
+            "id": "huanghe"
+          },
+          {
+            "dx": 0.003960270919293407,
+            "dy": 0.003109012345390738,
+            "id": "dufu"
+          }
+        ],
+        "imageLoaded": true,
+        "overflow": false,
+        "ratioError": 0.0000027441661878402357,
+        "sheet": {
+          "bottom": 598.9107513427734,
+          "height": 435.8303833007813,
+          "left": 20,
+          "right": 370.27679443359375,
+          "top": 163.0803680419922,
+          "width": 350.27679443359375,
+          "x": 20,
+          "y": 163.0803680419922
+        },
+        "size": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "case": "390 half reading avoids selected image point",
+      "result": {
+        "overflow": false,
+        "panel": {
+          "bottom": 844.0000610351562,
+          "height": 422.0000305175781,
+          "left": 0,
+          "right": 390.2857360839844,
+          "top": 422.0000305175781,
+          "width": 390.2857360839844,
+          "x": 0,
+          "y": 422.0000305175781
+        },
+        "point": {
+          "bottom": 244.9553699493408,
+          "height": 24.000001907348633,
+          "left": 266.1964416503906,
+          "right": 290.19644355773926,
+          "top": 220.9553680419922,
+          "width": 24.000001907348633,
+          "x": 266.1964416503906,
+          "y": 220.9553680419922
+        }
+      }
+    },
+    {
+      "case": "390 full original focus reading and complete text",
+      "result": {
+        "context": "杭州参照 · 湖心亭\n近全屏阅读 · 半屏可查看完整地图",
+        "imageMode": "none",
+        "overflow": false,
+        "paragraphs": 4,
+        "scroll": 1029.142822265625
+      }
+    },
+    {
+      "case": "390 local selected point stays above reader",
+      "result": {
+        "map": {
+          "cameraBounds": "[[120.11007642891599,30.16639867804537],[120.1729235710826,30.283916587137426]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "overflow": false,
+        "panel": {
+          "bottom": 844.0000610351562,
+          "height": 422.0000305175781,
+          "left": 0,
+          "right": 390.2857360839844,
+          "top": 422.0000305175781,
+          "width": 390.2857360839844,
+          "x": 0,
+          "y": 422.0000305175781
+        },
+        "point": {
+          "bottom": 276.0000190734863,
+          "height": 44.000003814697266,
+          "left": 174.00001525878906,
+          "right": 248.00001525878903,
+          "top": 232.00001525878903,
+          "width": 74,
+          "x": 174.00001525878906,
+          "y": 232.00001525878903
+        }
+      }
+    },
+    {
+      "case": "reduced motion enabled",
+      "result": {
+        "animation": "none",
+        "reduced": "true"
+      }
+    },
+    {
+      "case": "390 original printed review number readable in viewer",
+      "result": {
+        "imageRatio": 0.8036162732295329,
+        "scroll": [
+          570.2857055664062,
+          1452
+        ],
+        "sourceReview": "原底图 GS(2023)2763号 · 等比例显示，未裁切或改色",
+        "zoomed": true
+      }
+    },
+    {
+      "case": "mobile return restores complete official image and hides local",
+      "result": {
+        "detail": false,
+        "imageVisible": "flex",
+        "map": {
+          "cameraBounds": "[[67.27272727272631,-44.44744070872949],[141.7272727272723,73.71557229943139]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "",
+          "testid": "map"
+        }
+      }
+    },
+    {
+      "case": "forced map initialization failure keeps reading and official source",
+      "result": {
+        "canvases": 0,
+        "footer": "读\n地图不可交互 · 阅读可用\n出处 ↗",
+        "mapStatus": "failed",
+        "overflow": false,
+        "paragraphs": 4
+      }
+    },
+    {
+      "case": "final development desktop complete chain and three point selection",
+      "result": {
+        "heading": "杜甫草堂",
+        "map": {
+          "cameraBounds": "[[98.87807770144207,21.21949398738066],[133.86202237236017,39.904450901397695]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "dufu",
+          "testid": "map"
+        },
+        "overflow": false
+      }
+    },
+    {
+      "case": "final development 390 reading",
+      "result": {
+        "context": "杭州参照 · 湖心亭\n近全屏阅读 · 半屏可查看完整地图",
+        "overflow": false,
+        "paragraphs": 4,
+        "size": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "case": "final development 390 local",
+      "observed": {
+        "adapter": {
+          "cameraBounds": "[[120.11007642891741,30.166398678046846],[120.17292357108403,30.283916587138933]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "canvases": 2,
+        "map": {
+          "cameraBounds": "[[120.11007642891741,30.166398678046846],[120.17292357108403,30.283916587138933]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        }
+      }
+    },
+    {
+      "case": "final development 390 history and photograph",
+      "observed": "雪中之亭 · 今日之湖\n\n张岱的《湖心亭看雪》以“崇祯五年十二月”开篇，叙述一次雪夜乘舟、在亭中遇人饮酒的经历。这是作品中的时间，不能当作文章的写作日期。\n\n西湖文化景观由湖泊、堤道、岛屿、亭阁等共同构成；UNESCO 的遗产介绍说明，这片景观经多个世纪的营建与经营形成。文学中的亭、今天的亭岛和现代照片因此需要分开理解。\n\n湖心亭始建与重建的具体年代，仍需完成地方志底本或主管机构资料的复核。本轮不把今日亭阁称为张岱所见建筑，也不以照片证明古址。\n\n沿革资料状态\n\n已核：作品叙事时间、西湖历代景观营建。待补：亭阁历次营建年表、明代精确亭址、今日建筑与历史建筑的对应。\n\n作品原文 ↗\nUNESCO · 西湖文化景观 ↗"
+    },
+    {
+      "case": "final lifecycle unmount",
+      "observed": {
+        "canvases": 0,
+        "html": {
+          "mapsCreated": "1",
+          "mapsDestroyed": "1"
+        }
+      }
+    },
+    {
+      "case": "final lifecycle two remounts",
+      "observed": {
+        "canvases": 2,
+        "html": {
+          "mapsCreated": "3",
+          "mapsDestroyed": "2"
+        },
+        "map": {
+          "cameraBounds": "[[-45.000000000100385,-26.133577368460834],[179.99999999989842,70.01389159593509]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "3",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "",
+          "testid": "map"
+        }
+      },
+      "logs": []
+    },
+    {
+      "case": "final isolated L7 point line polygon compatibility sample",
+      "observed": {
+        "adapter": {
+          "cameraBounds": "[[26.5575054051925,-6.432646993929012],[177.7187070436056,61.52639181450857]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places,dev-only-polygon,dev-only-line",
+          "l7PointVisibility": "visible",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "visible",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "canvases": 2,
+        "map": {
+          "cameraBounds": "[[26.5575054051925,-6.432646993929012],[177.7187070436056,61.52639181450857]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places,dev-only-polygon,dev-only-line",
+          "l7PointVisibility": "visible",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "visible",
+          "selectedPlace": "",
+          "testid": "map"
+        }
+      },
+      "logs": []
+    },
+    {
+      "case": "final original viewer mainland zoom",
+      "observed": {
+        "height": 617,
+        "imageWidth": 2810.39306640625,
+        "scrollX": 945.1428833007812,
+        "scrollY": 1138.857177734375,
+        "width": 1004
+      }
+    },
+    {
+      "case": "final original full extent reset",
+      "observed": {
+        "imageHeight": 626.8392944335938,
+        "imageWidth": 503.7857360839844,
+        "natural": [
+          5826,
+          7249
+        ],
+        "scrollX": 0,
+        "scrollY": 0
+      }
+    },
+    {
+      "case": "final production 768 complete image clear selected point",
+      "observed": {
+        "overflow": false,
+        "panel": {
+          "bottom": 958.0000686645508,
+          "height": 853.0000610351562,
+          "left": 373.0000305175781,
+          "right": 748.0000610351562,
+          "top": 105.00000762939452,
+          "width": 375.0000305175781,
+          "x": 373.0000305175781,
+          "y": 105.00000762939452
+        },
+        "point": {
+          "bottom": 498.919677734375,
+          "height": 34,
+          "left": 287.8125,
+          "right": 321.8125,
+          "top": 464.919677734375,
+          "width": 34,
+          "x": 287.8125,
+          "y": 464.919677734375
+        },
+        "sheet": {
+          "bottom": 689.294677734375,
+          "height": 410.5982360839844,
+          "left": 28.000001907348633,
+          "right": 358.00000190734863,
+          "top": 278.6964416503906,
+          "width": 330,
+          "x": 28.000001907348633,
+          "y": 278.6964416503906
+        },
+        "size": [
+          768,
+          1024
+        ]
+      }
+    },
+    {
+      "case": "final normal viewport restored",
+      "observed": {
+        "detail": false,
+        "overflow": false,
+        "size": [
+          1280,
+          720
+        ]
+      }
+    }
+  ],
+  "console": {
+    "devDesktop": [],
+    "dev390": [],
+    "production": [],
+    "forcedFailure": []
+  }
+}

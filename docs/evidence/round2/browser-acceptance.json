@@ -1,0 +1,1278 @@
+{
+  "date": "2026-10-06",
+  "browser": "Codex In-app Chromium",
+  "cases": [
+    {
+      "mode": "development",
+      "case": "cold-home-no-webgl",
+      "actual": {
+        "canvas": 0,
+        "created": "0"
+      },
+      "pass": true
+    },
+    {
+      "mode": "development",
+      "case": "cold-worker-and-local",
+      "actual": {
+        "canvas": 2,
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[120.09234684104848,30.216921165909653],[120.22342193158806,30.28061232571055]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "1440-home-no-webgl",
+      "actual": {
+        "canvas": 0,
+        "created": "0",
+        "height": 900,
+        "image": {
+          "bottom": 788,
+          "height": 701,
+          "left": 533.3021240234375,
+          "right": 1096.6875610351562,
+          "top": 87,
+          "width": 563.3854370117188,
+          "x": 533.3021240234375,
+          "y": 87
+        },
+        "imageLoaded": true,
+        "reading": false,
+        "scripts": [
+          "./assets/index-B8v2YLZF.js"
+        ],
+        "scrollWidth": 1440,
+        "width": 1440
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-huxin",
+      "actual": {
+        "highlight": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+        "original": true,
+        "paragraphs": 4,
+        "place": "huxin",
+        "quote": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+        "source": "https://ycct.swjtu.edu.cn/info/1017/1371.htm",
+        "work": "huxinting-kanxue"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-huxin",
+      "actual": {
+        "created": "1",
+        "intro": "湖心亭位于西湖中部的亭岛。隔水望去，亭阁与树木相伴；乘舟靠近，一座小岛便从宽阔湖面上显出轮廓。张岱的雪夜，为这处风物留下了另一种观看方式。",
+        "local": true,
+        "map": {
+          "cameraBounds": "[[120.09890059557438,30.21874148618744],[120.20844192123963,30.277883551552563]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "title": "西湖局部 · 湖心亭"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-huxin",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "《湖心亭看雪》以崇祯五年十二月的雪夜开篇，舟行、赴亭、饮酒与离去，组成一段短暂而鲜明的相逢。亭不只是湖中的景物，也成为彼此认出同好之人的地方。",
+          "西湖的湖泊、堤道、岛屿与亭阁，经过多个世纪的营建，共同构成文化景观。今天在湖上寻亭，既能观察岛屿与湖岸，也能沿着张岱的文字，体会山水中静观与相遇的意味。"
+        ],
+        "sources": 2
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-huanghe",
+      "actual": {
+        "highlight": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+        "original": true,
+        "paragraphs": 4,
+        "place": "huanghe",
+        "quote": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+        "source": "https://jjc.mku.edu.cn/info/1071/1951.htm",
+        "work": "huanghelou"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-huanghe",
+      "actual": {
+        "created": "1",
+        "intro": "黄鹤楼在武汉武昌蛇山一带，长江与两岸城景在此相望。崔颢登楼写乡愁，李白借楼前送别写远行；同一处山川，容下两种不同的心绪。",
+        "local": false,
+        "map": {
+          "cameraBounds": "[[104.30243209170976,23.7234969663662],[130.00260557016856,37.491454626529205]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huanghe",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-huanghe",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "黄鹤楼的文化记忆，与楼阁本身一样丰厚。崔颢由仙人乘鹤的传说写到日暮乡关，把江上烟波化成乡愁；李白送孟浩然赴扬州，则让孤帆与长江延续朋友远去后的视线。",
+          "楼阁在历史中屡经兴废，今天的重建黄鹤楼延续了登临、观江与题咏的传统。读两首诗，可以把楼看作一个观看的起点：一边是可见的江汉景物，一边是人的归心与惜别。"
+        ],
+        "sources": 2
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-dufu",
+      "actual": {
+        "highlight": "安得广厦千万间，大庇天下寒士俱欢颜！",
+        "original": true,
+        "paragraphs": 4,
+        "place": "dufu",
+        "quote": "安得广厦千万间，大庇天下寒士俱欢颜！",
+        "source": "https://www.nydi.gov.cn/sitesources/xclz/page_pc/jysj/s/msyy/article16c3563fc85344e8bc2d6bcce609c8c1.html",
+        "work": "maowu"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-dufu",
+      "actual": {
+        "created": "1",
+        "intro": "杜甫草堂在成都浣花溪畔，是纪念杜甫的博物馆与园林。竹木、溪水和纪念建筑相映，把诗人的生活片段与作品留在一处可以行走、停留的空间里。",
+        "local": false,
+        "map": {
+          "cameraBounds": "[[94.03181909170786,23.84600037938759],[119.73199257016648,37.59760040156108]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "dufu",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-dufu",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "杜甫在成都的草堂生活，留下了大量关于日常、山水与世事的诗。秋风破屋时，他先写自身的寒冷与艰难，再把愿望推向天下寒士；茅屋于是成为理解诗人胸怀的一个入口。",
+          "草堂后来经历培修与扩建，逐渐形成纪念杜甫的祠堂和园林，今日以博物馆延续诗歌的阅读与传播。来到这里，可以把眼前的纪念空间与诗中的生活相互参照，感受小屋与天下之间的精神联系。"
+        ],
+        "sources": 2
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-xihu",
+      "actual": {
+        "highlight": "水光潋滟晴方好，山色空蒙雨亦奇。",
+        "original": true,
+        "paragraphs": 2,
+        "place": "xihu",
+        "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+        "source": "https://www.ahstu.edu.cn/rwxy/info/1039/5500.htm",
+        "work": "yin-hushang"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-xihu",
+      "actual": {
+        "created": "1",
+        "intro": "西湖位于杭州，湖面、群山、堤道与岛屿共同构成景观。晴天水光流动，雨中山色含蓄；从湖边缓步而行，又能看见春鸟、花草与堤上的柳阴。",
+        "local": true,
+        "map": {
+          "cameraBounds": "[[120.08586190989587,30.21025488768369],[120.22635985588187,30.286110727702265]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "xihu",
+          "testid": "map"
+        },
+        "title": "西湖局部 · 湖山与堤岸"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-xihu",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "西湖的文化景观在多个世纪的经营中形成，自然山水与堤岛、亭阁、园林相互成就。文学让这些景物得到新的层次：苏轼写晴雨相宜，白居易写早春行游，张岱则把湖面写成雪后的留白。",
+          "这些作品并不只有一种观看角度。登岸、沿堤、乘舟，季节和天气变换，山水也随之显露不同性情。今日西湖仍可以沿着这些文字去读，而湖心亭则是其中适合停下来细看的一个地点。"
+        ],
+        "sources": 3
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-hanshan",
+      "actual": {
+        "highlight": "姑苏城外寒山寺，夜半钟声到客船。",
+        "original": true,
+        "paragraphs": 2,
+        "place": "hanshan",
+        "quote": "姑苏城外寒山寺，夜半钟声到客船。",
+        "source": "https://ylj.suzhou.gov.cn/szsylj/ylwh/201808/598c909b16f34d498cceb62a03b0b2c4.shtml",
+        "work": "fengqiao-yebo"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-hanshan",
+      "actual": {
+        "created": "1",
+        "intro": "寒山寺与枫桥位于苏州古运河沿线。寺院、桥梁与水路相邻，钟声与客船在张继的诗中相遇，成为江南行旅中流传很久的一幅夜景。",
+        "local": false,
+        "map": {
+          "cameraBounds": "[[110.5697726917112,24.537996485773846],[136.26994617017016,38.196239609697926]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "hanshan",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-hanshan",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "枫桥一带的寺、桥、古镇与运河共同构成地方风物。水陆往来曾使这里成为商贸通行之地；诗中的客船，也让人看见江南旅途里一次短暂的夜泊。",
+          "寒山寺历经兴废，钟声与寺内诗刻延续了《枫桥夜泊》的文化记忆。寒山寺与枫桥相邻，各自是寺院与桥梁；读诗时，远处的钟声跨过水面，把两处风物连接在同一个寂静而有声的夜晚。"
+        ],
+        "sources": 1
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "read-guazhou",
+      "actual": {
+        "highlight": "京口瓜洲一水间，钟山只隔数重山。",
+        "original": true,
+        "paragraphs": 2,
+        "place": "guazhou",
+        "quote": "京口瓜洲一水间，钟山只隔数重山。",
+        "source": "https://lib.qchm.edu.cn/2019/0514/c1529a44419/page.htm",
+        "work": "bochuan-guazhou"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "context-guazhou",
+      "actual": {
+        "created": "1",
+        "intro": "瓜洲在扬州南部、长江与运河相会的一带，隔江可望京口。渡口与水路让这里成为旅人的停泊处，江岸与明月也在诗中成为遥想故乡的线索。",
+        "local": false,
+        "map": {
+          "cameraBounds": "[[109.38909989170872,25.54038978151938],[135.08927337016763,39.060546830362654]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "guazhou",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "history-guazhou",
+      "actual": {
+        "local": false,
+        "paragraphs": [
+          "瓜洲的文化沿着江河展开。长江与运河的交会，使渡口与古镇连接往来船只，留下漕运、盐运和行旅的记忆；历代题咏又让一处水路节点成为人们熟悉的诗歌地名。",
+          "王安石泊船时，由京口、瓜洲与钟山的距离写到江南春色和归期。江岸变化与城镇重建之后，今日瓜洲仍以古渡、诗碑等延续诗渡记忆。读这首诗，水与山既是空间，也是人的牵挂。"
+        ],
+        "sources": 1
+      },
+      "pass": true
+    },
+    {
+      "mode": "development",
+      "case": "forced-reoptimization-first-local",
+      "actual": {
+        "canvas": 2,
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[120.07745604987883,30.207919933379998],[120.24557325020379,30.289610352240587]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "xihu",
+          "testid": "map"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "switch-huanghe",
+      "actual": {
+        "highlight": "故人西辞黄鹤楼，烟花三月下扬州。",
+        "id": "song-menghaoran",
+        "meta": "李白 · 唐 · 七言绝句",
+        "open": true,
+        "quote": "故人西辞黄鹤楼，烟花三月下扬州。",
+        "source": "https://sxss.ntu.edu.cn/2018/0301/c6266a165797/page.htm",
+        "text": "故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流。",
+        "sourceDialog": "当前作品 · 李白《黄鹤楼送孟浩然之广陵》\n\n采用南通大学页面所列原文，“唯见”依此底本；不与“惟见”等其他版本拼接。\n\n南通大学 · 书香师生 ↗\n\n仅录公版古典原文，短解读为本项目原创；未复制来源的现代译文、评论或教学内容。"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "switch-xihu",
+      "actual": {
+        "highlight": "最爱湖东行不足，绿杨阴里白沙堤。",
+        "id": "qiantang-chunxing",
+        "meta": "白居易 · 唐 · 七言律诗",
+        "open": true,
+        "quote": "最爱湖东行不足，绿杨阴里白沙堤。",
+        "source": "https://www.pep.com.cn/rjdt/mtbd/202307/t20230718_1984406.shtml",
+        "text": "孤山寺北贾亭西，水面初平云脚低。几处早莺争暖树，谁家新燕啄春泥。乱花渐欲迷人眼，浅草才能没马蹄。最爱湖东行不足，绿杨阴里白沙堤。",
+        "sourceDialog": "当前作品 · 白居易《钱塘湖春行》\n\n采用人教社 2023-07-18 页面第56首所列四联原文；“阴”“才”等依底本。来源正文访问偶有超时，本轮依据公开检索正文核读，访问状况在资料记录中说明。\n\n人民教育出版社 · 语文课本上的80首唐诗 ↗\n\n仅录公版古典原文，短解读为本项目原创；未复制来源的现代译文、评论或教学内容。"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "group-huxin",
+      "actual": {
+        "choices": [
+          "湖心亭浙江 · 杭州 · 在西湖的留白里，读一场雪。→",
+          "西湖浙江 · 杭州 · 晴雨各有姿态，春光自有归处。→"
+        ],
+        "chosen": {
+          "id": "huxin",
+          "work": "huxinting-kanxue"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "group-xihu",
+      "actual": {
+        "choices": [
+          "湖心亭浙江 · 杭州 · 在西湖的留白里，读一场雪。→",
+          "西湖浙江 · 杭州 · 晴雨各有姿态，春光自有归处。→"
+        ],
+        "chosen": {
+          "id": "xihu",
+          "work": "yin-hushang"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "group-hanshan",
+      "actual": {
+        "choices": [
+          "寒山寺与枫桥江苏 · 苏州 · 一声夜半钟，越过水面与千年。→",
+          "瓜洲渡江苏 · 扬州 · 一水之间，望见江南与故乡。→"
+        ],
+        "chosen": {
+          "id": "hanshan",
+          "work": "fengqiao-yebo"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "group-guazhou",
+      "actual": {
+        "choices": [
+          "寒山寺与枫桥江苏 · 苏州 · 一声夜半钟，越过水面与千年。→",
+          "瓜洲渡江苏 · 扬州 · 一水之间，望见江南与故乡。→"
+        ],
+        "chosen": {
+          "id": "guazhou",
+          "work": "bochuan-guazhou"
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-苏轼",
+      "actual": {
+        "directory": [
+          "xihu"
+        ],
+        "empty": false,
+        "map": [
+          "xihu"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-杭州",
+      "actual": {
+        "directory": [
+          "huxin",
+          "xihu"
+        ],
+        "empty": false,
+        "map": [
+          "huxin",
+          "xihu"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-茅屋",
+      "actual": {
+        "directory": [
+          "dufu"
+        ],
+        "empty": false,
+        "map": [
+          "dufu"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-枫桥",
+      "actual": {
+        "directory": [
+          "hanshan"
+        ],
+        "empty": false,
+        "map": [
+          "hanshan"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-李白",
+      "actual": {
+        "directory": [
+          "huanghe"
+        ],
+        "empty": false,
+        "map": [
+          "huanghe"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-钱塘",
+      "actual": {
+        "directory": [
+          "xihu"
+        ],
+        "empty": false,
+        "map": [
+          "xihu"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-无此地点",
+      "actual": {
+        "directory": [],
+        "empty": true,
+        "map": []
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "search-clear",
+      "actual": {
+        "directory": [
+          "huxin",
+          "huanghe",
+          "dufu",
+          "xihu",
+          "hanshan",
+          "guazhou"
+        ],
+        "empty": false,
+        "map": [
+          "huxin",
+          "xihu",
+          "huanghe",
+          "dufu",
+          "hanshan",
+          "guazhou"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "query-theme-empty",
+      "actual": {
+        "directory": 0,
+        "map": 0
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "map-author-priority",
+      "actual": "yin-hushang",
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "filter-keeps-reading-clears-match",
+      "actual": {
+        "map": "dufu",
+        "place": "xihu",
+        "selected": 0,
+        "work": "qiantang-chunxing"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "clear-keeps-current-work",
+      "actual": {
+        "directory": 6,
+        "map": [
+          "huxin",
+          "xihu",
+          "huanghe",
+          "dufu",
+          "hanshan",
+          "guazhou"
+        ],
+        "work": "qiantang-chunxing"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-home-hit-areas",
+      "actual": {
+        "buttons": [
+          {
+            "rect": {
+              "bottom": 459.7291870117187,
+              "height": 44,
+              "left": 298.96875,
+              "right": 363.9895858764648,
+              "top": 415.7291870117187,
+              "width": 65.02083587646484,
+              "x": 298.96875,
+              "y": 415.7291870117187
+            },
+            "text": "杭州2处 ▾"
+          },
+          {
+            "rect": {
+              "bottom": 472.09375,
+              "height": 44,
+              "left": 229.1875,
+              "right": 277.1875,
+              "top": 428.09375,
+              "width": 48,
+              "x": 229.1875,
+              "y": 428.09375
+            },
+            "text": "黄鹤楼"
+          },
+          {
+            "rect": {
+              "bottom": 399,
+              "height": 44,
+              "left": 144.6875,
+              "right": 204.6875,
+              "top": 355,
+              "width": 60,
+              "x": 144.6875,
+              "y": 355
+            },
+            "text": "杜甫草堂"
+          },
+          {
+            "rect": {
+              "bottom": 369.1770935058594,
+              "height": 44,
+              "left": 307.3020935058594,
+              "right": 372.3229293823242,
+              "top": 325.1770935058594,
+              "width": 65.02083587646484,
+              "x": 307.3020935058594,
+              "y": 325.1770935058594
+            },
+            "text": "江南2处 ▾"
+          }
+        ],
+        "canvas": 0,
+        "height": 844,
+        "image": {
+          "bottom": 627.9583435058594,
+          "height": 447.9270935058594,
+          "left": 15,
+          "right": 375,
+          "top": 180.03125,
+          "width": 360,
+          "x": 15,
+          "y": 180.03125
+        },
+        "scrollWidth": 390,
+        "width": 390,
+        "overlapping": false
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-half-reading",
+      "actual": {
+        "canvas": 0,
+        "reader": {
+          "bottom": 844,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 422,
+          "width": 390,
+          "x": 0,
+          "y": 422
+        },
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-full-keyboard-long-reading",
+      "actual": {
+        "height": 723,
+        "highlight": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+        "last": "及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”",
+        "scrollTop": 250.6666717529297,
+        "scrollWidth": 390
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-tab-keyboard-local",
+      "actual": {
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[116.65943127479073,20.947795469631643],[123.61989492520684,34.250425588261095]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "scrollWidth": 390,
+        "tab": "诗文",
+        "width": 390
+      },
+      "pass": false,
+      "resolvedBy": "390-first-local-fast-collapse-retest",
+      "note": "首个快速串行步骤曾回到诗文；加入局部地图同一地点重复点选保护后，用新构建重新验证。"
+    },
+    {
+      "mode": "production",
+      "case": "390-first-local-fast-collapse-retest",
+      "actual": {
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[119.90002081793432,29.44735017697792],[120.38297918206001,30.35338686051962]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "photoControl": true,
+        "tab": "此地"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-half-local-immediate-frame",
+      "actual": {
+        "map": {
+          "cameraBounds": "[[120.11007642891815,30.166398678047116],[120.17292357108471,30.28391658713916]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "marker": {
+          "bottom": 276,
+          "height": 44,
+          "left": 174,
+          "right": 248,
+          "top": 232,
+          "width": 74,
+          "x": 174,
+          "y": 232
+        },
+        "reader": {
+          "bottom": 844,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 422,
+          "width": 390,
+          "x": 0,
+          "y": 422
+        }
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-photo-credit-license",
+      "actual": {
+        "credit": "今日图景 · 湖心亭岛西湖水面上的湖心亭岛。照片记录现代景观，不是张岱时代建筑的证明。摄影：Bjoertvedt · 2017-07-21来源页 · CC BY-SA 4.0原图打包，等比例显示；未裁切、调色或改写图像。",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "loaded": true,
+        "naturalWidth": 4032,
+        "scrollWidth": 390
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-reduced-motion-modal-escape",
+      "actual": {
+        "dialog": false,
+        "reader": true,
+        "reduced": "true"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-return-keeps-single-clears-local",
+      "actual": {
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[67.27272727272631,-44.44744070872949],[141.7272727272723,73.71557229943139]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "originalHidden": false,
+        "reader": false
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-search-theme-hangzhou",
+      "actual": {
+        "directory": [
+          "huxin",
+          "xihu"
+        ],
+        "disabled": true,
+        "map": [
+          "huxin",
+          "xihu"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-xihu-reuse-own-context",
+      "actual": {
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[120.10019605839653,30.14310905973612],[120.1808039416029,30.29384799637465]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "xihu",
+          "testid": "map"
+        },
+        "photo": false,
+        "title": "西湖局部 · 湖山与堤岸"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "768-home",
+      "actual": {
+        "canvas": 0,
+        "height": 1024,
+        "scrollWidth": 768,
+        "width": 768
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "768-reading-map-labels",
+      "actual": {
+        "entries": [
+          {
+            "rect": {
+              "bottom": 547.34375,
+              "height": 44,
+              "left": 320.7083435058594,
+              "right": 386.1770935058594,
+              "top": 503.34375,
+              "width": 65.46875,
+              "x": 320.7083435058594,
+              "y": 503.34375
+            },
+            "text": "杭州2处 ▾"
+          },
+          {
+            "rect": {
+              "bottom": 567.6458740234375,
+              "height": 44,
+              "left": 238.8541717529297,
+              "right": 284.8541717529297,
+              "top": 523.6458740234375,
+              "width": 46,
+              "x": 238.8541717529297,
+              "y": 523.6458740234375
+            },
+            "text": "黄鹤楼"
+          },
+          {
+            "rect": {
+              "bottom": 493.40625,
+              "height": 44,
+              "left": 106.67708587646484,
+              "right": 164.67708587646484,
+              "top": 449.40625,
+              "width": 58,
+              "x": 106.67708587646484,
+              "y": 449.40625
+            },
+            "text": "杜甫草堂"
+          },
+          {
+            "rect": {
+              "bottom": 467.5729370117187,
+              "height": 44,
+              "left": 297.35418701171875,
+              "right": 362.8229370117187,
+              "top": 423.5729370117187,
+              "width": 65.46875,
+              "x": 297.35418701171875,
+              "y": 423.5729370117187
+            },
+            "text": "江南2处 ▾"
+          }
+        ],
+        "reader": {
+          "bottom": 958,
+          "height": 853,
+          "left": 373,
+          "right": 748,
+          "top": 105,
+          "width": 375,
+          "x": 373,
+          "y": 105
+        },
+        "scrollWidth": 768,
+        "width": 768
+      },
+      "pass": false,
+      "resolvedBy": "768-reading-labels-retest"
+    },
+    {
+      "mode": "production",
+      "case": "768-reading-labels-retest",
+      "actual": {
+        "entries": [
+          {
+            "rect": {
+              "bottom": 615.34375,
+              "height": 44,
+              "left": 278.7083435058594,
+              "right": 344.1770935058594,
+              "top": 571.34375,
+              "width": 65.46875,
+              "x": 278.7083435058594,
+              "y": 571.34375
+            },
+            "text": "杭州2处 ▾"
+          },
+          {
+            "rect": {
+              "bottom": 567.6458740234375,
+              "height": 44,
+              "left": 238.8541717529297,
+              "right": 284.8541717529297,
+              "top": 523.6458740234375,
+              "width": 46,
+              "x": 238.8541717529297,
+              "y": 523.6458740234375
+            },
+            "text": "黄鹤楼"
+          },
+          {
+            "rect": {
+              "bottom": 493.40625,
+              "height": 44,
+              "left": 106.67708587646484,
+              "right": 164.67708587646484,
+              "top": 449.40625,
+              "width": 58,
+              "x": 106.67708587646484,
+              "y": 449.40625
+            },
+            "text": "杜甫草堂"
+          },
+          {
+            "rect": {
+              "bottom": 467.5729370117187,
+              "height": 44,
+              "left": 266.35418701171875,
+              "right": 331.82293701171875,
+              "top": 423.5729370117187,
+              "width": 65.46875,
+              "x": 266.35418701171875,
+              "y": 423.5729370117187
+            },
+            "text": "江南2处 ▾"
+          }
+        ],
+        "reader": {
+          "bottom": 958,
+          "height": 853,
+          "left": 373,
+          "right": 748,
+          "top": 105,
+          "width": 375,
+          "x": 373,
+          "y": 105
+        },
+        "scrollWidth": 768,
+        "width": 768,
+        "collisions": false
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "768-local-xihu",
+      "actual": {
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[120.05383333333288,30.081923867464383],[120.35097619047565,30.424155822913065]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "xihu",
+          "testid": "map"
+        },
+        "scrollWidth": 768,
+        "title": "西湖局部 · 湖山与堤岸",
+        "width": 768
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "768-other-place-clears-local",
+      "actual": {
+        "local": false,
+        "map": {
+          "cameraBounds": "[[100.02852623668286,22.830015922626103],[113.7352854251942,38.46914642905901]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "none",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "image-overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "none",
+          "selectedPlace": "dufu",
+          "testid": "map"
+        },
+        "oldTitle": false,
+        "place": "dufu"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-initialization-failure",
+      "actual": {
+        "alert": "局部地图暂不可交互测试入口主动禁用地图 诗文与全国原图仍可查看。从目录继续阅读 →",
+        "canvas": 0,
+        "reader": "huxin",
+        "status": "failed"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-failure-reading-full",
+      "actual": {
+        "open": true,
+        "scrollWidth": 390,
+        "text": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。是日更定矣，余拏一小舟，拥毳衣炉火，独往湖心亭看雪。雾凇沆砀，天与云、与山、与水，上下一白。湖上影子，惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。到亭上，有两人铺毡对坐，一童子烧酒，炉正沸。见余大喜，曰：“湖中焉得更有此人？”拉余同饮。余强饮三大白而别。问其姓氏，是金陵人，客此。及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”",
+        "work": "huxinting-kanxue"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-failure-directory-other-work",
+      "actual": {
+        "canvas": 0,
+        "official": true,
+        "place": "huanghe",
+        "work": "song-menghaoran"
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "map-lab-point-line-polygon",
+      "actual": {
+        "canvas": 2,
+        "created": "1",
+        "map": {
+          "cameraBounds": "[[39.58166251064685,-4.01354053474671],[165.90923816560445,59.73987272372344]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places,dev-only-polygon,dev-only-line",
+          "l7PointVisibility": "visible",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "naturalEarthVisibility": "visible",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "official": false
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "original-viewer-imprint",
+      "actual": {
+        "naturalWidth": 5826,
+        "scrollTop": 2848,
+        "source": "./assets/official-china-gs20232763.jpg",
+        "zoomed": true
+      },
+      "pass": true
+    },
+    {
+      "mode": "production",
+      "case": "390-photo-stable-size-visible-license",
+      "actual": {
+        "caption": "湖心亭岛 · 真实图景西湖水面上的湖心亭岛，亭阁与林木环水而立。摄影：Bjoertvedt · 2017-07-21来源页 · CC BY-SA 4.0原图打包，等比例显示；未裁切、调色或改写图像。",
+        "licenseRect": {
+          "bottom": 1078.78129196167,
+          "height": 20.666667938232425,
+          "left": 84.32292175292969,
+          "right": 183.9166717529297,
+          "top": 1058.1146240234375,
+          "width": 99.59375,
+          "x": 84.32292175292969,
+          "y": 1058.1146240234375
+        },
+        "photo": {
+          "height": "2418",
+          "loaded": true,
+          "width": "4032"
+        },
+        "scrollRect": {
+          "bottom": 791.3333587646484,
+          "height": 623.6666870117188,
+          "left": 0,
+          "right": 390,
+          "top": 167.6666717529297,
+          "width": 390,
+          "x": 0,
+          "y": 167.6666717529297
+        },
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": false,
+      "resolvedBy": "390-photo-license-after-keyboard-scroll",
+      "note": "首帧仍在浏览器End键平滑滚动中；滚动完成后许可证与署名位于阅读视口内。"
+    },
+    {
+      "mode": "production",
+      "case": "390-photo-license-after-keyboard-scroll",
+      "actual": {
+        "caption": "湖心亭岛 · 真实图景西湖水面上的湖心亭岛，亭阁与林木环水而立。摄影：Bjoertvedt · 2017-07-21来源页 · CC BY-SA 4.0原图打包，等比例显示；未裁切、调色或改写图像。",
+        "licenseRect": {
+          "bottom": 672.1146049499512,
+          "height": 20.666667938232425,
+          "left": 84.32292175292969,
+          "right": 183.9166717529297,
+          "top": 651.4479370117188,
+          "width": 99.59375,
+          "x": 84.32292175292969,
+          "y": 651.4479370117188
+        },
+        "loaded": true,
+        "scrollRect": {
+          "bottom": 791.3333587646484,
+          "height": 623.6666870117188,
+          "left": 0,
+          "right": 390,
+          "top": 167.6666717529297,
+          "width": 390,
+          "x": 0,
+          "y": 167.6666717529297
+        },
+        "scrollTop": 545.3333129882812
+      },
+      "pass": true
+    }
+  ]
+}

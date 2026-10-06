@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-05",
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=4&accept-language=zh&q=%E5%AF%92%E5%B1%B1%E5%AF%BA",
+  "status": 200,
+  "result": [
+    {
+      "place_id": 225076821,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 741882129,
+      "lat": "31.3125175",
+      "lon": "120.5642846",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.4401108075321503,
+      "addresstype": "amenity",
+      "name": "寒山寺",
+      "display_name": "寒山寺, 枫桥路, 运河社区, 金阊街道, 姑苏区, 苏州市, 江苏省, 215004, 中国",
+      "boundingbox": [
+        "31.3118350",
+        "31.3132313",
+        "120.5627230",
+        "120.5660140"
+      ]
+    },
+    {
+      "place_id": 266397583,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13745210611,
+      "lat": "35.8034510",
+      "lon": "139.1938213",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.07194870560319186,
+      "addresstype": "amenity",
+      "name": "寒山寺",
+      "display_name": "寒山寺, 吉野街道, 柚木町三丁目, 柚木町, 青梅市, 东京都/東京都, 198-0173, 日本",
+      "boundingbox": [
+        "35.8034010",
+        "35.8035010",
+        "139.1937713",
+        "139.1938713"
+      ]
+    },
+    {
+      "place_id": 266390777,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3997394354,
+      "lat": "35.8030219",
+      "lon": "139.1935917",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 0.00008593499656667457,
+      "addresstype": "highway",
+      "name": "寒山寺",
+      "display_name": "寒山寺, 吉野街道, 柚木町三丁目, 柚木町, 青梅市, 东京都/東京都, 198-0173, 日本",
+      "boundingbox": [
+        "35.8029719",
+        "35.8030719",
+        "139.1935417",
+        "139.1936417"
+      ]
+    },
+    {
+      "place_id": 230902923,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 261711345,
+      "lat": "25.0266118",
+      "lon": "121.5813578",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.00007457007705801507,
+      "addresstype": "amenity",
+      "name": "寒山寺",
+      "display_name": "寒山寺, 豹山溪步道, 松隆里, 信義區, 麗山里, 臺北市, 110035, 臺灣",
+      "boundingbox": [
+        "25.0265105",
+        "25.0267449",
+        "121.5812732",
+        "121.5814194"
+      ]
+    }
+  ]
+}

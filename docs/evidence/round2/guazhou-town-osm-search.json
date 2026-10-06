@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-05",
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&accept-language=zh&q=%E7%93%9C%E6%B4%B2%E9%95%87%20%E6%89%AC%E5%B7%9E%E5%B8%82",
+  "status": 200,
+  "result": [
+    {
+      "place_id": 220119717,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 14306193,
+      "lat": "32.2529863",
+      "lon": "119.3836118",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.2702882353650111,
+      "addresstype": "town",
+      "name": "瓜洲镇",
+      "display_name": "瓜洲镇, 邗江区, 扬州市, 江苏省, 225100, 中国",
+      "boundingbox": [
+        "32.2261541",
+        "32.3307778",
+        "119.3324028",
+        "119.4155673"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+
+> poetic-landscape@0.1.0 check:data
+> node scripts/check-data.mjs
+
+PASS: 3 reference entries; 4 original paragraphs + exact highlight; complete OSM relation and real island anchor; photograph hash + credit + license; official JPG byte-identical hash + 3 image references; UTF-8.

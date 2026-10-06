@@ -1,0 +1,1408 @@
+[
+  {
+    "name": "@amap/amap-jsapi-loader",
+    "version": "1.0.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "@antv/async-hook",
+    "version": "2.2.9",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@antv/g-device-api",
+    "version": "1.6.13",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "eventemitter3",
+    "version": "5.0.4",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@antv/l7",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-component",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-core",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-layers",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-map",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-maps",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-renderer",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-scene",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-source",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@antv/l7-utils",
+    "version": "2.29.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@turf/bbox",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@antv/util",
+    "version": "3.3.11",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.7",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/geojson-rewind",
+    "version": "0.5.2",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/geojson-types",
+    "version": "1.0.2",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/jsonlint-lines-primitives",
+    "version": "2.0.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/mapbox-gl-supported",
+    "version": "1.5.0",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/martini",
+    "version": "0.2.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/point-geometry",
+    "version": "0.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/tiny-sdf",
+    "version": "1.2.5",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/unitbezier",
+    "version": "0.0.1",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/vector-tile",
+    "version": "1.3.1",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/whoots-js",
+    "version": "3.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@maplibre/geojson-vt",
+    "version": "6.1.2",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@maplibre/maplibre-gl-style-spec",
+    "version": "26.4.4",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/unitbezier",
+    "version": "1.0.0",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "quickselect",
+    "version": "3.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinyqueue",
+    "version": "3.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@maplibre/mlt",
+    "version": "1.3.0",
+    "license": "(MIT OR Apache-2.0)",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/point-geometry",
+    "version": "1.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@maplibre/vt-pbf",
+    "version": "4.3.2",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/point-geometry",
+    "version": "1.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pbf",
+    "version": "5.1.2",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.152.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@rolldown/binding-win32-x64-msvc",
+    "version": "1.2.12",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": []
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.0-rc.7",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/bbox",
+    "version": "7.2.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/bbox-polygon",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/helpers",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/meta",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/boolean-point-on-line",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/helpers",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/invariant",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/clean-coords",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/helpers",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/invariant",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/clone",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/helpers",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/invariant",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/meta",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/polygon-to-line",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/simplify",
+    "version": "7.2.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/clone",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/helpers",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/meta",
+    "version": "7.4.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@turf/union",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/geojson",
+    "version": "7946.0.16",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/node",
+    "version": "22.18.6",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/react",
+    "version": "19.2.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.2.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.0.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@webgpu/types",
+    "version": "0.1.74",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@xmldom/xmldom",
+    "version": "0.9.12",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "async",
+    "version": "3.2.6",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "buffer-from",
+    "version": "1.1.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "concat-stream",
+    "version": "2.0.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "core-util-is",
+    "version": "1.0.3",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "csscolorparser",
+    "version": "1.0.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "license": "Apache-2.0",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "domelementtype",
+    "version": "1.3.1",
+    "license": "BSD-2-Clause",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "domhandler",
+    "version": "2.2.1",
+    "license": "未声明",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "domutils",
+    "version": "1.3.0",
+    "license": "未声明",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "earcut",
+    "version": "2.2.4",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "eventemitter3",
+    "version": "4.0.7",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fast-deep-equal",
+    "version": "3.1.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fflate",
+    "version": "0.8.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "geojson-numeric",
+    "version": "0.2.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "geojson-vt",
+    "version": "3.2.1",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "get-stream",
+    "version": "6.0.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "gl-matrix",
+    "version": "3.4.4",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "grid-index",
+    "version": "1.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "hammerjs",
+    "version": "2.0.8",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "htmlparser2",
+    "version": "3.5.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "readable-stream",
+    "version": "1.1.14",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "string_decoder",
+    "version": "0.10.31",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "ieee754",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "inherits",
+    "version": "2.0.4",
+    "license": "ISC",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "isarray",
+    "version": "0.0.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": []
+  },
+  {
+    "name": "json-stringify-pretty-compact",
+    "version": "4.0.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "jsonparse",
+    "version": "0.0.5",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "JSONStream",
+    "version": "0.8.0",
+    "license": "未声明",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE.APACHE2",
+      "LICENSE.MIT"
+    ]
+  },
+  {
+    "name": "kdbush",
+    "version": "4.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lightningcss-win32-x64-msvc",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "mapbox-gl",
+    "version": "1.13.3",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/unitbezier",
+    "version": "0.0.0",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "maplibre-gl",
+    "version": "6.12.0",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/point-geometry",
+    "version": "1.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/tiny-sdf",
+    "version": "2.2.0",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/unitbezier",
+    "version": "1.0.0",
+    "license": "BSD-2-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/vector-tile",
+    "version": "3.0.0",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "earcut",
+    "version": "3.2.4",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pbf",
+    "version": "5.1.2",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "potpack",
+    "version": "2.1.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "quickselect",
+    "version": "3.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinyqueue",
+    "version": "3.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "minimist",
+    "version": "1.2.8",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "murmurhash-js",
+    "version": "1.0.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.20",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "optimist",
+    "version": "0.3.7",
+    "license": "MIT/X11",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "osm-polygon-features",
+    "version": "0.9.2",
+    "license": "CC0-1.0",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "osmtogeojson",
+    "version": "3.0.0-beta.5",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pbf",
+    "version": "3.3.0",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pmtiles",
+    "version": "2.11.0",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "polygon-clipping",
+    "version": "0.15.7",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.29",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "potpack",
+    "version": "1.0.2",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "protocol-buffers-schema",
+    "version": "3.6.1",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "quickselect",
+    "version": "2.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "readable-stream",
+    "version": "3.6.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "resolve-protobuf-schema",
+    "version": "2.1.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "robust-predicates",
+    "version": "3.0.3",
+    "license": "Unlicense",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.12",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "rw",
+    "version": "1.3.3",
+    "license": "BSD-3-Clause",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "safe-buffer",
+    "version": "5.2.1",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "license": "BSD-3-Clause",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "splaytree",
+    "version": "3.2.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": []
+  },
+  {
+    "name": "string_decoder",
+    "version": "1.3.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "supercluster",
+    "version": "7.1.5",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "kdbush",
+    "version": "3.0.0",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "through",
+    "version": "2.2.7",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE.APACHE2",
+      "LICENSE.MIT"
+    ]
+  },
+  {
+    "name": "tiny-inflate",
+    "version": "1.0.3",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tiny-osmpbf",
+    "version": "0.1.0",
+    "license": "ISC",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinyqueue",
+    "version": "2.0.3",
+    "license": "ISC",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "typedarray",
+    "version": "0.0.6",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "typescript",
+    "version": "5.9.3",
+    "license": "Apache-2.0",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "undici-types",
+    "version": "6.21.0",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "util-deprecate",
+    "version": "1.0.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "viewport-mercator-project",
+    "version": "6.2.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "vite",
+    "version": "8.3.2",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "vt-pbf",
+    "version": "3.1.3",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "wordwrap",
+    "version": "0.0.3",
+    "license": "MIT",
+    "development": true,
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  }
+]

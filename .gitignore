@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+tmp/
+*.tsbuildinfo
+
+# Unused first-round website research; redistribution terms unresolved.
+docs/evidence/standard-map-home.html
+docs/evidence/standard-js-*.js
+docs/evidence/standard-download.html
+docs/evidence/standard-data-topodata-chinatopo.json

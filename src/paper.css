@@ -1,0 +1,2 @@
+/* Static fibres: sparse strands and a faint cloud of pulp, no moving filter. */
+.map-canvas:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;background:radial-gradient(ellipse at 7% 18%,#fcfaf46b,transparent 40%),radial-gradient(ellipse at 89% 83%,#50655308,transparent 43%)}

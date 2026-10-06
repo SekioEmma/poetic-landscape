@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-05",
+  "browser": "Codex in-app Browser (Chromium; exact engine version unavailable through this DOM-only session)",
+  "checks": [
+    {
+      "case": "production desktop overview",
+      "result": {
+        "canvasCount": 2,
+        "detail": false,
+        "map": {
+          "cameraBounds": "[[39.581662510644975,-4.013540534746596],[165.90923816560257,59.739872723723494]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "size": [
+          1440,
+          900
+        ],
+        "width": 1440
+      }
+    },
+    {
+      "case": "production map selection and complete original",
+      "result": {
+        "highlight": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+        "instance": "1",
+        "open": true,
+        "overflow": false,
+        "paragraphs": 4,
+        "title": "湖心亭"
+      }
+    },
+    {
+      "case": "production local same instance",
+      "result": {
+        "map": {
+          "cameraBounds": "[[120.09890059557307,30.21874148618879],[120.20844192123843,30.277883551553984]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "marker": {
+          "bottom": 468,
+          "height": 44,
+          "left": 526,
+          "right": 653,
+          "top": 424,
+          "width": 127,
+          "x": 526,
+          "y": 424
+        },
+        "panel": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "photo and credit",
+      "result": {
+        "caption": "今日图景 · 湖心亭岛\n\n西湖水面上的湖心亭岛。照片记录现代景观，不是张岱时代建筑的证明。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。",
+        "loaded": true,
+        "width": 4032
+      }
+    },
+    {
+      "case": "keyboard tab navigation",
+      "result": {
+        "focus": "tab-此地",
+        "tab": "此地"
+      }
+    },
+    {
+      "case": "Escape returns overview",
+      "result": {
+        "detail": false,
+        "focus": "☷ 地点笺 三处",
+        "map": {
+          "cameraBounds": "[[39.581662510644975,-4.013540534746596],[165.90923816560257,59.739872723723494]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "",
+          "testid": "map"
+        }
+      }
+    },
+    {
+      "case": "directory map panel selection synchronized",
+      "result": {
+        "directory": "黄鹤楼",
+        "map": "huanghe",
+        "title": "黄鹤楼"
+      }
+    },
+    {
+      "case": "reduce motion setting",
+      "result": {
+        "animation": "none",
+        "map": {
+          "cameraBounds": "[[110.14515119171415,23.40643439824413],[135.84532467017328,37.21649100321358]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "reduced": "true"
+      }
+    },
+    {
+      "case": "production 390 overview resize",
+      "result": {
+        "detail": false,
+        "height": 844,
+        "map": {
+          "cameraBounds": "[[67.27272727272694,-44.44744070872884],[141.7272727272727,73.71557229943144]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "case": "390 half reader marker clear",
+      "result": {
+        "marker": {
+          "bottom": 283,
+          "height": 44,
+          "left": 185,
+          "right": 259,
+          "top": 239,
+          "width": 74,
+          "x": 185,
+          "y": 239
+        },
+        "overflow": false,
+        "panel": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "390 expanded original scroll",
+      "result": {
+        "instance": "1",
+        "marker": {
+          "bottom": 118,
+          "height": 44,
+          "left": 185,
+          "right": 259,
+          "top": 74,
+          "width": 74,
+          "x": 185,
+          "y": 74
+        },
+        "overflow": false,
+        "panel": {
+          "bottom": 840,
+          "height": 708,
+          "left": 0,
+          "right": 390,
+          "top": 132,
+          "width": 390,
+          "x": 0,
+          "y": 132
+        },
+        "paragraphs": 4,
+        "scroll": 1037.3333740234375,
+        "width": 390
+      }
+    },
+    {
+      "case": "390 history readable",
+      "result": {
+        "overflow": false,
+        "text": "雪中之亭 · 今日之湖\n\n张岱的《湖心亭看雪》以“崇祯五年十二月”开篇，叙述一次雪夜乘舟、在亭中遇人饮酒的经历。这是作品中的时间，不能当作文章的写作日期。\n\n西湖文化景观由湖泊、堤道、岛屿、亭阁等共同构成；UNESCO 的遗产介绍说明，这片景观经多个世纪的营建与经营形成。文学中的亭、今天的亭岛和现代照片因此需要分开理解。\n\n湖心亭始建与重建的具体年代，仍需完成地方志底本或主管机构资料的复核。本轮不把今日亭阁称为张岱所见建筑，也不以照片证明古址。\n\n沿革资料状态\n\n已核：作品叙事时间、西湖历代景观营建。待补：亭阁历次营建年表、明代精确亭址、今日建筑与历史建筑的对应。\n\n作品原文 ↗\nUNESCO · 西湖文化景观 ↗"
+      }
+    },
+    {
+      "case": "390 local marker panel avoidance",
+      "result": {
+        "map": {
+          "cameraBounds": "[[120.11007642891752,30.166398678045596],[120.17292357108408,30.283916587137654]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "marker": {
+          "bottom": 272,
+          "height": 44,
+          "left": 174,
+          "right": 248,
+          "top": 228,
+          "width": 74,
+          "x": 174,
+          "y": 228
+        },
+        "panel": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "return clears local layer same instance 1366 resize",
+      "result": {
+        "detail": false,
+        "height": 768,
+        "map": {
+          "cameraBounds": "[[28.49525628447347,-5.6386926141408225],[176.1801494785176,60.95017314943959]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "overflow": false,
+        "width": 1366
+      }
+    },
+    {
+      "case": "768 resize with detail",
+      "result": {
+        "height": 1024,
+        "instance": "1",
+        "marker": {
+          "bottom": 550,
+          "height": 44,
+          "left": 214,
+          "right": 341,
+          "top": 506,
+          "width": 127,
+          "x": 214,
+          "y": 506
+        },
+        "overflow": false,
+        "panel": {
+          "bottom": 954,
+          "height": 853,
+          "left": 373,
+          "right": 748,
+          "top": 101,
+          "width": 375,
+          "x": 373,
+          "y": 101
+        },
+        "width": 768
+      }
+    },
+    {
+      "case": "production L7 point line polygon lab",
+      "result": {
+        "cameraBounds": "[[-45.000000000100385,-26.133577368460834],[179.99999999989842,70.01389159593509]]",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "instanceId": "1",
+        "l7Layers": "literary-places,dev-only-polygon,dev-only-line",
+        "localVisibility": "none",
+        "mapStatus": "ready",
+        "mapView": "overview",
+        "maxZoom": "5.3",
+        "selectedPlace": "",
+        "testid": "map"
+      }
+    },
+    {
+      "case": "unmount cleanup",
+      "result": {
+        "canvases": 0,
+        "lifecycle": {
+          "mapsCreated": "1",
+          "mapsDestroyed": "1"
+        },
+        "mapContainers": 0
+      }
+    },
+    {
+      "case": "two cycles remount",
+      "result": {
+        "canvases": 2,
+        "lifecycle": {
+          "mapsCreated": "3",
+          "mapsDestroyed": "2"
+        },
+        "map": {
+          "cameraBounds": "[[-45.000000000100385,-26.133577368460834],[179.99999999989842,70.01389159593509]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "3",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "",
+          "testid": "map"
+        },
+        "mapContainers": 1
+      }
+    },
+    {
+      "case": "forced initialization failure retains original",
+      "result": {
+        "canvases": 0,
+        "mapStatus": "failed",
+        "overflow": false,
+        "paragraphs": 4
+      }
+    },
+    {
+      "case": "failure local reading photo",
+      "result": {
+        "photoLoaded": true,
+        "text": "一亭，在湖中\n\n局部地图当前不可交互。湖岸和岛屿来自 OpenStreetMap，呈现现代水域空间。湖心亭岛位于西湖中部；它不是南侧的小瀛洲。\n\n公开坐标指向现代亭岛区域，并非建筑测量点。局部层只用于看亭岛与湖岸的关系，不提供街道导航，不重建明代岸线。\n\n现代水域\n岛屿 / 湖岸\n现代参照点\n收起附图\n−\n今日图景 · 湖心亭岛\n\n西湖水面上的湖心亭岛。照片记录现代景观，不是张岱时代建筑的证明。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。\n\n空间精度\n\n现代亭阁轮廓中心 · 社区地理参照，非实测点。WGS84，约 120.139663° E / 30.248587° N。社区湖岸不保证测绘精度；放大上限为区域尺度。\n\n© OpenStreetMap contributors · ODbL ↗"
+      }
+    },
+    {
+      "case": "development complete flow and last rapid selection",
+      "result": {
+        "canvases": 2,
+        "heading": "杜甫草堂",
+        "map": {
+          "cameraBounds": "[[94.03181909170786,23.84600037938759],[119.73199257016648,37.59760040156108]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "dufu",
+          "testid": "map"
+        },
+        "overflow": false
+      }
+    },
+    {
+      "case": "development 390 expanded original",
+      "result": {
+        "map": {
+          "cameraBounds": "[[116.65943127479198,18.16106412042859],[123.61989492520826,31.770574121893503]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "localVisibility": "none",
+          "mapStatus": "ready",
+          "mapView": "overview",
+          "maxZoom": "5.3",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "overflow": false,
+        "paragraphs": 4,
+        "width": 390
+      }
+    }
+  ],
+  "console": {
+    "production": [],
+    "development": [],
+    "lifecycle": [],
+    "lab": []
+  }
+}

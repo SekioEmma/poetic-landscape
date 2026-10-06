@@ -1,0 +1,101 @@
+{
+  "retrieved": "2026-10-05",
+  "lake": {
+    "id": "relation/2308774",
+    "version": 37,
+    "timestamp": "2026-02-12T13:55:04Z"
+  },
+  "features": [
+    {
+      "id": "relation/2162646",
+      "name": "浴鹄湾",
+      "tainted": false
+    },
+    {
+      "id": "relation/2308774",
+      "name": "西湖",
+      "tainted": false
+    },
+    {
+      "id": "relation/5740510",
+      "name": "小瀛洲",
+      "tainted": false
+    },
+    {
+      "id": "way/161419347",
+      "name": "乌龟潭",
+      "tainted": false
+    }
+  ],
+  "causeways": [
+    {
+      "id": "way/30072131",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/30072138",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/4335991",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/30072127",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/30075393",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/975869980",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/30072145",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/30072148",
+      "name": "苏堤"
+    },
+    {
+      "id": "way/4326974",
+      "name": "白堤"
+    },
+    {
+      "id": "way/28538286",
+      "name": "白堤"
+    },
+    {
+      "id": "way/28538290",
+      "name": "白堤"
+    },
+    {
+      "id": "way/29416781",
+      "name": "白堤"
+    }
+  ],
+  "labels": [
+    {
+      "name": "小瀛洲",
+      "coordinates": [
+        120.1405135,
+        30.2412168
+      ],
+      "source": "relation/5740510",
+      "purpose": "几何包围盒中心，仅放置地物文字"
+    },
+    {
+      "name": "阮公墩",
+      "coordinates": [
+        120.136791,
+        30.248808
+      ],
+      "source": "node/9035381270",
+      "purpose": "OSM 现代岛屿参照"
+    }
+  ],
+  "process": "选取真实水域、岛屿及堤道；保留原始几何，未简化局部数据；岛屿在西湖水域中保留内环。"
+}

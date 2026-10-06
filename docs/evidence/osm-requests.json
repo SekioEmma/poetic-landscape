@@ -1,0 +1,1935 @@
+{
+  "retrieved": "2026-10-05",
+  "requests": [
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.115,30.225,120.135,30.245",
+      "count": 19868,
+      "generator": "openstreetmap-cgimap 2.1.0 (244704 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.115,30.245,120.135,30.265",
+      "count": 19386,
+      "generator": "openstreetmap-cgimap 2.1.0 (829800 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.115,30.265,120.135,30.285",
+      "count": 12701,
+      "generator": "openstreetmap-cgimap 2.1.0 (244689 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.135,30.225,120.155,30.245",
+      "count": 8308,
+      "generator": "openstreetmap-cgimap 2.1.0 (244687 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.135,30.245,120.155,30.265",
+      "count": 10336,
+      "generator": "openstreetmap-cgimap 2.1.0 (829800 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.135,30.265,120.155,30.285",
+      "count": 15715,
+      "generator": "openstreetmap-cgimap 2.1.0 (244703 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.155,30.225,120.175,30.245",
+      "count": 15571,
+      "generator": "openstreetmap-cgimap 2.1.0 (829800 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.155,30.245,120.175,30.265",
+      "count": 17667,
+      "generator": "openstreetmap-cgimap 2.1.0 (244689 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    },
+    {
+      "url": "https://www.openstreetmap.org/api/0.6/map.json?bbox=120.155,30.265,120.175,30.285",
+      "count": 20040,
+      "generator": "openstreetmap-cgimap 2.1.0 (244703 spike-07.openstreetmap.org)",
+      "version": "0.6"
+    }
+  ],
+  "features": [
+    {
+      "id": "relation/2134798",
+      "tags": {
+        "timestamp": "2015-12-14T05:30:36Z",
+        "version": 2,
+        "changeset": 35938086,
+        "user": "Supaplex",
+        "uid": 274857,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/2134798"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/2162646",
+      "tags": {
+        "timestamp": "2021-08-23T15:33:37Z",
+        "version": 4,
+        "changeset": 110124010,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "name": "浴鹄湾",
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/2162646"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/2162647",
+      "tags": {
+        "timestamp": "2015-12-14T05:30:36Z",
+        "version": 2,
+        "changeset": 35938086,
+        "user": "Supaplex",
+        "uid": 274857,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/2162647"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/2308774",
+      "tags": {
+        "timestamp": "2026-02-12T13:55:04Z",
+        "version": 37,
+        "changeset": 178459375,
+        "user": "smallCat",
+        "uid": 22252985,
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "type": "multipolygon",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake",
+        "id": "relation/2308774"
+      },
+      "geometryType": "MultiPolygon"
+    },
+    {
+      "id": "relation/13190255",
+      "tags": {
+        "timestamp": "2021-09-10T10:37:11Z",
+        "version": 1,
+        "changeset": 111017550,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "lake",
+        "id": "relation/13190255"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/69857",
+      "tags": {
+        "timestamp": "2017-04-18T19:54:24Z",
+        "version": 2,
+        "changeset": 47917293,
+        "user": "sebastic",
+        "uid": 665748,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/69857"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/13119311",
+      "tags": {
+        "timestamp": "2021-08-24T04:48:43Z",
+        "version": 2,
+        "changeset": 110145929,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/13119311"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/13121618",
+      "tags": {
+        "timestamp": "2021-08-24T04:48:43Z",
+        "version": 1,
+        "changeset": 110145929,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/13121618"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/13122932",
+      "tags": {
+        "timestamp": "2021-08-24T12:10:21Z",
+        "version": 1,
+        "changeset": 110171155,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "id": "relation/13122932"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/13163966",
+      "tags": {
+        "timestamp": "2021-09-04T11:05:18Z",
+        "version": 1,
+        "changeset": 110711697,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "lake",
+        "id": "relation/13163966"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/13163968",
+      "tags": {
+        "timestamp": "2021-09-04T11:05:18Z",
+        "version": 1,
+        "changeset": 110711697,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "lake",
+        "id": "relation/13163968"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/8932647",
+      "tags": {
+        "timestamp": "2021-03-20T23:37:46Z",
+        "version": 2,
+        "changeset": 101421874,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river",
+        "id": "relation/8932647"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/8932648",
+      "tags": {
+        "timestamp": "2021-03-20T23:37:46Z",
+        "version": 5,
+        "changeset": 101421874,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river",
+        "id": "relation/8932648"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "relation/8932833",
+      "tags": {
+        "timestamp": "2021-03-20T23:37:46Z",
+        "version": 7,
+        "changeset": 101421874,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river",
+        "id": "relation/8932833"
+      },
+      "geometryType": "MultiPolygon"
+    },
+    {
+      "id": "relation/8438913",
+      "tags": {
+        "timestamp": "2020-09-11T10:49:25Z",
+        "version": 3,
+        "changeset": 90753139,
+        "user": "season3",
+        "uid": 7863825,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river",
+        "id": "relation/8438913"
+      },
+      "geometryType": "MultiPolygon"
+    },
+    {
+      "id": "relation/7338285",
+      "tags": {
+        "timestamp": "2019-11-03T04:26:28Z",
+        "version": 5,
+        "changeset": 76542923,
+        "user": "samsung galaxy s6",
+        "uid": 3691120,
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river",
+        "id": "relation/7338285"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161419343",
+      "tags": {
+        "timestamp": "2021-08-23T15:33:37Z",
+        "version": 3,
+        "changeset": 110124010,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/161419343"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161419347",
+      "tags": {
+        "timestamp": "2025-10-10T03:04:20Z",
+        "version": 4,
+        "changeset": 173074365,
+        "user": "alkino",
+        "uid": 510085,
+        "name": "乌龟潭",
+        "name:en": "Turtle lake",
+        "natural": "water",
+        "id": "way/161419347"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451428",
+      "tags": {
+        "timestamp": "2012-04-28T15:09:44Z",
+        "version": 1,
+        "changeset": 11441798,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/161451428"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451435",
+      "tags": {
+        "timestamp": "2025-09-09T04:57:18Z",
+        "version": 2,
+        "changeset": 171664694,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "id": "way/161451435"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451436",
+      "tags": {
+        "timestamp": "2012-04-28T15:09:45Z",
+        "version": 1,
+        "changeset": 11441798,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/161451436"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451437",
+      "tags": {
+        "timestamp": "2019-03-10T16:34:39Z",
+        "version": 2,
+        "changeset": 67993903,
+        "user": "Mazalay",
+        "uid": 953424,
+        "natural": "water",
+        "id": "way/161451437"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451441",
+      "tags": {
+        "timestamp": "2026-04-26T14:16:34Z",
+        "version": 4,
+        "changeset": 181847658,
+        "user": "Yunyou_xiansheng",
+        "uid": 24011189,
+        "natural": "water",
+        "id": "way/161451441"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451444",
+      "tags": {
+        "timestamp": "2012-04-28T15:09:48Z",
+        "version": 1,
+        "changeset": 11441798,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/161451444"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451452",
+      "tags": {
+        "timestamp": "2012-04-28T15:09:50Z",
+        "version": 1,
+        "changeset": 11441798,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/161451452"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451453",
+      "tags": {
+        "timestamp": "2019-03-10T15:52:29Z",
+        "version": 2,
+        "changeset": 67992695,
+        "user": "Mazalay",
+        "uid": 953424,
+        "natural": "water",
+        "id": "way/161451453"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451456",
+      "tags": {
+        "timestamp": "2020-08-12T05:03:43Z",
+        "version": 3,
+        "changeset": 89279000,
+        "user": "Zealandia2",
+        "uid": 11187753,
+        "natural": "water",
+        "id": "way/161451456"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161455676",
+      "tags": {
+        "timestamp": "2012-04-28T16:03:06Z",
+        "version": 1,
+        "changeset": 11442199,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/161455676"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/555937637",
+      "tags": {
+        "timestamp": "2021-09-10T08:13:20Z",
+        "version": 3,
+        "changeset": 111011259,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/555937637"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583608991",
+      "tags": {
+        "timestamp": "2020-08-21T11:24:32Z",
+        "version": 3,
+        "changeset": 89742667,
+        "user": "Zealandia2",
+        "uid": 11187753,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583608991"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583608992",
+      "tags": {
+        "timestamp": "2020-08-20T08:55:47Z",
+        "version": 2,
+        "changeset": 89678222,
+        "user": "Belaya01",
+        "uid": 10529312,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583608992"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/675833194",
+      "tags": {
+        "timestamp": "2019-03-10T16:34:38Z",
+        "version": 1,
+        "changeset": 67993903,
+        "user": "Mazalay",
+        "uid": 953424,
+        "natural": "water",
+        "id": "way/675833194"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/675833195",
+      "tags": {
+        "timestamp": "2019-03-10T16:34:38Z",
+        "version": 1,
+        "changeset": 67993903,
+        "user": "Mazalay",
+        "uid": 953424,
+        "natural": "water",
+        "id": "way/675833195"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975338234",
+      "tags": {
+        "timestamp": "2021-08-22T05:59:10Z",
+        "version": 1,
+        "changeset": 110048348,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975338234"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975338235",
+      "tags": {
+        "timestamp": "2021-08-22T05:59:10Z",
+        "version": 1,
+        "changeset": 110048348,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975338235"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975339621",
+      "tags": {
+        "timestamp": "2021-08-22T06:25:55Z",
+        "version": 1,
+        "changeset": 110048674,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975339621"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975339628",
+      "tags": {
+        "timestamp": "2021-08-22T06:25:55Z",
+        "version": 1,
+        "changeset": 110048674,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975339628"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975343820",
+      "tags": {
+        "timestamp": "2021-08-22T07:18:59Z",
+        "version": 1,
+        "changeset": 110049595,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975343820"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975346239",
+      "tags": {
+        "timestamp": "2021-08-22T07:45:37Z",
+        "version": 1,
+        "changeset": 110050310,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/975346239"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975346721",
+      "tags": {
+        "timestamp": "2021-08-23T15:33:37Z",
+        "version": 2,
+        "changeset": 110124010,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/975346721"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975717949",
+      "tags": {
+        "timestamp": "2021-08-23T16:11:08Z",
+        "version": 1,
+        "changeset": 110125913,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/975717949"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979543006",
+      "tags": {
+        "timestamp": "2021-09-04T11:30:21Z",
+        "version": 1,
+        "changeset": 110712626,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979543006"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979543007",
+      "tags": {
+        "timestamp": "2021-09-04T11:46:55Z",
+        "version": 2,
+        "changeset": 110713168,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979543007"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979543008",
+      "tags": {
+        "timestamp": "2021-09-04T11:46:55Z",
+        "version": 2,
+        "changeset": 110713168,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979543008"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981501688",
+      "tags": {
+        "timestamp": "2021-09-10T07:19:58Z",
+        "version": 1,
+        "changeset": 111008451,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981501688"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981501694",
+      "tags": {
+        "timestamp": "2021-09-10T07:19:58Z",
+        "version": 1,
+        "changeset": 111008451,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981501694"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981501716",
+      "tags": {
+        "timestamp": "2021-09-10T07:19:58Z",
+        "version": 1,
+        "changeset": 111008451,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981501716"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981501717",
+      "tags": {
+        "timestamp": "2021-09-10T07:19:58Z",
+        "version": 1,
+        "changeset": 111008451,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981501717"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981508084",
+      "tags": {
+        "timestamp": "2021-09-10T07:47:58Z",
+        "version": 1,
+        "changeset": 111009868,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981508084"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981508097",
+      "tags": {
+        "timestamp": "2021-09-10T07:47:58Z",
+        "version": 1,
+        "changeset": 111009868,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981508097"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981517160",
+      "tags": {
+        "timestamp": "2021-09-10T14:23:06Z",
+        "version": 2,
+        "changeset": 111026977,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981517160"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981517168",
+      "tags": {
+        "timestamp": "2021-09-10T08:13:20Z",
+        "version": 1,
+        "changeset": 111011259,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981517168"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981556312",
+      "tags": {
+        "timestamp": "2021-09-10T10:46:21Z",
+        "version": 1,
+        "changeset": 111017907,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/981556312"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981556334",
+      "tags": {
+        "timestamp": "2021-09-10T10:46:21Z",
+        "version": 1,
+        "changeset": 111017907,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/981556334"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981556340",
+      "tags": {
+        "timestamp": "2021-09-10T10:46:21Z",
+        "version": 1,
+        "changeset": 111017907,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/981556340"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981626804",
+      "tags": {
+        "timestamp": "2021-09-10T14:23:06Z",
+        "version": 1,
+        "changeset": 111026977,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981626804"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/981626806",
+      "tags": {
+        "timestamp": "2021-09-10T14:23:06Z",
+        "version": 1,
+        "changeset": 111026977,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/981626806"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1371585914",
+      "tags": {
+        "timestamp": "2025-03-26T04:57:17Z",
+        "version": 2,
+        "changeset": 164105259,
+        "user": "jjt",
+        "uid": 694175,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1371585914"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/30411664",
+      "tags": {
+        "timestamp": "2020-08-17T10:09:31Z",
+        "version": 2,
+        "changeset": 89510895,
+        "user": "MountStanley",
+        "uid": 11187605,
+        "natural": "water",
+        "id": "way/30411664"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/30412364",
+      "tags": {
+        "timestamp": "2009-01-23T08:20:01Z",
+        "version": 1,
+        "changeset": 827180,
+        "user": "dkt",
+        "uid": 5553,
+        "natural": "water",
+        "id": "way/30412364"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/30412365",
+      "tags": {
+        "timestamp": "2009-01-23T08:20:04Z",
+        "version": 1,
+        "changeset": 827180,
+        "user": "dkt",
+        "uid": 5553,
+        "natural": "water",
+        "id": "way/30412365"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/494814577",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/494814577"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/525375063",
+      "tags": {
+        "timestamp": "2021-06-07T13:56:00Z",
+        "version": 4,
+        "changeset": 105976881,
+        "user": "Mateusz Konieczny - bot account",
+        "uid": 3199858,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/525375063"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583095693",
+      "tags": {
+        "timestamp": "2025-12-17T06:15:10Z",
+        "version": 3,
+        "changeset": 176034400,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583095693"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583095705",
+      "tags": {
+        "timestamp": "2025-12-17T06:15:10Z",
+        "version": 3,
+        "changeset": 176034400,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583095705"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583102350",
+      "tags": {
+        "timestamp": "2021-09-04T11:05:18Z",
+        "version": 2,
+        "changeset": 110711697,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583102350"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583620300",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583620300"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583655257",
+      "tags": {
+        "timestamp": "2026-07-07T11:51:56Z",
+        "version": 2,
+        "changeset": 185260860,
+        "user": "DanhengOSM",
+        "uid": 22906389,
+        "intermittent": "yes",
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583655257"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583655258",
+      "tags": {
+        "timestamp": "2025-11-06T09:13:39Z",
+        "version": 2,
+        "changeset": 174277141,
+        "user": "IidabashiTK",
+        "uid": 22235944,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583655258"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583655277",
+      "tags": {
+        "timestamp": "2018-04-26T08:30:43Z",
+        "version": 1,
+        "changeset": 58434996,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583655277"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583658076",
+      "tags": {
+        "timestamp": "2018-04-26T08:45:01Z",
+        "version": 1,
+        "changeset": 58435453,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583658076"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583698022",
+      "tags": {
+        "timestamp": "2019-05-18T08:45:12Z",
+        "version": 2,
+        "changeset": 70381765,
+        "user": "sebastic",
+        "uid": 665748,
+        "natural": "water",
+        "water": "lake",
+        "id": "way/583698022"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583931351",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583931351"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583931356",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583931356"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583931359",
+      "tags": {
+        "timestamp": "2018-04-27T12:00:54Z",
+        "version": 1,
+        "changeset": 58473530,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "id": "way/583931359"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/866158870",
+      "tags": {
+        "timestamp": "2021-08-24T04:48:43Z",
+        "version": 2,
+        "changeset": 110145929,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/866158870"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975710363",
+      "tags": {
+        "timestamp": "2021-08-23T15:33:37Z",
+        "version": 1,
+        "changeset": 110124010,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/975710363"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/976000561",
+      "tags": {
+        "timestamp": "2021-08-24T12:10:21Z",
+        "version": 1,
+        "changeset": 110171155,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/976000561"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979538042",
+      "tags": {
+        "timestamp": "2021-09-04T11:05:18Z",
+        "version": 1,
+        "changeset": 110711697,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979538042"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979542972",
+      "tags": {
+        "timestamp": "2021-09-04T11:30:21Z",
+        "version": 1,
+        "changeset": 110712626,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979542972"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979542973",
+      "tags": {
+        "timestamp": "2021-09-04T11:30:21Z",
+        "version": 1,
+        "changeset": 110712626,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979542973"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1459205328",
+      "tags": {
+        "timestamp": "2025-12-17T06:15:10Z",
+        "version": 1,
+        "changeset": 176034400,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/1459205328"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1459205329",
+      "tags": {
+        "timestamp": "2025-12-17T06:15:10Z",
+        "version": 1,
+        "changeset": 176034400,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/1459205329"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/494814576",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/494814576"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/559372871",
+      "tags": {
+        "timestamp": "2025-06-13T08:24:35Z",
+        "version": 2,
+        "changeset": 167564102,
+        "user": "DanhengOSM",
+        "uid": 22906389,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/559372871"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/644318481",
+      "tags": {
+        "timestamp": "2022-01-02T18:20:50Z",
+        "version": 3,
+        "changeset": 115680870,
+        "user": "fghj753",
+        "uid": 10394095,
+        "natural": "water",
+        "water": "canal",
+        "id": "way/644318481"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/62124950",
+      "tags": {
+        "timestamp": "2015-04-26T14:50:30Z",
+        "version": 3,
+        "changeset": 30505495,
+        "user": "AUV",
+        "uid": 2607646,
+        "name": "放生池",
+        "natural": "water",
+        "id": "way/62124950"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/161451426",
+      "tags": {
+        "timestamp": "2020-08-20T10:05:47Z",
+        "version": 2,
+        "changeset": 89683085,
+        "user": "Plekhanov",
+        "uid": 10409550,
+        "natural": "water",
+        "id": "way/161451426"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/206081946",
+      "tags": {
+        "timestamp": "2021-08-22T08:50:41Z",
+        "version": 2,
+        "changeset": 110051935,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/206081946"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/206081952",
+      "tags": {
+        "timestamp": "2025-09-09T04:57:18Z",
+        "version": 4,
+        "changeset": 171664694,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "id": "way/206081952"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/206081958",
+      "tags": {
+        "timestamp": "2013-02-18T09:00:13Z",
+        "version": 1,
+        "changeset": 15074615,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/206081958"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/206081960",
+      "tags": {
+        "timestamp": "2013-02-18T09:00:13Z",
+        "version": 1,
+        "changeset": 15074615,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/206081960"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/206082676",
+      "tags": {
+        "timestamp": "2013-02-18T09:03:16Z",
+        "version": 1,
+        "changeset": 15074615,
+        "user": "bakasana",
+        "uid": 540071,
+        "natural": "water",
+        "id": "way/206082676"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/676314607",
+      "tags": {
+        "timestamp": "2021-08-22T08:50:41Z",
+        "version": 2,
+        "changeset": 110051935,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/676314607"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/676314608",
+      "tags": {
+        "timestamp": "2019-03-12T17:06:41Z",
+        "version": 1,
+        "changeset": 68070462,
+        "user": "Mazalay",
+        "uid": 953424,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/676314608"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/743663858",
+      "tags": {
+        "timestamp": "2020-08-24T05:50:36Z",
+        "version": 2,
+        "changeset": 89833640,
+        "user": "Plekhanov",
+        "uid": 10409550,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/743663858"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1107037582",
+      "tags": {
+        "timestamp": "2022-10-26T08:30:53Z",
+        "version": 1,
+        "changeset": 128071294,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1107037582"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1373341971",
+      "tags": {
+        "timestamp": "2025-03-31T11:27:22Z",
+        "version": 1,
+        "changeset": 164325782,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1373341971"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/706908893",
+      "tags": {
+        "timestamp": "2021-12-18T14:13:25Z",
+        "version": 2,
+        "changeset": 115097740,
+        "user": "miki xie",
+        "uid": 214577,
+        "natural": "water",
+        "id": "way/706908893"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/706922809",
+      "tags": {
+        "timestamp": "2019-07-24T09:41:20Z",
+        "version": 1,
+        "changeset": 72592777,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "id": "way/706922809"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/718886560",
+      "tags": {
+        "timestamp": "2019-08-27T12:43:17Z",
+        "version": 1,
+        "changeset": 73796348,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/718886560"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/975870009",
+      "tags": {
+        "timestamp": "2025-08-05T02:59:59Z",
+        "version": 2,
+        "changeset": 169982957,
+        "user": "DanhengOSM",
+        "uid": 22906389,
+        "name": "断桥荷塘",
+        "natural": "water",
+        "salt": "no",
+        "water": "pond",
+        "id": "way/975870009"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/976283053",
+      "tags": {
+        "timestamp": "2021-08-25T11:33:56Z",
+        "version": 1,
+        "changeset": 110226162,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/976283053"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979195312",
+      "tags": {
+        "timestamp": "2021-09-03T10:30:31Z",
+        "version": 1,
+        "changeset": 110669848,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979195312"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979207060",
+      "tags": {
+        "timestamp": "2021-09-03T11:03:36Z",
+        "version": 1,
+        "changeset": 110672221,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979207060"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/979207061",
+      "tags": {
+        "timestamp": "2021-09-03T11:03:36Z",
+        "version": 1,
+        "changeset": 110672221,
+        "user": "七海Nana7mi",
+        "uid": 8391640,
+        "natural": "water",
+        "id": "way/979207061"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1131951387",
+      "tags": {
+        "timestamp": "2023-01-14T13:08:34Z",
+        "version": 1,
+        "changeset": 131264338,
+        "user": "ParadoX_ZLWC",
+        "uid": 2507347,
+        "name": "印泉",
+        "natural": "water",
+        "id": "way/1131951387"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/515378490",
+      "tags": {
+        "timestamp": "2017-08-14T00:42:53Z",
+        "version": 1,
+        "changeset": 51095542,
+        "user": "SNH48-林忆宁",
+        "uid": 5888135,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/515378490"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/517479599",
+      "tags": {
+        "timestamp": "2021-03-20T23:37:46Z",
+        "version": 3,
+        "changeset": 101421874,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/517479599"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/517479611",
+      "tags": {
+        "timestamp": "2023-05-29T02:43:20Z",
+        "version": 6,
+        "changeset": 136676901,
+        "user": "Maps Man",
+        "uid": 10216874,
+        "natural": "water",
+        "water": "river",
+        "id": "way/517479611"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520197039",
+      "tags": {
+        "timestamp": "2021-03-20T23:37:46Z",
+        "version": 5,
+        "changeset": 101421874,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520197039"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1414345504",
+      "tags": {
+        "timestamp": "2025-07-13T00:37:43Z",
+        "version": 1,
+        "changeset": 168855816,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1414345504"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/536921623",
+      "tags": {
+        "timestamp": "2017-10-30T14:31:20Z",
+        "version": 1,
+        "changeset": 53369302,
+        "user": "AUV",
+        "uid": 2607646,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/536921623"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/550439279",
+      "tags": {
+        "timestamp": "2022-09-29T09:36:21Z",
+        "version": 2,
+        "changeset": 126771090,
+        "user": "Quintindom",
+        "uid": 16828775,
+        "name": "半月池",
+        "natural": "water",
+        "water": "basin",
+        "id": "way/550439279"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1292807378",
+      "tags": {
+        "timestamp": "2026-04-23T03:29:14Z",
+        "version": 3,
+        "changeset": 181698038,
+        "user": "smallCat",
+        "uid": 22252985,
+        "natural": "water",
+        "water": "canal",
+        "id": "way/1292807378"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1502729478",
+      "tags": {
+        "timestamp": "2026-04-23T03:29:14Z",
+        "version": 1,
+        "changeset": 181698038,
+        "user": "smallCat",
+        "uid": 22252985,
+        "natural": "water",
+        "water": "canal",
+        "id": "way/1502729478"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1502729482",
+      "tags": {
+        "timestamp": "2026-04-23T03:29:14Z",
+        "version": 1,
+        "changeset": 181698038,
+        "user": "smallCat",
+        "uid": 22252985,
+        "natural": "water",
+        "water": "canal",
+        "id": "way/1502729482"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1502729483",
+      "tags": {
+        "timestamp": "2026-04-23T03:29:14Z",
+        "version": 1,
+        "changeset": 181698038,
+        "user": "smallCat",
+        "uid": 22252985,
+        "natural": "water",
+        "water": "canal",
+        "id": "way/1502729483"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520199010",
+      "tags": {
+        "timestamp": "2021-03-19T19:17:13Z",
+        "version": 2,
+        "changeset": 101348613,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520199010"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520199011",
+      "tags": {
+        "timestamp": "2021-03-19T19:17:13Z",
+        "version": 4,
+        "changeset": 101348613,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520199011"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/536921616",
+      "tags": {
+        "timestamp": "2021-03-19T19:17:13Z",
+        "version": 2,
+        "changeset": 101348613,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/536921616"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/265720548",
+      "tags": {
+        "timestamp": "2026-07-01T12:14:32Z",
+        "version": 9,
+        "changeset": 184910672,
+        "user": "rza31",
+        "uid": 2137840,
+        "natural": "water",
+        "water": "river",
+        "id": "way/265720548"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520192455",
+      "tags": {
+        "timestamp": "2025-10-16T03:07:37Z",
+        "version": 3,
+        "changeset": 173344634,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520192455"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520192458",
+      "tags": {
+        "timestamp": "2025-08-19T02:08:56Z",
+        "version": 6,
+        "changeset": 170645689,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520192458"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520195812",
+      "tags": {
+        "timestamp": "2025-04-02T02:53:04Z",
+        "version": 4,
+        "changeset": 164399410,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520195812"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520199007",
+      "tags": {
+        "timestamp": "2021-03-19T19:17:13Z",
+        "version": 2,
+        "changeset": 101348613,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520199007"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520199008",
+      "tags": {
+        "timestamp": "2021-03-19T19:17:13Z",
+        "version": 4,
+        "changeset": 101348613,
+        "user": "lizzyd710",
+        "uid": 11896050,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520199008"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/520199009",
+      "tags": {
+        "timestamp": "2024-05-04T09:30:05Z",
+        "version": 3,
+        "changeset": 150870743,
+        "user": "方恨少",
+        "uid": 6161085,
+        "natural": "water",
+        "water": "river",
+        "id": "way/520199009"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/583424335",
+      "tags": {
+        "timestamp": "2026-01-17T15:30:14Z",
+        "version": 3,
+        "changeset": 177340452,
+        "user": "dilidilip",
+        "uid": 22289798,
+        "natural": "water",
+        "water": "basin",
+        "id": "way/583424335"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/662789923",
+      "tags": {
+        "timestamp": "2019-01-13T03:51:44Z",
+        "version": 1,
+        "changeset": 66265253,
+        "user": "AUV",
+        "uid": 2607646,
+        "natural": "water",
+        "water": "lock",
+        "id": "way/662789923"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1366013640",
+      "tags": {
+        "timestamp": "2025-03-10T16:04:03Z",
+        "version": 1,
+        "changeset": 163449316,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1366013640"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1388133968",
+      "tags": {
+        "timestamp": "2025-05-20T03:03:24Z",
+        "version": 1,
+        "changeset": 166503095,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "id": "way/1388133968"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1422402716",
+      "tags": {
+        "timestamp": "2025-08-19T02:08:56Z",
+        "version": 2,
+        "changeset": 170645689,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "id": "way/1422402716"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1427242683",
+      "tags": {
+        "timestamp": "2025-09-05T04:23:00Z",
+        "version": 1,
+        "changeset": 171478111,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "pond",
+        "id": "way/1427242683"
+      },
+      "geometryType": "Polygon"
+    },
+    {
+      "id": "way/1427894183",
+      "tags": {
+        "timestamp": "2025-09-11T12:14:06Z",
+        "version": 3,
+        "changeset": 171781568,
+        "user": "gaert",
+        "uid": 22343092,
+        "natural": "water",
+        "water": "river",
+        "id": "way/1427894183"
+      },
+      "geometryType": "Polygon"
+    }
+  ]
+}

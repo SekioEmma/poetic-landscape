@@ -1,0 +1,197 @@
+{
+  "recorded": "2026-10-05",
+  "acquisition": "用户提供本地文件，声明来自自然资源部标准地图系统；本轮未自行重新下载。",
+  "downloadDate": null,
+  "actualDownloadUrl": null,
+  "officialService": "https://bzdt.tianditu.gov.cn/",
+  "detailLinkClue": "https://bzdt.ch.mnr.gov.cn/browse.html?picId=4o28b0625501ad13015501ad2bfc2188",
+  "printedTitle": "中国地图",
+  "catalogueDescriptionProvidedByUser": "中国地图，1∶1000万，对开，界线版、无邻国、线划一",
+  "filenameIncludes": "无河流",
+  "printedScale": "1 : 10 000 000",
+  "printedReviewNumber": "GS(2023)2763号",
+  "printedImprint": "自然资源部 监制",
+  "width": 5826,
+  "height": 7249,
+  "inspection": "已查看完整JPG及100%城市/图例/署名检查裁片；EPS只核对文件名、大小、哈希和PostScript头，未渲染。未独立取得该具体条目的在线下载回执。",
+  "files": [
+    {
+      "name": "中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).eps",
+      "path": "docs/evidence/basemaps/original/中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).eps",
+      "bytes": 22676637,
+      "sha256": "9875e44f9aa76aee270c341164ba7ec8a8ace43f43e84e6a55a60f5c4b94a73a",
+      "role": "archived-only-not-rendered"
+    },
+    {
+      "name": "中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).jpg",
+      "path": "docs/evidence/basemaps/original/中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+      "role": "display-source"
+    }
+  ],
+  "runtime": {
+    "path": "public/assets/official-china-gs20232763.jpg",
+    "bytes": 6827440,
+    "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+    "processing": "字节一致复制，未重编码、裁切、改色、重投影、切片；浏览器等比例显示"
+  },
+  "imageAnchors": [
+    {
+      "place": "huxin",
+      "city": "杭州",
+      "pixel": [
+        4887,
+        3588
+      ],
+      "normalized": [
+        0.8388259526261586,
+        0.49496482273417025
+      ],
+      "inspectionCrop": "inspection/hangzhou.png",
+      "crop": [
+        4600,
+        3350,
+        700,
+        650
+      ]
+    },
+    {
+      "place": "huanghe",
+      "city": "武汉",
+      "pixel": [
+        4227,
+        3610
+      ],
+      "normalized": [
+        0.7255406797116375,
+        0.49799972409987586
+      ],
+      "inspectionCrop": "inspection/wuhan.png",
+      "crop": [
+        4070,
+        3300,
+        700,
+        650
+      ]
+    },
+    {
+      "place": "dufu",
+      "city": "成都",
+      "pixel": [
+        3086,
+        3657
+      ],
+      "normalized": [
+        0.5296944730518366,
+        0.5044833770175197
+      ],
+      "inspectionCrop": "inspection/chengdu.png",
+      "crop": [
+        2700,
+        3350,
+        800,
+        700
+      ]
+    },
+    {
+      "place": "xihu",
+      "city": "杭州",
+      "pixel": [
+        4887,
+        3588
+      ],
+      "normalized": [
+        0.8388259526261586,
+        0.49496482273417025
+      ],
+      "inspectionCrop": "inspection/hangzhou.png",
+      "crop": [
+        4600,
+        3350,
+        700,
+        650
+      ]
+    },
+    {
+      "place": "hanshan",
+      "city": "苏州",
+      "pixel": [
+        4940,
+        3440
+      ],
+      "normalized": [
+        0.8479231033299004,
+        0.4745482135466961
+      ],
+      "inspectionCrop": "inspection/jiangnan.png",
+      "crop": [
+        4550,
+        3000,
+        950,
+        900
+      ]
+    },
+    {
+      "place": "guazhou",
+      "city": "扬州",
+      "pixel": [
+        4779,
+        3320
+      ],
+      "normalized": [
+        0.8202883625128733,
+        0.4579942060973927
+      ],
+      "inspectionCrop": "inspection/jiangnan.png",
+      "crop": [
+        4550,
+        3000,
+        950,
+        900
+      ]
+    }
+  ],
+  "imageGroups": [
+    {
+      "id": "hangzhou",
+      "label": "杭州",
+      "placeIds": [
+        "huxin",
+        "xihu"
+      ],
+      "anchorPlaceId": "huxin"
+    },
+    {
+      "id": "huanghe",
+      "label": "黄鹤楼",
+      "placeIds": [
+        "huanghe"
+      ],
+      "anchorPlaceId": "huanghe"
+    },
+    {
+      "id": "dufu",
+      "label": "杜甫草堂",
+      "placeIds": [
+        "dufu"
+      ],
+      "anchorPlaceId": "dufu"
+    },
+    {
+      "id": "jiangnan",
+      "label": "江南",
+      "placeIds": [
+        "hanshan",
+        "guazhou"
+      ],
+      "anchorPlaceId": "guazhou"
+    }
+  ],
+  "round2": "新增西湖共用杭州符号；苏州[4940,3440]与扬州[4779,3320]从江南检查裁片读取。杭州分组两处，江南分组苏州与瓜洲两处，以扬州城市符号为组入口。标签引线为项目叠加，未改城市符号。",
+  "anchorMethod": "原图城市符号中心目视读数，约±2原图像素；仅是图片总览城市参照，不是景点像素配准或测绘位置。真实局部坐标来自独立WGS84资料。",
+  "geometryTreatment": "未取得可靠投影／配准参数，故未把JPG四角投到WGS84，未作全国L7地理底图；图片总览与一个持久L7局部实例切换。Natural Earth在正式页面隐藏，仅map-lab开发验证使用。",
+  "usage": "官方系统说明标准地图可免费浏览下载，直接使用须标注审图号；此文件未另附开放内容许可证。项目已增加地点、交互及局部数据，成品未送审，公开使用前所需审核程序未确认，不作免审结论。",
+  "inspectionCropTreatment": "System.Drawing按记录的矩形另存PNG，仅用于检查取点/图面署名；不作为底图或运行资产，原件保持不变。",
+  "projectReviewStatus": "未送审，未公开部署，未取得本项目审核文件。"
+}

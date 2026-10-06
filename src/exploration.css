@@ -1,0 +1,91 @@
+/* Reading and exploration refinements; raster image stays immutable. */
+.site-header{padding-top:20px;padding-bottom:15px}
+.official-overview{inset:87px 30px 112px 220px}
+.official-mode .map-intro{left:4%;top:24%;max-width:165px}
+.official-mode .map-intro h1{font-size:32px;line-height:1.55;letter-spacing:3px;margin:16px 0}
+.official-mode .map-intro p{font-size:14px;letter-spacing:1px}
+.official-mode .painted-scene{left:4%;width:160px;bottom:145px}
+.official-caption{bottom:57px;gap:18px;font-size:12px}
+.official-mode.has-detail:not(.local-view) .official-overview{left:20px;right:460px;top:87px;bottom:112px}
+.official-mode.has-detail:not(.local-view) .official-caption{right:460px;bottom:57px;gap:8px}
+.filter-indicator{pointer-events:auto;text-align:left;font-size:12px;padding:7px 0;color:var(--red);line-height:1.8;overflow-wrap:anywhere}
+.directory{width:370px;top:89px;max-height:calc(100dvh - 115px);display:flex;flex-direction:column}
+.directory-heading{flex-shrink:0}
+.search-label{font-size:12px;letter-spacing:1px;margin:8px 0}
+.search-field{display:flex;border-bottom:1px solid #50655377;align-items:center;flex-shrink:0}
+.search-field input{font:15px/1.7 inherit;font-family:inherit;font-size:15px;line-height:1.7;width:100%;min-width:0;border:0;background:transparent;color:var(--ink);padding:9px 0;outline-offset:2px}
+.search-field input::-webkit-search-cancel-button{display:none}
+.search-field button{font-size:22px;width:36px;padding:2px;flex-shrink:0}
+.search-field input:focus-visible{outline:1px solid var(--green)}
+.theme-filters{display:flex;gap:1px 8px;flex-wrap:wrap;margin:14px 0 4px;flex-shrink:0}
+.theme-filters button{font-size:12px;min-height:38px;padding:7px 4px;color:var(--muted)}
+.theme-filters button[aria-pressed=true]{color:var(--red);text-decoration:underline;text-underline-offset:6px}
+.result-count{font-size:12px;color:var(--muted);margin:8px 0 3px;flex-shrink:0}
+.directory-results{overflow:auto;overscroll-behavior:contain;min-height:0;scrollbar-width:thin}
+.directory-item{padding:15px 0;gap:12px}
+.directory-item strong{font-size:19px;letter-spacing:1px}
+.directory-item small{font-size:12px;line-height:1.8;margin-top:6px}
+.directory-item .search-match{color:var(--green);max-width:265px}
+.directory-note{font-size:11px;line-height:1.8;margin-top:12px;flex-shrink:0}
+.empty-results{padding:22px 0;font:17px var(--serif)}
+.empty-results button{font-size:13px;color:var(--green);padding-left:0}
+.work-switcher{display:flex;flex-direction:column;align-items:stretch;border-bottom:1px solid #d7d6cb80;margin-bottom:22px;padding-bottom:11px;gap:3px}
+.work-switcher button{text-align:left;padding:8px 0 8px 13px;min-height:44px;font:15px/1.6 var(--serif);border-left:1px solid transparent}
+.work-switcher button[aria-pressed=true]{border-left-color:var(--red);color:var(--red)}
+.work-card blockquote{font-size:22px;line-height:1.85;letter-spacing:1px;padding-left:17px;margin:23px 0 10px}
+.work-card h3{font-size:24px;line-height:1.6;letter-spacing:1px}
+.work-meta{font-size:14px}
+.history-sources{display:flex;flex-direction:column;gap:14px;margin:24px 0;font-size:13px;line-height:1.9}
+.place-difference{font-size:14px;line-height:1.9;padding-left:14px;border-left:1px solid #8d504466;color:var(--muted);margin:22px 0}
+.group-dialog{width:min(390px,calc(100vw - 36px));background:var(--reading);background-image:url('../public/assets/paper.svg');border:0;border-top:1px solid #50655355;padding:22px;color:var(--ink)}
+.group-dialog::backdrop{background:#2e343044}
+.group-dialog header{display:flex;align-items:start;justify-content:space-between;gap:15px}
+.group-dialog h2{font:24px/1.5 var(--serif);letter-spacing:2px;margin:10px 0 16px}
+.group-dialog header button{font-size:26px;padding:0;width:35px}
+.group-item{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;padding:18px 0;text-align:left;border-top:1px solid #d7d6cb80}
+.group-item strong{font:21px/1.6 var(--serif);display:block}
+.group-item small{display:block;font-size:12px;line-height:1.9;margin-top:7px;color:var(--muted)}
+/* Pin stays at the city symbol; the label is an offset callout to prevent collisions. */
+.image-entry{position:absolute;width:0;height:0;z-index:3}
+.image-entry .image-place-ring{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border:1px solid var(--red);pointer-events:none}
+.image-entry .image-place{position:absolute;left:18px;top:6px;transform:none;width:max-content;max-width:140px;min-width:44px;min-height:44px;height:auto;display:flex;align-items:center;gap:5px;background:#fcfaf4f5;padding:5px 8px;font:14px/1.4 var(--serif);color:var(--green);white-space:nowrap}
+.image-entry .image-place small{font:10px/1.4 sans-serif;color:var(--muted)}
+.image-entry .image-place.selected{text-decoration:underline;text-underline-offset:5px;color:var(--red)}
+.entry-leader{position:absolute;top:0;left:0;width:24px;height:1px;background:#8d504470;transform:rotate(32deg);transform-origin:0 0;pointer-events:none}
+.entry-jiangnan .image-place{left:1px;top:-58px}
+.entry-jiangnan .entry-leader{width:22px;transform:rotate(-70deg)}
+.entry-dufu .image-place{left:-90px;top:-52px}
+.entry-dufu .entry-leader{width:25px;transform:rotate(-140deg)}
+.entry-huanghe .image-place{left:-25px;top:25px}
+.entry-huanghe .entry-leader{width:28px;transform:rotate(95deg)}
+@media(max-width:1100px) and (min-width:768px){
+ .official-overview{left:185px;right:20px}.official-mode .map-intro{max-width:145px}.official-mode .map-intro h1{font-size:28px}
+ .official-mode.has-detail:not(.local-view) .official-overview{right:410px;left:15px}.official-mode.has-detail:not(.local-view) .official-caption{right:410px;left:10px}
+ .official-caption{gap:0}.official-mode .painted-scene{width:140px}.image-entry .image-place{font-size:12px;padding:5px}
+ .official-mode.has-detail .entry-hangzhou .image-place{left:-24px;top:74px}
+ .official-mode.has-detail .entry-hangzhou .entry-leader{width:77px;transform:rotate(106deg)}
+ .official-mode.has-detail .entry-jiangnan .image-place{left:-30px}
+}
+@media(max-width:767px){
+ .site-header{padding:16px 19px}.official-overview{inset:83px 15px 119px}
+ .official-mode .map-intro{top:75px;left:19px}.official-mode .map-intro .eyebrow{font-size:10px}
+ .official-mode .map-intro .filter-indicator{max-width:170px;font-size:10px;min-height:24px}
+ .official-caption{bottom:61px;left:15px;right:15px;line-height:1.6}.official-caption strong{font-size:12px}
+ .official-caption button{font-size:11px;min-height:32px;padding:4px 7px}
+ .image-entry .image-place{font-size:12px;padding:5px 6px;min-height:44px;max-width:110px}
+ .image-entry .image-place small{font-size:9px}.image-entry .image-place-ring{width:9px;height:9px;top:-4px;left:-4px}
+ .entry-hangzhou .image-place{left:-18px;top:14px}.entry-hangzhou .entry-leader{transform:rotate(98deg);width:20px}
+ .entry-jiangnan .image-place{left:-3px;top:-60px}.entry-jiangnan .entry-leader{width:23px;transform:rotate(-76deg)}
+ .entry-dufu .image-place{left:-61px;top:-51px}.entry-huanghe .image-place{left:-47px;top:25px}
+ .official-mode.has-detail:not(.local-view) .official-overview{inset:80px 22px calc(50dvh + 12px)}
+ .official-mode.has-detail:not(.local-view) .official-caption{display:none}
+ .official-mode.has-detail .image-place:not(.selected){display:flex}
+ .official-mode.reader-expanded:not(.local-view) .official-overview{display:none}
+ .directory{top:79px;right:13px;width:calc(100vw - 26px);max-height:calc(100dvh - 92px);padding:12px 18px}
+ .directory-item{padding:13px 0}.directory-item strong{font-size:19px}.directory-heading .eyebrow{font-size:11px}
+ .theme-filters button{min-height:38px}.directory-note{font-size:10px}
+ .reading-sheet{height:50dvh}.reading-sheet.expanded{height:calc(100dvh - 121px)}
+ .reader-city-reference{top:85px;font-size:12px}.reader-city-reference small{font-size:10px}
+ .work-card blockquote{font-size:21px;letter-spacing:1px}.work-card h3{font-size:23px}
+ .view-caption{top:89px}.has-detail .map-controls{top:89px}.group-dialog{padding:20px}
+}

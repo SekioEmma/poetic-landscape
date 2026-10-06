@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-06",
+  "scope": {
+    "places": 6,
+    "works": 8
+  },
+  "checks": {
+    "command": "npm run check:data",
+    "record": "check-data.txt",
+    "passed": true
+  },
+  "productionBuild": {
+    "command": "npm run build",
+    "record": "build.txt",
+    "passed": true,
+    "indexSha256": "ac28b27ebc34a138df7de3253fcad645c8d2b841b7418e234d02574e3f02e61e",
+    "artifacts": [
+      {
+        "path": "dist/assets/huxin-2017.jpg",
+        "bytes": 2008926,
+        "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+      },
+      {
+        "path": "dist/assets/index-Bsr6iqGl.css",
+        "bytes": 119441,
+        "sha256": "27f2a16e48469b52ce4361f3cfba698def86f0015f4ed154b90de661472ab2e7"
+      },
+      {
+        "path": "dist/assets/index-O5KwJO8-.js",
+        "bytes": 269434,
+        "sha256": "a5996406d056a0da6fc2afa0f5e84a6f3eaeaac59171898cd90fa3913adbac89"
+      },
+      {
+        "path": "dist/assets/lake-scene.svg",
+        "bytes": 1708,
+        "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df"
+      },
+      {
+        "path": "dist/assets/MapAdapter-DM6BIYQY.js",
+        "bytes": 2498367,
+        "sha256": "68cfe3bbf5c4632496fb00f4fd21fb2b52f633c900118cfd2696a7639ff2aa50"
+      },
+      {
+        "path": "dist/assets/maplibre-gl-worker-MfjJLauD.js",
+        "bytes": 510701,
+        "sha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a"
+      },
+      {
+        "path": "dist/assets/official-china-gs20232763.jpg",
+        "bytes": 6827440,
+        "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+      },
+      {
+        "path": "dist/assets/paper.svg",
+        "bytes": 691,
+        "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78"
+      }
+    ]
+  },
+  "browser": {
+    "record": "browser-acceptance.json",
+    "cases": 63,
+    "directPasses": 60,
+    "resolvedObservations": 3,
+    "unresolved": 0,
+    "consoleRecord": "browser-console.json"
+  },
+  "implementation": [
+    {
+      "path": "src/App.tsx",
+      "bytes": 6275,
+      "sha256": "e2179f4645165d1091c25a9303b8f6f561197d47d4507c9bd2e6e98e2f7e1720"
+    },
+    {
+      "path": "src/components/ExplorerDirectory.tsx",
+      "bytes": 2521,
+      "sha256": "adbb59fcbc03c4ff0b91561efa030f32d4571320875b4a6fb4131fda6418beab"
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "bytes": 2924,
+      "sha256": "e4a8bca20a71946cb910f696ad6324cf91459ad7f7b9aa2f2632d83a5503a616"
+    },
+    {
+      "path": "src/components/OfficialOverview.tsx",
+      "bytes": 5374,
+      "sha256": "6c1c9835d3c35366c828a593988a80d740abb63ff3dafeeee8a648870f21d4d5"
+    },
+    {
+      "path": "src/components/PlaceContext.tsx",
+      "bytes": 2101,
+      "sha256": "922cd14121b465fac419f532aa8d22cdf0d6a0f60aec4a5a6320f54bc00d3cb9"
+    },
+    {
+      "path": "src/components/ReadingPanel.tsx",
+      "bytes": 3397,
+      "sha256": "ee074799cbb1e030b2bb979918490aace97e9e740f7c6463ebb4c3e81f47b163"
+    },
+    {
+      "path": "src/components/SourceDialog.tsx",
+      "bytes": 3768,
+      "sha256": "b03954a8dc69bf2ff3f6ac942ca5f2f86f02d8aed350ad777ca37f2aa10f09e3"
+    },
+    {
+      "path": "src/components/WorkReader.tsx",
+      "bytes": 1261,
+      "sha256": "1ca8cb7b0aaeaf5611bc58ce035ec03d0e7f67a0a73e96aedd47314b34c294e8"
+    },
+    {
+      "path": "src/data/basemap.ts",
+      "bytes": 2198,
+      "sha256": "a20696e0d6981cdf1acfb72cd22e4d07a9cbe209f81692f607690cff7b6b10c3"
+    },
+    {
+      "path": "src/data/catalog.ts",
+      "bytes": 1061,
+      "sha256": "6f12426aa9e502c6d6e89666d2588f846b7c7eb8059b02dde36ab1e9a4eaaf35"
+    },
+    {
+      "path": "src/data/content.ts",
+      "bytes": 20863,
+      "sha256": "e45a05cd62eaf31726600659ce802ea66ab8651494f46277c20ac2b3326a39ba"
+    },
+    {
+      "path": "src/data/exploration.ts",
+      "bytes": 1140,
+      "sha256": "23e3e6e995de493ca94881da6aedaab6c3a2d12604fd9518d9aa546c8fda4977"
+    },
+    {
+      "path": "src/exploration.css",
+      "bytes": 8018,
+      "sha256": "06be588394d73a6f5e8fdf75aedc4073376e6ff3d156f357faf7e495c9cd423c"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 225,
+      "sha256": "5c206b65338971d2d60f09621490b321f234c211b8bedb11fab8e9fa171bd8c1"
+    },
+    {
+      "path": "src/map/MapAdapter.ts",
+      "bytes": 10445,
+      "sha256": "a40374c1bd435868aadcbdafe0636f1a97a8cca1cdca3b5d23416ef907445fbc"
+    },
+    {
+      "path": "src/map/maplibre-compat.ts",
+      "bytes": 689,
+      "sha256": "9e5321f02e903a07e3b84cfab870746a75f2ab3f10f69155c93a12962d926b91"
+    },
+    {
+      "path": "src/map/vendor.d.ts",
+      "bytes": 83,
+      "sha256": "828c1fe3c17d7ea5634439090dd21d34d758ce08d1ed57a392773c26079712ef"
+    },
+    {
+      "path": "src/official-map.css",
+      "bytes": 7140,
+      "sha256": "a9c6e9b3dc517004d0d9cf967e4295c829b2a2e13b4661703aaa3196a6ee0faf"
+    },
+    {
+      "path": "src/paper.css",
+      "bytes": 301,
+      "sha256": "738151ccb57a0512e7ed4644045dcac0435d4978cb1cc83aa570d5d7cd486bd2"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 16745,
+      "sha256": "12833f0742ee630d49d577b26b20e7bf0ea1a24482e73e1afef1365cb05cc83c"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 541,
+      "sha256": "78e883160d033d5ea8ebc8214fda2e0b3fae399c49925b9e1177cefaf1e306e2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 881,
+      "sha256": "ad7516dc3885488820a0c6cac0f33fa5016825e74a9a8531dabfdd7876afb700"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 86041,
+      "sha256": "d97e31f1d206e97f8b6c8077736960dc682a8c765cd9a34560056711f6c4366f"
+    },
+    {
+      "path": "scripts/check-data.mjs",
+      "bytes": 8429,
+      "sha256": "19c26b1fd9ec68df55d2cd594574b1d0ad176612c8c8c5945fc9014d108b7a3e"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=4&accept-language=zh&q=%E7%93%9C%E6%B4%B2%E5%8F%A4%E6%B8%A1",
+  "status": 200,
+  "result": [
+    {
+      "place_id": 220395741,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12299290434,
+      "lat": "32.2537561",
+      "lon": "119.3794142",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 0.00006492484931711325,
+      "addresstype": "highway",
+      "name": "瓜洲古渡",
+      "display_name": "瓜洲古渡, 润扬南路, 瓜洲镇, 邗江区, 扬州市, 江苏省, 225100, 中国",
+      "boundingbox": [
+        "32.2537061",
+        "32.2538061",
+        "119.3793642",
+        "119.3794642"
+      ]
+    },
+    {
+      "place_id": 220463990,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13028099081,
+      "lat": "32.2496201",
+      "lon": "119.3862912",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.00006492484931711325,
+      "addresstype": "amenity",
+      "name": "瓜州古渡",
+      "display_name": "瓜州古渡, 迎江路, 瓜洲镇, 邗江区, 扬州市, 江苏省, 225100, 中国",
+      "boundingbox": [
+        "32.2495701",
+        "32.2496701",
+        "119.3862412",
+        "119.3863412"
+      ]
+    }
+  ]
+}
