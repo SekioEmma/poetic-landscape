@@ -1,0 +1,26 @@
+[
+  {
+    "at": "2026-10-07T08:40:56.456Z",
+    "motion": "idle",
+    "reduced": "true",
+    "space": "focused"
+  },
+  {
+    "at": "2026-10-07T08:40:56.734Z",
+    "motion": "idle",
+    "reduced": "true",
+    "space": "reading"
+  },
+  {
+    "at": "2026-10-07T08:40:57.014Z",
+    "motion": "idle",
+    "reduced": "true",
+    "space": "collapsed"
+  },
+  {
+    "at": "2026-10-07T08:40:57.307Z",
+    "motion": "idle",
+    "reduced": "true",
+    "space": "reading"
+  }
+]

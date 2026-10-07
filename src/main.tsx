@@ -1,6 +1,14 @@
 import {createRoot} from 'react-dom/client';
 import App from './App';
+import {lazy,Suspense} from 'react';
+const LayoutLab=lazy(()=>import('./components/LayoutLab'));
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
+import './official-map.css';
 import './exploration.css';
-createRoot(document.getElementById('root')!).render(<App/>);
+import './song-design.css';
+import './reading.css';
+import './reader-layout.css';
+import './cultural-annotations.css';
+import './soft-interface.css';
+createRoot(document.getElementById('root')!).render(location.pathname.endsWith('/layout-lab')?<Suspense fallback={<p>布局检查载入中</p>}><LayoutLab/></Suspense>:<App/>);

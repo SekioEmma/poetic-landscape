@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-07T08:52:41.030Z",
+  "passed": true,
+  "budget": [
+    {
+      "size": "1440x900",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6828571428571428,
+      "normalWidth": 420.0000305175781,
+      "normalBody": 676,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "1280x720",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6709677419354839,
+      "normalWidth": 384.0000305175781,
+      "normalBody": 496.0000305175781,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "1024x768",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6117886178861789,
+      "normalWidth": 358.39288330078125,
+      "normalBody": 544,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "1000x750",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6104166666666667,
+      "normalWidth": 350.0000305175781,
+      "normalBody": 526,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "768x1024",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5065359436112942,
+      "normalWidth": 630,
+      "normalBody": 322.6339416503906,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "390x844",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5039893617021277,
+      "normalWidth": 390.2857360839844,
+      "normalBody": 242.9553680419922,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "360x800",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5028248587570622,
+      "normalWidth": 360.0000305175781,
+      "normalBody": 221.83929443359375,
+      "collapsedHeight": 112.58929443359376
+    },
+    {
+      "size": "844x390",
+      "layout": "side",
+      "defaultSpace": "collapsed",
+      "mapRatio": 0.6218905472636815,
+      "normalWidth": 320,
+      "normalBody": 196.00001525878903,
+      "collapsedHeight": 112.58929443359376
+    }
+  ],
+  "checks": [
+    "40 current-bundle DOM states",
+    "default map budget",
+    "whole selected anchor",
+    "44px controls / 18px original",
+    "8 R01 exits and real zoom",
+    "8 exact originals and lazy WebGL",
+    "2 rapid new selections before exit timer",
+    "per-work semantic memory",
+    "local single instance and camera / credit",
+    "1024 to 1025 and orientation anchor memory"
+  ]
+}

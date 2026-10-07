@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "pixelsChecked": 42232674,
+  "extent": [
+    5826,
+    7249
+  ],
+  "method": "Every output row compared to uniform source-pixel lookup, no sampling",
+  "originalTransform": "x=x; y=y",
+  "formula": "d=(255-min(R,G,B))/255; RGB=round([244,240,230]+([70, 87, 83]-[244,240,230])*d^1.08)",
+  "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc"
+}

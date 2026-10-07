@@ -1,0 +1,215 @@
+[
+  {
+    "name": "阳关 敦煌",
+    "url": "https://nominatim.openstreetmap.org/search?countrycodes=cn&format=jsonv2&limit=3&q=%E9%98%B3%E5%85%B3%20%E6%95%A6%E7%85%8C",
+    "hits": [
+      {
+        "place_id": 425798242,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 21278775,
+        "lat": "39.9021735",
+        "lon": "94.0945933",
+        "category": "boundary",
+        "type": "administrative",
+        "place_rank": 16,
+        "importance": 0.22898814784265079,
+        "addresstype": "town",
+        "name": "阳关镇",
+        "display_name": "阳关镇, 敦煌市, 酒泉市, 甘肃省, 736200, 中国",
+        "boundingbox": [
+          "39.6485214",
+          "40.6595519",
+          "92.7023993",
+          "94.3620836"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "大散关 宝鸡",
+    "url": "https://nominatim.openstreetmap.org/search?countrycodes=cn&format=jsonv2&limit=3&q=%E5%A4%A7%E6%95%A3%E5%85%B3%20%E5%AE%9D%E9%B8%A1",
+    "hits": [
+      {
+        "place_id": 219687217,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 891144499,
+        "lat": "34.6796736",
+        "lon": "110.6873158",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08005379034103911,
+        "addresstype": "industrial",
+        "name": "亚宝药业集团",
+        "display_name": "亚宝药业集团, 大车, 芮城县, 运城市, 山西省, 中国",
+        "boundingbox": [
+          "34.6767899",
+          "34.6825383",
+          "110.6857404",
+          "110.6888893"
+        ]
+      },
+      {
+        "place_id": 236806266,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 744569101,
+        "lat": "22.3651543",
+        "lon": "114.1359156",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.0800654909590295,
+        "addresstype": "residential",
+        "name": "保基大樓 Po Kai Mansion",
+        "display_name": "保基大樓 Po Kai Mansion, 葵涌 Kwai Chung, 葵青區 Kwai Tsing District, 新界 New Territories, 香港 Hong Kong, 中国",
+        "boundingbox": [
+          "22.3649474",
+          "22.3653416",
+          "114.1356340",
+          "114.1361969"
+        ]
+      },
+      {
+        "place_id": 220598774,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1158419864,
+        "lat": "36.2341064",
+        "lon": "113.1012684",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006474937056532,
+        "addresstype": "industrial",
+        "name": "康宝集团",
+        "display_name": "康宝集团, 大辛庄街道, 潞州区, 长治市, 山西省, 中国",
+        "boundingbox": [
+          "36.2311389",
+          "36.2355799",
+          "113.0994979",
+          "113.1028513"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "天下第一关",
+    "url": "https://nominatim.openstreetmap.org/search?countrycodes=cn&format=jsonv2&limit=3&q=%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E5%85%B3",
+    "hits": [
+      {
+        "place_id": 221748305,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5685344188,
+        "lat": "39.6021967",
+        "lon": "118.1601167",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 6.695429922937389E-05,
+        "addresstype": "building",
+        "name": "天下第一关",
+        "display_name": "天下第一关, 桃花潭南路, 惠民道街道, 路南区, 唐山市, 河北省, 063000, 中国",
+        "boundingbox": [
+          "39.6021467",
+          "39.6022467",
+          "118.1600667",
+          "118.1601667"
+        ]
+      },
+      {
+        "place_id": 217806505,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13512133164,
+        "lat": "40.0029222",
+        "lon": "119.7590514",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.0002288853238995E-05,
+        "addresstype": "highway",
+        "name": "天下第一关",
+        "display_name": "天下第一关, 关城南路, 南关街道, 山海关区, 秦皇岛市, 河北省, 中国",
+        "boundingbox": [
+          "40.0028722",
+          "40.0029722",
+          "119.7590014",
+          "119.7591014"
+        ]
+      },
+      {
+        "place_id": 219156431,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13513729358,
+        "lat": "40.0045239",
+        "lon": "119.7607664",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.0002288853238995E-05,
+        "addresstype": "highway",
+        "name": "天下第一关",
+        "display_name": "天下第一关, 关城南路, 东街街道, 山海关区, 秦皇岛市, 河北省, 中国",
+        "boundingbox": [
+          "40.0044739",
+          "40.0045739",
+          "119.7607164",
+          "119.7608164"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "楼兰故城",
+    "url": "https://nominatim.openstreetmap.org/search?countrycodes=cn&format=jsonv2&limit=3&q=%E6%A5%BC%E5%85%B0%E6%95%85%E5%9F%8E",
+    "hits": [
+      {
+        "place_id": 381637389,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13739142635,
+        "lat": "39.7401763",
+        "lon": "89.9721980",
+        "category": "railway",
+        "type": "station",
+        "place_rank": 30,
+        "importance": 2.983825436784951E-05,
+        "addresstype": "railway",
+        "name": "楼兰故城",
+        "display_name": "楼兰故城, S235, 罗钾社区, 罗布泊镇 لوپنۇر كۆلى بازىرى, 若羌县 چاقىلىق ناھىيىسى, 巴音郭楞蒙古自治州 بايىنغولىن موڭغۇل ئاپتونوم ئوبلاستى, 新疆维吾尔自治区 شىنجاڭ ئۇيغۇر ئاپتونوم رايونی, 中国",
+        "boundingbox": [
+          "39.7351763",
+          "39.7451763",
+          "89.9671980",
+          "89.9771980"
+        ]
+      },
+      {
+        "place_id": 423524202,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 977283249,
+        "lat": "40.5153940",
+        "lon": "89.9137787",
+        "category": "boundary",
+        "type": "protected_area",
+        "place_rank": 25,
+        "importance": 0.06669650492103456,
+        "addresstype": "protected_area",
+        "name": "楼兰故城遗址",
+        "display_name": "楼兰故城遗址, 罗布泊镇 لوپنۇر كۆلى بازىرى, 若羌县 چاقىلىق ناھىيىسى, 巴音郭楞蒙古自治州 بايىنغولىن موڭغۇل ئاپتونوم ئوبلاستى, 新疆维吾尔自治区 شىنجاڭ ئۇيغۇر ئاپتونوم رايونی, 中国",
+        "boundingbox": [
+          "40.5139225",
+          "40.5168277",
+          "89.9122535",
+          "89.9159121"
+        ]
+      }
+    ]
+  }
+]

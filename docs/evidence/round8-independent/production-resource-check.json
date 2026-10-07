@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-07T05:06:08.406Z",
+  "htmlMatchesDist": true,
+  "assets": [
+    {
+      "file": "./assets/index-DrNxBdEk.js",
+      "equal": true,
+      "bytes": 306114
+    },
+    {
+      "file": "./assets/index-AiGBh3_J.css",
+      "equal": true,
+      "bytes": 131731
+    }
+  ],
+  "browserConnected": false,
+  "note": "仅HTTP生产字节及既有记录复核；未重新操作浏览器。"
+}

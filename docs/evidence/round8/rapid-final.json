@@ -1,0 +1,194 @@
+[
+  {
+    "bundle": "http://127.0.0.1:4173/assets/index-DrNxBdEk.js",
+    "panels": 1,
+    "place": "dufu",
+    "space": "reading",
+    "trace": [
+      {
+        "closing": false,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 706.8750610351562,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "focused",
+        "t": 986.1999999992548
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 360.9553527832031,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "reading",
+        "t": 1009
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 112.58929443359376,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "collapsed",
+        "t": 1033.9000000003723
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 360.9553833007813,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "reading",
+        "t": 1050.699999999255
+      },
+      {
+        "closing": false,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 706.8750610351562,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "focused",
+        "t": 1068.199999999255
+      },
+      {
+        "closing": true,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 706.8750610351562,
+        "layout": "bottom",
+        "present": true,
+        "retained": "huanghe",
+        "selected": null,
+        "space": "focused",
+        "t": 1087
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 360.9553833007813,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "dufu",
+        "space": "reading",
+        "t": 1132
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "bundle": "http://127.0.0.1:4173/assets/index-DrNxBdEk.js",
+    "panels": 1,
+    "place": "dufu",
+    "space": "reading",
+    "trace": [
+      {
+        "closing": false,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 862.919677734375,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "focused",
+        "t": 942
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 440.6339721679687,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "reading",
+        "t": 1206.4000000003723
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 112.58929443359376,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "collapsed",
+        "t": 1376.199999999255
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 440.6339416503906,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "reading",
+        "t": 1403.9000000003723
+      },
+      {
+        "closing": false,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 862.919677734375,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "huanghe",
+        "space": "focused",
+        "t": 1429.5
+      },
+      {
+        "closing": true,
+        "controls": "hidden",
+        "expanded": true,
+        "height": 862.919677734375,
+        "layout": "bottom",
+        "present": true,
+        "retained": "huanghe",
+        "selected": null,
+        "space": "focused",
+        "t": 1455.0999999996277
+      },
+      {
+        "closing": false,
+        "controls": "visible",
+        "expanded": false,
+        "height": 440.6339416503906,
+        "layout": "bottom",
+        "present": true,
+        "retained": null,
+        "selected": "dufu",
+        "space": "reading",
+        "t": 1616.4000000003723
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ]
+  }
+]

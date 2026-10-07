@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-06",
+  "route": "JPG deterministic monotone colour mapping (restricted derivative)",
+  "epsFeasibility": {
+    "existingConverters": [],
+    "headerHex": "c5d0d3c61e0000008d7cd9000000000000000000ab7cd900f2878000",
+    "binaryPreviewHeader": true,
+    "postscriptOffset": 30,
+    "postscriptBytes": 14253197,
+    "outcome": "Official Ghostscript 10.08.0 download/silent installation rejected by automatic approval policy. No conversion executed, no vector correctness claim."
+  },
+  "input": {
+    "path": "public/assets/official-china-gs20232763.jpg",
+    "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+    "dimensions": [
+      5826,
+      7249
+    ]
+  },
+  "output": {
+    "path": "public/assets/china-design-paper-v1.png",
+    "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc",
+    "bytes": 3472767,
+    "dimensions": [
+      5826,
+      7249
+    ]
+  },
+  "tools": {
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5"
+  },
+  "formula": "d=(255-min(R,G,B))/255; RGB=round([244,240,230]+([80,101,83]-[244,240,230])*d^0.85)",
+  "transform": {
+    "xScale": 1,
+    "yScale": 1,
+    "xOffset": 0,
+    "yOffset": 0,
+    "oldWidth": 5826,
+    "oldHeight": 7249
+  },
+  "changed": "All source colours mapped into paper/green-ink range; annotation, imprint and borders undergo same mapping.",
+  "unchanged": "All 5826x7249 pixels retained at their original locations; no crop, blur, morphology, erasure, alpha transparency or invented geography.",
+  "limitation": "No semantic separation; existing city annotations remain dense on zoom. EPS vector route and scale-dependent city labels remain unimplemented."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "focusOutline": "none",
+    "motion": "0s"
+  },
+  {
+    "arrowRight": "true",
+    "focus": {
+      "directory": false,
+      "expanded": false,
+      "heading": "湖心亭",
+      "id": "tab-此地",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "此地"
+    }
+  },
+  {
+    "arrowLeft": "true"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "r7searchResults": [
+    {
+      "mapIds": "xihu",
+      "place": "xihu",
+      "work": "yin-hushang",
+      "query": "苏轼",
+      "directory": [
+        "xihu"
+      ]
+    },
+    {
+      "mapIds": "dufu",
+      "place": "dufu",
+      "work": "maowu",
+      "query": "茅屋",
+      "directory": [
+        "dufu"
+      ]
+    },
+    {
+      "mapIds": "hanshan",
+      "place": "hanshan",
+      "work": "fengqiao-yebo",
+      "query": "枫桥",
+      "directory": [
+        "hanshan"
+      ]
+    }
+  ],
+  "r7oldFiltered": {
+    "directory": [
+      "huxin",
+      "xihu"
+    ],
+    "directoryRect": {
+      "bottom": 569.78125,
+      "height": 480.78125,
+      "left": 32,
+      "right": 402,
+      "top": 89,
+      "width": 370,
+      "x": 32,
+      "y": 89
+    },
+    "mapIds": "huxin,xihu",
+    "note": "当前阅读 · 不在筛选结果中",
+    "reader": {
+      "bottom": 834,
+      "height": 729,
+      "left": 865,
+      "right": 1415,
+      "top": 105,
+      "width": 550,
+      "x": 865,
+      "y": 105
+    },
+    "reading": "hanshan"
+  },
+  "r7groupIds": [
+    "huxin",
+    "xihu"
+  ],
+  "r7xihuResult": {
+    "place": "xihu",
+    "selectedName": "西湖",
+    "work": "yin-hushang"
+  }
+}

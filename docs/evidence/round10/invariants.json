@@ -1,0 +1,81 @@
+{
+  "at": "2026-10-07T14:41:28.902Z",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "bytes": 86376,
+      "sha256": "2cb284ab39fb28375f3b09e54d92f3aa5aec89e45be18707a2c4e7efbb513e6e"
+    },
+    {
+      "path": "src/data/content.ts",
+      "bytes": 20863,
+      "sha256": "e45a05cd62eaf31726600659ce802ea66ab8651494f46277c20ac2b3326a39ba"
+    },
+    {
+      "path": "src/map/overview-math.ts",
+      "bytes": 1868,
+      "sha256": "93e6a115ea717824ace672ba7bbd5409c07eeb7cfb3987bc65de821e5176c556"
+    },
+    {
+      "path": "public/geodata/westlake.json",
+      "bytes": 77850,
+      "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28"
+    },
+    {
+      "path": "public/geodata/causeways.json",
+      "bytes": 6503,
+      "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22"
+    },
+    {
+      "path": "public/assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+    },
+    {
+      "path": "public/assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+    },
+    {
+      "path": "public/assets/lake-painting-v5.png",
+      "bytes": 1781644,
+      "sha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b"
+    },
+    {
+      "path": "public/assets/paper-fibres-v5.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c"
+    },
+    {
+      "path": "public/assets/china-design-paper-v5a.png",
+      "bytes": 3286169,
+      "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc"
+    },
+    {
+      "path": "docs/evidence/round5/china-design-paper-v5b.png",
+      "bytes": 3295274,
+      "sha256": "42c1463e07afb34cbf75dc982a07b85213f7d8f5c3012d14ab9204f30f6778a9"
+    },
+    {
+      "path": "public/assets/huxin-snow-r9-v1.png",
+      "bytes": 1723669,
+      "sha256": "b38f25e6e2cfc45e39ba625c47beed148d27d9193562ed76e8188883f4858f41"
+    },
+    {
+      "path": "public/assets/qiantang-spring-r9-v1.png",
+      "bytes": 2223693,
+      "sha256": "46b4cedfb68bdd3af4d88ed8697d8a8a343b7f1c306a90613ebd144f7d0f744d"
+    },
+    {
+      "path": "docs/evidence/basemaps/original/中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).eps",
+      "bytes": 22676637,
+      "sha256": "9875e44f9aa76aee270c341164ba7ec8a8ace43f43e84e6a55a60f5c4b94a73a"
+    },
+    {
+      "path": "docs/evidence/basemaps/original/中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+    }
+  ],
+  "scope": "6 places / 8 works / 8 relations verified by check:data; hashes recomputed from current bytes, not copied runtime evidence"
+}

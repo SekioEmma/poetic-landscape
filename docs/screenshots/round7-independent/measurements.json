@@ -1,0 +1,137 @@
+[
+  {
+    "body": {
+      "height": 611,
+      "width": 550
+    },
+    "bottomSheet": false,
+    "headerBottom": 90.42857360839844,
+    "main": "app official-mode has-detail  ",
+    "map": {
+      "height": 736.0000610351562,
+      "width": 1392.0001220703125,
+      "x": 24.000001907348633,
+      "y": 88.00000762939453
+    },
+    "sheet": {
+      "height": 729.0000610351562,
+      "width": 550,
+      "x": 865.0000610351562,
+      "y": 105.00000762939452
+    },
+    "sideMapWidth": 841.0000591278076,
+    "uncoveredMapBand": null,
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "body": {
+      "height": 441.0000305175781,
+      "width": 550
+    },
+    "bottomSheet": false,
+    "headerBottom": 90.42857360839844,
+    "main": "app official-mode has-detail  ",
+    "map": {
+      "height": 556,
+      "width": 1232,
+      "x": 24.000001907348633,
+      "y": 88.00000762939453
+    },
+    "sheet": {
+      "height": 559,
+      "width": 550,
+      "x": 705.0000610351562,
+      "y": 95.00000762939452
+    },
+    "sideMapWidth": 681.0000591278076,
+    "uncoveredMapBand": null,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "body": {
+      "height": 373.5178833007813,
+      "width": 1024
+    },
+    "bottomSheet": true,
+    "headerBottom": 90.42857360839844,
+    "main": "app official-mode has-detail  ",
+    "map": {
+      "height": 604,
+      "width": 976.0000610351562,
+      "x": 24.000001907348633,
+      "y": 88.00000762939453
+    },
+    "sheet": {
+      "height": 491.5178833007813,
+      "width": 1024,
+      "x": 0,
+      "y": 276.4821472167969
+    },
+    "sideMapWidth": null,
+    "uncoveredMapBand": 186.05357360839844,
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "body": {
+      "height": 537.357177734375,
+      "width": 768.0000610351562
+    },
+    "bottomSheet": true,
+    "headerBottom": 90.42857360839844,
+    "main": "app official-mode has-detail  ",
+    "map": {
+      "height": 860.0000610351562,
+      "width": 720.0000610351562,
+      "x": 24.000001907348633,
+      "y": 88.00000762939453
+    },
+    "sheet": {
+      "height": 655.357177734375,
+      "width": 768.0000610351562,
+      "x": 0,
+      "y": 368.6428833007813
+    },
+    "sideMapWidth": null,
+    "uncoveredMapBand": 278.2143096923828,
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "body": {
+      "height": 439.0357360839844,
+      "width": 390.2857360839844
+    },
+    "bottomSheet": true,
+    "headerBottom": 80.42857360839844,
+    "main": "app official-mode has-detail  ",
+    "map": {
+      "height": 684.0000610351562,
+      "width": 370.2857360839844,
+      "x": 10,
+      "y": 82
+    },
+    "sheet": {
+      "height": 557.0357666015625,
+      "width": 390.2857360839844,
+      "x": 0,
+      "y": 286.96429443359375
+    },
+    "sideMapWidth": null,
+    "uncoveredMapBand": 204.96429443359375,
+    "viewport": [
+      390,
+      844
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "state": "overview",
+    "viewport": [
+      1440,
+      900
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "huxin",
+    "viewport": [
+      1440,
+      900
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "local",
+    "viewport": [
+      1440,
+      900
+    ],
+    "nationalExact": true,
+    "localMaxDegreeDelta": 1.037659558278392e-8,
+    "localWithinHalfScreenPixel": true
+  },
+  {
+    "state": "huanghe",
+    "viewport": [
+      1440,
+      900
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "overview",
+    "viewport": [
+      768,
+      1024
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "huxin",
+    "viewport": [
+      768,
+      1024
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "local",
+    "viewport": [
+      768,
+      1024
+    ],
+    "nationalExact": true,
+    "localMaxDegreeDelta": 8.673665803371478e-7,
+    "localWithinHalfScreenPixel": true
+  },
+  {
+    "state": "huanghe",
+    "viewport": [
+      768,
+      1024
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "overview",
+    "viewport": [
+      390,
+      844
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "huxin",
+    "viewport": [
+      390,
+      844
+    ],
+    "nationalExact": true
+  },
+  {
+    "state": "local",
+    "viewport": [
+      390,
+      844
+    ],
+    "nationalExact": true,
+    "localMaxDegreeDelta": 0.00003396762218699223,
+    "localWithinHalfScreenPixel": true
+  },
+  {
+    "state": "huanghe",
+    "viewport": [
+      390,
+      844
+    ],
+    "nationalExact": true
+  }
+]

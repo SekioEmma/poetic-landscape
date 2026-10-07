@@ -1,0 +1,467 @@
+[
+  {
+    "label": "overview 1440",
+    "time": "2026-10-07T01:45:33.451Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "4江南 ▾黄鹤楼杜甫草堂＋−看全国对照原图查看完整原图中国地图 · 原图查看原底图 GS(2023)2763号 · 自然资源部 监制 · 未修改原件×完整图幅放",
+    "group": false,
+    "horizontal": false,
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "huxin 1440",
+    "time": "2026-10-07T01:45:34.077Z",
+    "camera": "{\"x\":-301.6767330442596,\"y\":-4.250866289106067,\"scale\":1.85}",
+    "focus": "湖心亭",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 410.8958549499512,
+      "height": 60.69791793823242,
+      "left": 1039,
+      "right": 1387,
+      "top": 350.19793701171875,
+      "width": 348,
+      "x": 1039,
+      "y": 350.19793701171875
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 526.1354370117188,
+      "left": 1011,
+      "right": 1415,
+      "top": 263.8645935058594,
+      "width": 404,
+      "x": 1011,
+      "y": 263.8645935058594
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "local 1440",
+    "time": "2026-10-07T01:45:34.773Z",
+    "camera": "{\"x\":-301.6767330442596,\"y\":-4.250866289106067,\"scale\":1.85}",
+    "focus": "此地",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.09392254017195,30.21338778964943],[120.22892065278762,30.286273008969744]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 526.1354370117188,
+      "left": 1011,
+      "right": 1415,
+      "top": 263.8645935058594,
+      "width": 404,
+      "x": 1011,
+      "y": 263.8645935058594
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "huanghe 1440",
+    "time": "2026-10-07T01:45:35.384Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/huanghelou/诗文",
+    "localBounds": "[[105.0252494707899,23.968354015597157],[130.7254229492487,37.703565431772816]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 467.1979370117187,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 390.1979370117187,
+      "width": 348,
+      "x": 1039,
+      "y": 390.1979370117187
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 786.0000305175781,
+      "height": 482.1354370117187,
+      "left": 1011,
+      "right": 1415,
+      "top": 303.8645935058594,
+      "width": 404,
+      "x": 1011,
+      "y": 303.8645935058594
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "Li Bai 1440",
+    "time": "2026-10-07T01:45:35.751Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "阅读李白《黄鹤楼送孟浩然之广陵》",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/song-menghaoran/诗文",
+    "localBounds": "[[105.0252494707899,23.968354015597157],[130.7254229492487,37.703565431772816]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 471.1979370117187,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 394.1979370117187,
+      "width": 348,
+      "x": 1039,
+      "y": 394.1979370117187
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.1354370117187,
+      "left": 1011,
+      "right": 1415,
+      "top": 307.8645935058594,
+      "width": 404,
+      "x": 1011,
+      "y": 307.8645935058594
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "overview 768",
+    "time": "2026-10-07T01:45:36.101Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "4江南 ▾黄鹤楼杜甫草堂＋−看全国对照原图查看完整原图中国地图 · 原图查看原底图 GS(2023)2763号 · 自然资源部 监制 · 未修改原件×完整图幅放",
+    "group": false,
+    "horizontal": false,
+    "size": [
+      768,
+      1024
+    ],
+    "source": false
+  },
+  {
+    "label": "huxin 768",
+    "time": "2026-10-07T01:45:37.016Z",
+    "camera": "{\"x\":-241.97332716907823,\"y\":-104.28812592976473,\"scale\":1.85}",
+    "focus": "湖心亭",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 869.1041679382324,
+      "height": 60.69791793823242,
+      "left": 28,
+      "right": 688,
+      "top": 808.40625,
+      "width": 660,
+      "x": 28,
+      "y": 808.40625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 980.000030517578,
+      "height": 257.9270935058594,
+      "left": 0,
+      "right": 768,
+      "top": 722.0729370117188,
+      "width": 768,
+      "x": 0,
+      "y": 722.0729370117188
+    },
+    "size": [
+      768,
+      1024
+    ],
+    "source": false
+  },
+  {
+    "label": "local 768",
+    "time": "2026-10-07T01:45:37.720Z",
+    "camera": "{\"x\":-241.97332716907823,\"y\":-104.28812592976473,\"scale\":1.85}",
+    "focus": "此地",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.0808182941484,30.153666696276318],[120.20218170585423,30.293488248856903]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 980.000030517578,
+      "height": 257.9270935058594,
+      "left": 0,
+      "right": 768,
+      "top": 722.0729370117188,
+      "width": 768,
+      "x": 0,
+      "y": 722.0729370117188
+    },
+    "size": [
+      768,
+      1024
+    ],
+    "source": false
+  },
+  {
+    "label": "huanghe 768",
+    "time": "2026-10-07T01:45:38.342Z",
+    "camera": "{\"x\":-163.67287193387352,\"y\":-106.89814110427156,\"scale\":1.85}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/huanghelou/诗文",
+    "localBounds": "[[107.44356440574592,19.739046897180756],[121.15032359425743,35.82510142893908]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 890.90625,
+      "height": 38.5,
+      "left": 28,
+      "right": 688,
+      "top": 852.40625,
+      "width": 660,
+      "x": 28,
+      "y": 852.40625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 980.000030517578,
+      "height": 213.92709350585935,
+      "left": 0,
+      "right": 768,
+      "top": 766.0729370117188,
+      "width": 768,
+      "x": 0,
+      "y": 766.0729370117188
+    },
+    "size": [
+      768,
+      1024
+    ],
+    "source": false
+  },
+  {
+    "label": "Li Bai 768",
+    "time": "2026-10-07T01:45:38.695Z",
+    "camera": "{\"x\":-163.67287193387352,\"y\":-106.89814110427156,\"scale\":1.85}",
+    "focus": "阅读李白《黄鹤楼送孟浩然之广陵》",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/song-menghaoran/诗文",
+    "localBounds": "[[107.44356440574592,19.739046897180756],[121.15032359425743,35.82510142893908]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 886.90625,
+      "height": 38.5,
+      "left": 28,
+      "right": 688,
+      "top": 848.40625,
+      "width": 660,
+      "x": 28,
+      "y": 848.40625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 976.000030517578,
+      "height": 213.92709350585935,
+      "left": 0,
+      "right": 768,
+      "top": 762.0729370117188,
+      "width": 768,
+      "x": 0,
+      "y": 762.0729370117188
+    },
+    "size": [
+      768,
+      1024
+    ],
+    "source": false
+  },
+  {
+    "label": "overview 390",
+    "time": "2026-10-07T01:45:38.990Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "4江南 ▾黄鹤楼杜甫草堂＋−看全国对照原图查看完整原图中国地图 · 原图查看原底图 GS(2023)2763号 · 自然资源部 监制 · 未修改原件×完整图幅放",
+    "group": false,
+    "horizontal": false,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "huxin 390",
+    "time": "2026-10-07T01:45:39.755Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "湖心亭",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 687.84375,
+      "height": 54.84375,
+      "left": 22,
+      "right": 368,
+      "top": 633,
+      "width": 346,
+      "x": 22,
+      "y": 633
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 232.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 567.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 567.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "local 390",
+    "time": "2026-10-07T01:45:40.313Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "此地",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.09514462129744,30.129057040899895],[120.18785537869712,30.302433471755933]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 232.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 567.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 567.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "huanghe 390",
+    "time": "2026-10-07T01:45:40.906Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/huanghelou/诗文",
+    "localBounds": "[[110.81671217479175,21.565903232395414],[117.77717582520802,34.796855991748814]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 707.6458358764648,
+      "height": 34.645835876464844,
+      "left": 22,
+      "right": 368,
+      "top": 673,
+      "width": 346,
+      "x": 22,
+      "y": 673
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 796.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 607.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 607.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "Li Bai 390",
+    "time": "2026-10-07T01:45:41.247Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "阅读李白《黄鹤楼送孟浩然之广陵》",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huanghe/song-menghaoran/诗文",
+    "localBounds": "[[110.81671217479175,21.565903232395414],[117.77717582520802,34.796855991748814]]",
+    "maps": "1",
+    "original": false,
+    "quoteRect": {
+      "bottom": 707.6458358764648,
+      "height": 34.645835876464844,
+      "left": 22,
+      "right": 368,
+      "top": 673,
+      "width": 346,
+      "x": 22,
+      "y": 673
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 796.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 607.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 607.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  }
+]

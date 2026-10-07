@@ -1,0 +1,35 @@
+{
+  "r8groupOpen": {
+    "focus": " 湖心亭浙江 · 杭州",
+    "list": {
+      "bottom": 466,
+      "height": 331,
+      "left": 18,
+      "right": 333,
+      "top": 135,
+      "width": 315,
+      "x": 18,
+      "y": 135
+    },
+    "options": [
+      "huxin",
+      "xihu",
+      "hanshan",
+      "guazhou"
+    ]
+  },
+  "r8groupEsc": {
+    "closed": true,
+    "focus": "地图分组：江南"
+  },
+  "r8sourceOpen": {
+    "open": true,
+    "reading": "huxin"
+  },
+  "r8sourceEsc": {
+    "closed": true,
+    "focus": "出处",
+    "reading": "huxin"
+  },
+  "r8localNotYet": 0
+}

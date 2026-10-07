@@ -1,0 +1,57 @@
+{
+  "trace": [
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "present": false,
+      "retained": null,
+      "selected": null,
+      "t": 62.10000000055879
+    },
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "height": 557.03125,
+      "present": true,
+      "retained": null,
+      "selected": "huanghe",
+      "t": 892.7000000001863
+    },
+    {
+      "closing": false,
+      "controls": "hidden",
+      "expanded": true,
+      "height": 723,
+      "present": true,
+      "retained": null,
+      "selected": "huanghe",
+      "t": 1168.6000000005588
+    },
+    {
+      "closing": true,
+      "controls": "hidden",
+      "expanded": true,
+      "height": 723,
+      "present": true,
+      "retained": "huanghe",
+      "selected": null,
+      "t": 1413.9000000003723
+    },
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "height": 557.03125,
+      "present": true,
+      "retained": null,
+      "selected": "dufu",
+      "t": 1476.4000000003723
+    }
+  ],
+  "final": {
+    "closing": false,
+    "place": "dufu"
+  }
+}

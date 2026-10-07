@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "path": "public/assets/lake-painting-v5.png",
+      "sha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b",
+      "bytes": 1781644,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "transparentPixels": 719769
+    },
+    {
+      "path": "public/assets/paper-fibres-v5.svg",
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c",
+      "bytes": 42737
+    },
+    {
+      "path": "public/assets/china-design-paper-v5a.png",
+      "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc",
+      "bytes": 3286169,
+      "dimensions": [
+        5826,
+        7249
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "docs/evidence/round5/china-design-paper-v5b.png",
+      "sha256": "42c1463e07afb34cbf75dc982a07b85213f7d8f5c3012d14ab9204f30f6778a9",
+      "bytes": 3295274,
+      "dimensions": [
+        5826,
+        7249
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "skills": [
+    {
+      "path": "C:\\Users\\13398\\.codex\\skills\\frontend-design\\SKILL.md",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    {
+      "path": "C:\\Users\\13398\\.codex\\skills\\.system\\imagegen\\SKILL.md",
+      "sha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "mode": "generate; transparent_background=true; no reference images; no CLI or API key",
+    "prompt": "为现有中文诗文阅读网站制作一幅横向原创意境绘画资产，适于240–420px宽的页面画幅。用于‘诗文山河’湖心亭／西湖阅读案。参考北宋院体绘画尤其赵佶相关作品的细察物象、精微笔墨与层次设色，在冬日湖面的一侧绘一处远亭、轻舟、少量疏岸枝叶，另一侧留出安静的湖面空处。轮廓有主次和细微轻重，淡墨与青灰、低饱和青绿薄设色相融，物象具有体积和精细局部；纸绢底细微、洁净，不能浓黄做旧。远亭小而可辨结构，轻舟更小，与“一点、一芥”呼应。建筑为泛化意境，不是湖心亭古建复原。普通缩放下仍看得见绘画层次。真实透明背景，空处与边缘融入网页洁纸#FCFAF4，保留透明通道，不画白色矩形底，不画背景棋盘格。不要工程建筑线稿、图标式亭子、等粗机械轮廓、照片、厚重矢量平涂、大面积浓墨泼洒、装饰文字、印章、署名、UI、地图。文字由网页另外排版。横向画幅约2:1，密处集中一侧，湖面空处呼应题诗。",
+    "outputOriginal": "C:/Users/13398/.codex/generated_images/01a10b8d-2849-7e92-bd7a-c08c622fd16c/exec-7253ca80-c89e-4e6a-8965-55483272f868.png",
+    "workspace": "public/assets/lake-painting-v5.png",
+    "processing": "Byte-for-byte copy with original alpha. No crop, filter or external image incorporated.",
+    "label": "AI辅助原创意境插画，非古建复原、非实景照片",
+    "rights": "AI-assisted original project asset, not claimed as a museum image or as a new open license. Existing NOTICE remains applicable."
+  }
+}

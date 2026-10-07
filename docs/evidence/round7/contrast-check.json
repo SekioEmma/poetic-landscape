@@ -1,0 +1,37 @@
+{
+  "method": "sRGB relative luminance on actual computed paper base; texture/mark background not exhaustively audited; not a full WCAG audit",
+  "roles": [
+    {
+      "color": "rgb(46, 52, 48)",
+      "font": "18px",
+      "selector": ".original-text",
+      "paper": "color(srgb 0.969412 0.956863 0.923922)",
+      "contrast": 11.581,
+      "atLeast4_5": true
+    },
+    {
+      "color": "rgb(96, 104, 94)",
+      "font": "14px",
+      "selector": ".poet-byline",
+      "paper": "color(srgb 0.969412 0.956863 0.923922)",
+      "contrast": 5.251,
+      "atLeast4_5": true
+    },
+    {
+      "color": "rgb(141, 80, 68)",
+      "font": "14px",
+      "selector": ".detail-tabs button",
+      "paper": "color(srgb 0.969412 0.956863 0.923922)",
+      "contrast": 5.681,
+      "atLeast4_5": true
+    },
+    {
+      "color": "rgb(141, 80, 68)",
+      "font": "18px",
+      "selector": ".original-text mark",
+      "paper": "color(srgb 0.969412 0.956863 0.923922)",
+      "contrast": 5.681,
+      "atLeast4_5": true
+    }
+  ]
+}

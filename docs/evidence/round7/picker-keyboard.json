@@ -1,0 +1,28 @@
+{
+  "r7cuiPos": {
+    "camera": "{\"x\":-86.9738610171154,\"y\":-117.82198518954444,\"scale\":2.1}",
+    "top": 2
+  },
+  "r7libaiPos": {
+    "camera": "{\"x\":-86.9738610171154,\"y\":-117.82198518954444,\"scale\":2.1}",
+    "focus": "诗篇 2篇 ⌄",
+    "source": "https://sxss.ntu.edu.cn/2018/0301/c6266a165797/page.htm",
+    "top": 88,
+    "work": "song-menghaoran"
+  },
+  "r7cuiBack": {
+    "camera": "{\"x\":-86.9738610171154,\"y\":-117.82198518954444,\"scale\":2.1}",
+    "focus": "诗篇 2篇 ⌄",
+    "top": 170.6666717529297,
+    "work": "huanghelou"
+  },
+  "r7escPicker": {
+    "closed": true,
+    "focus": "诗篇 2篇 ⌄",
+    "reader": true
+  },
+  "r7outside": {
+    "chooserClosed": true,
+    "directory": true
+  }
+}

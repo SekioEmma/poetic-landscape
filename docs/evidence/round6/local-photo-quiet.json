@@ -1,0 +1,113 @@
+[
+  {
+    "label": "first local",
+    "time": "2026-10-07T01:47:53.037Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "此地",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.09514462129744,30.129057040899895],[120.18785537869712,30.302433471755933]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "manual local zoom",
+    "time": "2026-10-07T01:48:04.147Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "放大地图",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.10872179737288,30.15446651976623],[120.17427820261912,30.2770621851771]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "manual local restored",
+    "time": "2026-10-07T01:48:04.827Z",
+    "camera": "{\"x\":-129.89714285714285,\"y\":-80.92428571428572,\"scale\":2.1}",
+    "focus": "此地",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/此地",
+    "localBounds": "[[120.10872179737288,30.15446651976623],[120.17427820261912,30.2770621851771]]",
+    "maps": "1",
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 796.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 562.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 562.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "photo": "湖心亭岛 · 真实图景\n\n西湖水面上的湖心亭岛，亭阁与林木环水而立。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。"
+  },
+  {
+    "quiet": {
+      "animation": "0s",
+      "flag": "true",
+      "os": false,
+      "transition": "0s"
+    }
+  },
+  {
+    "label": "quiet closed",
+    "time": "2026-10-07T01:48:06.105Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "☷ 寻诗文 6处",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "localBounds": "[[59.59868421052576,-48.36474384777445],[149.40131578947313,79.88643218550811]]",
+    "maps": "1",
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  }
+]

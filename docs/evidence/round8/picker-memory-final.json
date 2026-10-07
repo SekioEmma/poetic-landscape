@@ -1,0 +1,87 @@
+[
+  {
+    "place": "huanghe",
+    "before": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-86.75616895982373,\"y\":-91.4981756657349,\"scale\":2.1}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:20.244Z",
+      "top": 212,
+      "width": 380,
+      "work": "huanghelou"
+    },
+    "newWork": {
+      "anchor": "inscription",
+      "camera": "{\"x\":-86.75616895982373,\"y\":-91.4981756657349,\"scale\":2.1}",
+      "height": 243,
+      "offset": 12,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:28.062Z",
+      "top": 0,
+      "width": 380,
+      "work": "song-menghaoran"
+    },
+    "returned": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-86.75616895982373,\"y\":-91.4981756657349,\"scale\":2.1}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:28.625Z",
+      "top": 212,
+      "width": 380,
+      "work": "huanghelou"
+    }
+  },
+  {
+    "place": "xihu",
+    "before": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-128.67171993819656,\"y\":-90.10099063312244,\"scale\":2.1}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:40.824Z",
+      "top": 212,
+      "width": 380,
+      "work": "yin-hushang"
+    },
+    "newWork": {
+      "anchor": "inscription",
+      "camera": "{\"x\":-128.67171993819656,\"y\":-90.10099063312244,\"scale\":2.1}",
+      "height": 243,
+      "offset": 12,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:41.401Z",
+      "top": 0,
+      "width": 380,
+      "work": "qiantang-chunxing"
+    },
+    "returned": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-128.67171993819656,\"y\":-90.10099063312244,\"scale\":2.1}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T04:10:41.939Z",
+      "top": 212,
+      "width": 380,
+      "work": "yin-hushang"
+    },
+    "tabFocus": "饮湖上初晴后雨二首·其二苏轼 · 北宋 · 当前篇目"
+  }
+]

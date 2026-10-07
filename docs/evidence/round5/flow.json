@@ -1,0 +1,71 @@
+[
+  {
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1.822118800390509}",
+    "labelSizes": [
+      22,
+      22
+    ],
+    "name": "zoom anchor matrix",
+    "points": [
+      {
+        "error": 0.0034914158833970815,
+        "id": "huxin"
+      },
+      {
+        "error": 0.008730989927729542,
+        "id": "huanghe"
+      },
+      {
+        "error": 0.002684603653231402,
+        "id": "dufu"
+      },
+      {
+        "error": 0.0034914158833970815,
+        "id": "xihu"
+      },
+      {
+        "error": 0.005271450170003851,
+        "id": "hanshan"
+      },
+      {
+        "error": 0.003873911944868918,
+        "id": "guazhou"
+      }
+    ]
+  },
+  {
+    "photo": "湖心亭岛 · 真实图景\n\n西湖水面上的湖心亭岛，亭阁与林木环水而立。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。"
+  },
+  {
+    "localBefore": {
+      "bounds": "[[120.10872179737288,30.15446651976623],[120.17427820261912,30.2770621851771]]",
+      "created": "1",
+      "id": "1"
+    },
+    "localAfter": {
+      "bounds": "[[120.10872179737288,30.15446651976623],[120.17427820261912,30.2770621851771]]",
+      "created": "1",
+      "id": "1"
+    }
+  },
+  {
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1.822118800390509}",
+    "instance": "1",
+    "name": "exit restores overview",
+    "selected": false
+  },
+  {
+    "name": "Hangzhou xihu",
+    "place": "xihu",
+    "selectedLabels": [
+      "西湖"
+    ]
+  },
+  {
+    "name": "Hangzhou huxin",
+    "place": "huxin",
+    "selectedLabels": [
+      "湖心亭"
+    ]
+  }
+]

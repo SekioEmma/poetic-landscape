@@ -1,0 +1,182 @@
+{
+  "records": [
+    {
+      "mode": "artFail",
+      "at": "2026-10-07T08:41:49.782Z",
+      "blankFigure": 0,
+      "body": 242.95834350585935,
+      "bundle": "./assets/index-BWepV7ok.js",
+      "message": "意境图暂未加载，诗文与资料仍可阅读。",
+      "paragraphs": 4,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "mode": "overviewFail",
+      "measure": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:41:50.464Z",
+        "body": {
+          "bottom": 832.0000305175781,
+          "height": 242.95834350585935,
+          "left": 0,
+          "right": 390,
+          "top": 589.0416870117188,
+          "width": 390,
+          "x": 0,
+          "y": 589.0416870117188
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 515.0416870117188,
+              "height": 44,
+              "left": 14,
+              "right": 72,
+              "top": 471.0416870117187,
+              "width": 58,
+              "x": 14,
+              "y": 471.0416870117187
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 515.0416870117188,
+              "height": 44,
+              "left": 254,
+              "right": 326,
+              "top": 471.0416870117187,
+              "width": 72,
+              "x": 254,
+              "y": 471.0416870117187
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 515.0416870117188,
+              "height": 44,
+              "left": 332,
+              "right": 376,
+              "top": 471.0416870117187,
+              "width": 44,
+              "x": 332,
+              "y": 471.0416870117187
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 589.0416870117188,
+              "height": 44,
+              "left": 22,
+              "right": 66,
+              "top": 545.0416870117188,
+              "width": 44,
+              "x": 22,
+              "y": 545.0416870117188
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 589.0416870117188,
+              "height": 44,
+              "left": 90,
+              "right": 134,
+              "top": 545.0416870117188,
+              "width": 44,
+              "x": 90,
+              "y": 545.0416870117188
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "entries": [],
+        "fixed": {
+          "bottom": 589.0416870117188,
+          "height": 118,
+          "left": 0,
+          "right": 390,
+          "top": 471.0416870117187,
+          "width": 390,
+          "x": 0,
+          "y": 471.0416870117187
+        },
+        "fullParagraphs": 4,
+        "header": {
+          "bottom": 72,
+          "height": 72,
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "width": 390,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "bottom",
+        "map": {
+          "bottom": 832,
+          "height": 752,
+          "left": 10,
+          "right": 380,
+          "top": 80,
+          "width": 370,
+          "x": 10,
+          "y": 80
+        },
+        "mapRatio": 0.5039893617021277,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "huxin",
+        "safe": {
+          "height": 379,
+          "left": 8,
+          "top": 0,
+          "width": 354
+        },
+        "sheet": {
+          "bottom": 832.0000305175781,
+          "height": 360.9583435058594,
+          "left": 0,
+          "right": 390,
+          "top": 471.0416870117187,
+          "width": 390,
+          "x": 0,
+          "y": 471.0416870117187
+        },
+        "space": "reading",
+        "title": "湖心亭看雪",
+        "viewport": [
+          390,
+          844
+        ],
+        "work": {
+          "bottom": 832,
+          "height": 752,
+          "top": 80,
+          "width": 370
+        },
+        "workId": "huxinting-kanxue"
+      }
+    },
+    {
+      "mode": "mapFail",
+      "alert": "局部地图暂不可交互测试入口主动禁用地图 诗文与全国原图仍可查看。从目录继续阅读 →",
+      "at": "2026-10-07T08:41:52.358Z",
+      "disabled": true,
+      "paragraphs": 4,
+      "work": "huxinting-kanxue"
+    }
+  ],
+  "injectedLogs": []
+}

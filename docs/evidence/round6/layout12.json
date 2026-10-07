@@ -1,0 +1,131 @@
+[
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "stage": "overview",
+    "count": "12",
+    "groups": "huxin,xihu,hanshan,guazhou|huanghe,yueyang|dufu|dasan|yumen,yangguan|loulan|shanhaiguan",
+    "labels": [
+      "4江南 ▾",
+      "2近邻 ▾",
+      "杜甫草堂",
+      "规划大散关",
+      "2敦煌 ▾",
+      "规划楼兰",
+      "规划山海关（榆关）"
+    ],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "stage": "selected yumen",
+    "selected": "规划\n玉门关"
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "stage": "mid",
+    "camera": "{\"x\":-0.7063072586328399,\"y\":3.4694359616840234,\"scale\":1.9922760000000002}"
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "stage": "high",
+    "camera": "{\"x\":-0.7063076784500618,\"y\":3.469427862529786,\"scale\":4.762719}"
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "stage": "overview",
+    "count": "12",
+    "groups": "huxin,xihu,hanshan,guazhou|huanghe,yueyang|dufu|dasan|yumen,yangguan|loulan|shanhaiguan",
+    "labels": [
+      "4江南 ▾",
+      "2近邻 ▾",
+      "杜甫草堂",
+      "规划大散关",
+      "2敦煌 ▾",
+      "规划楼兰",
+      "规划山海关（榆关）"
+    ],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "stage": "selected yumen",
+    "selected": "规划\n玉门关"
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "stage": "mid",
+    "camera": "{\"x\":2.21400090650516,\"y\":1.115829025244198,\"scale\":1.979029}"
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "stage": "high",
+    "camera": "{\"x\":2.2140108041934825,\"y\":1.1158318102943003,\"scale\":4.502511}"
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "stage": "overview",
+    "count": "12",
+    "groups": "huxin,xihu,hanshan,guazhou|huanghe,yueyang|dufu|dasan|yumen,yangguan|loulan|shanhaiguan",
+    "labels": [
+      "4江南 ▾",
+      "2近邻 ▾",
+      "杜甫草堂",
+      "规划大散关",
+      "2敦煌 ▾",
+      "规划楼兰",
+      "规划山海关（榆关）"
+    ],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "stage": "selected yumen",
+    "selected": "规划\n玉门关"
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "stage": "mid",
+    "camera": "{\"x\":0.8746442474402172,\"y\":-0.11430861330105663,\"scale\":1.9869850000000002}"
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "stage": "high",
+    "camera": "{\"x\":0.8746439717278766,\"y\":-0.11430814797145526,\"scale\":4.577937}"
+  }
+]

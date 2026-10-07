@@ -1,0 +1,96 @@
+{
+  "bundle": "./assets/index-Dzqk043a.js",
+  "reducedMotion": false,
+  "selection": "native mouse blue highlight captured separately",
+  "values": [
+    {
+      "background": "rgb(252, 250, 244)",
+      "box": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "color": "rgb(53, 62, 54)",
+      "font": "16px",
+      "name": ".reading-sheet",
+      "radius": "24px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "box": {
+        "bottom": 1118.669677734375,
+        "height": 837.7767944335938,
+        "left": 654,
+        "right": 945.7142944335938,
+        "top": 280.89288330078125,
+        "width": 291.71429443359375,
+        "x": 654,
+        "y": 280.89288330078125
+      },
+      "color": "rgb(53, 62, 54)",
+      "font": "18px",
+      "name": ".original-text",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "box": {
+        "bottom": 264.8928737640381,
+        "height": 22.392858505249023,
+        "left": 654,
+        "right": 945.7142944335938,
+        "top": 242.50001525878903,
+        "width": 291.71429443359375,
+        "x": 654,
+        "y": 242.50001525878903
+      },
+      "color": "rgb(100, 112, 98)",
+      "font": "14px",
+      "name": ".poet-byline",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "box": {
+        "bottom": 138.69643211364746,
+        "height": 29.392858505249023,
+        "left": 654,
+        "right": 830.0000152587891,
+        "top": 109.30357360839844,
+        "width": 176.00001525878906,
+        "x": 654,
+        "y": 109.30357360839844
+      },
+      "color": "rgb(53, 62, 54)",
+      "font": "21px",
+      "name": ".sheet-topline h2",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(255, 253, 245, 0.5)",
+      "box": {
+        "bottom": 68.0000057220459,
+        "height": 44.000003814697266,
+        "left": 640,
+        "right": 920,
+        "top": 24.000001907348633,
+        "width": 280,
+        "x": 640,
+        "y": 24.000001907348633
+      },
+      "color": "rgb(53, 62, 54)",
+      "font": "14px",
+      "name": ".search-entry",
+      "radius": "22px"
+    }
+  ],
+  "viewport": [
+    1000,
+    750
+  ]
+}

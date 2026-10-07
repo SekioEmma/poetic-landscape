@@ -1,0 +1,140 @@
+{
+  "createdAt": "2026-10-07T03:12:15.942108+00:00",
+  "artifact": "releases/诗文山河_第七轮静态包_2026-10-07.zip",
+  "bytes": 16079718,
+  "sha256": "439d8a1561d88be2cd05462f4a5d64aa06b54c75596bab380fb1a8642821a151",
+  "fileCount": 26,
+  "distBytesEqual": true,
+  "files": [
+    {
+      "path": "assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+    },
+    {
+      "path": "assets/china-design-paper-v5a.png",
+      "bytes": 3286169,
+      "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc"
+    },
+    {
+      "path": "assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+    },
+    {
+      "path": "assets/index-C5C-OSMB.js",
+      "bytes": 301856,
+      "sha256": "e2171bde7e232321e2d67b7286079809421a32ad1ff51c416b86fac886d34095"
+    },
+    {
+      "path": "assets/index-CCsy8G7f.css",
+      "bytes": 128597,
+      "sha256": "a421007a19f42a93f0d5a3c221f43fcd84343e8108b49f93b788918e66dff920"
+    },
+    {
+      "path": "assets/lake-painting-v5.png",
+      "bytes": 1781644,
+      "sha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b"
+    },
+    {
+      "path": "assets/lake-scene.svg",
+      "bytes": 1708,
+      "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df"
+    },
+    {
+      "path": "assets/lake-song.svg",
+      "bytes": 2612,
+      "sha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc"
+    },
+    {
+      "path": "assets/LayoutLab-Dw4LHMRl.js",
+      "bytes": 6719,
+      "sha256": "440216a0046cbdaec1d8c5a05066bc3c8246c1fc68846a0cd6102cb5e0c0f168"
+    },
+    {
+      "path": "assets/MapAdapter-1DL3kljy.js",
+      "bytes": 2502029,
+      "sha256": "5d5a6aa50a98360455e27afed24c87e693f0e4bfbd2b8a317054e27b545e4095"
+    },
+    {
+      "path": "assets/maplibre-gl-worker-MfjJLauD.js",
+      "bytes": 510701,
+      "sha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a"
+    },
+    {
+      "path": "assets/official-china-gs20232763.jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+    },
+    {
+      "path": "assets/paper-fibres-v5-bf1_Qo3z.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c"
+    },
+    {
+      "path": "assets/paper-fibres-v5.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c"
+    },
+    {
+      "path": "assets/paper.svg",
+      "bytes": 691,
+      "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78"
+    },
+    {
+      "path": "assets/reading-fibres.svg",
+      "bytes": 405,
+      "sha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220"
+    },
+    {
+      "path": "assets/tower-song.svg",
+      "bytes": 2294,
+      "sha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66"
+    },
+    {
+      "path": "geodata/causeways.json",
+      "bytes": 6503,
+      "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22"
+    },
+    {
+      "path": "geodata/land.json",
+      "bytes": 286071,
+      "sha256": "5b1fca23209497dfae262ac164a30fb6d2c210ac1cb2a5487dbae5750659c930"
+    },
+    {
+      "path": "geodata/local-labels.json",
+      "bytes": 366,
+      "sha256": "608545caeedb67610586ee95560efdc0a0cf58175ef699cd322da0f18e8a9023"
+    },
+    {
+      "path": "geodata/westlake.json",
+      "bytes": 77850,
+      "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28"
+    },
+    {
+      "path": "index.html",
+      "bytes": 425,
+      "sha256": "6c178da7549eaf50c8a31ff10ca36239e3283e5869ad86c2604465c2a0072043"
+    },
+    {
+      "path": "legal/basemap-manifest.json",
+      "bytes": 10006,
+      "sha256": "d59a2c2b8a317f33ad91bf38a0cb6dd4ba1edbbbe944012ae093d66970901109"
+    },
+    {
+      "path": "legal/data-licenses.txt",
+      "bytes": 16428,
+      "sha256": "c6c4a9e913e0ff0cbb8311518f3b13883c4165f91e2de7d73501b2a923884933"
+    },
+    {
+      "path": "legal/dependency-notices.txt",
+      "bytes": 361847,
+      "sha256": "5546d0ebb64036621161d0e3caf4b608077a9307cd743b87fb56ff443c4ad12e"
+    },
+    {
+      "path": "legal/panzoom-MIT.txt",
+      "bytes": 1059,
+      "sha256": "db74524b3ab3853bcfc7300dade1f5e0176e59ed3c0cff43848a2c300091a22c"
+    }
+  ]
+}

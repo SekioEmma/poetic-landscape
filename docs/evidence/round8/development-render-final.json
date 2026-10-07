@@ -1,0 +1,14 @@
+{
+  "dom": {
+    "layout": "bottom",
+    "mode": "local",
+    "readerAnimation": "none",
+    "readerOpacity": "1",
+    "scroll": 0,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "logs": []
+}

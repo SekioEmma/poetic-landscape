@@ -1,0 +1,83 @@
+{
+  "I01": {
+    "before": 180,
+    "after": 0
+  },
+  "I02": "BODY",
+  "I03": "source remains open; group closed",
+  "I04": "focus remains on group trigger",
+  "screens": [
+    {
+      "name": "before-overview-1440",
+      "w": 1440,
+      "h": 900,
+      "time": "2026-10-06T12:01:27.708Z"
+    },
+    {
+      "name": "before-huxin-1440",
+      "w": 1440,
+      "h": 900,
+      "time": "2026-10-06T12:01:38.348Z"
+    },
+    {
+      "name": "before-local-1440",
+      "w": 1440,
+      "h": 900,
+      "time": "2026-10-06T12:01:39.601Z"
+    },
+    {
+      "name": "before-huanghe-1440",
+      "w": 1440,
+      "h": 900,
+      "time": "2026-10-06T12:01:40.283Z"
+    },
+    {
+      "name": "before-overview-768",
+      "w": 768,
+      "h": 1024,
+      "time": "2026-10-06T12:01:53.760Z"
+    },
+    {
+      "name": "before-huxin-768",
+      "w": 768,
+      "h": 1024,
+      "time": "2026-10-06T12:01:54.668Z"
+    },
+    {
+      "name": "before-local-768",
+      "w": 768,
+      "h": 1024,
+      "time": "2026-10-06T12:01:55.008Z"
+    },
+    {
+      "name": "before-huanghe-768",
+      "w": 768,
+      "h": 1024,
+      "time": "2026-10-06T12:01:55.613Z"
+    },
+    {
+      "name": "before-overview-390",
+      "w": 390,
+      "h": 844,
+      "time": "2026-10-06T12:01:56.013Z"
+    },
+    {
+      "name": "before-huxin-390",
+      "w": 390,
+      "h": 844,
+      "time": "2026-10-06T12:01:56.632Z"
+    },
+    {
+      "name": "before-local-390",
+      "w": 390,
+      "h": 844,
+      "time": "2026-10-06T12:01:56.973Z"
+    },
+    {
+      "name": "before-huanghe-390",
+      "w": 390,
+      "h": 844,
+      "time": "2026-10-06T12:01:57.571Z"
+    }
+  ]
+}

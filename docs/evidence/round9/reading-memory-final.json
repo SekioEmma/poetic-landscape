@@ -1,0 +1,63 @@
+[
+  {
+    "state": "reading",
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-30.517558071190173,\"y\":-151.43610767845107,\"scale\":1.6}",
+    "height": 323,
+    "offset": 0.58038330078125,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T05:27:19.758Z",
+    "top": 282.28570556640625,
+    "width": 620,
+    "work": "maowu"
+  },
+  {
+    "state": "collapsed",
+    "hidden": "",
+    "inert": ""
+  },
+  {
+    "state": "focused",
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-30.517558071190173,\"y\":-151.43610767845107,\"scale\":1.6}",
+    "height": 745,
+    "offset": 0.580352783203125,
+    "place": "dufu",
+    "space": "focused",
+    "tab": "诗文",
+    "time": "2026-10-07T05:27:20.585Z",
+    "top": 282.28570556640625,
+    "width": 710,
+    "work": "maowu"
+  },
+  {
+    "state": "restored",
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-30.517558071190173,\"y\":-151.43610767845107,\"scale\":1.6}",
+    "height": 323,
+    "offset": 0.58038330078125,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T05:27:20.863Z",
+    "top": 282.28570556640625,
+    "width": 620,
+    "work": "maowu"
+  },
+  {
+    "state": "tab-return",
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-30.517558071190173,\"y\":-151.43610767845107,\"scale\":1.6}",
+    "height": 323,
+    "offset": 0.58038330078125,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T05:27:21.397Z",
+    "top": 282.28570556640625,
+    "width": 620,
+    "work": "maowu"
+  }
+]

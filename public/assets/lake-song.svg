@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">一点亭，一芥舟</title><desc id="desc">项目原创意境小景，疏柳与细绘亭阁集中左侧，舟小而水面空；不是湖心亭古建复原。</desc>
+<style>path,line,polyline,ellipse{vector-effect:non-scaling-stroke;stroke-linecap:round;stroke-linejoin:round}</style>
+<!-- Pale colour lies within the observed objects, never a full canvas wash. -->
+<path fill="#a8bbb9" fill-opacity=".2" d="M28 140Q64 119 108 133L139 149Q79 158 28 140Z"/>
+<path fill="#a8bbb9" fill-opacity=".25" d="M69 76Q92 68 107 48Q114 72 145 79L141 83H74Z"/>
+<g stroke="#506553" stroke-width="1.4">
+ <path d="M69 76Q89 71 106 48Q110 52 113 57Q124 74 145 79L141 83H74Z"/>
+ <path d="M107 47V42M104 44H110M78 84V130M133 84V132M99 84V134M114 84V134"/>
+ <path d="M65 100Q89 95 107 81Q124 96 151 102L145 106H71Z" fill="#fcfaf4"/>
+ <path d="M75 107V135M138 107V137M96 107V135M118 107V136M69 136L145 140M64 141L149 145M61 147L150 151"/>
+ <path d="M73 126L141 130M74 119L141 123M82 121V135M91 122V136M128 124V138"/>
+ <path d="M30 140Q47 134 64 137M151 149L176 151M47 148Q70 154 90 153M92 156L132 156"/>
+ <!-- Willow has a branching trunk, fine hanging branchlets and separated leaves. -->
+ <path d="M39 135Q46 96 41 63Q43 48 49 38M46 118Q51 85 47 63M44 66Q27 50 19 43M45 65Q58 46 71 43M49 48Q57 33 58 20M50 41Q37 28 27 28"/>
+ <path d="M38 136L48 137M28 138L35 136"/>
+ <path d="M20 45Q12 65 17 94M26 48Q23 70 28 92M33 55Q33 76 36 86M58 49Q65 71 61 88M68 44Q80 61 78 76M31 30Q23 39 22 53M55 28Q67 35 69 48" stroke-width=".9"/>
+ <path d="M16 58L12 64M16 68L20 73M16 79L13 85M25 62L22 69M25 75L30 81M35 70L39 76M64 63L68 68M63 76L58 83M75 57L80 61M78 67L74 73M25 39L19 44M60 33L66 38" stroke-width="1.05"/>
+ <!-- Roof rafters and joinery, restrained so the structure survives at 280px. -->
+ <path d="M82 80L91 75M96 79L102 72M117 76L126 81M75 103L84 99M90 102L98 97M120 99L132 105M82 88H94M120 88H130M102 111V129M109 111V130M114 112V131" stroke-width=".85"/>
+ <path d="M68 153L63 157M81 156L86 160M130 158L141 157" stroke-width="1"/>
+</g>
+<!-- One small boat, deliberately subordinate to the pavilion. -->
+<g stroke="#506553" stroke-width="1.15">
+ <path d="M249 129Q264 135 282 129L275 136Q259 138 254 134Z" fill="#a8bbb9" fill-opacity=".3"/>
+ <path d="M255 128Q264 118 271 129M259 124L269 124M265 128L263 119M270 122L287 135M263 117L264 114"/>
+ <path d="M243 141L270 141M275 140L291 140M181 129L203 129M300 151L331 151M206 160L244 160M162 166L185 166" stroke="#a8bbb9" stroke-width=".9"/>
+</g>
+</svg>

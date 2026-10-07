@@ -1,0 +1,74 @@
+[
+  {
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    },
+    "anchor": "paragraph-p1",
+    "camera": "{\"x\":-20.98761904761904,\"y\":-124.87275749035987,\"scale\":2.1}",
+    "height": 544,
+    "offset": -121.1071548461914,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:15:38.387Z",
+    "top": 212,
+    "width": 348,
+    "work": "maowu",
+    "layout": "side"
+  },
+  {
+    "viewport": {
+      "width": 1025,
+      "height": 768
+    },
+    "anchor": "paragraph-p1",
+    "camera": "{\"x\":-20.98761904761904,\"y\":-124.87275749035987,\"scale\":2.1}",
+    "height": 544,
+    "offset": -121.1071548461914,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:15:38.417Z",
+    "top": 212,
+    "width": 348,
+    "work": "maowu",
+    "layout": "side"
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "anchor": "paragraph-p1",
+    "camera": "{\"x\":-148.3481265528801,\"y\":-170.86326911103433,\"scale\":2.1}",
+    "height": 323,
+    "offset": -121.3214111328125,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:15:38.774Z",
+    "top": 213.7142791748047,
+    "width": 620,
+    "work": "maowu",
+    "layout": "bottom"
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "anchor": "paragraph-p1",
+    "camera": "{\"x\":-69.08219312441764,\"y\":-86.84000000000003,\"scale\":2.1}",
+    "height": 243,
+    "offset": -121.10714721679688,
+    "place": "dufu",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:15:39.040Z",
+    "top": 212,
+    "width": 380,
+    "work": "maowu",
+    "layout": "bottom"
+  }
+]

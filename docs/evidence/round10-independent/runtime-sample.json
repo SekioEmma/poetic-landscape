@@ -1,0 +1,77 @@
+{
+  "at": "2026-10-07T14:59:24.240Z",
+  "scope": "Independent production UI sample; not 40-state rerun or physical touch",
+  "desktop": {
+    "viewport": [
+      1000,
+      750
+    ],
+    "passed": [
+      "黄鹤楼点选",
+      "切李白篇",
+      "收起/继续",
+      "地图放大",
+      "专注/恢复",
+      "搜索空结果/Esc保留当前篇"
+    ],
+    "dom": "- main:\n  - region \"山河探索地图\":\n    - generic \"可拖动缩放的全国图面\":\n      - img \"基于自然资源部标准地图原件制作的项目设计版，完整保留边界、岛屿与注记\"\n      - button \"地图地点：黄鹤楼\" [pressed]:\n        - generic: 黄鹤楼\n        - generic: 当前阅读\n      - generic \"全国图面控制\":\n        - button \"看全国\":\n        - button \"放大全国地图\": ＋\n        - button \"缩小全国地图\": −\n  - link \"诗文山河首页\":\n    - /url: \"#\"\n    - generic: 山河\n    - text: 诗文山河\n    - generic: 一笺诗文 · 一处山河\n  - navigation \"页面导航\":\n    - button \"寻诗文 地点、诗篇或作者\" [active]:\n      - generic: 寻诗文\n      - generic: 地点、诗篇或作者\n    - button \"出处\"\n  - complementary \"黄鹤楼阅读案\":\n    - heading \"黄鹤楼\" [level=2]\n    - button \"收起读案\":\n    - button \"展开阅读\":\n    - button \"关闭阅读案\":\n    - generic \"当前阅读不在筛选结果中\": 筛选外\n    - tablist \"阅读内容\":\n      - tab \"诗文\" [selected]\n      - tab \"地点\"\n    - button \"诗篇 2篇\": 诗篇 2篇 ⌄\n    - generic \"阅读案正文\":\n      - tabpanel \"诗文\":\n        - heading \"黄鹤楼送孟浩然之广陵\" [level=3]\n        - paragraph:\n          - text: 李白\n          - generic: 唐\n        - article \"完整原文\":\n          - paragraph:\n            - mark: 故人西辞黄鹤楼，\n            - mark: 烟花三月下扬州。\n          - paragraph:\n            - generic: 孤帆远影碧空尽，\n            - generic: 唯见长江天际流。\n        - heading \"诗文与此地\" [level=4]\n        - paragraph: 送别开始于楼前，却一直延伸到目光的尽头。三月烟花写出江南春色，孤帆的远去让这片明丽中有了惜别的分量。朋友已经看不见，江水还在向天际流去；诗人没有直接说不舍，而让久久停留的视线替他说完。\n        - button \"看看诗文中的地点\":\n          - text: 看看诗文中的地点\n          - generic: →\n        - generic \"底本与版本\"\n  - status: ，当前地点黄鹤楼，诗文",
+    "measure": {
+      "camera": "{\"x\":-248.26689655172416,\"y\":-10.148275862068965,\"scale\":1.885}",
+      "overflow": false,
+      "sheet": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      }
+    }
+  },
+  "phoneBefore": {
+    "camera": "{\"x\":-190.08708788281928,\"y\":-14.634368619180918,\"scale\":1.885}",
+    "safe": "{\"left\":8,\"top\":0,\"width\":354.2857360839844,\"height\":379.044677734375}",
+    "sheet": {
+      "bottom": 832.0000610351562,
+      "height": 360.9553833007813,
+      "left": 12.142857551574709,
+      "right": 378.1428880691528,
+      "top": 471.044677734375,
+      "width": 366.0000305175781,
+      "x": 12.142857551574709,
+      "y": 471.044677734375
+    },
+    "top": 221.14285278320312
+  },
+  "phoneAfter": {
+    "camera": "{\"x\":-190.08708788281928,\"y\":-14.634368619180918,\"scale\":1.885}",
+    "overflow": false,
+    "safe": "{\"left\":8,\"top\":0,\"width\":354.2857360839844,\"height\":379.044677734375}",
+    "sheet": {
+      "bottom": 832.0000610351562,
+      "height": 360.9553833007813,
+      "left": 12.142857551574709,
+      "right": 378.1428880691528,
+      "top": 471.044677734375,
+      "width": 366.0000305175781,
+      "x": 12.142857551574709,
+      "y": 471.044677734375
+    },
+    "space": "reading",
+    "top": 221.14285278320312
+  },
+  "local": {
+    "canvasCount": 2,
+    "instanceNodes": [],
+    "loading": false
+  },
+  "phoneReturn": {
+    "camera": "{\"x\":-190.0870026525199,\"y\":-14.634376657824934,\"scale\":1.885}",
+    "overflow": false,
+    "space": "reading",
+    "top": 221.14285278320312
+  },
+  "logs": []
+}

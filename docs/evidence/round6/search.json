@@ -1,0 +1,172 @@
+[
+  {
+    "query": "苏轼",
+    "list": [
+      "西湖浙江 · 杭州苏轼《饮湖上初晴后雨二首·其二》"
+    ]
+  },
+  {
+    "label": "search pick 苏轼",
+    "time": "2026-10-07T01:47:50.166Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "西湖",
+    "group": false,
+    "horizontal": false,
+    "key": "xihu/yin-hushang/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 496.2916717529297,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 427,
+      "width": 336,
+      "x": 22,
+      "y": 427
+    },
+    "scroll": 249.3333282470703,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 189.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 610.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 610.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "query": "茅屋",
+    "list": [
+      "杜甫草堂四川 · 成都杜甫《茅屋为秋风所破歌》"
+    ]
+  },
+  {
+    "label": "search pick 茅屋",
+    "time": "2026-10-07T01:47:50.740Z",
+    "camera": "{\"x\":-14.510764552989066,\"y\":-88.12116620077487,\"scale\":2.1}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 486.9583587646485,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 417.6666870117187,
+      "width": 336,
+      "x": 22,
+      "y": 417.6666870117187
+    },
+    "scroll": 214.6666717529297,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "query": "枫桥",
+    "list": [
+      "寒山寺与枫桥江苏 · 苏州张继《枫桥夜泊》"
+    ]
+  },
+  {
+    "label": "search pick 枫桥",
+    "time": "2026-10-07T01:47:51.328Z",
+    "camera": "{\"x\":-132.2553577558727,\"y\":-74.33984110637041,\"scale\":2.1}",
+    "focus": "寒山寺与枫桥",
+    "group": false,
+    "horizontal": false,
+    "key": "hanshan/fengqiao-yebo/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 486.9583587646485,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 417.6666870117187,
+      "width": 336,
+      "x": 22,
+      "y": 417.6666870117187
+    },
+    "scroll": 214.6666717529297,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "theme": "楼台与城郭",
+    "list": [
+      "黄鹤楼湖北 · 武汉",
+      "寒山寺与枫桥江苏 · 苏州"
+    ],
+    "backgroundInert": ""
+  },
+  {
+    "label": "directory Esc",
+    "time": "2026-10-07T01:47:51.943Z",
+    "camera": "{\"x\":-132.2553577558727,\"y\":-74.33984110637041,\"scale\":2.1}",
+    "focus": "☷ 寻诗文 2处",
+    "group": false,
+    "horizontal": false,
+    "key": "hanshan/fengqiao-yebo/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 486.9583587646485,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 417.6666870117187,
+      "width": 336,
+      "x": 22,
+      "y": 417.6666870117187
+    },
+    "scroll": 214.6666717529297,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  }
+]

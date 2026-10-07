@@ -1,0 +1,66 @@
+[
+  {
+    "command": "npm run check:data",
+    "at": "2026-10-07T11:00:00.223Z",
+    "chunk_id": "12aa92",
+    "wall_time_seconds": 2.941275,
+    "exit_code": 0,
+    "original_token_count": 86,
+    "output": "\n> poetic-landscape@0.1.0 check:data\n> node scripts/check-data.mjs\n\nPASS: 6 places, 8 works, 8 exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + 6 image anchors; UTF-8.\n"
+  },
+  {
+    "command": "node scripts/check-design.mjs",
+    "at": "2026-10-07T11:00:00.228Z",
+    "chunk_id": "570dc6",
+    "wall_time_seconds": 1.7161965000000001,
+    "exit_code": 0,
+    "original_token_count": 61,
+    "output": "PASS: 8 continuous excerpts; two work-specific seasonal paintings / alpha / hashes and explicit focus scales; static local texture; frozen content, dependencies, image anchors, camera mathematics, historical PNG, OSM geometry and photograph.\n"
+  },
+  {
+    "command": "node scripts/check-reading.mjs docs/evidence/round10/reading-check.json",
+    "at": "2026-10-07T11:00:00.228Z",
+    "chunk_id": "fdceb7",
+    "wall_time_seconds": 1.6831399999999999,
+    "exit_code": 0,
+    "original_token_count": 24,
+    "output": "8 works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.\n"
+  },
+  {
+    "command": "node scripts/check-overview.mjs docs/evidence/round10/overview-check.json",
+    "at": "2026-10-07T11:00:00.228Z",
+    "chunk_id": "b11eb3",
+    "wall_time_seconds": 1.6870559,
+    "exit_code": 0,
+    "original_token_count": 66,
+    "output": "PASS overview geometry: {\"date\":\"2026-10-07\",\"passed\":true,\"focusAndResizeCases\":24,\"checks\":[\"full-extent fit and aspect\",\"safe-area target lands exactly\",\"resize round-trip\",\"saved camera immutable\",\"screen collision grouping separates cities at high scale\"]}\n"
+  },
+  {
+    "command": "node scripts/check-reader-gesture.mjs",
+    "at": "2026-10-07T11:00:00.228Z",
+    "chunk_id": "dc98e2",
+    "wall_time_seconds": 1.5984652000000001,
+    "exit_code": 0,
+    "original_token_count": 39,
+    "output": "PASS: gesture cancellation, movement threshold, one-step flings, nearest-height settling and valid endpoint bounds (pure logic; not a touch-device test).\n"
+  },
+  {
+    "command": "node scripts/check-reader-layout.mjs docs/evidence/round10",
+    "at": "2026-10-07T11:00:00.228Z",
+    "chunk_id": "2df7e0",
+    "wall_time_seconds": 1.0563874,
+    "exit_code": 0,
+    "original_token_count": 64,
+    "output": "PASS: new Round 10 40-state DOM matrix, 8 complete works, U01–U09 recorded portions, real shell interpolation, interrupted intent, search/source/local instance and injected failure paths. Physical touch / UI cancel / OS reduced-motion remain unverified.\n"
+  },
+  {
+    "at": "2026-10-07T14:41:29.452Z",
+    "command": "node scripts/check-reader-layout.mjs docs/evidence/round10",
+    "scope": "Final artifact audit including full raster sizes and recomputed JPG/EPS/R9 frozen asset hashes",
+    "chunk_id": "5ac58a",
+    "wall_time_seconds": 0.3426539,
+    "exit_code": 0,
+    "original_token_count": 64,
+    "output": "PASS: new Round 10 40-state DOM matrix, 8 complete works, U01–U09 recorded portions, real shell interpolation, interrupted intent, search/source/local instance and injected failure paths. Physical touch / UI cancel / OS reduced-motion remain unverified.\n"
+  }
+]

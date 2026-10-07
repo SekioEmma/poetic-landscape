@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-07T14:39:13.019Z",
+  "command": "npm run build",
+  "chunk_id": "eed1f7",
+  "wall_time_seconds": 4.2084439,
+  "exit_code": 0,
+  "original_token_count": 184,
+  "output": "\n> poetic-landscape@0.1.0 build\n> tsc -b && vite build\n\nvite v8.3.2 building client environment for production...\ntransforming...\n✓ 659 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                                 0.42 kB │ gzip:   0.32 kB\ndist/assets/paper-fibres-v5-bf1_Qo3z.svg       42.73 kB │ gzip:  10.20 kB\ndist/assets/maplibre-gl-worker-MfjJLauD.js    510.70 kB\ndist/assets/index-DPHTN6ZF.css                142.37 kB │ gzip:  22.56 kB\ndist/assets/LayoutLab-BB6UEQgB.js               6.71 kB │ gzip:   3.12 kB\ndist/assets/index-Dzqk043a.js                 313.58 kB │ gzip: 104.46 kB\ndist/assets/MapAdapter-Cwt7PlDM.js          2,502.26 kB │ gzip: 662.47 kB\n\n✓ built in 692ms\n"
+}

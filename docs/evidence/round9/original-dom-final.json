@@ -1,0 +1,242 @@
+[
+  {
+    "art": "./assets/huxin-snow-r9-v1.png",
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "痕、点、芥、粒把长堤、亭、舟、人依次缩小，天地间的空白反而越来越大。人鸟声俱绝的雪夜，先让世界安静下来，再让亭中相遇与舟子的低语留下人的温度。独往并非一直孤独：一杯酒、一句痴，使这场雪有了可以回味的知音。",
+    "mapNodes": 0,
+    "marks": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。"
+      },
+      {
+        "id": "p2",
+        "text": "是日更定矣，余拏一小舟，拥毳衣炉火，独往湖心亭看雪。雾凇沆砀，天与云、与山、与水，上下一白。湖上影子，惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。"
+      },
+      {
+        "id": "p3",
+        "text": "到亭上，有两人铺毡对坐，一童子烧酒，炉正沸。见余大喜，曰：“湖中焉得更有此人？”拉余同饮。余强饮三大白而别。问其姓氏，是金陵人，客此。"
+      },
+      {
+        "id": "p4",
+        "text": "及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”"
+      }
+    ],
+    "source": "https://ycct.swjtu.edu.cn/info/1017/1371.htm",
+    "title": "湖心亭看雪",
+    "work": "huxinting-kanxue",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "前半首从传说写到白云，时间一下子被拉得很长；后半首却落到眼前的树、洲与江上烟波。汉阳树清晰可见，故乡却看不分明。由远古的空悠悠转到日暮的愁，一次登楼便从眺望山川，变成了人在异乡寻找归处。",
+    "mapNodes": 0,
+    "marks": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "昔人已乘黄鹤去，此地空余黄鹤楼。"
+      },
+      {
+        "id": "p2",
+        "text": "黄鹤一去不复返，白云千载空悠悠。"
+      },
+      {
+        "id": "p3",
+        "text": "晴川历历汉阳树，芳草萋萋鹦鹉洲。"
+      },
+      {
+        "id": "p4",
+        "text": "日暮乡关何处是？烟波江上使人愁。"
+      }
+    ],
+    "source": "https://jjc.mku.edu.cn/info/1071/1951.htm",
+    "title": "黄鹤楼",
+    "work": "huanghelou",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "送别开始于楼前，却一直延伸到目光的尽头。三月烟花写出江南春色，孤帆的远去让这片明丽中有了惜别的分量。朋友已经看不见，江水还在向天际流去；诗人没有直接说不舍，而让久久停留的视线替他说完。",
+    "mapNodes": 0,
+    "marks": "故人西辞黄鹤楼，烟花三月下扬州。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "故人西辞黄鹤楼，烟花三月下扬州。"
+      },
+      {
+        "id": "p2",
+        "text": "孤帆远影碧空尽，唯见长江天际流。"
+      }
+    ],
+    "source": "https://sxss.ntu.edu.cn/2018/0301/c6266a165797/page.htm",
+    "title": "黄鹤楼送孟浩然之广陵",
+    "work": "song-menghaoran",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "风卷走屋茅，雨又浸透床铺，诗把困顿写得触手可及。到了结尾，愿望却从自己的屋子转向天下寒士：只要更多人有安稳的住处，个人的受冻也可以承担。这间小小茅屋因而承载了一个远比屋檐更宽广的胸怀。",
+    "mapNodes": 0,
+    "marks": "安得广厦千万间，大庇天下寒士俱欢颜！",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "八月秋高风怒号，卷我屋上三重茅。茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。"
+      },
+      {
+        "id": "p2",
+        "text": "南村群童欺我老无力，忍能对面为盗贼。公然抱茅入竹去，唇焦口燥呼不得，归来倚杖自叹息。"
+      },
+      {
+        "id": "p3",
+        "text": "俄顷风定云墨色，秋天漠漠向昏黑。布衾多年冷似铁，娇儿恶卧踏里裂。床头屋漏无干处，雨脚如麻未断绝。自经丧乱少睡眠，长夜沾湿何由彻！"
+      },
+      {
+        "id": "p4",
+        "text": "安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！"
+      }
+    ],
+    "source": "https://www.nydi.gov.cn/sitesources/xclz/page_pc/jysj/s/msyy/article16c3563fc85344e8bc2d6bcce609c8c1.html",
+    "title": "茅屋为秋风所破歌",
+    "work": "maowu",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "晴时的水光和雨中的山色，都是西湖的好看。诗人没有在两种天气中选出胜者，而用西子的淡妆与浓抹，让不同姿态相互成全。读这首诗，可以先看湖，再看山；也可以想想，同一片山水如何在光线与雨雾里，显出不同的性情。",
+    "mapNodes": 0,
+    "marks": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "水光潋滟晴方好，山色空蒙雨亦奇。"
+      },
+      {
+        "id": "p2",
+        "text": "欲把西湖比西子，淡妆浓抹总相宜。"
+      }
+    ],
+    "source": "https://www.ahstu.edu.cn/rwxy/info/1039/5500.htm",
+    "title": "饮湖上初晴后雨二首·其二",
+    "work": "yin-hushang",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": "./assets/qiantang-spring-r9-v1.png",
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "湖水初平、莺燕忙碌、花草渐生，春天并没有一次铺满整个画面，而是在行走中一点点被发现。诗中几处、谁家、渐欲、才能，都保留了早春未盛的分寸。最后的行不足，把沿湖观景写成一种舍不得结束的日常欢喜。",
+    "mapNodes": 0,
+    "marks": "最爱湖东行不足，绿杨阴里白沙堤。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "孤山寺北贾亭西，水面初平云脚低。"
+      },
+      {
+        "id": "p2",
+        "text": "几处早莺争暖树，谁家新燕啄春泥。"
+      },
+      {
+        "id": "p3",
+        "text": "乱花渐欲迷人眼，浅草才能没马蹄。"
+      },
+      {
+        "id": "p4",
+        "text": "最爱湖东行不足，绿杨阴里白沙堤。"
+      }
+    ],
+    "source": "https://www.pep.com.cn/rjdt/mtbd/202307/t20230718_1984406.shtml",
+    "title": "钱塘湖春行",
+    "work": "qiantang-chunxing",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "月已落，霜满天，船中的人却还没有安睡。江边树影与渔火相对，是眼前的景，也是愁绪停留的地方。后两句让远处的钟声穿过夜色，来到客船；寺与舟因此在听觉里相连，一座城外的寺院也留在了旅人的记忆中。",
+    "mapNodes": 0,
+    "marks": "姑苏城外寒山寺，夜半钟声到客船。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "月落乌啼霜满天，江枫渔火对愁眠。"
+      },
+      {
+        "id": "p2",
+        "text": "姑苏城外寒山寺，夜半钟声到客船。"
+      }
+    ],
+    "source": "https://ylj.suzhou.gov.cn/szsylj/ylwh/201808/598c909b16f34d498cceb62a03b0b2c4.shtml",
+    "title": "枫桥夜泊",
+    "work": "fengqiao-yebo",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  },
+  {
+    "art": null,
+    "bundle": "http://127.0.0.1:4173/assets/index-BWepV7ok.js",
+    "font": "18px",
+    "interpretation": "江水和几重山，既标出眼前的距离，也衬出心中想要回去的地方。绿字让春风的到来变得可见，明月却引出尚未实现的归期。山川并不遥远，归乡仍是一句问话；泊舟的片刻，便容纳了季节轮转与人的牵挂。",
+    "mapNodes": 0,
+    "marks": "京口瓜洲一水间，钟山只隔数重山。",
+    "overflow": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "京口瓜洲一水间，钟山只隔数重山。"
+      },
+      {
+        "id": "p2",
+        "text": "春风又绿江南岸，明月何时照我还？"
+      }
+    ],
+    "source": "https://lib.qchm.edu.cn/2019/0514/c1529a44419/page.htm",
+    "title": "泊船瓜洲",
+    "work": "bochuan-guazhou",
+    "originalExact": true,
+    "highlightExact": true,
+    "sourceExact": true,
+    "interpretationExact": true
+  }
+]

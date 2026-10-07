@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import {MapControls} from './MapControls';
 import type { MapAdapter, ViewState } from '../map/MapAdapter';
 declare global {interface Window {__mapDiagnostics?:()=>unknown;__mapLifecycle?:{created:number;destroyed:number};}}
 export function MapCanvas({view,onSelect,onFailure,onReady}:{view:ViewState;onSelect:(id:string)=>void;onFailure:(text:string)=>void;onReady:()=>void}){
@@ -20,6 +21,7 @@ export function MapCanvas({view,onSelect,onFailure,onReady}:{view:ViewState;onSe
   void initialize();
   return()=>{disposed=true;if(instance){instance.destroy();if(window.__mapLifecycle){window.__mapLifecycle.destroyed++;document.documentElement.dataset.mapsDestroyed=String(window.__mapLifecycle.destroyed);}}adapter.current=null;delete window.__mapDiagnostics;};
  },[]);
- useEffect(()=>{adapter.current?.update(view);},[view.placeId,view.local,view.expanded,view.reduced]);
- return <><div ref={container} className="map-canvas" data-testid="map" data-map-status={status} aria-label="山河地图"/>{status==='loading'&&<div className="map-loading" role="status">正在铺展山河…<small>阅读可从地点目录开始</small></div>}<div className="map-controls" aria-label="地图缩放"><button aria-label="放大地图" disabled={status!=='ready'||view.expanded} onClick={()=>adapter.current?.zoom(0.5)}>＋</button><button aria-label="缩小地图" disabled={status!=='ready'||view.expanded} onClick={()=>adapter.current?.zoom(-0.5)}>−</button></div></>;
+ useEffect(()=>{adapter.current?.update(view);},[view.placeId,view.local,view.expanded,view.reduced,view.space,view.layout]);
+ return <><div ref={container} className="map-canvas" inert={view.expanded&&view.layout?.type==='bottom'} data-testid="map" data-map-status={status} aria-label="山河地图"/>{status==='loading'&&<div className="map-loading" role="status">正在铺展西湖…<small>诗文可继续阅读</small></div>}<MapControls host={container} kind="local" disabled={status!=='ready'||(view.expanded&&view.layout?.type==='bottom')} onZoom={direction=>adapter.current?.zoom(direction*.5)} onReset={()=>adapter.current?.locate()}/></>;
 }
+

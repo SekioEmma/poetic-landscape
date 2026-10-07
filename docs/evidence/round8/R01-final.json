@@ -1,0 +1,125 @@
+{
+  "records": [
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:40.273Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "close",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:41.911Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "escape",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:43.584Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "home",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:45.772Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "collapse-close",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 4,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:47.534Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "close",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 4,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:49.169Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "escape",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 4,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:50.855Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "home",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-DrNxBdEk.js",
+      "controlsVisible": true,
+      "entriesVisible": 4,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T04:50:53.064Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "collapse-close",
+      "zoomOperable": true
+    }
+  ],
+  "logs": []
+}

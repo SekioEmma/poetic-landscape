@@ -1,0 +1,209 @@
+[
+  {
+    "label": "huxin middle",
+    "time": "2026-10-07T01:50:31.574Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "出处",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 79.17708396911621,
+      "height": 54.84375,
+      "left": 22,
+      "right": 358,
+      "top": 24.33333396911621,
+      "width": 336,
+      "x": 22,
+      "y": 24.33333396911621
+    },
+    "scroll": 608,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "anchors": [
+      {
+        "id": "paragraph-p2",
+        "offset": -150.38543701171875
+      },
+      {
+        "id": "paragraph-p3",
+        "offset": 40.60418701171875
+      },
+      {
+        "id": "paragraph-p4",
+        "offset": 197.39581298828125
+      }
+    ],
+    "maxScroll": 829
+  },
+  {
+    "label": "history return",
+    "time": "2026-10-07T01:50:32.120Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "诗文",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 79.17708396911621,
+      "height": 54.84375,
+      "left": 22,
+      "right": 358,
+      "top": 24.33333396911621,
+      "width": 336,
+      "x": 22,
+      "y": 24.33333396911621
+    },
+    "scroll": 608,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 566.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 566.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "anchors": [
+      {
+        "id": "paragraph-p2",
+        "offset": -150.38543701171875
+      },
+      {
+        "id": "paragraph-p3",
+        "offset": 40.60418701171875
+      },
+      {
+        "id": "paragraph-p4",
+        "offset": 197.39581298828125
+      }
+    ],
+    "maxScroll": 829
+  },
+  {
+    "label": "expand half return",
+    "time": "2026-10-07T01:50:32.723Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "展开阅读",
+    "group": false,
+    "horizontal": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 156.78340911865234,
+      "height": 54.84375,
+      "left": 22,
+      "right": 358,
+      "top": 101.93965911865234,
+      "width": 336,
+      "x": 22,
+      "y": 101.93965911865234
+    },
+    "scroll": 527.3333129882812,
+    "scrollRect": {
+      "bottom": 796.9396209716797,
+      "height": 233.2082977294922,
+      "left": 0,
+      "right": 390,
+      "top": 563.7313232421875,
+      "width": 390,
+      "x": 0,
+      "y": 563.7313232421875
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "anchors": [
+      {
+        "id": "paragraph-p2",
+        "offset": -69.71878051757812
+      },
+      {
+        "id": "paragraph-p3",
+        "offset": 121.27081298828124
+      },
+      {
+        "id": "paragraph-p4",
+        "offset": 278.0625
+      }
+    ],
+    "maxScroll": 829
+  },
+  {
+    "label": "local return",
+    "time": "2026-10-07T01:50:33.328Z",
+    "camera": "{\"x\":-128.8895238095238,\"y\":-83.73904761904761,\"scale\":2.1}",
+    "focus": "诗文",
+    "group": false,
+    "horizontal": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/诗文",
+    "localBounds": "[[116.65943127479329,21.027446089363764],[123.61989492520945,34.320912293833175]]",
+    "maps": "1",
+    "original": true,
+    "quoteRect": {
+      "bottom": 155.84375,
+      "height": 54.84375,
+      "left": 22,
+      "right": 358,
+      "top": 101,
+      "width": 336,
+      "x": 22,
+      "y": 101
+    },
+    "scroll": 527.3333129882812,
+    "scrollRect": {
+      "bottom": 796.0000305175781,
+      "height": 233.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 562.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 562.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "anchors": [
+      {
+        "id": "paragraph-p2",
+        "offset": -69.71875
+      },
+      {
+        "id": "paragraph-p3",
+        "offset": 121.27081298828124
+      },
+      {
+        "id": "paragraph-p4",
+        "offset": 278.0625
+      }
+    ],
+    "maxScroll": 829
+  }
+]

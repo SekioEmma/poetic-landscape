@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-06",
+  "scope": {
+    "places": 6,
+    "works": 8,
+    "contentSha256": "e45a05cd62eaf31726600659ce802ea66ab8651494f46277c20ac2b3326a39ba"
+  },
+  "route": "Restricted JPG deterministic mapping; EPS conversion not executed",
+  "checks": {
+    "data": "check-data.txt",
+    "build": "build.txt",
+    "overviewMath": "overview-math-check.json"
+  },
+  "browser": {
+    "cases": 61,
+    "directPasses": 60,
+    "resolvedObservations": 1,
+    "unresolved": 0,
+    "physicalTouchPinch": "unverified",
+    "tested": "Chromium mouse/keyboard; viewport 1440x900,768x1024,390x844 and1024x900"
+  },
+  "artLimit": "Annotation density and original visual boundary width remain; map artwork not fully achieved",
+  "files": [
+    {
+      "path": "dist/assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+    },
+    {
+      "path": "dist/assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+    },
+    {
+      "path": "dist/assets/index-Bwj0zz0S.css",
+      "bytes": 114793,
+      "sha256": "9001d19251b7c3fb92793825fa3faeb2ee6c7048f5fbc432add8fe98cbd7f6b6"
+    },
+    {
+      "path": "dist/assets/index-iq_RPYkA.js",
+      "bytes": 287207,
+      "sha256": "66906887d7a3e9569323027777fb61331596a750493c836a632a3843d50551b5"
+    },
+    {
+      "path": "dist/assets/lake-scene.svg",
+      "bytes": 1708,
+      "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df"
+    },
+    {
+      "path": "dist/assets/MapAdapter-CBWZm7mh.js",
+      "bytes": 2500873,
+      "sha256": "1fb446f98fe963107735dcb9aca4882edac62a439909b11aec46d9754f4b9290"
+    },
+    {
+      "path": "dist/assets/maplibre-gl-worker-MfjJLauD.js",
+      "bytes": 510701,
+      "sha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a"
+    },
+    {
+      "path": "dist/assets/official-china-gs20232763.jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+    },
+    {
+      "path": "dist/assets/paper.svg",
+      "bytes": 691,
+      "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78"
+    },
+    {
+      "path": "docs/screenshots/round3/after-local-1440.png",
+      "bytes": 57057,
+      "sha256": "0d526912e01374a798d6990d1c18ca1f6543ebcd2b4cc8ba348cab38b9f576ae"
+    },
+    {
+      "path": "docs/screenshots/round3/after-local-390.png",
+      "bytes": 26916,
+      "sha256": "3d06929e63690492e8b6b3d4c729aa87b3e0f584bac4b24d32401a112f0df542"
+    },
+    {
+      "path": "docs/screenshots/round3/after-local-768.png",
+      "bytes": 39349,
+      "sha256": "1540798fdf2d45296eb9976e303a3ffbbcfc4393723b0c4ddd29587eb26be0a1"
+    },
+    {
+      "path": "docs/screenshots/round3/after-overview-1440.png",
+      "bytes": 48487,
+      "sha256": "bdeb090dbc2d943f178eb1d00b185ab044b2158b69f41bcf1479e688815ad30f"
+    },
+    {
+      "path": "docs/screenshots/round3/after-overview-390.png",
+      "bytes": 22458,
+      "sha256": "8d6d6c6ee80eb5b388099ae35edb7c75d186d7dcd91f0328aa81704c919c9a36"
+    },
+    {
+      "path": "docs/screenshots/round3/after-overview-768.png",
+      "bytes": 52482,
+      "sha256": "2c4cda06b183b47a7037b4ae54445b46ca914ffe15565f7b373b7c440b06a08a"
+    },
+    {
+      "path": "docs/screenshots/round3/after-selected-1440.png",
+      "bytes": 88370,
+      "sha256": "125de309f7a0e6bbbe9bfbdd306a5f7411a6a24f21ce9666517847434c4a353f"
+    },
+    {
+      "path": "docs/screenshots/round3/after-selected-390.png",
+      "bytes": 29983,
+      "sha256": "f4553b75eb9558f26fb450ff4a7fe59dae96ca0435194eb151b4334c6fc58ef2"
+    },
+    {
+      "path": "docs/screenshots/round3/after-selected-768.png",
+      "bytes": 52480,
+      "sha256": "1bff03ba1f5c4f5a514967176e8242827f6e2516c8eee8200ec8183d7c110882"
+    },
+    {
+      "path": "docs/screenshots/round3/before-local-1440.png",
+      "bytes": 65620,
+      "sha256": "29ab5f4778efdb9cd298e193dd3a7a298b95cdba3c929895191f282c981b9811"
+    },
+    {
+      "path": "docs/screenshots/round3/before-local-390.png",
+      "bytes": 31438,
+      "sha256": "bd2b677731ccd303466c0c8d547a3b502acb9352b4a3970defcbe5c92e9ccbbb"
+    },
+    {
+      "path": "docs/screenshots/round3/before-local-768.png",
+      "bytes": 49494,
+      "sha256": "687f308b7744adfd62633730d841ce12b9c18d472780b1384ab313ace36123ba"
+    },
+    {
+      "path": "docs/screenshots/round3/before-overview-1440.png",
+      "bytes": 64212,
+      "sha256": "5db7eec6e65d7d3ed1c56999b38f8c574c3032842e953123ca4a6d6b501d9924"
+    },
+    {
+      "path": "docs/screenshots/round3/before-overview-390.png",
+      "bytes": 27373,
+      "sha256": "32d24838ef0c9097bb1e2e4a471277b2611d5d66552da08b322e1a74fbf29f22"
+    },
+    {
+      "path": "docs/screenshots/round3/before-overview-768.png",
+      "bytes": 58198,
+      "sha256": "dd657f6422fee5296b54fe729072a554fc57db3b2bd73840b14bb3405eeef9db"
+    },
+    {
+      "path": "docs/screenshots/round3/before-selected-1440.png",
+      "bytes": 91830,
+      "sha256": "e53693116dded4a08c193ec2b86a73ae51fb04f634534c571a6bf24892bae6c4"
+    },
+    {
+      "path": "docs/screenshots/round3/before-selected-390.png",
+      "bytes": 27353,
+      "sha256": "01232ed8ef10bf348ccb64fc752220f99aa010d91d55184720d8b734416e59e6"
+    },
+    {
+      "path": "docs/screenshots/round3/before-selected-768.png",
+      "bytes": 67264,
+      "sha256": "2f8a1b7af43a927483af7a85db5eb1c96288e73c8d8c551c9e1a6dc63884d2b2"
+    },
+    {
+      "path": "docs/screenshots/round3/comparison-1440.png",
+      "bytes": 2367019,
+      "sha256": "8e37e576b572227bdb55b1ab700f75cabddf1152003717f040e022d286ac5963"
+    },
+    {
+      "path": "docs/screenshots/round3/comparison-390.png",
+      "bytes": 936815,
+      "sha256": "515515cf1496a7af71675d8be8883eebb94eadcf1284626749df2849f10a0537"
+    },
+    {
+      "path": "docs/screenshots/round3/comparison-768.png",
+      "bytes": 1787209,
+      "sha256": "136751333a9611ab827fe43984bbc0412afd64f5ca5c5b63d889b3f5d55151ed"
+    },
+    {
+      "path": "docs/screenshots/round3/design-failure-reading-390.png",
+      "bytes": 21548,
+      "sha256": "e91ce6a38c9e5ba1eb96729c7097a4470cda4070d8161ad6ef887083927b78a5"
+    },
+    {
+      "path": "docs/screenshots/round3/expanded-reading-390.png",
+      "bytes": 43908,
+      "sha256": "3859e1da55a8d7cc8000ff0e32eaaf9471e8b85115ecb7ffc30ff7606392e2a1"
+    },
+    {
+      "path": "docs/screenshots/round3/high-scale-1440.png",
+      "bytes": 115299,
+      "sha256": "d9ac0152c096d4d44b4107dd72e55da149a7547c28f32e345eb11f158edee88b"
+    },
+    {
+      "path": "docs/screenshots/round3/local-failure-reading-390.png",
+      "bytes": 39816,
+      "sha256": "acd7fee8bf07a02ccdb78ac8b8ae0c71361b0732a4da6b17a9b6e6afb2866cdc"
+    },
+    {
+      "path": "docs/screenshots/round3/original-imprint-1440.png",
+      "bytes": 66448,
+      "sha256": "2efbbac9d73695e1d8c5ef084c5ad51b04b88bf6d1c0a4ae5a63cbeb73017d63"
+    },
+    {
+      "path": "docs/screenshots/round3/photo-390.png",
+      "bytes": 26695,
+      "sha256": "c7025f59190003464f8678f4960d0d8b3db0067b1a44f2a2b87f82967bb0a063"
+    }
+  ]
+}

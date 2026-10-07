@@ -1,0 +1,66 @@
+[
+  {
+    "mapResults": "xihu",
+    "query": "苏轼",
+    "resultIds": [
+      "xihu"
+    ],
+    "role": "dialog",
+    "unmatched": "当前阅读 · 不在筛选结果中"
+  },
+  {
+    "selected": "xihu",
+    "title": "饮湖上初晴后雨二首·其二"
+  },
+  {
+    "mapResults": "dufu",
+    "query": "茅屋",
+    "resultIds": [
+      "dufu"
+    ],
+    "role": "dialog",
+    "unmatched": "当前阅读 · 不在筛选结果中"
+  },
+  {
+    "selected": "dufu",
+    "title": "茅屋为秋风所破歌"
+  },
+  {
+    "mapResults": "hanshan",
+    "query": "枫桥",
+    "resultIds": [
+      "hanshan"
+    ],
+    "role": "dialog",
+    "unmatched": "当前阅读 · 不在筛选结果中"
+  },
+  {
+    "selected": "hanshan",
+    "title": "枫桥夜泊"
+  },
+  {
+    "mapResults": "huanghe,hanshan",
+    "resultIds": [
+      "huanghe",
+      "hanshan"
+    ],
+    "theme": "楼台与城郭"
+  },
+  {
+    "backgroundInert": false,
+    "desktopRole": null,
+    "modal": null
+  },
+  {
+    "desktopFocusCanLeave": {
+      "directory": true,
+      "expanded": false,
+      "heading": "寒山寺与枫桥",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "原图与出处"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-07",
+  "method": "App opt-in motionTrace DOM diagnostics; actual rAF timestamps and DOM image/anchor rectangles during browser controls; includes automation/capture overhead; not a display FPS benchmark",
+  "hardware": "AMD Ryzen 9 8945H; Radeon 780M + RTX 4060 Laptop; actual browser GPU choice not queried",
+  "browser": "Codex in-app Chromium",
+  "samples": 169,
+  "intervalSamples": 168,
+  "medianMs": 6.100000000093132,
+  "p95Ms": 18.300000000279397,
+  "maxIntervalMs": 156,
+  "over50ms": 3,
+  "idleBreaksOver1000ms": 0,
+  "maxAnchorErrorPx": 0.013501253259808207,
+  "longTasks": "not instrumented",
+  "physicalTouch": "not measured",
+  "osReducedMotion": "not changed or measured"
+}

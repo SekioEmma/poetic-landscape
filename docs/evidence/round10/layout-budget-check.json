@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-07T14:41:28.904Z",
+  "bundle": "./assets/index-Dzqk043a.js",
+  "budget": [
+    {
+      "size": "1440x900",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "width": 420.0000305175781,
+      "header": 96.00000762939452,
+      "body": 698.0000610351562,
+      "mapRatio": 0.682857186453683,
+      "viewportWidthRatio": 0.6638889312744141
+    },
+    {
+      "size": "1280x720",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "width": 384.0000305175781,
+      "header": 96.00000762939452,
+      "body": 518,
+      "mapRatio": 0.670967791157384,
+      "viewportWidthRatio": 0.6500000476837158
+    },
+    {
+      "size": "1024x768",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "width": 358.39288330078125,
+      "header": 96.00000762939452,
+      "body": 566,
+      "mapRatio": 0.6113894082666412,
+      "viewportWidthRatio": 0.5875070095062256
+    },
+    {
+      "size": "1000x750",
+      "layout": "side",
+      "defaultSpace": "reading",
+      "width": 350.0000305175781,
+      "header": 96.00000762939452,
+      "body": 548,
+      "mapRatio": 0.6104166666666667,
+      "viewportWidthRatio": 0.586
+    },
+    {
+      "size": "768x1024",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "width": 630,
+      "header": 108.00000762939452,
+      "body": 332.6339416503906,
+      "mapRatio": 0.5069347332302812,
+      "viewportWidthRatio": null
+    },
+    {
+      "size": "390x844",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "width": 366.0000305175781,
+      "header": 108.00000762939452,
+      "body": 252.9553680419922,
+      "mapRatio": 0.5040487735829455,
+      "viewportWidthRatio": null
+    },
+    {
+      "size": "360x800",
+      "layout": "bottom",
+      "defaultSpace": "reading",
+      "width": 336,
+      "header": 108.00000762939452,
+      "body": 231.83929443359375,
+      "mapRatio": 0.5030518871242717,
+      "viewportWidthRatio": null
+    },
+    {
+      "size": "844x390",
+      "layout": "side",
+      "defaultSpace": "collapsed",
+      "width": 320,
+      "header": 92.00000762939452,
+      "body": 222.00001525878903,
+      "mapRatio": 0.5721393414397737,
+      "viewportWidthRatio": 0.5450237328407324
+    }
+  ],
+  "timings": {
+    "exitReplacementMs": 69.59999999403954,
+    "reversalMs": 49.30000000447035
+  },
+  "motion": "real layout dimensions; unchanged 18px text; no fps claim",
+  "status": "passed for recorded desktop/mouse/keyboard scope",
+  "unverified": [
+    "physical phone touch/pinch",
+    "UI pointercancel and rotate during active pointer capture",
+    "OS reduced-motion runtime",
+    "other browser/device/clean installation",
+    "independent G2-ui visual acceptance"
+  ]
+}

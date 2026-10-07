@@ -1,0 +1,11 @@
+{
+  "directoryWrap": {
+    "focus": "收起地点目录",
+    "inert": true
+  },
+  "returned": {
+    "expanded": true,
+    "focus": "☷ 寻诗文 0处"
+  },
+  "console": []
+}

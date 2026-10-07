@@ -1,0 +1,97 @@
+{
+  "status": "planning-layout-only",
+  "label": "规划布局 · 非发布内容",
+  "imageReferencePolicy": "原图城市符号区域参照，不是经纬度配准；现代坐标与图片参照分列；正式新增景区坐标在C阶段复核。",
+  "items": [
+    {
+      "id": "yueyang",
+      "name": "岳阳楼",
+      "region": "湖南 · 岳阳",
+      "coordinates": [
+        113.0883327,
+        29.3846862
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/way/230337579",
+      "modernObject": "岳阳楼, 洞庭北路, 岳阳楼街道, 岳阳楼区, 岳阳市, 湖南省, 414000, 中国",
+      "x": 4122,
+      "y": 3795,
+      "imageReference": "岳阳城市符号，central原点3300/2950 +822/845"
+    },
+    {
+      "id": "dasan",
+      "name": "大散关",
+      "region": "陕西 · 宝鸡",
+      "coordinates": [
+        107.2322378,
+        34.3609713
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/relation/3048442",
+      "modernObject": "宝鸡市, 陕西省, 中国",
+      "x": 3417,
+      "y": 3160,
+      "imageReference": "宝鸡城市符号，central +117/210；仅区域参照"
+    },
+    {
+      "id": "yumen",
+      "name": "玉门关",
+      "region": "甘肃 · 敦煌",
+      "coordinates": [
+        93.864092,
+        40.3535682
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/way/137150764",
+      "modernObject": "玉门关 Yùménguān, 玉门关, 阳关镇, 敦煌市, 酒泉市, 甘肃省, 736200, 中国",
+      "x": 2157,
+      "y": 2361,
+      "imageReference": "敦煌城市符号，northwest原点1100/1900 +1057/461"
+    },
+    {
+      "id": "yangguan",
+      "name": "阳关",
+      "region": "甘肃 · 敦煌",
+      "coordinates": [
+        94.0945933,
+        39.9021735
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/relation/21278775",
+      "modernObject": "阳关镇, 敦煌市, 酒泉市, 甘肃省, 736200, 中国",
+      "x": 2157,
+      "y": 2361,
+      "imageReference": "共享敦煌参照；现代坐标暂采用阳关镇区域，非关址精确值"
+    },
+    {
+      "id": "loulan",
+      "name": "楼兰",
+      "region": "新疆 · 若羌",
+      "coordinates": [
+        89.9137787,
+        40.515394
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/way/977283249",
+      "modernObject": "楼兰故城遗址, 罗布泊镇 لوپنۇر كۆلى بازىرى, 若羌县 چاقىلىق ناھىيىسى, 巴音郭楞蒙古自治州 بايىنغولىن موڭغۇل ئاپتونوم ئوبلاستى, 新疆维吾尔自治区 شىنجاڭ ئۇيغۇر ئاپتونوم رايونی, 中国",
+      "x": 1478,
+      "y": 2414,
+      "imageReference": "若羌城市符号，northwest +378/514；非遗址精准图片点"
+    },
+    {
+      "id": "shanhaiguan",
+      "name": "山海关（榆关）",
+      "region": "河北 · 秦皇岛",
+      "coordinates": [
+        119.7563671,
+        39.9987877
+      ],
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "https://www.openstreetmap.org/relation/2989654",
+      "modernObject": "山海关区, 秦皇岛市, 河北省, 中国",
+      "x": 4647,
+      "y": 2327,
+      "imageReference": "秦皇岛城市符号，north原点3650/2100 +997/227；山海关区区域坐标"
+    }
+  ]
+}

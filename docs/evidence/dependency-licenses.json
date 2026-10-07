@@ -338,6 +338,15 @@
     ]
   },
   {
+    "name": "@panzoom/panzoom",
+    "version": "4.6.2",
+    "license": "MIT",
+    "development": false,
+    "noticeFiles": [
+      "MIT-License.txt"
+    ]
+  },
+  {
     "name": "@rolldown/binding-win32-x64-msvc",
     "version": "1.2.12",
     "license": "MIT",

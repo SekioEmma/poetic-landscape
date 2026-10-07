@@ -1,0 +1,8 @@
+{
+ "date":"2026-10-06",
+ "colors":{"paper":"#F4F0E6","reading":"#FCFAF4","ink":"#2E3430","green":"#506553","water":"#A8BBB9","selected":"#8D5044"},
+ "overview":{"minimumScale":1,"maximumScale":7,"anchorCollisionRadiusPx":32,"minimumHitPx":44,"desktopLabelPx":16,"mobileLabelPx":14,"projection":"original image plane; unit derivative transform"},
+ "reading":{"bottomSheetBreakpoint":1024,"tabletHeight":"45dvh","phoneHeight":"50dvh","phoneExpandedHeight":"calc(100dvh - 121px)"},
+ "motion":{"overviewFocusMs":420,"readingMs":220,"reducedMotionMs":0},
+ "font":"existing system Songti fallback; no embedded font added"
+}

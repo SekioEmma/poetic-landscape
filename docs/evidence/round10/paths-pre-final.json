@@ -1,0 +1,3558 @@
+{
+  "U03": [
+    {
+      "stage": "390-small",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:00:04.624Z",
+      "body": {
+        "bottom": 832.0000305175781,
+        "height": 252.95834350585935,
+        "left": 12,
+        "right": 378,
+        "top": 579.0416870117188,
+        "width": 366,
+        "x": 12,
+        "y": 579.0416870117188
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 236,
+            "right": 280,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 236,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 280,
+            "right": 324,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 280,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 324,
+            "right": 368,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 324,
+            "y": 491.0416870117187
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 32,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 100,
+            "right": 144,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 100,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 266.4375,
+        "height": 9,
+        "left": 183.4166717529297,
+        "right": 192.4166717529297,
+        "top": 257.4375,
+        "width": 9,
+        "x": 183.4166717529297,
+        "y": 257.4375
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 283.9375,
+            "height": 44,
+            "left": 197.13021850585935,
+            "right": 265.70314025878906,
+            "top": 239.9375,
+            "width": 68.57292175292969,
+            "x": 197.13021850585935,
+            "y": 239.9375
+          },
+          "name": "地图地点：湖心亭"
+        },
+        {
+          "box": {
+            "bottom": 286.1666717529297,
+            "height": 44,
+            "left": 28.0625,
+            "right": 111.64583587646484,
+            "top": 242.1666717529297,
+            "width": 83.58333587646484,
+            "x": 28.0625,
+            "y": 242.1666717529297
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 228.9375,
+            "height": 44,
+            "left": 114.15625,
+            "right": 187.67708587646484,
+            "top": 184.9375,
+            "width": 73.52083587646484,
+            "x": 114.15625,
+            "y": 184.9375
+          },
+          "name": "地图分组：江南"
+        }
+      ],
+      "fixed": {
+        "bottom": 579.0416870117188,
+        "height": 108,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 72,
+        "height": 72,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 832,
+        "height": 752,
+        "left": 10,
+        "right": 380,
+        "top": 80,
+        "width": 370,
+        "x": 10,
+        "y": 80
+      },
+      "mapRatio": 0.5040447965581366,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 379.0416870117187,
+        "left": 8,
+        "top": 0,
+        "width": 354
+      },
+      "sheet": {
+        "bottom": 832.0000305175781,
+        "height": 360.9583435058594,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "space": "reading",
+      "title": "湖心亭看雪",
+      "viewport": [
+        390,
+        844
+      ],
+      "work": {
+        "bottom": 832,
+        "height": 752,
+        "top": 80,
+        "width": 370
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":5,\"velocity\":0,\"from\":\"reading\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "390-up",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:00:10.830Z",
+      "body": {
+        "bottom": 832,
+        "height": 598.875,
+        "left": 12,
+        "right": 378,
+        "top": 233.125,
+        "width": 366,
+        "x": 12,
+        "y": 233.125
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 189.125,
+            "height": 44,
+            "left": 236,
+            "right": 280,
+            "top": 145.125,
+            "width": 44,
+            "x": 236,
+            "y": 145.125
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 189.125,
+            "height": 44,
+            "left": 280,
+            "right": 324,
+            "top": 145.125,
+            "width": 44,
+            "x": 280,
+            "y": 145.125
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 189.125,
+            "height": 44,
+            "left": 324,
+            "right": 368,
+            "top": 145.125,
+            "width": 44,
+            "x": 324,
+            "y": 145.125
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 233.125,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 189.125,
+            "width": 44,
+            "x": 32,
+            "y": 189.125
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 233.125,
+            "height": 44,
+            "left": 100,
+            "right": 144,
+            "top": 189.125,
+            "width": 44,
+            "x": 100,
+            "y": 189.125
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 266.4375,
+        "height": 9,
+        "left": 183.4166717529297,
+        "right": 192.4166717529297,
+        "top": 257.4375,
+        "width": 9,
+        "x": 183.4166717529297,
+        "y": 257.4375
+      },
+      "entries": [],
+      "fixed": {
+        "bottom": 233.125,
+        "height": 108,
+        "left": 12,
+        "right": 378,
+        "top": 125.125,
+        "width": 366,
+        "x": 12,
+        "y": 125.125
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 72,
+        "height": 72,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 832,
+        "height": 752,
+        "left": 10,
+        "right": 380,
+        "top": 80,
+        "width": 370,
+        "x": 10,
+        "y": 80
+      },
+      "mapRatio": 0.04404920212765957,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 33.125,
+        "left": 8,
+        "top": 0,
+        "width": 354
+      },
+      "sheet": {
+        "bottom": 832,
+        "height": 706.875,
+        "left": 12,
+        "right": 378,
+        "top": 125.125,
+        "width": 366,
+        "x": 12,
+        "y": 125.125
+      },
+      "space": "focused",
+      "title": "湖心亭看雪",
+      "viewport": [
+        390,
+        844
+      ],
+      "work": {
+        "bottom": 832,
+        "height": 752,
+        "top": 80,
+        "width": 370
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"}]",
+      "gesture": "{\"dy\":-262,\"velocity\":-2.75,\"height\":622.9583740234375,\"from\":\"reading\",\"to\":\"focused\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":11918.5,\"left\":12,\"top\":209.03125,\"width\":366,\"height\":622.9583740234375,\"space\":\"focused\"},{\"t\":11920.10000000149,\"left\":12,\"top\":209.03125,\"width\":366,\"height\":622.9583740234375,\"space\":\"focused\"},{\"t\":11926.20000000298,\"left\":12,\"top\":201.09375,\"width\":366,\"height\":630.8958740234375,\"space\":\"focused\"},{\"t\":11934.70000000298,\"left\":12,\"top\":193.1041717529297,\"width\":366,\"height\":638.8854370117188,\"space\":\"focused\"},{\"t\":11939.800000000745,\"left\":12,\"top\":185.34375,\"width\":366,\"height\":646.6354370117188,\"space\":\"focused\"},{\"t\":11944.400000002235,\"left\":12,\"top\":177.77084350585938,\"width\":366,\"height\":654.21875,\"space\":\"focused\"},{\"t\":11950.400000002235,\"left\":12,\"top\":170.71875,\"width\":366,\"height\":661.2604370117188,\"space\":\"focused\"},{\"t\":11956.70000000298,\"left\":12,\"top\":164.4791717529297,\"width\":366,\"height\":667.5104370117188,\"space\":\"focused\"},{\"t\":11962.60000000149,\"left\":12,\"top\":158.92709350585938,\"width\":366,\"height\":673.0625,\"space\":\"focused\"},{\"t\":11968.800000000745,\"left\":12,\"top\":154.15625,\"width\":366,\"height\":677.8333740234375,\"space\":\"focused\"},{\"t\":11974.900000002235,\"left\":12,\"top\":150.17709350585938,\"width\":366,\"height\":681.8125,\"space\":\"focused\"},{\"t\":11980.800000000745,\"left\":12,\"top\":146.73959350585938,\"width\":366,\"height\":685.2396240234375,\"space\":\"focused\"},{\"t\":11986.900000002235,\"left\":12,\"top\":143.8854217529297,\"width\":366,\"height\":688.1041870117188,\"space\":\"focused\"},{\"t\":11992.900000002235,\"left\":12,\"top\":141.36459350585938,\"width\":366,\"height\":690.6146240234375,\"space\":\"focused\"},{\"t\":11998.900000002235,\"left\":12,\"top\":139.2916717529297,\"width\":366,\"height\":692.6979370117188,\"space\":\"focused\"},{\"t\":12005,\"left\":12,\"top\":137.46875,\"width\":366,\"height\":694.5104370117188,\"space\":\"focused\"},{\"t\":12011.20000000298,\"left\":12,\"top\":135.92709350585938,\"width\":366,\"height\":696.0625,\"space\":\"focused\"},{\"t\":12017.300000000745,\"left\":12,\"top\":134.5416717529297,\"width\":366,\"height\":697.4479370117188,\"space\":\"focused\"},{\"t\":12023.20000000298,\"left\":12,\"top\":133.39584350585938,\"width\":366,\"height\":698.59375,\"space\":\"focused\"},{\"t\":12029.20000000298,\"left\":12,\"top\":132.34375,\"width\":366,\"height\":699.6458740234375,\"space\":\"focused\"},{\"t\":12035.300000000745,\"left\":12,\"top\":131.4479217529297,\"width\":366,\"height\":700.5416870117188,\"space\":\"focused\"},{\"t\":12041.400000002235,\"left\":12,\"top\":130.6354217529297,\"width\":366,\"height\":701.3541870117188,\"space\":\"focused\"},{\"t\":12047.400000002235,\"left\":12,\"top\":129.9375,\"width\":366,\"height\":702.0521240234375,\"space\":\"focused\"},{\"t\":12053.5,\"left\":12,\"top\":129.30209350585938,\"width\":366,\"height\":702.6875,\"space\":\"focused\"},{\"t\":12059.5,\"left\":12,\"top\":128.73959350585938,\"width\":366,\"height\":703.25,\"space\":\"focused\"},{\"t\":12065.60000000149,\"left\":12,\"top\":128.25,\"width\":366,\"height\":703.7396240234375,\"space\":\"focused\"},{\"t\":12071.60000000149,\"left\":12,\"top\":127.8125,\"width\":366,\"height\":704.1771240234375,\"space\":\"focused\"},{\"t\":12077.70000000298,\"left\":12,\"top\":127.42708587646484,\"width\":366,\"height\":704.5625,\"space\":\"focused\"},{\"t\":12083.900000002235,\"left\":12,\"top\":127.08333587646484,\"width\":366,\"height\":704.90625,\"space\":\"focused\"},{\"t\":12089.900000002235,\"left\":12,\"top\":126.78125,\"width\":366,\"height\":705.2083740234375,\"space\":\"focused\"},{\"t\":12096,\"left\":12,\"top\":126.51042175292969,\"width\":366,\"height\":705.4791870117188,\"space\":\"focused\"},{\"t\":12102,\"left\":12,\"top\":126.28125,\"width\":366,\"height\":705.7083740234375,\"space\":\"focused\"},{\"t\":12108.10000000149,\"left\":12,\"top\":126.07292175292969,\"width\":366,\"height\":705.9166870117188,\"space\":\"focused\"},{\"t\":12114.300000000745,\"left\":12,\"top\":125.89583587646484,\"width\":366,\"height\":706.09375,\"space\":\"focused\"},{\"t\":12120.300000000745,\"left\":12,\"top\":125.73958587646484,\"width\":366,\"height\":706.25,\"space\":\"focused\"},{\"t\":12126.400000002235,\"left\":12,\"top\":125.60417175292969,\"width\":366,\"height\":706.3854370117188,\"space\":\"focused\"},{\"t\":12132.5,\"left\":12,\"top\":125.48958587646484,\"width\":366,\"height\":706.5,\"space\":\"focused\"},{\"t\":12138.400000002235,\"left\":12,\"top\":125.38542175292969,\"width\":366,\"height\":706.6041870117188,\"space\":\"focused\"},{\"t\":12144.400000002235,\"left\":12,\"top\":125.3125,\"width\":366,\"height\":706.6771240234375,\"space\":\"focused\"},{\"t\":12150.5,\"left\":12,\"top\":125.25,\"width\":366,\"height\":706.7396240234375,\"space\":\"focused\"},{\"t\":12156.5,\"left\":12,\"top\":125.19792175292969,\"width\":366,\"height\":706.7916870117188,\"space\":\"focused\"},{\"t\":12162.70000000298,\"left\":12,\"top\":125.16667175292969,\"width\":366,\"height\":706.8229370117188,\"space\":\"focused\"},{\"t\":12168.60000000149,\"left\":12,\"top\":125.13542175292969,\"width\":366,\"height\":706.8541870117188,\"space\":\"focused\"},{\"t\":12174.800000000745,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.8646240234375,\"space\":\"focused\"},{\"t\":12181.5,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"space\":\"focused\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"right\":378,\"bottom\":832}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 224,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 84,
+            "width": 44,
+            "x": 316,
+            "y": 84
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 128,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 84,
+                "width": 44,
+                "x": 316,
+                "y": 84
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 180,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 136,
+                "width": 44,
+                "x": 316,
+                "y": 136
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 224,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 180,
+                "width": 44,
+                "x": 316,
+                "y": 180
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":4,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":33.125}}",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "stage": "390-down",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:00:16.583Z",
+      "body": {
+        "bottom": 832.0000305175781,
+        "height": 252.95834350585935,
+        "left": 12,
+        "right": 378,
+        "top": 579.0416870117188,
+        "width": 366,
+        "x": 12,
+        "y": 579.0416870117188
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 236,
+            "right": 280,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 236,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 280,
+            "right": 324,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 280,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 324,
+            "right": 368,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 324,
+            "y": 491.0416870117187
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 32,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 100,
+            "right": 144,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 100,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 266.4375,
+        "height": 9,
+        "left": 183.4166717529297,
+        "right": 192.4166717529297,
+        "top": 257.4375,
+        "width": 9,
+        "x": 183.4166717529297,
+        "y": 257.4375
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 283.9375,
+            "height": 44,
+            "left": 197.13021850585935,
+            "right": 265.70314025878906,
+            "top": 239.9375,
+            "width": 68.57292175292969,
+            "x": 197.13021850585935,
+            "y": 239.9375
+          },
+          "name": "地图地点：湖心亭"
+        },
+        {
+          "box": {
+            "bottom": 286.1666717529297,
+            "height": 44,
+            "left": 28.0625,
+            "right": 111.64583587646484,
+            "top": 242.1666717529297,
+            "width": 83.58333587646484,
+            "x": 28.0625,
+            "y": 242.1666717529297
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 228.9375,
+            "height": 44,
+            "left": 114.15625,
+            "right": 187.67708587646484,
+            "top": 184.9375,
+            "width": 73.52083587646484,
+            "x": 114.15625,
+            "y": 184.9375
+          },
+          "name": "地图分组：江南"
+        }
+      ],
+      "fixed": {
+        "bottom": 579.0416870117188,
+        "height": 108,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 72,
+        "height": 72,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 832,
+        "height": 752,
+        "left": 10,
+        "right": 380,
+        "top": 80,
+        "width": 370,
+        "x": 10,
+        "y": 80
+      },
+      "mapRatio": 0.5040447965581366,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 379.0416870117187,
+        "left": 8,
+        "top": 0,
+        "width": 354
+      },
+      "sheet": {
+        "bottom": 832.0000305175781,
+        "height": 360.9583435058594,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "space": "reading",
+      "title": "湖心亭看雪",
+      "viewport": [
+        390,
+        844
+      ],
+      "work": {
+        "bottom": 832,
+        "height": 752,
+        "top": 80,
+        "width": 370
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":290,\"velocity\":3.302752294029494,\"height\":416.875,\"from\":\"focused\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":18141.70000000298,\"left\":12,\"top\":415.125,\"width\":366,\"height\":416.875,\"space\":\"reading\"},{\"t\":18144.70000000298,\"left\":12,\"top\":415.125,\"width\":366,\"height\":416.875,\"space\":\"reading\"},{\"t\":18150.70000000298,\"left\":12,\"top\":420.40625,\"width\":366,\"height\":411.5833435058594,\"space\":\"reading\"},{\"t\":18161.300000000745,\"left\":12,\"top\":425.72918701171875,\"width\":366,\"height\":406.26043701171875,\"space\":\"reading\"},{\"t\":18163.10000000149,\"left\":12,\"top\":430.8125,\"width\":366,\"height\":401.1770935058594,\"space\":\"reading\"},{\"t\":18168.900000002235,\"left\":12,\"top\":435.875,\"width\":366,\"height\":396.1145935058594,\"space\":\"reading\"},{\"t\":18174.900000002235,\"left\":12,\"top\":440.5,\"width\":366,\"height\":391.4895935058594,\"space\":\"reading\"},{\"t\":18181.10000000149,\"left\":12,\"top\":444.8020935058594,\"width\":366,\"height\":387.1875,\"space\":\"reading\"},{\"t\":18187.10000000149,\"left\":12,\"top\":448.4583435058594,\"width\":366,\"height\":383.53125,\"space\":\"reading\"},{\"t\":18193.10000000149,\"left\":12,\"top\":451.63543701171875,\"width\":366,\"height\":380.35418701171875,\"space\":\"reading\"},{\"t\":18199.20000000298,\"left\":12,\"top\":454.3020935058594,\"width\":366,\"height\":377.6875,\"space\":\"reading\"},{\"t\":18205.300000000745,\"left\":12,\"top\":456.59375,\"width\":366,\"height\":375.3958435058594,\"space\":\"reading\"},{\"t\":18211.300000000745,\"left\":12,\"top\":458.5,\"width\":366,\"height\":373.4895935058594,\"space\":\"reading\"},{\"t\":18217.400000002235,\"left\":12,\"top\":460.15625,\"width\":366,\"height\":371.8333435058594,\"space\":\"reading\"},{\"t\":18223.400000002235,\"left\":12,\"top\":461.57293701171875,\"width\":366,\"height\":370.41668701171875,\"space\":\"reading\"},{\"t\":18229.5,\"left\":12,\"top\":462.7708435058594,\"width\":366,\"height\":369.21875,\"space\":\"reading\"},{\"t\":18235.60000000149,\"left\":12,\"top\":463.8125,\"width\":366,\"height\":368.1770935058594,\"space\":\"reading\"},{\"t\":18241.60000000149,\"left\":12,\"top\":464.72918701171875,\"width\":366,\"height\":367.26043701171875,\"space\":\"reading\"},{\"t\":18247.70000000298,\"left\":12,\"top\":465.5208435058594,\"width\":366,\"height\":366.46875,\"space\":\"reading\"},{\"t\":18253.900000002235,\"left\":12,\"top\":466.19793701171875,\"width\":366,\"height\":365.79168701171875,\"space\":\"reading\"},{\"t\":18259.900000002235,\"left\":12,\"top\":466.82293701171875,\"width\":366,\"height\":365.16668701171875,\"space\":\"reading\"},{\"t\":18265.900000002235,\"left\":12,\"top\":467.35418701171875,\"width\":366,\"height\":364.63543701171875,\"space\":\"reading\"},{\"t\":18271.900000002235,\"left\":12,\"top\":467.82293701171875,\"width\":366,\"height\":364.16668701171875,\"space\":\"reading\"},{\"t\":18277.900000002235,\"left\":12,\"top\":468.2395935058594,\"width\":366,\"height\":363.75,\"space\":\"reading\"},{\"t\":18284.10000000149,\"left\":12,\"top\":468.6145935058594,\"width\":366,\"height\":363.375,\"space\":\"reading\"},{\"t\":18290.10000000149,\"left\":12,\"top\":468.9375,\"width\":366,\"height\":363.0520935058594,\"space\":\"reading\"},{\"t\":18296.20000000298,\"left\":12,\"top\":469.2395935058594,\"width\":366,\"height\":362.75,\"space\":\"reading\"},{\"t\":18302.20000000298,\"left\":12,\"top\":469.4895935058594,\"width\":366,\"height\":362.5,\"space\":\"reading\"},{\"t\":18308.20000000298,\"left\":12,\"top\":469.72918701171875,\"width\":366,\"height\":362.26043701171875,\"space\":\"reading\"},{\"t\":18314.400000002235,\"left\":12,\"top\":469.9270935058594,\"width\":366,\"height\":362.0625,\"space\":\"reading\"},{\"t\":18320.400000002235,\"left\":12,\"top\":470.10418701171875,\"width\":366,\"height\":361.88543701171875,\"space\":\"reading\"},{\"t\":18326.5,\"left\":12,\"top\":470.26043701171875,\"width\":366,\"height\":361.72918701171875,\"space\":\"reading\"},{\"t\":18332.5,\"left\":12,\"top\":470.3958435058594,\"width\":366,\"height\":361.59375,\"space\":\"reading\"},{\"t\":18338.60000000149,\"left\":12,\"top\":470.5208435058594,\"width\":366,\"height\":361.46875,\"space\":\"reading\"},{\"t\":18344.70000000298,\"left\":12,\"top\":470.625,\"width\":366,\"height\":361.3645935058594,\"space\":\"reading\"},{\"t\":18350.70000000298,\"left\":12,\"top\":470.7083435058594,\"width\":366,\"height\":361.28125,\"space\":\"reading\"},{\"t\":18357,\"left\":12,\"top\":470.79168701171875,\"width\":366,\"height\":361.19793701171875,\"space\":\"reading\"},{\"t\":18363.10000000149,\"left\":12,\"top\":470.85418701171875,\"width\":366,\"height\":361.13543701171875,\"space\":\"reading\"},{\"t\":18369.10000000149,\"left\":12,\"top\":470.90625,\"width\":366,\"height\":361.0833435058594,\"space\":\"reading\"},{\"t\":18375.10000000149,\"left\":12,\"top\":470.94793701171875,\"width\":366,\"height\":361.04168701171875,\"space\":\"reading\"},{\"t\":18381.10000000149,\"left\":12,\"top\":470.97918701171875,\"width\":366,\"height\":361.01043701171875,\"space\":\"reading\"},{\"t\":18387.10000000149,\"left\":12,\"top\":471.01043701171875,\"width\":366,\"height\":360.97918701171875,\"space\":\"reading\"},{\"t\":18393.10000000149,\"left\":12,\"top\":471.0208435058594,\"width\":366,\"height\":360.96875,\"space\":\"reading\"},{\"t\":18399.20000000298,\"left\":12,\"top\":471.03125,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"},{\"t\":18406.20000000298,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "768-up",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:03:19.318Z",
+      "body": {
+        "bottom": 1012.0000610351562,
+        "height": 754.919677734375,
+        "left": 24.000001907348633,
+        "right": 744.0000629425049,
+        "top": 257.08038330078125,
+        "width": 720.0000610351562,
+        "x": 24.000001907348633,
+        "y": 257.08038330078125
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 213.08037185668945,
+            "height": 44.000003814697266,
+            "left": 598,
+            "right": 642.0000038146973,
+            "top": 169.0803680419922,
+            "width": 44.000003814697266,
+            "x": 598,
+            "y": 169.0803680419922
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 213.08037185668945,
+            "height": 44.000003814697266,
+            "left": 642,
+            "right": 686.0000038146973,
+            "top": 169.0803680419922,
+            "width": 44.000003814697266,
+            "x": 642,
+            "y": 169.0803680419922
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 213.08037185668945,
+            "height": 44.000003814697266,
+            "left": 686.0000610351562,
+            "right": 730.0000648498535,
+            "top": 169.0803680419922,
+            "width": 44.000003814697266,
+            "x": 686.0000610351562,
+            "y": 169.0803680419922
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 257.08037185668945,
+            "height": 44.000003814697266,
+            "left": 48.000003814697266,
+            "right": 92.00000762939452,
+            "top": 213.0803680419922,
+            "width": 44.000003814697266,
+            "x": 48.000003814697266,
+            "y": 213.0803680419922
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 257.08037185668945,
+            "height": 44.000003814697266,
+            "left": 116.00000762939452,
+            "right": 160.0000114440918,
+            "top": 213.0803680419922,
+            "width": 44.000003814697266,
+            "x": 116.00000762939452,
+            "y": 213.0803680419922
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 321.875,
+        "height": 9,
+        "left": 365.2589416503906,
+        "right": 374.2589416503906,
+        "top": 312.875,
+        "width": 9,
+        "x": 365.2589416503906,
+        "y": 312.875
+      },
+      "entries": [],
+      "fixed": {
+        "bottom": 257.0803756713867,
+        "height": 108.00000762939452,
+        "left": 24.000001907348633,
+        "right": 744.0000629425049,
+        "top": 149.0803680419922,
+        "width": 720.0000610351562,
+        "x": 24.000001907348633,
+        "y": 149.0803680419922
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 86.00000762939453,
+        "height": 86.00000762939453,
+        "left": 0,
+        "right": 768.0000610351562,
+        "top": 0,
+        "width": 768.0000610351562,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 1012.0000686645508,
+        "height": 918.0000610351562,
+        "left": 20,
+        "right": 748.0000610351562,
+        "top": 94.00000762939452,
+        "width": 728.0000610351562,
+        "x": 20,
+        "y": 94.00000762939452
+      },
+      "mapRatio": 0.046928497571496385,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 43.080360412597656,
+        "left": 8,
+        "top": 0,
+        "width": 712.0000610351562
+      },
+      "sheet": {
+        "bottom": 1012.0000457763672,
+        "height": 862.919677734375,
+        "left": 24.000001907348633,
+        "right": 744.0000629425049,
+        "top": 149.0803680419922,
+        "width": 720.0000610351562,
+        "x": 24.000001907348633,
+        "y": 149.0803680419922
+      },
+      "space": "focused",
+      "title": "湖心亭看雪",
+      "viewport": [
+        768,
+        1024
+      ],
+      "work": {
+        "bottom": 1012,
+        "height": 917.9999923706056,
+        "top": 94.00000762939452,
+        "width": 728
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": false,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 0
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":84.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":456.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":28044.099999997765,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":440.6339416503906,\"controls\":\"visible\"},{\"t\":33377.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":762.6339721679688,\"controls\":\"hidden\"}]",
+      "gesture": "{\"dy\":-322,\"velocity\":-3.508771929136604,\"height\":762.6339721679688,\"from\":\"reading\",\"to\":\"focused\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":33376.599999997765,\"left\":69,\"top\":249.35714721679688,\"width\":630,\"height\":762.6339721679688,\"space\":\"focused\"},{\"t\":33378.099999997765,\"left\":69,\"top\":249.35714721679688,\"width\":630,\"height\":762.6339721679688,\"space\":\"focused\"},{\"t\":33382.89999999851,\"left\":64.74107360839844,\"top\":239.8660888671875,\"width\":638.5089721679688,\"height\":772.1160888671875,\"space\":\"focused\"},{\"t\":33394.800000000745,\"left\":56.22321701049805,\"top\":220.90179443359375,\"width\":655.5357666015625,\"height\":791.0892944335938,\"space\":\"focused\"},{\"t\":33400.599999997765,\"left\":52.23214340209961,\"top\":211.99107360839844,\"width\":663.5267944335938,\"height\":799.9910888671875,\"space\":\"focused\"},{\"t\":33407,\"left\":48.50893020629883,\"top\":203.7053680419922,\"width\":670.9642944335938,\"height\":808.2857666015625,\"space\":\"focused\"},{\"t\":33412.800000000745,\"left\":45.10714340209961,\"top\":196.11607360839844,\"width\":677.7767944335938,\"height\":815.8750610351562,\"space\":\"focused\"},{\"t\":33419.300000000745,\"left\":42.125,\"top\":189.4732208251953,\"width\":683.7410888671875,\"height\":822.5178833007812,\"space\":\"focused\"},{\"t\":33425.199999999255,\"left\":39.57143020629883,\"top\":183.77679443359375,\"width\":688.8482666015625,\"height\":828.2142944335938,\"space\":\"focused\"},{\"t\":33431.099999997765,\"left\":37.42857360839844,\"top\":179.0178680419922,\"width\":693.1250610351562,\"height\":832.9732666015625,\"space\":\"focused\"},{\"t\":33437,\"left\":35.61607360839844,\"top\":174.98214721679688,\"width\":696.7500610351562,\"height\":837.0089721679688,\"space\":\"focused\"},{\"t\":33443.199999999255,\"left\":34.05357360839844,\"top\":171.50001525878906,\"width\":699.8750610351562,\"height\":840.4910888671875,\"space\":\"focused\"},{\"t\":33449.300000000745,\"left\":32.71428680419922,\"top\":168.49107360839844,\"width\":702.5625610351562,\"height\":843.4910888671875,\"space\":\"focused\"},{\"t\":33455.199999999255,\"left\":31.616073608398438,\"top\":166.05357360839844,\"width\":704.7589721679688,\"height\":845.9375610351562,\"space\":\"focused\"},{\"t\":33461.39999999851,\"left\":30.633930206298828,\"top\":163.875,\"width\":706.7142944335938,\"height\":848.1160888671875,\"space\":\"focused\"},{\"t\":33467.39999999851,\"left\":29.79464340209961,\"top\":161.99107360839844,\"width\":708.4017944335938,\"height\":850.0000610351562,\"space\":\"focused\"},{\"t\":33473.39999999851,\"left\":29.071430206298828,\"top\":160.38394165039062,\"width\":709.8482666015625,\"height\":851.607177734375,\"space\":\"focused\"},{\"t\":33479.5,\"left\":28.428573608398438,\"top\":158.96429443359375,\"width\":711.1250610351562,\"height\":853.0267944335938,\"space\":\"focused\"},{\"t\":33485.699999999255,\"left\":27.883930206298828,\"top\":157.73214721679688,\"width\":712.2232666015625,\"height\":854.2589721679688,\"space\":\"focused\"},{\"t\":33491.599999997765,\"left\":27.383930206298828,\"top\":156.63394165039062,\"width\":713.2142944335938,\"height\":855.357177734375,\"space\":\"focused\"},{\"t\":33497.699999999255,\"left\":26.955358505249023,\"top\":155.66964721679688,\"width\":714.0803833007812,\"height\":856.3214721679688,\"space\":\"focused\"},{\"t\":33503.699999999255,\"left\":26.571430206298828,\"top\":154.8125,\"width\":714.8482666015625,\"height\":857.1785888671875,\"space\":\"focused\"},{\"t\":33509.89999999851,\"left\":26.241071701049805,\"top\":154.07144165039062,\"width\":715.5089721679688,\"height\":857.919677734375,\"space\":\"focused\"},{\"t\":33516,\"left\":25.937501907348633,\"top\":153.40179443359375,\"width\":716.107177734375,\"height\":858.5892944335938,\"space\":\"focused\"},{\"t\":33521.89999999851,\"left\":25.678571701049805,\"top\":152.82144165039062,\"width\":716.6339721679688,\"height\":859.169677734375,\"space\":\"focused\"},{\"t\":33528,\"left\":25.446430206298828,\"top\":152.30357360839844,\"width\":717.0982666015625,\"height\":859.6875610351562,\"space\":\"focused\"},{\"t\":33534,\"left\":25.23214340209961,\"top\":151.83929443359375,\"width\":717.5178833007812,\"height\":860.1517944335938,\"space\":\"focused\"},{\"t\":33540.300000000745,\"left\":25.053571701049805,\"top\":151.42857360839844,\"width\":717.8839721679688,\"height\":860.5625610351562,\"space\":\"focused\"},{\"t\":33546.199999999255,\"left\":24.892858505249023,\"top\":151.0625,\"width\":718.2053833007812,\"height\":860.9285888671875,\"space\":\"focused\"},{\"t\":33552.199999999255,\"left\":24.741071701049805,\"top\":150.74107360839844,\"width\":718.5000610351562,\"height\":861.2500610351562,\"space\":\"focused\"},{\"t\":33558.300000000745,\"left\":24.616071701049805,\"top\":150.46429443359375,\"width\":718.7500610351562,\"height\":861.5267944335938,\"space\":\"focused\"},{\"t\":33564.199999999255,\"left\":24.508930206298828,\"top\":150.21429443359375,\"width\":718.9732666015625,\"height\":861.7767944335938,\"space\":\"focused\"},{\"t\":33570.39999999851,\"left\":24.410715103149414,\"top\":150,\"width\":719.169677734375,\"height\":861.9910888671875,\"space\":\"focused\"},{\"t\":33576.5,\"left\":24.330358505249023,\"top\":149.8125,\"width\":719.3303833007812,\"height\":862.1785888671875,\"space\":\"focused\"},{\"t\":33582.39999999851,\"left\":24.250001907348633,\"top\":149.65179443359375,\"width\":719.482177734375,\"height\":862.3392944335938,\"space\":\"focused\"},{\"t\":33588.599999997765,\"left\":24.196430206298828,\"top\":149.5178680419922,\"width\":719.5982666015625,\"height\":862.4732666015625,\"space\":\"focused\"},{\"t\":33594.599999997765,\"left\":24.142858505249023,\"top\":149.40179443359375,\"width\":719.7053833007812,\"height\":862.5892944335938,\"space\":\"focused\"},{\"t\":33600.699999999255,\"left\":24.098215103149414,\"top\":149.30357360839844,\"width\":719.7857666015625,\"height\":862.6875610351562,\"space\":\"focused\"},{\"t\":33606.800000000745,\"left\":24.062501907348633,\"top\":149.23214721679688,\"width\":719.857177734375,\"height\":862.7589721679688,\"space\":\"focused\"},{\"t\":33612.800000000745,\"left\":24.035715103149414,\"top\":149.16964721679688,\"width\":719.9107666015625,\"height\":862.8214721679688,\"space\":\"focused\"},{\"t\":33619.099999997765,\"left\":24.017858505249023,\"top\":149.125,\"width\":719.9464721679688,\"height\":862.8660888671875,\"space\":\"focused\"},{\"t\":33624.89999999851,\"left\":24.008930206298828,\"top\":149.0982208251953,\"width\":719.9732666015625,\"height\":862.8928833007812,\"space\":\"focused\"},{\"t\":33631,\"left\":24.000001907348633,\"top\":149.0803680419922,\"width\":719.9910888671875,\"height\":862.9107666015625,\"space\":\"focused\"},{\"t\":33638.099999997765,\"left\":24.000001907348633,\"top\":149.0803680419922,\"width\":720.0000610351562,\"height\":862.919677734375,\"space\":\"focused\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":24.000001907348633,\"top\":149.0803680419922,\"width\":720.0000610351562,\"height\":862.919677734375,\"right\":744.0000629425049,\"bottom\":1012.0000457763672}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 238.00000762939453,
+            "height": 140,
+            "left": 684.0000610351562,
+            "right": 728.0000648498535,
+            "top": 98.00000762939452,
+            "width": 44.000003814697266,
+            "x": 684.0000610351562,
+            "y": 98.00000762939452
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 142.0000114440918,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 98.00000762939452,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 98.00000762939452
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 194.0000038146973,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 150,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 150
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 238.00001907348633,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 194.00001525878903,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 194.00001525878903
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":664.0000610351562,\"y\":4,\"safe\":{\"left\":8,\"top\":0,\"width\":712.0000610351562,\"height\":43.080360412597656}}",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "stage": "768-down",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:03:27.102Z",
+      "body": {
+        "bottom": 1012.000030517578,
+        "height": 332.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 679.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 679.3660888671875
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 553,
+            "right": 597.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 553,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 597,
+            "right": 641.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 597,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 641,
+            "right": 685.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 641,
+            "y": 591.3660888671875
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 93.00000762939452,
+            "right": 137.0000114440918,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 93.00000762939452,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 161,
+            "right": 205.0000038146973,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 161,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 321.875,
+        "height": 9,
+        "left": 365.2589416503906,
+        "right": 374.2589416503906,
+        "top": 312.875,
+        "width": 9,
+        "x": 365.2589416503906,
+        "y": 312.875
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 339.37500381469727,
+            "height": 44.000003814697266,
+            "left": 378.8660888671875,
+            "right": 454.6518096923828,
+            "top": 295.375,
+            "width": 75.78572082519531,
+            "x": 378.8660888671875,
+            "y": 295.375
+          },
+          "name": "地图地点：湖心亭"
+        },
+        {
+          "box": {
+            "bottom": 343.7678871154785,
+            "height": 44.000003814697266,
+            "left": 246.9598388671875,
+            "right": 337.64734649658203,
+            "top": 299.76788330078125,
+            "width": 90.68750762939452,
+            "x": 246.9598388671875,
+            "y": 299.76788330078125
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 284.3750190734863,
+            "height": 44.000003814697266,
+            "left": 292.0044860839844,
+            "right": 369.51342010498047,
+            "top": 240.37501525878903,
+            "width": 77.5089340209961,
+            "x": 292.0044860839844,
+            "y": 240.37501525878903
+          },
+          "name": "地图分组：江南"
+        },
+        {
+          "box": {
+            "bottom": 230.78572463989255,
+            "height": 44.000003814697266,
+            "left": 257.3169860839844,
+            "right": 348.0044937133789,
+            "top": 186.7857208251953,
+            "width": 90.68750762939452,
+            "x": 257.3169860839844,
+            "y": 186.7857208251953
+          },
+          "name": "地图地点：瓜洲渡"
+        }
+      ],
+      "fixed": {
+        "bottom": 679.366096496582,
+        "height": 108.00000762939452,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 86.00000762939453,
+        "height": 86.00000762939453,
+        "left": 0,
+        "right": 768.0000610351562,
+        "top": 0,
+        "width": 768.0000610351562,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 1012.0000686645508,
+        "height": 918.0000610351562,
+        "left": 20,
+        "right": 748.0000610351562,
+        "top": 94.00000762939452,
+        "width": 728.0000610351562,
+        "x": 20,
+        "y": 94.00000762939452
+      },
+      "mapRatio": 0.5069347332302812,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 465.36608123779297,
+        "left": 8,
+        "top": 0,
+        "width": 712.0000610351562
+      },
+      "sheet": {
+        "bottom": 1012.000030517578,
+        "height": 440.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "space": "reading",
+      "title": "湖心亭看雪",
+      "viewport": [
+        768,
+        1024
+      ],
+      "work": {
+        "bottom": 1012,
+        "height": 917.9999923706056,
+        "top": 94.00000762939452,
+        "width": 728
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": false,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 0
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":84.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":456.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":28044.099999997765,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":440.6339416503906,\"controls\":\"visible\"},{\"t\":33377.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":762.6339721679688,\"controls\":\"hidden\"},{\"t\":41163.199999999255,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":582.919677734375,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":280.0000305175781,\"velocity\":3.0973451325391412,\"height\":582.919677734375,\"from\":\"focused\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":41162.89999999851,\"left\":24.000001907348633,\"top\":429.08038330078125,\"width\":720.0000610351562,\"height\":582.919677734375,\"space\":\"reading\"},{\"t\":41163.800000000745,\"left\":24.000001907348633,\"top\":429.08038330078125,\"width\":720.0000610351562,\"height\":582.919677734375,\"space\":\"reading\"},{\"t\":41166.5,\"left\":28.250001907348633,\"top\":442.5357360839844,\"width\":711.482177734375,\"height\":569.4553833007812,\"space\":\"reading\"},{\"t\":41171.199999999255,\"left\":32.53571701049805,\"top\":456.08038330078125,\"width\":702.9107666015625,\"height\":555.9107666015625,\"space\":\"reading\"},{\"t\":41185.699999999255,\"left\":40.75893020629883,\"top\":482.08038330078125,\"width\":686.4642944335938,\"height\":529.9107666015625,\"space\":\"reading\"},{\"t\":41189.300000000745,\"left\":44.48214340209961,\"top\":493.8482360839844,\"width\":679.0267944335938,\"height\":518.1428833007812,\"space\":\"reading\"},{\"t\":41195.699999999255,\"left\":47.88393020629883,\"top\":504.6160888671875,\"width\":672.2142944335938,\"height\":507.3750305175781,\"space\":\"reading\"},{\"t\":41201.300000000745,\"left\":50.86607360839844,\"top\":514.0357666015625,\"width\":666.25,\"height\":497.95538330078125,\"space\":\"reading\"},{\"t\":41207.5,\"left\":53.38393020629883,\"top\":522,\"width\":661.2142944335938,\"height\":489.9910888671875,\"space\":\"reading\"},{\"t\":41213.800000000745,\"left\":55.52678680419922,\"top\":528.7767944335938,\"width\":656.9375,\"height\":483.21429443359375,\"space\":\"reading\"},{\"t\":41219.699999999255,\"left\":57.375003814697266,\"top\":534.607177734375,\"width\":653.2410888671875,\"height\":477.3839416503906,\"space\":\"reading\"},{\"t\":41225.599999997765,\"left\":58.937503814697266,\"top\":539.544677734375,\"width\":650.1160888671875,\"height\":472.4464416503906,\"space\":\"reading\"},{\"t\":41231.599999997765,\"left\":60.24107360839844,\"top\":543.6785888671875,\"width\":647.5089721679688,\"height\":468.3125305175781,\"space\":\"reading\"},{\"t\":41238,\"left\":61.375003814697266,\"top\":547.2767944335938,\"width\":645.232177734375,\"height\":464.71429443359375,\"space\":\"reading\"},{\"t\":41243.699999999255,\"left\":62.357147216796875,\"top\":550.3660888671875,\"width\":643.2767944335938,\"height\":461.6250305175781,\"space\":\"reading\"},{\"t\":41249.800000000745,\"left\":63.187503814697266,\"top\":552.9910888671875,\"width\":641.6160888671875,\"height\":459.0000305175781,\"space\":\"reading\"},{\"t\":41255.89999999851,\"left\":63.91071701049805,\"top\":555.2767944335938,\"width\":640.169677734375,\"height\":456.71429443359375,\"space\":\"reading\"},{\"t\":41262,\"left\":64.5625,\"top\":557.3392944335938,\"width\":638.8660888671875,\"height\":454.65179443359375,\"space\":\"reading\"},{\"t\":41267.89999999851,\"left\":65.10714721679688,\"top\":559.0803833007812,\"width\":637.7678833007812,\"height\":452.9107360839844,\"space\":\"reading\"},{\"t\":41274,\"left\":65.60714721679688,\"top\":560.6339721679688,\"width\":636.7767944335938,\"height\":451.357177734375,\"space\":\"reading\"},{\"t\":41280.300000000745,\"left\":66.02678680419922,\"top\":561.982177734375,\"width\":635.9285888671875,\"height\":450.0089416503906,\"space\":\"reading\"},{\"t\":41286.199999999255,\"left\":66.41072082519531,\"top\":563.1785888671875,\"width\":635.169677734375,\"height\":448.8125305175781,\"space\":\"reading\"},{\"t\":41292.199999999255,\"left\":66.75,\"top\":564.2678833007812,\"width\":634.482177734375,\"height\":447.7232360839844,\"space\":\"reading\"},{\"t\":41298.5,\"left\":67.04464721679688,\"top\":565.2053833007812,\"width\":633.8928833007812,\"height\":446.7857360839844,\"space\":\"reading\"},{\"t\":41304.39999999851,\"left\":67.3125,\"top\":566.044677734375,\"width\":633.357177734375,\"height\":445.9464416503906,\"space\":\"reading\"},{\"t\":41310.39999999851,\"left\":67.54464721679688,\"top\":566.7767944335938,\"width\":632.8928833007812,\"height\":445.21429443359375,\"space\":\"reading\"},{\"t\":41316.39999999851,\"left\":67.7589340209961,\"top\":567.4464721679688,\"width\":632.4732666015625,\"height\":444.544677734375,\"space\":\"reading\"},{\"t\":41322.699999999255,\"left\":67.9375,\"top\":568.0267944335938,\"width\":632.107177734375,\"height\":443.96429443359375,\"space\":\"reading\"},{\"t\":41329.5,\"left\":68.10714721679688,\"top\":568.544677734375,\"width\":631.7767944335938,\"height\":443.4464416503906,\"space\":\"reading\"},{\"t\":41335,\"left\":68.25,\"top\":568.9910888671875,\"width\":631.4910888671875,\"height\":443.0000305175781,\"space\":\"reading\"},{\"t\":41341.699999999255,\"left\":68.375,\"top\":569.3928833007812,\"width\":631.2410888671875,\"height\":442.5982360839844,\"space\":\"reading\"},{\"t\":41347.5,\"left\":68.48214721679688,\"top\":569.7410888671875,\"width\":631.0178833007812,\"height\":442.2500305175781,\"space\":\"reading\"},{\"t\":41353.300000000745,\"left\":68.58036041259766,\"top\":570.044677734375,\"width\":630.8303833007812,\"height\":441.9464416503906,\"space\":\"reading\"},{\"t\":41363.199999999255,\"left\":68.66072082519531,\"top\":570.3125,\"width\":630.6607666015625,\"height\":441.6785888671875,\"space\":\"reading\"},{\"t\":41365,\"left\":68.74107360839844,\"top\":570.544677734375,\"width\":630.5089721679688,\"height\":441.4464416503906,\"space\":\"reading\"},{\"t\":41371.300000000745,\"left\":68.79464721679688,\"top\":570.732177734375,\"width\":630.3928833007812,\"height\":441.2589416503906,\"space\":\"reading\"},{\"t\":41377.5,\"left\":68.84822082519531,\"top\":570.9017944335938,\"width\":630.2857666015625,\"height\":441.08929443359375,\"space\":\"reading\"},{\"t\":41383,\"left\":68.89286041259766,\"top\":571.0267944335938,\"width\":630.2053833007812,\"height\":440.96429443359375,\"space\":\"reading\"},{\"t\":41389,\"left\":68.92857360839844,\"top\":571.1428833007812,\"width\":630.1339721679688,\"height\":440.8482360839844,\"space\":\"reading\"},{\"t\":41395.099999997765,\"left\":68.95536041259766,\"top\":571.2232666015625,\"width\":630.0803833007812,\"height\":440.76788330078125,\"space\":\"reading\"},{\"t\":41401.199999999255,\"left\":68.97322082519531,\"top\":571.2857666015625,\"width\":630.044677734375,\"height\":440.70538330078125,\"space\":\"reading\"},{\"t\":41407.199999999255,\"left\":68.98214721679688,\"top\":571.3303833007812,\"width\":630.0178833007812,\"height\":440.6607360839844,\"space\":\"reading\"},{\"t\":41413.300000000745,\"left\":68.99107360839844,\"top\":571.357177734375,\"width\":630,\"height\":440.6339416503906,\"space\":\"reading\"},{\"t\":41420.599999997765,\"left\":69,\"top\":571.3660888671875,\"width\":630,\"height\":440.6339416503906,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":69,\"top\":571.3660888671875,\"width\":630,\"height\":440.6339416503906,\"right\":699,\"bottom\":1012.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 547.3660888671875,
+            "height": 140,
+            "left": 684.0000610351562,
+            "right": 728.0000648498535,
+            "top": 407.3660888671875,
+            "width": 44.000003814697266,
+            "x": 684.0000610351562,
+            "y": 407.3660888671875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 451.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 407.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 407.3660888671875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 503.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 459.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 459.3660888671875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 547.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 503.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 503.3660888671875
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":664.0000610351562,\"y\":313.36608123779297,\"safe\":{\"left\":8,\"top\":0,\"width\":712.0000610351562,\"height\":465.36608123779297}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "768-small",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:03:55.140Z",
+      "body": {
+        "bottom": 1012.000030517578,
+        "height": 332.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 679.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 679.3660888671875
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 553,
+            "right": 597.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 553,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 597,
+            "right": 641.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 597,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 641,
+            "right": 685.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 641,
+            "y": 591.3660888671875
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 93.00000762939452,
+            "right": 137.0000114440918,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 93.00000762939452,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 161,
+            "right": 205.0000038146973,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 161,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 321.875,
+        "height": 9,
+        "left": 365.2589416503906,
+        "right": 374.2589416503906,
+        "top": 312.875,
+        "width": 9,
+        "x": 365.2589416503906,
+        "y": 312.875
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 339.37500381469727,
+            "height": 44.000003814697266,
+            "left": 378.8660888671875,
+            "right": 454.6518096923828,
+            "top": 295.375,
+            "width": 75.78572082519531,
+            "x": 378.8660888671875,
+            "y": 295.375
+          },
+          "name": "地图地点：湖心亭"
+        },
+        {
+          "box": {
+            "bottom": 343.7678871154785,
+            "height": 44.000003814697266,
+            "left": 246.9598388671875,
+            "right": 337.64734649658203,
+            "top": 299.76788330078125,
+            "width": 90.68750762939452,
+            "x": 246.9598388671875,
+            "y": 299.76788330078125
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 284.3750190734863,
+            "height": 44.000003814697266,
+            "left": 292.0044860839844,
+            "right": 369.51342010498047,
+            "top": 240.37501525878903,
+            "width": 77.5089340209961,
+            "x": 292.0044860839844,
+            "y": 240.37501525878903
+          },
+          "name": "地图分组：江南"
+        },
+        {
+          "box": {
+            "bottom": 230.78572463989255,
+            "height": 44.000003814697266,
+            "left": 257.3169860839844,
+            "right": 348.0044937133789,
+            "top": 186.7857208251953,
+            "width": 90.68750762939452,
+            "x": 257.3169860839844,
+            "y": 186.7857208251953
+          },
+          "name": "地图地点：瓜洲渡"
+        }
+      ],
+      "fixed": {
+        "bottom": 679.366096496582,
+        "height": 108.00000762939452,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 86.00000762939453,
+        "height": 86.00000762939453,
+        "left": 0,
+        "right": 768.0000610351562,
+        "top": 0,
+        "width": 768.0000610351562,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 1012.0000686645508,
+        "height": 918.0000610351562,
+        "left": 20,
+        "right": 748.0000610351562,
+        "top": 94.00000762939452,
+        "width": 728.0000610351562,
+        "x": 20,
+        "y": 94.00000762939452
+      },
+      "mapRatio": 0.5069347332302812,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 465.36608123779297,
+        "left": 8,
+        "top": 0,
+        "width": 712.0000610351562
+      },
+      "sheet": {
+        "bottom": 1012.000030517578,
+        "height": 440.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "space": "reading",
+      "title": "湖心亭看雪",
+      "viewport": [
+        768,
+        1024
+      ],
+      "work": {
+        "bottom": 1012,
+        "height": 917.9999923706056,
+        "top": 94.00000762939452,
+        "width": 728
+      },
+      "workId": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": false,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 0
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "调整阅读案高度",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "frames": "[{\"t\":84.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":456.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":28044.099999997765,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":440.6339416503906,\"controls\":\"visible\"},{\"t\":33377.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":762.6339721679688,\"controls\":\"hidden\"},{\"t\":41163.199999999255,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":582.919677734375,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":5,\"velocity\":0,\"from\":\"reading\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":41162.89999999851,\"left\":24.000001907348633,\"top\":429.08038330078125,\"width\":720.0000610351562,\"height\":582.919677734375,\"space\":\"reading\"},{\"t\":41163.800000000745,\"left\":24.000001907348633,\"top\":429.08038330078125,\"width\":720.0000610351562,\"height\":582.919677734375,\"space\":\"reading\"},{\"t\":41166.5,\"left\":28.250001907348633,\"top\":442.5357360839844,\"width\":711.482177734375,\"height\":569.4553833007812,\"space\":\"reading\"},{\"t\":41171.199999999255,\"left\":32.53571701049805,\"top\":456.08038330078125,\"width\":702.9107666015625,\"height\":555.9107666015625,\"space\":\"reading\"},{\"t\":41185.699999999255,\"left\":40.75893020629883,\"top\":482.08038330078125,\"width\":686.4642944335938,\"height\":529.9107666015625,\"space\":\"reading\"},{\"t\":41189.300000000745,\"left\":44.48214340209961,\"top\":493.8482360839844,\"width\":679.0267944335938,\"height\":518.1428833007812,\"space\":\"reading\"},{\"t\":41195.699999999255,\"left\":47.88393020629883,\"top\":504.6160888671875,\"width\":672.2142944335938,\"height\":507.3750305175781,\"space\":\"reading\"},{\"t\":41201.300000000745,\"left\":50.86607360839844,\"top\":514.0357666015625,\"width\":666.25,\"height\":497.95538330078125,\"space\":\"reading\"},{\"t\":41207.5,\"left\":53.38393020629883,\"top\":522,\"width\":661.2142944335938,\"height\":489.9910888671875,\"space\":\"reading\"},{\"t\":41213.800000000745,\"left\":55.52678680419922,\"top\":528.7767944335938,\"width\":656.9375,\"height\":483.21429443359375,\"space\":\"reading\"},{\"t\":41219.699999999255,\"left\":57.375003814697266,\"top\":534.607177734375,\"width\":653.2410888671875,\"height\":477.3839416503906,\"space\":\"reading\"},{\"t\":41225.599999997765,\"left\":58.937503814697266,\"top\":539.544677734375,\"width\":650.1160888671875,\"height\":472.4464416503906,\"space\":\"reading\"},{\"t\":41231.599999997765,\"left\":60.24107360839844,\"top\":543.6785888671875,\"width\":647.5089721679688,\"height\":468.3125305175781,\"space\":\"reading\"},{\"t\":41238,\"left\":61.375003814697266,\"top\":547.2767944335938,\"width\":645.232177734375,\"height\":464.71429443359375,\"space\":\"reading\"},{\"t\":41243.699999999255,\"left\":62.357147216796875,\"top\":550.3660888671875,\"width\":643.2767944335938,\"height\":461.6250305175781,\"space\":\"reading\"},{\"t\":41249.800000000745,\"left\":63.187503814697266,\"top\":552.9910888671875,\"width\":641.6160888671875,\"height\":459.0000305175781,\"space\":\"reading\"},{\"t\":41255.89999999851,\"left\":63.91071701049805,\"top\":555.2767944335938,\"width\":640.169677734375,\"height\":456.71429443359375,\"space\":\"reading\"},{\"t\":41262,\"left\":64.5625,\"top\":557.3392944335938,\"width\":638.8660888671875,\"height\":454.65179443359375,\"space\":\"reading\"},{\"t\":41267.89999999851,\"left\":65.10714721679688,\"top\":559.0803833007812,\"width\":637.7678833007812,\"height\":452.9107360839844,\"space\":\"reading\"},{\"t\":41274,\"left\":65.60714721679688,\"top\":560.6339721679688,\"width\":636.7767944335938,\"height\":451.357177734375,\"space\":\"reading\"},{\"t\":41280.300000000745,\"left\":66.02678680419922,\"top\":561.982177734375,\"width\":635.9285888671875,\"height\":450.0089416503906,\"space\":\"reading\"},{\"t\":41286.199999999255,\"left\":66.41072082519531,\"top\":563.1785888671875,\"width\":635.169677734375,\"height\":448.8125305175781,\"space\":\"reading\"},{\"t\":41292.199999999255,\"left\":66.75,\"top\":564.2678833007812,\"width\":634.482177734375,\"height\":447.7232360839844,\"space\":\"reading\"},{\"t\":41298.5,\"left\":67.04464721679688,\"top\":565.2053833007812,\"width\":633.8928833007812,\"height\":446.7857360839844,\"space\":\"reading\"},{\"t\":41304.39999999851,\"left\":67.3125,\"top\":566.044677734375,\"width\":633.357177734375,\"height\":445.9464416503906,\"space\":\"reading\"},{\"t\":41310.39999999851,\"left\":67.54464721679688,\"top\":566.7767944335938,\"width\":632.8928833007812,\"height\":445.21429443359375,\"space\":\"reading\"},{\"t\":41316.39999999851,\"left\":67.7589340209961,\"top\":567.4464721679688,\"width\":632.4732666015625,\"height\":444.544677734375,\"space\":\"reading\"},{\"t\":41322.699999999255,\"left\":67.9375,\"top\":568.0267944335938,\"width\":632.107177734375,\"height\":443.96429443359375,\"space\":\"reading\"},{\"t\":41329.5,\"left\":68.10714721679688,\"top\":568.544677734375,\"width\":631.7767944335938,\"height\":443.4464416503906,\"space\":\"reading\"},{\"t\":41335,\"left\":68.25,\"top\":568.9910888671875,\"width\":631.4910888671875,\"height\":443.0000305175781,\"space\":\"reading\"},{\"t\":41341.699999999255,\"left\":68.375,\"top\":569.3928833007812,\"width\":631.2410888671875,\"height\":442.5982360839844,\"space\":\"reading\"},{\"t\":41347.5,\"left\":68.48214721679688,\"top\":569.7410888671875,\"width\":631.0178833007812,\"height\":442.2500305175781,\"space\":\"reading\"},{\"t\":41353.300000000745,\"left\":68.58036041259766,\"top\":570.044677734375,\"width\":630.8303833007812,\"height\":441.9464416503906,\"space\":\"reading\"},{\"t\":41363.199999999255,\"left\":68.66072082519531,\"top\":570.3125,\"width\":630.6607666015625,\"height\":441.6785888671875,\"space\":\"reading\"},{\"t\":41365,\"left\":68.74107360839844,\"top\":570.544677734375,\"width\":630.5089721679688,\"height\":441.4464416503906,\"space\":\"reading\"},{\"t\":41371.300000000745,\"left\":68.79464721679688,\"top\":570.732177734375,\"width\":630.3928833007812,\"height\":441.2589416503906,\"space\":\"reading\"},{\"t\":41377.5,\"left\":68.84822082519531,\"top\":570.9017944335938,\"width\":630.2857666015625,\"height\":441.08929443359375,\"space\":\"reading\"},{\"t\":41383,\"left\":68.89286041259766,\"top\":571.0267944335938,\"width\":630.2053833007812,\"height\":440.96429443359375,\"space\":\"reading\"},{\"t\":41389,\"left\":68.92857360839844,\"top\":571.1428833007812,\"width\":630.1339721679688,\"height\":440.8482360839844,\"space\":\"reading\"},{\"t\":41395.099999997765,\"left\":68.95536041259766,\"top\":571.2232666015625,\"width\":630.0803833007812,\"height\":440.76788330078125,\"space\":\"reading\"},{\"t\":41401.199999999255,\"left\":68.97322082519531,\"top\":571.2857666015625,\"width\":630.044677734375,\"height\":440.70538330078125,\"space\":\"reading\"},{\"t\":41407.199999999255,\"left\":68.98214721679688,\"top\":571.3303833007812,\"width\":630.0178833007812,\"height\":440.6607360839844,\"space\":\"reading\"},{\"t\":41413.300000000745,\"left\":68.99107360839844,\"top\":571.357177734375,\"width\":630,\"height\":440.6339416503906,\"space\":\"reading\"},{\"t\":41420.599999997765,\"left\":69,\"top\":571.3660888671875,\"width\":630,\"height\":440.6339416503906,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":69,\"top\":571.3660888671875,\"width\":630,\"height\":440.6339416503906,\"right\":699,\"bottom\":1012.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 547.3660888671875,
+            "height": 140,
+            "left": 684.0000610351562,
+            "right": 728.0000648498535,
+            "top": 407.3660888671875,
+            "width": 44.000003814697266,
+            "x": 684.0000610351562,
+            "y": 407.3660888671875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 451.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 407.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 407.3660888671875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 503.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 459.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 459.3660888671875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 547.3660926818848,
+                "height": 44.000003814697266,
+                "left": 684.0000610351562,
+                "right": 728.0000648498535,
+                "top": 503.3660888671875,
+                "width": 44.000003814697266,
+                "x": 684.0000610351562,
+                "y": 503.3660888671875
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":664.0000610351562,\"y\":313.36608123779297,\"safe\":{\"left\":8,\"top\":0,\"width\":712.0000610351562,\"height\":465.36608123779297}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "body-selection",
+      "beforeCamera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:04:07.478Z",
+      "body": {
+        "bottom": 1012.000030517578,
+        "height": 332.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 679.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 679.3660888671875
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 553,
+            "right": 597.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 553,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 597,
+            "right": 641.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 597,
+            "y": 591.3660888671875
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 635.3660926818848,
+            "height": 44.000003814697266,
+            "left": 641,
+            "right": 685.0000038146973,
+            "top": 591.3660888671875,
+            "width": 44.000003814697266,
+            "x": 641,
+            "y": 591.3660888671875
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 93.00000762939452,
+            "right": 137.0000114440918,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 93.00000762939452,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 679.3660926818848,
+            "height": 44.000003814697266,
+            "left": 161,
+            "right": 205.0000038146973,
+            "top": 635.3660888671875,
+            "width": 44.000003814697266,
+            "x": 161,
+            "y": 635.3660888671875
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 321.875,
+        "height": 9,
+        "left": 365.2589416503906,
+        "right": 374.2589416503906,
+        "top": 312.875,
+        "width": 9,
+        "x": 365.2589416503906,
+        "y": 312.875
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 339.37500381469727,
+            "height": 44.000003814697266,
+            "left": 378.8660888671875,
+            "right": 454.6518096923828,
+            "top": 295.375,
+            "width": 75.78572082519531,
+            "x": 378.8660888671875,
+            "y": 295.375
+          },
+          "name": "地图地点：湖心亭"
+        },
+        {
+          "box": {
+            "bottom": 343.7678871154785,
+            "height": 44.000003814697266,
+            "left": 246.9598388671875,
+            "right": 337.64734649658203,
+            "top": 299.76788330078125,
+            "width": 90.68750762939452,
+            "x": 246.9598388671875,
+            "y": 299.76788330078125
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 284.3750190734863,
+            "height": 44.000003814697266,
+            "left": 292.0044860839844,
+            "right": 369.51342010498047,
+            "top": 240.37501525878903,
+            "width": 77.5089340209961,
+            "x": 292.0044860839844,
+            "y": 240.37501525878903
+          },
+          "name": "地图分组：江南"
+        },
+        {
+          "box": {
+            "bottom": 230.78572463989255,
+            "height": 44.000003814697266,
+            "left": 257.3169860839844,
+            "right": 348.0044937133789,
+            "top": 186.7857208251953,
+            "width": 90.68750762939452,
+            "x": 257.3169860839844,
+            "y": 186.7857208251953
+          },
+          "name": "地图地点：瓜洲渡"
+        }
+      ],
+      "fixed": {
+        "bottom": 679.366096496582,
+        "height": 108.00000762939452,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 86.00000762939453,
+        "height": 86.00000762939453,
+        "left": 0,
+        "right": 768.0000610351562,
+        "top": 0,
+        "width": 768.0000610351562,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 1012.0000686645508,
+        "height": 918.0000610351562,
+        "left": 20,
+        "right": 748.0000610351562,
+        "top": 94.00000762939452,
+        "width": 728.0000610351562,
+        "x": 20,
+        "y": 94.00000762939452
+      },
+      "mapRatio": 0.5069347332302812,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huxin",
+      "safe": {
+        "height": 465.36608123779297,
+        "left": 8,
+        "top": 0,
+        "width": 712.0000610351562
+      },
+      "sheet": {
+        "bottom": 1012.000030517578,
+        "height": 440.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "space": "reading",
+      "title": "湖心亭看雪",
+      "viewport": [
+        768,
+        1024
+      ],
+      "work": {
+        "bottom": 1012,
+        "height": 917.9999923706056,
+        "top": 94.00000762939452,
+        "width": 728
+      },
+      "workId": "huxinting-kanxue"
+    },
+    {
+      "stage": "body-scroll",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}",
+      "height": 333,
+      "offset": -108.267822265625,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:04:20.902Z",
+      "top": 290.8571472167969,
+      "width": 630,
+      "work": "huxinting-kanxue",
+      "beforeCamera": "{\"x\":-255.56527520129666,\"y\":-142.70424188338234,\"scale\":1.6}"
+    }
+  ],
+  "U02": [
+    {
+      "stage": "paragraph-2",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:21.368Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "stage": "collapsed",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "继续阅读",
+        "tag": "BUTTON",
+        "text": "继续阅读"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":290,\"velocity\":3.302752294029494,\"height\":416.875,\"from\":\"focused\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":28569,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"collapsed\"},{\"t\":28570,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"collapsed\"},{\"t\":28575.60000000149,\"left\":12,\"top\":495.10418701171875,\"width\":366,\"height\":336.88543701171875,\"space\":\"collapsed\"},{\"t\":28582.60000000149,\"left\":12,\"top\":519.125,\"width\":366,\"height\":312.8645935058594,\"space\":\"collapsed\"},{\"t\":28587.900000002235,\"left\":12,\"top\":543.2396240234375,\"width\":366,\"height\":288.75,\"space\":\"collapsed\"},{\"t\":28593.800000000745,\"left\":12,\"top\":566.40625,\"width\":366,\"height\":265.5833435058594,\"space\":\"collapsed\"},{\"t\":28599.900000002235,\"left\":12,\"top\":587.625,\"width\":366,\"height\":244.36459350585938,\"space\":\"collapsed\"},{\"t\":28605.900000002235,\"left\":12,\"top\":607.0521240234375,\"width\":366,\"height\":224.9375,\"space\":\"collapsed\"},{\"t\":28612,\"left\":12,\"top\":624.0521240234375,\"width\":366,\"height\":207.9375,\"space\":\"collapsed\"},{\"t\":28618.10000000149,\"left\":12,\"top\":638.4166870117188,\"width\":366,\"height\":193.5729217529297,\"space\":\"collapsed\"},{\"t\":28624.10000000149,\"left\":12,\"top\":650.8333740234375,\"width\":366,\"height\":181.15625,\"space\":\"collapsed\"},{\"t\":28630.20000000298,\"left\":12,\"top\":661.3333740234375,\"width\":366,\"height\":170.65625,\"space\":\"collapsed\"},{\"t\":28636.20000000298,\"left\":12,\"top\":670.0833740234375,\"width\":366,\"height\":161.90625,\"space\":\"collapsed\"},{\"t\":28642.300000000745,\"left\":12,\"top\":677.6666870117188,\"width\":366,\"height\":154.3229217529297,\"space\":\"collapsed\"},{\"t\":28648.400000002235,\"left\":12,\"top\":684.0416870117188,\"width\":366,\"height\":147.9479217529297,\"space\":\"collapsed\"},{\"t\":28654.400000002235,\"left\":12,\"top\":689.6146240234375,\"width\":366,\"height\":142.375,\"space\":\"collapsed\"},{\"t\":28660.60000000149,\"left\":12,\"top\":694.3541870117188,\"width\":366,\"height\":137.6354217529297,\"space\":\"collapsed\"},{\"t\":28666.60000000149,\"left\":12,\"top\":698.5416870117188,\"width\":366,\"height\":133.4479217529297,\"space\":\"collapsed\"},{\"t\":28672.60000000149,\"left\":12,\"top\":702.1875,\"width\":366,\"height\":129.80209350585938,\"space\":\"collapsed\"},{\"t\":28678.70000000298,\"left\":12,\"top\":705.3333740234375,\"width\":366,\"height\":126.65625,\"space\":\"collapsed\"},{\"t\":28684.70000000298,\"left\":12,\"top\":708.1458740234375,\"width\":366,\"height\":123.84375,\"space\":\"collapsed\"},{\"t\":28690.900000002235,\"left\":12,\"top\":710.6146240234375,\"width\":366,\"height\":121.375,\"space\":\"collapsed\"},{\"t\":28696.800000000745,\"left\":12,\"top\":712.7708740234375,\"width\":366,\"height\":119.21875,\"space\":\"collapsed\"},{\"t\":28702.900000002235,\"left\":12,\"top\":714.6979370117188,\"width\":366,\"height\":117.29167175292969,\"space\":\"collapsed\"},{\"t\":28709.10000000149,\"left\":12,\"top\":716.3854370117188,\"width\":366,\"height\":115.60417175292969,\"space\":\"collapsed\"},{\"t\":28715.10000000149,\"left\":12,\"top\":717.90625,\"width\":366,\"height\":114.08333587646484,\"space\":\"collapsed\"},{\"t\":28721.10000000149,\"left\":12,\"top\":719.2291870117188,\"width\":366,\"height\":112.76042175292969,\"space\":\"collapsed\"},{\"t\":28727.20000000298,\"left\":12,\"top\":720.4271240234375,\"width\":366,\"height\":111.5625,\"space\":\"collapsed\"},{\"t\":28733.300000000745,\"left\":12,\"top\":721.4583740234375,\"width\":366,\"height\":110.53125,\"space\":\"collapsed\"},{\"t\":28739.400000002235,\"left\":12,\"top\":722.3958740234375,\"width\":366,\"height\":109.59375,\"space\":\"collapsed\"},{\"t\":28745.300000000745,\"left\":12,\"top\":723.21875,\"width\":366,\"height\":108.77083587646484,\"space\":\"collapsed\"},{\"t\":28751.5,\"left\":12,\"top\":723.9375,\"width\":366,\"height\":108.05208587646484,\"space\":\"collapsed\"},{\"t\":28757.5,\"left\":12,\"top\":724.5729370117188,\"width\":366,\"height\":107.41667175292969,\"space\":\"collapsed\"},{\"t\":28763.5,\"left\":12,\"top\":725.125,\"width\":366,\"height\":106.86458587646484,\"space\":\"collapsed\"},{\"t\":28769.60000000149,\"left\":12,\"top\":725.6041870117188,\"width\":366,\"height\":106.38542175292969,\"space\":\"collapsed\"},{\"t\":28775.70000000298,\"left\":12,\"top\":726.0208740234375,\"width\":366,\"height\":105.96875,\"space\":\"collapsed\"},{\"t\":28781.70000000298,\"left\":12,\"top\":726.3646240234375,\"width\":366,\"height\":105.625,\"space\":\"collapsed\"},{\"t\":28787.800000000745,\"left\":12,\"top\":726.65625,\"width\":366,\"height\":105.33333587646484,\"space\":\"collapsed\"},{\"t\":28793.900000002235,\"left\":12,\"top\":726.8958740234375,\"width\":366,\"height\":105.09375,\"space\":\"collapsed\"},{\"t\":28799.900000002235,\"left\":12,\"top\":727.09375,\"width\":366,\"height\":104.89583587646484,\"space\":\"collapsed\"},{\"t\":28806,\"left\":12,\"top\":727.25,\"width\":366,\"height\":104.73958587646484,\"space\":\"collapsed\"},{\"t\":28812.20000000298,\"left\":12,\"top\":727.3646240234375,\"width\":366,\"height\":104.625,\"space\":\"collapsed\"},{\"t\":28818.20000000298,\"left\":12,\"top\":727.4375,\"width\":366,\"height\":104.55208587646484,\"space\":\"collapsed\"},{\"t\":28824.300000000745,\"left\":12,\"top\":727.4791870117188,\"width\":366,\"height\":104.51042175292969,\"space\":\"collapsed\"},{\"t\":28831.10000000149,\"left\":12,\"top\":727.5,\"width\":366,\"height\":104.5,\"space\":\"collapsed\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":727.5,\"width\":366,\"height\":104.5,\"right\":378,\"bottom\":832}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 703.5,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 563.5,
+            "width": 44,
+            "x": 316,
+            "y": 563.5
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 607.5,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 563.5,
+                "width": 44,
+                "x": 316,
+                "y": 563.5
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 659.5,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 615.5,
+                "width": 44,
+                "x": 316,
+                "y": 615.5
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 703.5,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 659.5,
+                "width": 44,
+                "x": 316,
+                "y": 659.5
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":483.5,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":635.5}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "continued",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:31.675Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "stage": "focused",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 599,
+      "offset": -39.58332824707031,
+      "place": "huxin",
+      "space": "focused",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:36.211Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "stage": "restored",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:41.254Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "stage": "tab-returned",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:49.298Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    }
+  ],
+  "U04": [
+    {
+      "stage": "before-directory",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:00:49.307Z",
+      "top": 220.6666717529297,
+      "width": 356,
+      "work": "huxinting-kanxue"
+    },
+    {
+      "stage": "zero-results",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": true,
+      "focus": {
+        "label": null,
+        "tag": "INPUT",
+        "text": ""
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":290,\"velocity\":3.302752294029494,\"height\":416.875,\"from\":\"focused\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "hidden",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":43410.800000000745,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"space\":\"reading\"},{\"t\":43412.900000002235,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"space\":\"reading\"},{\"t\":43418.900000002235,\"left\":12,\"top\":157.30209350585938,\"width\":366,\"height\":674.6875,\"space\":\"reading\"},{\"t\":43429.20000000298,\"left\":12,\"top\":189.6979217529297,\"width\":366,\"height\":642.2916870117188,\"space\":\"reading\"},{\"t\":43431.10000000149,\"left\":12,\"top\":222.21875,\"width\":366,\"height\":609.7708740234375,\"space\":\"reading\"},{\"t\":43437,\"left\":12,\"top\":253.48959350585938,\"width\":366,\"height\":578.5,\"space\":\"reading\"},{\"t\":43443.10000000149,\"left\":12,\"top\":282.13543701171875,\"width\":366,\"height\":549.8541870117188,\"space\":\"reading\"},{\"t\":43449.10000000149,\"left\":12,\"top\":308.375,\"width\":366,\"height\":523.6146240234375,\"space\":\"reading\"},{\"t\":43455.10000000149,\"left\":12,\"top\":330.97918701171875,\"width\":366,\"height\":501.01043701171875,\"space\":\"reading\"},{\"t\":43461.300000000745,\"left\":12,\"top\":350.72918701171875,\"width\":366,\"height\":481.26043701171875,\"space\":\"reading\"},{\"t\":43467.300000000745,\"left\":12,\"top\":367.25,\"width\":366,\"height\":464.7395935058594,\"space\":\"reading\"},{\"t\":43473.400000002235,\"left\":12,\"top\":381.6770935058594,\"width\":366,\"height\":450.3125,\"space\":\"reading\"},{\"t\":43479.5,\"left\":12,\"top\":393.51043701171875,\"width\":366,\"height\":438.47918701171875,\"space\":\"reading\"},{\"t\":43486,\"left\":12,\"top\":403.7395935058594,\"width\":366,\"height\":428.25,\"space\":\"reading\"},{\"t\":43491.70000000298,\"left\":12,\"top\":412.35418701171875,\"width\":366,\"height\":419.63543701171875,\"space\":\"reading\"},{\"t\":43498.900000002235,\"left\":12,\"top\":419.76043701171875,\"width\":366,\"height\":412.22918701171875,\"space\":\"reading\"},{\"t\":43503.800000000745,\"left\":12,\"top\":426.375,\"width\":366,\"height\":405.6145935058594,\"space\":\"reading\"},{\"t\":43509.900000002235,\"left\":12,\"top\":431.84375,\"width\":366,\"height\":400.1458435058594,\"space\":\"reading\"},{\"t\":43515.900000002235,\"left\":12,\"top\":436.8645935058594,\"width\":366,\"height\":395.125,\"space\":\"reading\"},{\"t\":43522.10000000149,\"left\":12,\"top\":441.1770935058594,\"width\":366,\"height\":390.8125,\"space\":\"reading\"},{\"t\":43528,\"left\":12,\"top\":444.90625,\"width\":366,\"height\":387.0833435058594,\"space\":\"reading\"},{\"t\":43534.10000000149,\"left\":12,\"top\":448.2395935058594,\"width\":366,\"height\":383.75,\"space\":\"reading\"},{\"t\":43540.20000000298,\"left\":12,\"top\":451.1458435058594,\"width\":366,\"height\":380.84375,\"space\":\"reading\"},{\"t\":43546.20000000298,\"left\":12,\"top\":453.76043701171875,\"width\":366,\"height\":378.22918701171875,\"space\":\"reading\"},{\"t\":43552.300000000745,\"left\":12,\"top\":456.03125,\"width\":366,\"height\":375.9583435058594,\"space\":\"reading\"},{\"t\":43558.400000002235,\"left\":12,\"top\":458.0833435058594,\"width\":366,\"height\":373.90625,\"space\":\"reading\"},{\"t\":43564.400000002235,\"left\":12,\"top\":459.875,\"width\":366,\"height\":372.1145935058594,\"space\":\"reading\"},{\"t\":43570.400000002235,\"left\":12,\"top\":461.4583435058594,\"width\":366,\"height\":370.53125,\"space\":\"reading\"},{\"t\":43576.5,\"left\":12,\"top\":462.90625,\"width\":366,\"height\":369.0833435058594,\"space\":\"reading\"},{\"t\":43582.70000000298,\"left\":12,\"top\":464.15625,\"width\":366,\"height\":367.8333435058594,\"space\":\"reading\"},{\"t\":43588.60000000149,\"left\":12,\"top\":465.26043701171875,\"width\":366,\"height\":366.72918701171875,\"space\":\"reading\"},{\"t\":43594.70000000298,\"left\":12,\"top\":466.2395935058594,\"width\":366,\"height\":365.75,\"space\":\"reading\"},{\"t\":43600.800000000745,\"left\":12,\"top\":467.0833435058594,\"width\":366,\"height\":364.90625,\"space\":\"reading\"},{\"t\":43606.800000000745,\"left\":12,\"top\":467.8333435058594,\"width\":366,\"height\":364.15625,\"space\":\"reading\"},{\"t\":43612.900000002235,\"left\":12,\"top\":468.4895935058594,\"width\":366,\"height\":363.5,\"space\":\"reading\"},{\"t\":43619,\"left\":12,\"top\":469.03125,\"width\":366,\"height\":362.9583435058594,\"space\":\"reading\"},{\"t\":43625.10000000149,\"left\":12,\"top\":469.5,\"width\":366,\"height\":362.4895935058594,\"space\":\"reading\"},{\"t\":43631.10000000149,\"left\":12,\"top\":469.90625,\"width\":366,\"height\":362.0833435058594,\"space\":\"reading\"},{\"t\":43637.10000000149,\"left\":12,\"top\":470.22918701171875,\"width\":366,\"height\":361.76043701171875,\"space\":\"reading\"},{\"t\":43643.300000000745,\"left\":12,\"top\":470.5,\"width\":366,\"height\":361.4895935058594,\"space\":\"reading\"},{\"t\":43649.400000002235,\"left\":12,\"top\":470.7083435058594,\"width\":366,\"height\":361.28125,\"space\":\"reading\"},{\"t\":43655.5,\"left\":12,\"top\":470.85418701171875,\"width\":366,\"height\":361.13543701171875,\"space\":\"reading\"},{\"t\":43661.400000002235,\"left\":12,\"top\":470.9583435058594,\"width\":366,\"height\":361.03125,\"space\":\"reading\"},{\"t\":43667.5,\"left\":12,\"top\":471.0208435058594,\"width\":366,\"height\":360.96875,\"space\":\"reading\"},{\"t\":43674.60000000149,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "true",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 812,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 672,
+            "width": 44,
+            "x": 316,
+            "y": 672
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 716,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 672,
+                "width": 44,
+                "x": 316,
+                "y": 672
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 768,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 724,
+                "width": 44,
+                "x": 316,
+                "y": 724
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 812,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 768,
+                "width": 44,
+                "x": 316,
+                "y": 768
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":592,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":744}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "returned",
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "height": 253,
+      "offset": -39.58331298828125,
+      "place": "huxin",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:01:08.209Z",
+      "top": 220.6666717529297,
+      "width": 366,
+      "work": "huxinting-kanxue",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/huxin-snow-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "寻诗文地点、诗篇或作者"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"}]",
+      "gesture": "{\"dy\":290,\"velocity\":3.302752294029494,\"height\":416.875,\"from\":\"focused\",\"to\":\"reading\",\"cancelled\":false,\"pointerType\":\"mouse\"}",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":43410.800000000745,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"space\":\"reading\"},{\"t\":43412.900000002235,\"left\":12,\"top\":125.125,\"width\":366,\"height\":706.875,\"space\":\"reading\"},{\"t\":43418.900000002235,\"left\":12,\"top\":157.30209350585938,\"width\":366,\"height\":674.6875,\"space\":\"reading\"},{\"t\":43429.20000000298,\"left\":12,\"top\":189.6979217529297,\"width\":366,\"height\":642.2916870117188,\"space\":\"reading\"},{\"t\":43431.10000000149,\"left\":12,\"top\":222.21875,\"width\":366,\"height\":609.7708740234375,\"space\":\"reading\"},{\"t\":43437,\"left\":12,\"top\":253.48959350585938,\"width\":366,\"height\":578.5,\"space\":\"reading\"},{\"t\":43443.10000000149,\"left\":12,\"top\":282.13543701171875,\"width\":366,\"height\":549.8541870117188,\"space\":\"reading\"},{\"t\":43449.10000000149,\"left\":12,\"top\":308.375,\"width\":366,\"height\":523.6146240234375,\"space\":\"reading\"},{\"t\":43455.10000000149,\"left\":12,\"top\":330.97918701171875,\"width\":366,\"height\":501.01043701171875,\"space\":\"reading\"},{\"t\":43461.300000000745,\"left\":12,\"top\":350.72918701171875,\"width\":366,\"height\":481.26043701171875,\"space\":\"reading\"},{\"t\":43467.300000000745,\"left\":12,\"top\":367.25,\"width\":366,\"height\":464.7395935058594,\"space\":\"reading\"},{\"t\":43473.400000002235,\"left\":12,\"top\":381.6770935058594,\"width\":366,\"height\":450.3125,\"space\":\"reading\"},{\"t\":43479.5,\"left\":12,\"top\":393.51043701171875,\"width\":366,\"height\":438.47918701171875,\"space\":\"reading\"},{\"t\":43486,\"left\":12,\"top\":403.7395935058594,\"width\":366,\"height\":428.25,\"space\":\"reading\"},{\"t\":43491.70000000298,\"left\":12,\"top\":412.35418701171875,\"width\":366,\"height\":419.63543701171875,\"space\":\"reading\"},{\"t\":43498.900000002235,\"left\":12,\"top\":419.76043701171875,\"width\":366,\"height\":412.22918701171875,\"space\":\"reading\"},{\"t\":43503.800000000745,\"left\":12,\"top\":426.375,\"width\":366,\"height\":405.6145935058594,\"space\":\"reading\"},{\"t\":43509.900000002235,\"left\":12,\"top\":431.84375,\"width\":366,\"height\":400.1458435058594,\"space\":\"reading\"},{\"t\":43515.900000002235,\"left\":12,\"top\":436.8645935058594,\"width\":366,\"height\":395.125,\"space\":\"reading\"},{\"t\":43522.10000000149,\"left\":12,\"top\":441.1770935058594,\"width\":366,\"height\":390.8125,\"space\":\"reading\"},{\"t\":43528,\"left\":12,\"top\":444.90625,\"width\":366,\"height\":387.0833435058594,\"space\":\"reading\"},{\"t\":43534.10000000149,\"left\":12,\"top\":448.2395935058594,\"width\":366,\"height\":383.75,\"space\":\"reading\"},{\"t\":43540.20000000298,\"left\":12,\"top\":451.1458435058594,\"width\":366,\"height\":380.84375,\"space\":\"reading\"},{\"t\":43546.20000000298,\"left\":12,\"top\":453.76043701171875,\"width\":366,\"height\":378.22918701171875,\"space\":\"reading\"},{\"t\":43552.300000000745,\"left\":12,\"top\":456.03125,\"width\":366,\"height\":375.9583435058594,\"space\":\"reading\"},{\"t\":43558.400000002235,\"left\":12,\"top\":458.0833435058594,\"width\":366,\"height\":373.90625,\"space\":\"reading\"},{\"t\":43564.400000002235,\"left\":12,\"top\":459.875,\"width\":366,\"height\":372.1145935058594,\"space\":\"reading\"},{\"t\":43570.400000002235,\"left\":12,\"top\":461.4583435058594,\"width\":366,\"height\":370.53125,\"space\":\"reading\"},{\"t\":43576.5,\"left\":12,\"top\":462.90625,\"width\":366,\"height\":369.0833435058594,\"space\":\"reading\"},{\"t\":43582.70000000298,\"left\":12,\"top\":464.15625,\"width\":366,\"height\":367.8333435058594,\"space\":\"reading\"},{\"t\":43588.60000000149,\"left\":12,\"top\":465.26043701171875,\"width\":366,\"height\":366.72918701171875,\"space\":\"reading\"},{\"t\":43594.70000000298,\"left\":12,\"top\":466.2395935058594,\"width\":366,\"height\":365.75,\"space\":\"reading\"},{\"t\":43600.800000000745,\"left\":12,\"top\":467.0833435058594,\"width\":366,\"height\":364.90625,\"space\":\"reading\"},{\"t\":43606.800000000745,\"left\":12,\"top\":467.8333435058594,\"width\":366,\"height\":364.15625,\"space\":\"reading\"},{\"t\":43612.900000002235,\"left\":12,\"top\":468.4895935058594,\"width\":366,\"height\":363.5,\"space\":\"reading\"},{\"t\":43619,\"left\":12,\"top\":469.03125,\"width\":366,\"height\":362.9583435058594,\"space\":\"reading\"},{\"t\":43625.10000000149,\"left\":12,\"top\":469.5,\"width\":366,\"height\":362.4895935058594,\"space\":\"reading\"},{\"t\":43631.10000000149,\"left\":12,\"top\":469.90625,\"width\":366,\"height\":362.0833435058594,\"space\":\"reading\"},{\"t\":43637.10000000149,\"left\":12,\"top\":470.22918701171875,\"width\":366,\"height\":361.76043701171875,\"space\":\"reading\"},{\"t\":43643.300000000745,\"left\":12,\"top\":470.5,\"width\":366,\"height\":361.4895935058594,\"space\":\"reading\"},{\"t\":43649.400000002235,\"left\":12,\"top\":470.7083435058594,\"width\":366,\"height\":361.28125,\"space\":\"reading\"},{\"t\":43655.5,\"left\":12,\"top\":470.85418701171875,\"width\":366,\"height\":361.13543701171875,\"space\":\"reading\"},{\"t\":43661.400000002235,\"left\":12,\"top\":470.9583435058594,\"width\":366,\"height\":361.03125,\"space\":\"reading\"},{\"t\":43667.5,\"left\":12,\"top\":471.0208435058594,\"width\":366,\"height\":360.96875,\"space\":\"reading\"},{\"t\":43674.60000000149,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "sushi",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:01:25.037Z",
+      "body": {
+        "bottom": 832.0000305175781,
+        "height": 252.95834350585935,
+        "left": 12,
+        "right": 378,
+        "top": 579.0416870117188,
+        "width": 366,
+        "x": 12,
+        "y": 579.0416870117188
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 236,
+            "right": 280,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 236,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 280,
+            "right": 324,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 280,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 324,
+            "right": 368,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 324,
+            "y": 491.0416870117187
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 32,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 100,
+            "right": 144,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 100,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 266.4375,
+        "height": 9,
+        "left": 183.4166717529297,
+        "right": 192.4166717529297,
+        "top": 257.4375,
+        "width": 9,
+        "x": 183.4166717529297,
+        "y": 257.4375
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 283.9375,
+            "height": 44,
+            "left": 196.72396850585935,
+            "right": 247.1093864440918,
+            "top": 239.9375,
+            "width": 50.38541793823242,
+            "x": 196.72396850585935,
+            "y": 239.9375
+          },
+          "name": "地图地点：西湖"
+        }
+      ],
+      "fixed": {
+        "bottom": 579.0416870117188,
+        "height": 108,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "fullParagraphs": 2,
+      "header": {
+        "bottom": 72,
+        "height": 72,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 832,
+        "height": 752,
+        "left": 10,
+        "right": 380,
+        "top": 80,
+        "width": 370,
+        "x": 10,
+        "y": 80
+      },
+      "mapRatio": 0.5040447965581366,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "xihu",
+      "safe": {
+        "height": 379.0416870117187,
+        "left": 8,
+        "top": 0,
+        "width": 354
+      },
+      "sheet": {
+        "bottom": 832.0000305175781,
+        "height": 360.9583435058594,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "space": "reading",
+      "title": "饮湖上初晴后雨二首·其二",
+      "viewport": [
+        390,
+        844
+      ],
+      "work": {
+        "bottom": 832,
+        "height": 752,
+        "top": 80,
+        "width": 370
+      },
+      "workId": "yin-hushang",
+      "art": [],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "诗篇 2篇 ⌄"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "spring",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:01:32.638Z",
+      "body": {
+        "bottom": 832.0000305175781,
+        "height": 252.95834350585935,
+        "left": 12,
+        "right": 378,
+        "top": 579.0416870117188,
+        "width": 366,
+        "x": 12,
+        "y": 579.0416870117188
+      },
+      "bodyTop": 0,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-129.7906024716787,\"y\":-118.96943691055918,\"scale\":1.6}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 236,
+            "right": 280,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 236,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 280,
+            "right": 324,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 280,
+            "y": 491.0416870117187
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 535.0416870117188,
+            "height": 44,
+            "left": 324,
+            "right": 368,
+            "top": 491.0416870117187,
+            "width": 44,
+            "x": 324,
+            "y": 491.0416870117187
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 32,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 579.0416870117188,
+            "height": 44,
+            "left": 100,
+            "right": 144,
+            "top": 535.0416870117188,
+            "width": 44,
+            "x": 100,
+            "y": 535.0416870117188
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 266.4375,
+        "height": 9,
+        "left": 183.4166717529297,
+        "right": 192.4166717529297,
+        "top": 257.4375,
+        "width": 9,
+        "x": 183.4166717529297,
+        "y": 257.4375
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 283.9375,
+            "height": 44,
+            "left": 196.72396850585935,
+            "right": 247.1093864440918,
+            "top": 239.9375,
+            "width": 50.38541793823242,
+            "x": 196.72396850585935,
+            "y": 239.9375
+          },
+          "name": "地图地点：西湖"
+        }
+      ],
+      "fixed": {
+        "bottom": 579.0416870117188,
+        "height": 108,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "fullParagraphs": 4,
+      "header": {
+        "bottom": 72,
+        "height": 72,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "bottom",
+      "map": {
+        "bottom": 832,
+        "height": 752,
+        "left": 10,
+        "right": 380,
+        "top": 80,
+        "width": 370,
+        "x": 10,
+        "y": 80
+      },
+      "mapRatio": 0.5040447965581366,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "xihu",
+      "safe": {
+        "height": 379.0416870117187,
+        "left": 8,
+        "top": 0,
+        "width": 354
+      },
+      "sheet": {
+        "bottom": 832.0000305175781,
+        "height": 360.9583435058594,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366,
+        "x": 12,
+        "y": 471.0416870117187
+      },
+      "space": "reading",
+      "title": "钱塘湖春行",
+      "viewport": [
+        390,
+        844
+      ],
+      "work": {
+        "bottom": 832,
+        "height": 752,
+        "top": 80,
+        "width": 370
+      },
+      "workId": "qiantang-chunxing",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "诗篇 2篇 ⌄"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "U06": [
+    {
+      "stage": "picker-escaped",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "诗篇 2篇 ⌄"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "original-open",
+      "dialogs": [
+        "official-viewer",
+        "sources-dialog"
+      ],
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": "关闭原图查看",
+        "tag": "BUTTON",
+        "text": "×"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "original-escaped",
+      "dialogs": [
+        "sources-dialog"
+      ],
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "查看官方原图 →"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":109618.80000000075,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "source-escaped",
+      "dialogs": [],
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "出处"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":109618.80000000075,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "directory-escaped",
+      "art": [
+        {
+          "complete": true,
+          "file": "./assets/qiantang-spring-r9-v1.png",
+          "width": 1536
+        }
+      ],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "寻诗文地点、诗篇或作者"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"}]",
+      "readerMotion": "idle",
+      "readerVisible": "visible",
+      "sheetRadius": "24px",
+      "shellFrames": "[{\"t\":109618.80000000075,\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"space\":\"reading\"}]",
+      "suspended": "false",
+      "tab": "诗文",
+      "target": "{\"left\":12,\"top\":471.04168701171875,\"width\":366,\"height\":360.9583435058594,\"right\":378,\"bottom\":832.0000305175781}",
+      "tools": [
+        {
+          "box": {
+            "bottom": 447.0416870117187,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 307.04168701171875,
+            "width": 44,
+            "x": 316,
+            "y": 307.04168701171875
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 351.04168701171875,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 307.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 307.04168701171875
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 403.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 359.04168701171875,
+                "width": 44,
+                "x": 316,
+                "y": 359.04168701171875
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 447.0416870117187,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 403.0416870117187,
+                "width": 44,
+                "x": 316,
+                "y": 403.0416870117187
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":227.04168701171875,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":379.04168701171875}}",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "stage": "reader-escaped",
+      "art": [],
+      "directory": false,
+      "focus": {
+        "label": null,
+        "tag": "BUTTON",
+        "text": "寻诗文地点、诗篇或作者"
+      },
+      "frames": "[{\"t\":48.100000001490116,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":521.8000000007451,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":11918.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":622.9583740234375,\"controls\":\"hidden\"},{\"t\":18142,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":416.875,\"controls\":\"visible\"},{\"t\":28569.20000000298,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"collapsed\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":32999.5,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":104.5,\"controls\":\"visible\"},{\"t\":38871.300000000745,\"selected\":\"huxin\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"hidden\"},{\"t\":43410.900000002235,\"selected\":\"huxin\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":706.875,\"controls\":\"visible\"},{\"t\":80979.20000000298,\"selected\":\"xihu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":125892.70000000298,\"selected\":null,\"retained\":\"xihu\",\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":true,\"present\":true,\"height\":360.9583435058594,\"controls\":\"visible\"},{\"t\":126153.5,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":false,\"controls\":\"visible\"}]",
+      "readerVisible": null,
+      "sheetRadius": null,
+      "tools": [
+        {
+          "box": {
+            "bottom": 762,
+            "height": 140,
+            "left": 316,
+            "right": 360,
+            "top": 622,
+            "width": 44,
+            "x": 316,
+            "y": 622
+          },
+          "buttons": [
+            {
+              "box": {
+                "bottom": 666,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 622,
+                "width": 44,
+                "x": 316,
+                "y": 622
+              },
+              "name": "看全国"
+            },
+            {
+              "box": {
+                "bottom": 718,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 674,
+                "width": 44,
+                "x": 316,
+                "y": 674
+              },
+              "name": "放大全国地图"
+            },
+            {
+              "box": {
+                "bottom": 762,
+                "height": 44,
+                "left": 316,
+                "right": 360,
+                "top": 718,
+                "width": 44,
+                "x": 316,
+                "y": 718
+              },
+              "name": "缩小全国地图"
+            }
+          ],
+          "label": "全国图面控制",
+          "position": "{\"x\":306,\"y\":542,\"safe\":{\"left\":8,\"top\":0,\"width\":354,\"height\":694}}",
+          "visible": true
+        }
+      ],
+      "panels": 0
+    }
+  ],
+  "U01": [
+    {
+      "stage": "libai",
+      "anchor": "inscription",
+      "at": "2026-10-07T10:04:51.519Z",
+      "body": {
+        "bottom": 738.0000152587891,
+        "height": 548,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 190.00001525878903,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 190.00001525878903
+      },
+      "bodyTop": 1.1428571939468384,
+      "bodyVisible": true,
+      "bundle": "./assets/index-D_BSrrK7.js",
+      "camera": "{\"x\":-248.26658421375603,\"y\":-10.148258203940733,\"scale\":1.45}",
+      "controls": [
+        {
+          "box": {
+            "bottom": 146.0000114440918,
+            "height": 44.000003814697266,
+            "left": 834.0000610351562,
+            "right": 878.0000648498535,
+            "top": 102.00000762939452,
+            "width": 44.000003814697266,
+            "x": 834.0000610351562,
+            "y": 102.00000762939452
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 146.0000114440918,
+            "height": 44.000003814697266,
+            "left": 878.0000610351562,
+            "right": 922.0000648498536,
+            "top": 102.00000762939452,
+            "width": 44.000003814697266,
+            "x": 878.0000610351562,
+            "y": 102.00000762939452
+          },
+          "font": "14px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 146.0000114440918,
+            "height": 44.000003814697266,
+            "left": 922.0000610351562,
+            "right": 966.0000648498536,
+            "top": 102.00000762939452,
+            "width": 44.000003814697266,
+            "x": 922.0000610351562,
+            "y": 102.00000762939452
+          },
+          "font": "24px",
+          "label": ""
+        },
+        {
+          "box": {
+            "bottom": 190.0000038146973,
+            "height": 44.000003814697266,
+            "left": 654,
+            "right": 698.0000038146973,
+            "top": 146,
+            "width": 44.000003814697266,
+            "x": 654,
+            "y": 146
+          },
+          "font": "14px",
+          "label": "诗文"
+        },
+        {
+          "box": {
+            "bottom": 190.0000038146973,
+            "height": 44.000003814697266,
+            "left": 722.0000610351562,
+            "right": 766.0000648498535,
+            "top": 146,
+            "width": 44.000003814697266,
+            "x": 722.0000610351562,
+            "y": 146
+          },
+          "font": "14px",
+          "label": "地点"
+        }
+      ],
+      "dot": {
+        "bottom": 403.9107360839844,
+        "height": 9,
+        "left": 304.77679443359375,
+        "right": 313.77679443359375,
+        "top": 394.9107360839844,
+        "width": 9,
+        "x": 304.77679443359375,
+        "y": 394.9107360839844
+      },
+      "entries": [
+        {
+          "box": {
+            "bottom": 421.4107398986816,
+            "height": 44.000003814697266,
+            "left": 318.3839416503906,
+            "right": 394.16966247558594,
+            "top": 377.4107360839844,
+            "width": 75.78572082519531,
+            "x": 318.3839416503906,
+            "y": 377.4107360839844
+          },
+          "name": "地图地点：黄鹤楼"
+        },
+        {
+          "box": {
+            "bottom": 418.5803871154785,
+            "height": 44.000003814697266,
+            "left": 403.5401916503906,
+            "right": 481.0491256713867,
+            "top": 374.5803833007813,
+            "width": 77.5089340209961,
+            "x": 403.5401916503906,
+            "y": 374.5803833007813
+          },
+          "name": "地图分组：江南"
+        },
+        {
+          "box": {
+            "bottom": 427.464298248291,
+            "height": 44.000003814697266,
+            "left": 171.1741180419922,
+            "right": 278.4151916503906,
+            "top": 383.46429443359375,
+            "width": 107.24107360839844,
+            "x": 171.1741180419922,
+            "y": 383.46429443359375
+          },
+          "name": "地图地点：杜甫草堂"
+        }
+      ],
+      "fixed": {
+        "bottom": 190.00001525878903,
+        "height": 96.00000762939452,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "fullParagraphs": 2,
+      "header": {
+        "bottom": 86.00000762939453,
+        "height": 86.00000762939453,
+        "left": 0,
+        "right": 1000.0000610351562,
+        "top": 0,
+        "width": 1000.0000610351562,
+        "x": 0,
+        "y": 0
+      },
+      "layout": "side",
+      "map": {
+        "bottom": 738.285774230957,
+        "height": 644.2857666015625,
+        "left": 20,
+        "right": 980.0000610351562,
+        "top": 94.00000762939452,
+        "width": 960.0000610351562,
+        "x": 20,
+        "y": 94.00000762939452
+      },
+      "mapRatio": 0.6104166666666667,
+      "originalSize": "18px",
+      "overflow": false,
+      "place": "huanghe",
+      "safe": {
+        "height": 636.2857666015625,
+        "left": 8,
+        "top": 0,
+        "width": 586
+      },
+      "sheet": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "space": "reading",
+      "title": "黄鹤楼送孟浩然之广陵",
+      "viewport": [
+        1000,
+        750
+      ],
+      "work": {
+        "bottom": 738,
+        "height": 643.9999923706055,
+        "top": 94.00000762939452,
+        "width": 960
+      },
+      "workId": "song-menghaoran",
+      "saved": "{\"x\":0,\"y\":0,\"scale\":1}"
+    },
+    {
+      "stage": "progress",
+      "anchor": "paragraph-p1",
+      "camera": "{\"x\":-248.26658421375603,\"y\":-10.148258203940733,\"scale\":1.45}",
+      "height": 548,
+      "offset": -1.6785736083984375,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T10:04:58.027Z",
+      "top": 92.57142639160156,
+      "width": 340,
+      "work": "song-menghaoran"
+    }
+  ],
+  "U07": [
+    {
+      "stage": "reverse-0",
+      "frames": "[{\"t\":1500.199999999255,\"left\":587.5892944335938,\"top\":94.04464721679688,\"width\":392.3750305175781,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":1496.9,\"left\":587.5892944335938,\"top\":94.04464721679688,\"width\":392.3750305175781,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":1502.9,\"left\":589.357177734375,\"top\":94.03572082519531,\"width\":390.6160888671875,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":1515,\"left\":597.3482666015625,\"top\":94.02678680419922,\"width\":382.6250305175781,\"height\":643.9553833007812,\"space\":\"reading\"},{\"t\":1521.2,\"left\":601.3392944335938,\"top\":94.02678680419922,\"width\":378.6339416503906,\"height\":643.9553833007812,\"space\":\"reading\"},{\"t\":1527.2,\"left\":605,\"top\":94.01786041259766,\"width\":374.9732360839844,\"height\":643.9642944335938,\"space\":\"reading\"},{\"t\":1533.3,\"left\":608.4107666015625,\"top\":94.01786041259766,\"width\":371.5625305175781,\"height\":643.9642944335938,\"space\":\"reading\"},{\"t\":1539.3,\"left\":611.3928833007812,\"top\":94.01786041259766,\"width\":368.58929443359375,\"height\":643.9732666015625,\"space\":\"reading\"},{\"t\":1545.4,\"left\":614.0267944335938,\"top\":94.0089340209961,\"width\":365.95538330078125,\"height\":643.9732666015625,\"space\":\"reading\"},{\"t\":1551.5,\"left\":616.2678833007812,\"top\":94.0089340209961,\"width\":363.71429443359375,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":1557.5,\"left\":618.1339721679688,\"top\":94.0089340209961,\"width\":361.8482360839844,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":1563.6,\"left\":619.7410888671875,\"top\":94.0089340209961,\"width\":360.2410888671875,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":1575.7,\"left\":622.2589721679688,\"top\":94.00000762939453,\"width\":357.7321472167969,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":1581.7,\"left\":623.2410888671875,\"top\":94.00000762939453,\"width\":356.7500305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1593.9,\"left\":624.8482666015625,\"top\":94.00000762939453,\"width\":355.14288330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1599.9,\"left\":625.4910888671875,\"top\":94.00000762939453,\"width\":354.5000305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1605.9,\"left\":626.044677734375,\"top\":94.00000762939453,\"width\":353.9375305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1612,\"left\":626.544677734375,\"top\":94.00000762939453,\"width\":353.4375305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1618.1,\"left\":626.982177734375,\"top\":94.00000762939453,\"width\":353.0000305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1624.2,\"left\":627.375,\"top\":94.00000762939453,\"width\":352.6160888671875,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1630.2,\"left\":627.7053833007812,\"top\":94.00000762939453,\"width\":352.27679443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1636.3,\"left\":628.0089721679688,\"top\":94.00000762939453,\"width\":351.9821472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1642.3,\"left\":628.2767944335938,\"top\":94.00000762939453,\"width\":351.71429443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1648.4,\"left\":628.5089721679688,\"top\":94.00000762939453,\"width\":351.4732360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1654.5,\"left\":628.7232666015625,\"top\":94.00000762939453,\"width\":351.26788330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1660.5,\"left\":628.9107666015625,\"top\":94.00000762939453,\"width\":351.08038330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1666.5,\"left\":629.0714721679688,\"top\":94.00000762939453,\"width\":350.9196472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1672.6,\"left\":629.2142944335938,\"top\":94.00000762939453,\"width\":350.77679443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1678.7,\"left\":629.3482666015625,\"top\":94.00000762939453,\"width\":350.64288330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1684.7,\"left\":629.4553833007812,\"top\":94.00000762939453,\"width\":350.5357360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1690.9,\"left\":629.5535888671875,\"top\":94.00000762939453,\"width\":350.4375305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1696.9,\"left\":629.6428833007812,\"top\":94.00000762939453,\"width\":350.3482360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1702.9,\"left\":629.7142944335938,\"top\":94.00000762939453,\"width\":350.27679443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1709,\"left\":629.7767944335938,\"top\":94.00000762939453,\"width\":350.21429443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1715,\"left\":629.8303833007812,\"top\":94.00000762939453,\"width\":350.1607360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1721.1,\"left\":629.875,\"top\":94.00000762939453,\"width\":350.1160888671875,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1727.2,\"left\":629.9107666015625,\"top\":94.00000762939453,\"width\":350.08038330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1733.3,\"left\":629.9464721679688,\"top\":94.00000762939453,\"width\":350.0446472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1739.3,\"left\":629.9642944335938,\"top\":94.00000762939453,\"width\":350.02679443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":1745.4,\"left\":629.982177734375,\"top\":94.00000762939453,\"width\":350.0089416503906,\"height\":644,\"space\":\"reading\"},{\"t\":1751.4,\"left\":629.9910888671875,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"},{\"t\":1757.5,\"left\":629.9910888671875,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"},{\"t\":1763.7,\"left\":630,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"}]",
+      "motion": "idle",
+      "panels": 1,
+      "place": "huanghe",
+      "rect": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "space": "reading",
+      "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1423.3999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1487.199999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":1500.699999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"}]"
+    },
+    {
+      "stage": "reverse-second",
+      "frames": "[{\"t\":43010.10000000149,\"left\":506.3125305175781,\"top\":94.00000762939453,\"width\":473.669677734375,\"height\":644,\"space\":\"reading\"},{\"t\":43008.3,\"left\":506.3125305175781,\"top\":94.00000762939453,\"width\":473.669677734375,\"height\":644,\"space\":\"reading\"},{\"t\":43014.4,\"left\":514.5357666015625,\"top\":94.00000762939453,\"width\":465.4464416503906,\"height\":644,\"space\":\"reading\"},{\"t\":43020.4,\"left\":526.1160888671875,\"top\":94.00000762939453,\"width\":453.8660888671875,\"height\":644,\"space\":\"reading\"},{\"t\":43026.5,\"left\":537.8125,\"top\":94.00000762939453,\"width\":442.169677734375,\"height\":644,\"space\":\"reading\"}]",
+      "motion": "moving",
+      "panels": 1,
+      "place": "huanghe",
+      "rect": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 537.8125,
+        "right": 979.982177734375,
+        "top": 94.00000762939452,
+        "width": 442.169677734375,
+        "x": 537.8125,
+        "y": 94.00000762939452
+      },
+      "space": "reading",
+      "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1423.3999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1487.199999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":1500.699999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42846.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42857.10000000149,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":42960.89999999851,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":43010.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"}]"
+    },
+    {
+      "stage": "reverse-end",
+      "frames": "[{\"t\":43071.5,\"left\":559.5892944335938,\"top\":94.04464721679688,\"width\":420.3750305175781,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":43068.9,\"left\":559.5892944335938,\"top\":94.04464721679688,\"width\":420.3750305175781,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":43075.1,\"left\":563.5,\"top\":94.03572082519531,\"width\":416.46429443359375,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":43081,\"left\":569.982177734375,\"top\":94.03572082519531,\"width\":409.9910888671875,\"height\":643.9464721679688,\"space\":\"reading\"},{\"t\":43087.1,\"left\":576.6517944335938,\"top\":94.02678680419922,\"width\":403.3214416503906,\"height\":643.9553833007812,\"space\":\"reading\"},{\"t\":43093.2,\"left\":583.1517944335938,\"top\":94.02678680419922,\"width\":396.8214416503906,\"height\":643.9642944335938,\"space\":\"reading\"},{\"t\":43099.2,\"left\":589.1785888671875,\"top\":94.01786041259766,\"width\":390.7946472167969,\"height\":643.9642944335938,\"space\":\"reading\"},{\"t\":43105.3,\"left\":594.7678833007812,\"top\":94.01786041259766,\"width\":385.20538330078125,\"height\":643.9732666015625,\"space\":\"reading\"},{\"t\":43111.4,\"left\":599.732177734375,\"top\":94.01786041259766,\"width\":380.2500305175781,\"height\":643.9732666015625,\"space\":\"reading\"},{\"t\":43117.4,\"left\":603.9375,\"top\":94.0089340209961,\"width\":376.0446472167969,\"height\":643.9732666015625,\"space\":\"reading\"},{\"t\":43129.7,\"left\":610.732177734375,\"top\":94.0089340209961,\"width\":369.2500305175781,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":43135.7,\"left\":613.294677734375,\"top\":94.0089340209961,\"width\":366.6875305175781,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":43141.7,\"left\":615.482177734375,\"top\":94.0089340209961,\"width\":364.5000305175781,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":43147.8,\"left\":617.3839721679688,\"top\":94.00000762939453,\"width\":362.6071472167969,\"height\":643.982177734375,\"space\":\"reading\"},{\"t\":43153.8,\"left\":618.982177734375,\"top\":94.00000762939453,\"width\":361.0000305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43159.9,\"left\":620.3839721679688,\"top\":94.00000762939453,\"width\":359.5982360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43165.8,\"left\":621.5625,\"top\":94.00000762939453,\"width\":358.4196472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43171.9,\"left\":622.625,\"top\":94.00000762939453,\"width\":357.3571472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43178,\"left\":623.5535888671875,\"top\":94.00000762939453,\"width\":356.4285888671875,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43184,\"left\":624.357177734375,\"top\":94.00000762939453,\"width\":355.6339416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43190.2,\"left\":625.0892944335938,\"top\":94.00000762939453,\"width\":354.90179443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43196.2,\"left\":625.7053833007812,\"top\":94.00000762939453,\"width\":354.27679443359375,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43202.2,\"left\":626.2589721679688,\"top\":94.00000762939453,\"width\":353.7321472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43208.3,\"left\":626.7589721679688,\"top\":94.00000762939453,\"width\":353.2321472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43214.4,\"left\":627.1964721679688,\"top\":94.00000762939453,\"width\":352.7946472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43220.4,\"left\":627.5803833007812,\"top\":94.00000762939453,\"width\":352.4107360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43226.5,\"left\":627.919677734375,\"top\":94.00000762939453,\"width\":352.0714416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43232.5,\"left\":628.2232666015625,\"top\":94.00000762939453,\"width\":351.76788330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43238.7,\"left\":628.5,\"top\":94.00000762939453,\"width\":351.4910888671875,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43244.6,\"left\":628.7232666015625,\"top\":94.00000762939453,\"width\":351.2589416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43250.7,\"left\":628.9375,\"top\":94.00000762939453,\"width\":351.0535888671875,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43256.7,\"left\":629.1160888671875,\"top\":94.00000762939453,\"width\":350.8750305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43262.8,\"left\":629.2857666015625,\"top\":94.00000762939453,\"width\":350.70538330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43268.9,\"left\":629.419677734375,\"top\":94.00000762939453,\"width\":350.5714416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43275,\"left\":629.544677734375,\"top\":94.00000762939453,\"width\":350.4464416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43281.1,\"left\":629.6428833007812,\"top\":94.00000762939453,\"width\":350.3482360839844,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43287.1,\"left\":629.732177734375,\"top\":94.00000762939453,\"width\":350.2589416503906,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43293.2,\"left\":629.8035888671875,\"top\":94.00000762939453,\"width\":350.1875305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43299.2,\"left\":629.8660888671875,\"top\":94.00000762939453,\"width\":350.1250305175781,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43305.3,\"left\":629.9107666015625,\"top\":94.00000762939453,\"width\":350.08038330078125,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43311.4,\"left\":629.9464721679688,\"top\":94.00000762939453,\"width\":350.0446472167969,\"height\":643.9910888671875,\"space\":\"reading\"},{\"t\":43317.5,\"left\":629.9732666015625,\"top\":94.00000762939453,\"width\":350.01788330078125,\"height\":644,\"space\":\"reading\"},{\"t\":43323.4,\"left\":629.9910888671875,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"},{\"t\":43329.7,\"left\":629.9910888671875,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"},{\"t\":43335.6,\"left\":630,\"top\":94.00000762939453,\"width\":350.0000305175781,\"height\":644,\"space\":\"reading\"}]",
+      "motion": "idle",
+      "panels": 1,
+      "place": "huanghe",
+      "rect": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "space": "reading",
+      "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1423.3999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1487.199999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":1500.699999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42846.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42857.10000000149,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":42960.89999999851,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":43010.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":43059.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":43071.800000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"}]"
+    },
+    {
+      "stage": "new-during-exit",
+      "method": "native AX controls 33 close / 11 Du Fu + 25ms delay",
+      "motion": "idle",
+      "panels": 1,
+      "place": "dufu",
+      "rect": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "space": "reading",
+      "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1423.3999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1487.199999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":1500.699999999255,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42846.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":42857.10000000149,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":42960.89999999851,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":43010.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":43059.300000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":43071.800000000745,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":92796.5,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":92808.69999999925,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":93273.39999999851,\"selected\":null,\"retained\":\"huanghe\",\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":true,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":93535.30000000075,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":134549.6000000015,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":141998.3999999985,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"bottom\",\"closing\":false,\"present\":true,\"height\":643.9464721679688,\"controls\":\"visible\"},{\"t\":142005.8999999985,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":142154.30000000075,\"selected\":null,\"retained\":\"huanghe\",\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":true,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":142309,\"selected\":\"dufu\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"}]"
+    }
+  ]
+}

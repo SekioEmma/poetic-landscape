@@ -1,0 +1,150 @@
+{
+  "assets": 5,
+  "screenshots": 29,
+  "cameras": [
+    {
+      "state": "overview",
+      "viewport": [
+        1440,
+        900
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "huxin",
+      "viewport": [
+        1440,
+        900
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "local",
+      "viewport": [
+        1440,
+        900
+      ],
+      "nationalExact": true,
+      "localMaxDegreeDelta": 1.037659558278392e-8,
+      "localWithinHalfScreenPixel": true
+    },
+    {
+      "state": "huanghe",
+      "viewport": [
+        1440,
+        900
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "overview",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "huxin",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "local",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nationalExact": true,
+      "localMaxDegreeDelta": 8.673665803371478e-7,
+      "localWithinHalfScreenPixel": true
+    },
+    {
+      "state": "huanghe",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "overview",
+      "viewport": [
+        390,
+        844
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "huxin",
+      "viewport": [
+        390,
+        844
+      ],
+      "nationalExact": true
+    },
+    {
+      "state": "local",
+      "viewport": [
+        390,
+        844
+      ],
+      "nationalExact": true,
+      "localMaxDegreeDelta": 0.00003396762218699223,
+      "localWithinHalfScreenPixel": true
+    },
+    {
+      "state": "huanghe",
+      "viewport": [
+        390,
+        844
+      ],
+      "nationalExact": true
+    }
+  ],
+  "textContrast": [
+    {
+      "foreground": "#2e3430",
+      "background": "#f4f0e6",
+      "ratio": 11.18
+    },
+    {
+      "foreground": "#2e3430",
+      "background": "#fcfaf4",
+      "ratio": 12.19
+    },
+    {
+      "foreground": "#60685e",
+      "background": "#f4f0e6",
+      "ratio": 5.07
+    },
+    {
+      "foreground": "#60685e",
+      "background": "#fcfaf4",
+      "ratio": 5.53
+    },
+    {
+      "foreground": "#506553",
+      "background": "#f4f0e6",
+      "ratio": 5.55
+    },
+    {
+      "foreground": "#506553",
+      "background": "#fcfaf4",
+      "ratio": 6.05
+    },
+    {
+      "foreground": "#8d5044",
+      "background": "#f4f0e6",
+      "ratio": 5.49
+    },
+    {
+      "foreground": "#8d5044",
+      "background": "#fcfaf4",
+      "ratio": 5.98
+    }
+  ]
+}

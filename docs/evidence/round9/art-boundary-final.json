@@ -1,0 +1,29 @@
+{
+  "bundle": "./assets/index-BWepV7ok.js",
+  "img": [
+    {
+      "box": {
+        "bottom": 227.8229217529297,
+        "height": 174.6666717529297,
+        "left": 528,
+        "right": 790,
+        "top": 53.15625,
+        "width": 262,
+        "x": 528,
+        "y": 53.15625
+      },
+      "complete": true,
+      "natural": [
+        1536,
+        1024
+      ],
+      "src": "./assets/huxin-snow-r9-v1.png"
+    }
+  ],
+  "space": "reading",
+  "time": "2026-10-07T08:52:50.447Z",
+  "viewport": [
+    844,
+    390
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07",
+  "passed": true,
+  "focusAndResizeCases": 24,
+  "checks": [
+    "full-extent fit and aspect",
+    "safe-area target lands exactly",
+    "resize round-trip",
+    "saved camera immutable",
+    "screen collision grouping separates cities at high scale"
+  ]
+}

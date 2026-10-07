@@ -1,0 +1,234 @@
+[
+  {
+    "filename": "after-huanghe-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 102074,
+    "sha256": "829bf7ca997ec4d950a7c67de224861eb96ba5fac73dd4bc271aa342f4fcc5e2"
+  },
+  {
+    "filename": "after-huanghe-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 44652,
+    "sha256": "6dcc1c598ac11bc982d37b02b30ecc72ad3a9738f736ae2ca486a16b0166e9db"
+  },
+  {
+    "filename": "after-huanghe-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 72596,
+    "sha256": "dd9d25a35f5af32d6fd69c0ec82eb3fe4062a760e9edcba1e0f5a30972a1958e"
+  },
+  {
+    "filename": "after-huxin-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 111724,
+    "sha256": "a16302d808f07056201152487d7ee834237fd69bd13882554c4abf8900a5a594"
+  },
+  {
+    "filename": "after-huxin-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 38015,
+    "sha256": "0292ea54457c7f767a8854c89471d61e96b4907a3feaeb3a178c59cb97445958"
+  },
+  {
+    "filename": "after-huxin-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 65505,
+    "sha256": "d3d169fd938ee84834eba1047cb972506e732ad832906efd19d71f5c98509a5b"
+  },
+  {
+    "filename": "after-local-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 65998,
+    "sha256": "22b1e81195b0f34e29c3ef580571fbf4a8eeb27774a4a1672efa573ac756f708"
+  },
+  {
+    "filename": "after-local-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 36205,
+    "sha256": "e9bafa91f9f730969df08f7272173b674f163972a136bb6b8fc677ee06b730ff"
+  },
+  {
+    "filename": "after-local-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 51079,
+    "sha256": "6cebd9ced509d984cf4637c87fb015c79686f0e1d823652ab3a6fcae09deaa0d"
+  },
+  {
+    "filename": "after-overview-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 60064,
+    "sha256": "882e35d8699055f8654d5a97f1953da68438689f14b169df67c6b0553a0347ae"
+  },
+  {
+    "filename": "after-overview-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 25572,
+    "sha256": "85e0afd74cf50883d79b61a0979a321bf532de6aa79e9301365054074c98f22b"
+  },
+  {
+    "filename": "after-overview-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 63190,
+    "sha256": "1fec1013b8a4d9c6d09aab021d9a9581061a8392f1bc50084b0e99efaafb8dd3"
+  },
+  {
+    "filename": "before-huanghe-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 82627,
+    "sha256": "880ac5aab5d94c3dfb0d23e03e986c7fc0a7a28ed6bff25f7e16ad77e03f8a7d"
+  },
+  {
+    "filename": "before-huanghe-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 32269,
+    "sha256": "a713226e5858d59810f8370f37742dbe4a74bb31e2ad548240228d31893bbdbf"
+  },
+  {
+    "filename": "before-huanghe-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 57917,
+    "sha256": "3666a4b6d7d6ff4f09858e5d82f165ca1fbb39f85db1011cc0a8c54fedd158bc"
+  },
+  {
+    "filename": "before-huxin-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 88541,
+    "sha256": "a8fcb3d44387924bf0dd03499d232dd8c9a75a9c4456c041bdca7403b6511a74"
+  },
+  {
+    "filename": "before-huxin-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 29983,
+    "sha256": "f4553b75eb9558f26fb450ff4a7fe59dae96ca0435194eb151b4334c6fc58ef2"
+  },
+  {
+    "filename": "before-huxin-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 52480,
+    "sha256": "1bff03ba1f5c4f5a514967176e8242827f6e2516c8eee8200ec8183d7c110882"
+  },
+  {
+    "filename": "before-local-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 56634,
+    "sha256": "61f19207eba62d28af516642504eab913d2553cbf45d3ca4101f3b3f44783663"
+  },
+  {
+    "filename": "before-local-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 26493,
+    "sha256": "a9e581eef3304061b13f68921d3f54400696f5be494535c59a5fe3d6c78ffeb7"
+  },
+  {
+    "filename": "before-local-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 38848,
+    "sha256": "518d59d2a18d9830d0bf60582e3fb457db6706a6fadd60e0116b7bac36738fbc"
+  },
+  {
+    "filename": "before-overview-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 49414,
+    "sha256": "eee770a7e07a190bd0aec1ac862122b121b3854f831a72bfdbf65cceeaf0985b"
+  },
+  {
+    "filename": "before-overview-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 22538,
+    "sha256": "e6694ec54223e6f95ffc19025727e641e9ea90656e8bf327cfde64d451ab9767"
+  },
+  {
+    "filename": "before-overview-768.png",
+    "width": 768,
+    "height": 1024,
+    "format": "JPEG",
+    "bytes": 52546,
+    "sha256": "9e7063f07e0d3ca8b8b05cb6eb569b42d2295210eff7c2998368a254957c64ac"
+  },
+  {
+    "filename": "icons-actual.png",
+    "width": 555,
+    "height": 132,
+    "format": "JPEG",
+    "bytes": 8655,
+    "sha256": "16fccab5a8057230a30832a7ee6f0ee9c91c790ca9e7ae4086de7409069a15bd"
+  },
+  {
+    "filename": "iteration-huxin-1440.png",
+    "width": 1440,
+    "height": 900,
+    "format": "JPEG",
+    "bytes": 83197,
+    "sha256": "9c3da907ad38f8483f38616f0e0073cfe50ec95523206e246b0d87e9e7899dab"
+  },
+  {
+    "filename": "iteration-huxin-390.png",
+    "width": 390,
+    "height": 844,
+    "format": "JPEG",
+    "bytes": 31617,
+    "sha256": "41798e5d748a29aa122d1c0481d48b3f20d905e1be5c26350bba32e8b01b461a"
+  },
+  {
+    "filename": "map-failure-reading-390.png",
+    "width": 390,
+    "height": 843,
+    "format": "JPEG",
+    "bytes": 50169,
+    "sha256": "6b669bacb38a07582a4cf7d78e7ebc9e46c95710114600ee5793fec6f7c275de"
+  },
+  {
+    "filename": "scenes-actual.png",
+    "width": 570,
+    "height": 160,
+    "format": "JPEG",
+    "bytes": 12289,
+    "sha256": "bff19a0697d22b6332fa6ab7f3ba726e5f42865f88ce60b1c224b305b7f0f796"
+  }
+]

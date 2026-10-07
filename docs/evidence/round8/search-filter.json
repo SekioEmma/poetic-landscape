@@ -1,0 +1,49 @@
+{
+  "search": [
+    {
+      "query": "苏轼",
+      "results": [
+        "西湖浙江 · 杭州苏轼《饮湖上初晴后雨二首·其二》"
+      ],
+      "reading": {
+        "place": "xihu",
+        "space": "reading",
+        "work": "yin-hushang"
+      }
+    },
+    {
+      "query": "茅屋",
+      "results": [
+        "杜甫草堂四川 · 成都杜甫《茅屋为秋风所破歌》"
+      ],
+      "reading": {
+        "place": "dufu",
+        "space": "reading",
+        "work": "maowu"
+      }
+    },
+    {
+      "query": "枫桥",
+      "results": [
+        "寒山寺与枫桥江苏 · 苏州张继《枫桥夜泊》"
+      ],
+      "reading": {
+        "place": "hanshan",
+        "space": "reading",
+        "work": "fengqiao-yebo"
+      }
+    }
+  ],
+  "filter": {
+    "ids": "huxin,xihu",
+    "oldReading": "hanshan",
+    "status": "筛选外"
+  },
+  "theme": {
+    "ids": "huanghe,hanshan",
+    "results": [
+      "huanghe",
+      "hanshan"
+    ]
+  }
+}

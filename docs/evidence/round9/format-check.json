@@ -1,0 +1,31 @@
+{
+  "defaultWholeWorkspaceDiffCheck": "exit 1; extensive CR-at-EOL trailing-whitespace reports in mixed historical changes, no global normalization performed",
+  "round9TrackedScopeCRatEOLAllowed": {
+    "command": [
+      "git",
+      "-c",
+      "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+      "diff",
+      "--check",
+      "--",
+      "README.md",
+      "src/cultural-annotations.css",
+      "src/data/visual.ts",
+      "src/components/PoemPicture.tsx",
+      "src/components/ReadingPanel.tsx",
+      "src/components/OverviewViewport.tsx",
+      "src/components/MapAdapter.tsx",
+      "src/main.tsx",
+      "scripts/check-design.mjs",
+      "scripts/check-reader-layout.mjs",
+      "docs/第九轮设计决策.md",
+      "docs/第九轮实际验收记录.md",
+      "docs/第九轮资产与AI使用记录.md",
+      "docs/来源与许可.md",
+      "docs/官方底图来源与改动说明.md",
+      "docs/tasks/诗文山河_MVP开发计划_2026-10-05.md"
+    ],
+    "exitCode": 2,
+    "output": "docs/官方底图来源与改动说明.md:276: new blank line at EOF.\ndocs/来源与许可.md:125: new blank line at EOF.\nsrc/components/ReadingPanel.tsx:58: new blank line at EOF.\n"
+  }
+}

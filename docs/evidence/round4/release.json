@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-06",
+  "file": "releases\\诗文山河_第四轮静态包_2026-10-06.zip",
+  "bytes": 11145501,
+  "sha256": "731f454872043504d9b9d5c770ae7c5016a9e5ce7a39e2c7fee15ce039faf0a0",
+  "allDistFilesEqual": true,
+  "fileCount": 21,
+  "files": [
+    {
+      "file": "assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+    },
+    {
+      "file": "assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+    },
+    {
+      "file": "assets/index-CzQOHFNk.js",
+      "bytes": 292179,
+      "sha256": "8a050f335f73a78c265a271942ec221620e59cf86dfeeac0b20a27b0d9bb7632"
+    },
+    {
+      "file": "assets/index-Dr0pkKQP.css",
+      "bytes": 125251,
+      "sha256": "61605f5c245ed14daa7d99e11c0070b7e47680da926793342db815e063af5391"
+    },
+    {
+      "file": "assets/lake-scene.svg",
+      "bytes": 1708,
+      "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df"
+    },
+    {
+      "file": "assets/lake-song.svg",
+      "bytes": 2612,
+      "sha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc"
+    },
+    {
+      "file": "assets/MapAdapter-Bs0z9GwI.js",
+      "bytes": 2502019,
+      "sha256": "f447acee2d6bbc14eebc950b42c03cb60cb157e8da760510a52722cc344986f9"
+    },
+    {
+      "file": "assets/maplibre-gl-worker-MfjJLauD.js",
+      "bytes": 510701,
+      "sha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a"
+    },
+    {
+      "file": "assets/official-china-gs20232763.jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+    },
+    {
+      "file": "assets/paper.svg",
+      "bytes": 691,
+      "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78"
+    },
+    {
+      "file": "assets/reading-fibres.svg",
+      "bytes": 405,
+      "sha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220"
+    },
+    {
+      "file": "assets/tower-song.svg",
+      "bytes": 2294,
+      "sha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66"
+    },
+    {
+      "file": "geodata/causeways.json",
+      "bytes": 6503,
+      "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22"
+    },
+    {
+      "file": "geodata/land.json",
+      "bytes": 286071,
+      "sha256": "5b1fca23209497dfae262ac164a30fb6d2c210ac1cb2a5487dbae5750659c930"
+    },
+    {
+      "file": "geodata/local-labels.json",
+      "bytes": 366,
+      "sha256": "608545caeedb67610586ee95560efdc0a0cf58175ef699cd322da0f18e8a9023"
+    },
+    {
+      "file": "geodata/westlake.json",
+      "bytes": 77850,
+      "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28"
+    },
+    {
+      "file": "index.html",
+      "bytes": 425,
+      "sha256": "178a40f26875568d0ad5d4b71dce44da4797052678f35f494d459821c1fe760e"
+    },
+    {
+      "file": "legal/basemap-manifest.json",
+      "bytes": 4148,
+      "sha256": "4157e457d7adfc93664dccf8438e2a7a4e6afabd38f767961153048d1e30c64e"
+    },
+    {
+      "file": "legal/data-licenses.txt",
+      "bytes": 14773,
+      "sha256": "9ca9339fc48387efa80fb44a448697c3ed11a6351b1c28b6f1b4b58c7fd071d2"
+    },
+    {
+      "file": "legal/dependency-notices.txt",
+      "bytes": 361847,
+      "sha256": "5546d0ebb64036621161d0e3caf4b608077a9307cd743b87fb56ff443c4ad12e"
+    },
+    {
+      "file": "legal/panzoom-MIT.txt",
+      "bytes": 1059,
+      "sha256": "db74524b3ab3853bcfc7300dade1f5e0176e59ed3c0cff43848a2c300091a22c"
+    }
+  ]
+}

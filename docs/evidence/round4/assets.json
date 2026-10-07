@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-06",
+  "skill": {
+    "path": "C:/Users/13398/.codex/skills/frontend-design/SKILL.md",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+    "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+    "method": "official skill-installer script; full local SKILL.md read"
+  },
+  "assets": [
+    {
+      "file": "src/components/CategoryIcon.tsx",
+      "bytes": 1575,
+      "sha256": "3f1deead6909c031ec7613befd4dffbd0a5503bf0583c5ca1b021aaf6da1077c",
+      "origin": "project-original-code",
+      "license": "NOTICE existing project rights; no added open license"
+    },
+    {
+      "file": "public/assets/lake-song.svg",
+      "bytes": 2612,
+      "sha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc",
+      "origin": "project-original-code",
+      "license": "NOTICE existing project rights; no added open license"
+    },
+    {
+      "file": "public/assets/tower-song.svg",
+      "bytes": 2294,
+      "sha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66",
+      "origin": "project-original-code",
+      "license": "NOTICE existing project rights; no added open license"
+    },
+    {
+      "file": "public/assets/reading-fibres.svg",
+      "bytes": 405,
+      "sha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220",
+      "origin": "project-original-code",
+      "license": "NOTICE existing project rights; no added open license"
+    },
+    {
+      "file": "src/song-design.css",
+      "bytes": 10370,
+      "sha256": "dd7923720bcb1d2270f4e19657b95927e4cd414c64cfd27f38c62c6f17ea5780",
+      "origin": "project-original-code",
+      "license": "NOTICE existing project rights; no added open license"
+    }
+  ]
+}

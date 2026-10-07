@@ -1,0 +1,58 @@
+import {useEffect,useLayoutEffect,useRef,useState} from 'react';
+import type {Place,Work,Relation,PlaceDetail} from '../data/catalog';
+import {WorkReader} from './WorkReader';
+import {PlaceContext} from './PlaceContext';
+import {CategoryIcon} from './CategoryIcon';
+import {workScenes} from '../data/visual';
+import {PoemPicture} from './PoemPicture';
+import type {ReaderLayout,ReadingSpace} from '../layout/reader-layout';
+export type ReadingTab='诗文'|'地点';
+const tabs:ReadingTab[]=['诗文','地点'];
+type Position={anchor:string|null;offset:number;top:number};
+const positions=new Map<string,Position>();
+export function ReadingPanel({place,detail,works,relations,workId,onWork,tab,onTab,space,layout,onSpace,onClose,onSource,failure,local,onMap,matched=true,closing=false,reduced=false}:{place:Place;detail:PlaceDetail;works:Work[];relations:Relation[];workId:string;onWork:(id:string)=>void;tab:ReadingTab;onTab:(tab:ReadingTab)=>void;space:ReadingSpace;layout:ReaderLayout;onSpace:(space:ReadingSpace)=>void;onClose:()=>void;onSource:()=>void;failure:string;local:boolean;onMap:()=>void;matched?:boolean;closing?:boolean;reduced?:boolean}){
+ const expanded=space==='focused',collapsed=space==='collapsed';
+ const spaceButton=useRef<HTMLButtonElement>(null);
+ const heading=useRef<HTMLHeadingElement>(null),scroll=useRef<HTMLDivElement>(null),sheet=useRef<HTMLElement>(null),chooser=useRef<HTMLDivElement>(null),chooserButton=useRef<HTMLButtonElement>(null);
+ const [choosing,setChoosing]=useState(false);
+ const linked=relations.filter(r=>r.placeId===place.id),relation=linked.find(r=>r.workId===workId)??linked[0];
+ const work=works.find(w=>w.id===relation.workId)!,scene=workScenes[work.id];
+ // Place information is one page, shared between the linked poems.
+ const memoryKey=tab==='诗文'?`${place.id}/${work.id}/${tab}`:`${place.id}/地点`,activeKey=useRef(memoryKey),restoring=useRef(false),pendingRect=useRef<{left:number;top:number}|null>(null),motion=useRef<Animation|null>(null);
+ function remember(){const el=scroll.current;if(!el||restoring.current||collapsed)return;const y=el.getBoundingClientRect().top;const item=Array.from(el.querySelectorAll<HTMLElement>('[data-read-anchor]')).find(n=>n.getBoundingClientRect().bottom>y+2);positions.set(activeKey.current,{anchor:item?.dataset.readAnchor??null,offset:item?item.getBoundingClientRect().top-y:0,top:el.scrollTop});}
+ function restore(){const el=scroll.current,p=positions.get(memoryKey);if(!el||collapsed)return;restoring.current=true;activeKey.current=memoryKey;const item=p?.anchor?Array.from(el.querySelectorAll<HTMLElement>('[data-read-anchor]')).find(n=>n.dataset.readAnchor===p.anchor):null;el.scrollTop=p?(item?el.scrollTop+item.getBoundingClientRect().top-el.getBoundingClientRect().top-p.offset:p.top):0;restoring.current=false;}
+ useLayoutEffect(()=>{heading.current?.focus({preventScroll:true});},[place.id]);
+ useLayoutEffect(()=>{restore();},[memoryKey,space,layout.width,layout.height,layout.top]);
+ useLayoutEffect(()=>{const el=sheet.current;if(!el)return;const before=pendingRect.current;pendingRect.current=null;motion.current?.cancel();const after=el.getBoundingClientRect();const diff=before?(layout.type==='bottom'?before.top-after.top:before.left-after.left):0;if(diff&&!reduced&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const axis=layout.type==='bottom'?'Y':'X';motion.current=el.animate([{transform:`translate${axis}(${diff}px)`},{transform:`translate${axis}(0)`}],{duration:220,easing:'cubic-bezier(.2,.65,.25,1)'});}return()=>motion.current?.cancel();},[space,reduced,layout.type]);
+ useLayoutEffect(()=>{if(collapsed)setChoosing(false);},[collapsed]);
+ useLayoutEffect(()=>{const el=sheet.current;if(!el)return;el.dataset.readerMotion=reduced?'idle':'moving';const timer=setTimeout(()=>{el.dataset.readerMotion='idle';},reduced?0:230);return()=>clearTimeout(timer);},[space,layout.width,layout.height,reduced]);
+ useLayoutEffect(()=>{if(closing){motion.current?.cancel();setChoosing(false);}},[closing]);
+ useEffect(()=>{if(!choosing)return;const outside=(e:PointerEvent)=>{if(!chooser.current?.contains(e.target as Node))setChoosing(false);};const escape=(e:KeyboardEvent)=>{if(e.key==='Escape'&&!document.querySelector('dialog[open],#directory')){e.preventDefault();e.stopImmediatePropagation();setChoosing(false);chooserButton.current?.focus({preventScroll:true});}};document.addEventListener('pointerdown',outside,true);window.addEventListener('keydown',escape,true);return()=>{document.removeEventListener('pointerdown',outside,true);window.removeEventListener('keydown',escape,true);};},[choosing]);
+ function changeSpace(next:ReadingSpace){const origin=document.activeElement;remember();pendingRect.current=sheet.current?{left:sheet.current.getBoundingClientRect().left,top:sheet.current.getBoundingClientRect().top}:null;motion.current?.cancel();setChoosing(false);onSpace(next);requestAnimationFrame(()=>{if(document.activeElement===origin||(!origin?.isConnected&&document.activeElement===document.body))spaceButton.current?.focus({preventScroll:true});});}
+ function changeTab(t:ReadingTab){remember();setChoosing(false);onTab(t);}
+ function pickWork(id:string){if(id!==work.id){remember();onWork(id);}setChoosing(false);requestAnimationFrame(()=>chooserButton.current?.focus({preventScroll:true}));}
+ return <aside ref={sheet} className={`reading-sheet ${expanded?'expanded':''} ${collapsed?'collapsed':''} ${closing?'closing':''}`} inert={closing} aria-hidden={closing||undefined} aria-label={`${place.name}阅读案`} data-testid="reading-sheet" data-place-id={place.id} data-memory-key={memoryKey} data-space={space}>
+  <div className="reader-fixed">
+   {collapsed&&<div className="collapsed-inscription"><h2 ref={heading} tabIndex={-1}>{place.name}</h2><p>{work.title}{!matched&&<span className="reading-filter-tag"> · 筛选外</span>}</p></div>}
+   <div className="sheet-tools">{!collapsed&&<button className="return-link" onClick={()=>changeSpace('collapsed')}>收起读案</button>}<button ref={spaceButton} className="mobile-expand" onClick={()=>changeSpace(collapsed||expanded?'reading':'focused')} aria-expanded={expanded}>{collapsed?'继续阅读':expanded?'恢复分屏':'展开阅读'}</button><button className="close-button" aria-label="关闭阅读案" title="关闭地点阅读并返回地图" onClick={()=>{remember();onClose();}}>×</button></div>
+   <div className="sheet-heading" hidden={collapsed} inert={collapsed}>
+    <div className="place-heading"><CategoryIcon placeId={place.id}/><h2 ref={collapsed?undefined:heading} tabIndex={-1}>{place.name}</h2>{!matched&&<span className="reading-filter-tag" title="当前阅读 · 不在筛选结果中" aria-label="当前阅读 · 不在筛选结果中">筛选外</span>}<span className="place-region">{place.region}</span></div>
+    <div className="reader-navigation"><div className="detail-tabs" role="tablist" aria-label="阅读内容">{tabs.map(t=><button key={t} id={`tab-${t}`} role="tab" aria-selected={tab===t} aria-controls={`content-${t}`} tabIndex={tab===t?0:-1} onClick={()=>changeTab(t)} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const next=tabs[(tabs.indexOf(t)+1)%2];changeTab(next);document.getElementById(`tab-${next}`)?.focus();}}}>{t}</button>)}</div>
+     {tab==='诗文'&&linked.length>1&&<div ref={chooser} className="poem-chooser"><button ref={chooserButton} aria-expanded={choosing} aria-controls="poem-choices" onClick={()=>setChoosing(v=>!v)}>诗篇 {linked.length}篇 <span aria-hidden="true">⌄</span></button>{choosing&&<div id="poem-choices" className="poem-choices" role="group" aria-label="选择关联诗篇">{linked.map(r=>{const w=works.find(w=>w.id===r.workId)!;return <button key={r.id} aria-pressed={r.workId===work.id} onClick={()=>pickWork(r.workId)}><span>{w.title}</span><small>{w.author} · {w.era}{r.workId===work.id?' · 当前篇目':''}</small></button>;})}</div>}</div>}
+    </div>
+   </div>
+  </div>
+  <div ref={scroll} hidden={collapsed} inert={collapsed} className="sheet-scroll" tabIndex={0} aria-label="阅读案正文" onScroll={remember}>
+   <section role="tabpanel" id={`content-${tab}`} aria-labelledby={`tab-${tab}`}>
+    {tab==='诗文'?<>
+     <div className="poem-inscription" data-work-id={work.id} data-read-anchor="inscription"><h3>{work.title}</h3><p className="poet-byline">{work.author}<span>{work.era}</span></p></div>
+     <WorkReader work={work} relation={relation}/>
+     <section className="poem-context" data-read-anchor="interpretation"><h4>诗文与此地</h4><p className="body-copy interpretation">{work.interpretation}</p><button className="text-link" onClick={()=>changeTab('地点')}>看看诗文中的地点 <span aria-hidden="true">→</span></button></section>
+     {scene&&<PoemPicture key={scene.file} scene={scene}/>}
+     <details className="reading-sources" data-read-anchor="work-sources"><summary>底本与版本</summary><p>{work.variant}</p><a href={work.source} target="_blank" rel="noreferrer">{work.sourceTitle}</a><button className="text-link" onClick={onSource}>完整出处与许可</button></details>
+    </>:<PlaceContext key={place.id} detail={detail} failure={failure} onSource={onSource} local={local} onMap={onMap}/>}
+   </section>
+  </div>
+ </aside>;
+}
+

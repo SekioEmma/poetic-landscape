@@ -1,0 +1,72 @@
+{
+  "bundle": "index-BWepV7ok.js",
+  "records": [
+    {
+      "step": "换李白收起后手动拖缩",
+      "camera": "{\"x\":-227.63406115104482,\"y\":3.0334586552348632,\"scale\":1.74484}",
+      "height": 0,
+      "offset": null,
+      "place": "huanghe",
+      "space": "collapsed",
+      "tab": "诗文",
+      "time": "2026-10-07T05:29:15.572Z",
+      "top": 0,
+      "width": 0,
+      "work": "song-menghaoran"
+    },
+    {
+      "step": "继续",
+      "anchor": "inscription",
+      "camera": "{\"x\":-227.63406115104482,\"y\":3.0334586552348632,\"scale\":1.74484}",
+      "height": 526,
+      "offset": 12,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:29:15.872Z",
+      "top": 0,
+      "width": 340,
+      "work": "song-menghaoran"
+    },
+    {
+      "step": "专注",
+      "anchor": "inscription",
+      "camera": "{\"x\":-227.63406115104482,\"y\":3.0334586552348632,\"scale\":1.74484}",
+      "height": 526,
+      "offset": 12,
+      "place": "huanghe",
+      "space": "focused",
+      "tab": "诗文",
+      "time": "2026-10-07T05:29:16.162Z",
+      "top": 0,
+      "width": 550,
+      "work": "song-menghaoran"
+    },
+    {
+      "step": "恢复",
+      "anchor": "inscription",
+      "camera": "{\"x\":-227.63406115104482,\"y\":3.0334586552348632,\"scale\":1.74484}",
+      "height": 526,
+      "offset": 12,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:29:16.449Z",
+      "top": 0,
+      "width": 340,
+      "work": "song-menghaoran"
+    }
+  ],
+  "motion": {
+    "start": {
+      "left": 610.40625,
+      "motion": "moving",
+      "width": 560
+    },
+    "end": {
+      "left": 420.0000305175781,
+      "motion": "idle",
+      "width": 560
+    }
+  }
+}

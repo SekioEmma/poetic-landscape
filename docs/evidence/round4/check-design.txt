@@ -1,0 +1,1 @@
+PASS: 8 continuous excerpts; scene assignment; native static SVG; frozen content, dependencies, image anchors, camera mathematics, PNG, OSM geometry and photograph.

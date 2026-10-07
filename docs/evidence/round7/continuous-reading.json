@@ -1,0 +1,95 @@
+{
+  "frames": [
+    {
+      "closing": false,
+      "controlVisibility": "visible",
+      "expanded": false,
+      "place": "huanghe",
+      "scrollTop": 0,
+      "sheetHeight": 557.03125,
+      "time": "2026-10-07T02:51:01.209Z",
+      "work": "huanghelou",
+      "label": "cuihao",
+      "file": "flow-1-cuihao.jpg"
+    },
+    {
+      "closing": false,
+      "controlVisibility": "visible",
+      "expanded": false,
+      "place": "huanghe",
+      "scrollTop": 2,
+      "sheetHeight": 557.03125,
+      "time": "2026-10-07T02:51:01.297Z",
+      "work": "huanghelou",
+      "label": "reading",
+      "file": "flow-2-reading.jpg"
+    },
+    {
+      "closing": false,
+      "controlVisibility": "visible",
+      "expanded": false,
+      "place": "huanghe",
+      "scrollTop": 0,
+      "sheetHeight": 557.03125,
+      "time": "2026-10-07T02:51:01.916Z",
+      "work": "song-menghaoran",
+      "label": "libai",
+      "file": "flow-3-libai.jpg"
+    },
+    {
+      "closing": false,
+      "controlVisibility": "visible",
+      "expanded": false,
+      "place": "huanghe",
+      "scrollTop": 338,
+      "sheetHeight": 557.03125,
+      "time": "2026-10-07T02:51:02.504Z",
+      "work": "huanghelou",
+      "label": "return-cuihao",
+      "file": "flow-4-return-cuihao.jpg"
+    },
+    {
+      "closing": false,
+      "controlVisibility": "visible",
+      "expanded": false,
+      "place": "dufu",
+      "scrollTop": 0,
+      "sheetHeight": 557.03125,
+      "time": "2026-10-07T02:51:04.064Z",
+      "work": "maowu",
+      "label": "latest-dufu",
+      "file": "flow-5-latest-dufu.jpg"
+    },
+    {
+      "controlVisibility": "visible",
+      "expanded": false,
+      "time": "2026-10-07T02:51:04.413Z",
+      "label": "overview",
+      "file": "flow-6-overview.jpg"
+    }
+  ],
+  "r7expandedHeight": 723,
+  "r7closingImmediate": {
+    "expanded": false,
+    "time": "2026-10-07T02:51:03.168Z"
+  },
+  "r7replacement": {
+    "closing": false,
+    "expanded": false,
+    "place": "dufu",
+    "time": "2026-10-07T02:51:03.722Z"
+  },
+  "quiet": {
+    "r7quietResult": {
+      "control": "visible",
+      "expanded": false,
+      "quiet": "true"
+    },
+    "r7latestResult": {
+      "closing": false,
+      "expanded": false,
+      "place": "dufu",
+      "work": "maowu"
+    }
+  }
+}

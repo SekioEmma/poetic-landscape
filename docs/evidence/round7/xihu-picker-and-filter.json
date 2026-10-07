@@ -1,0 +1,30 @@
+{
+  "r7filterBudget": {
+    "badge": "当前阅读 · 不在筛选结果中",
+    "fixed": 118,
+    "overflow": false,
+    "place": "hanshan",
+    "visible": "huxin,xihu"
+  },
+  "r7themeActual": [
+    "huanghe",
+    "hanshan"
+  ],
+  "r7sushiBefore": {
+    "camera": "{\"x\":-128.88941199548822,\"y\":-116.42480015693197,\"scale\":2.1}",
+    "top": 394.6666564941406
+  },
+  "r7baiFirst": {
+    "focus": "诗篇 2篇 ⌄",
+    "highlight": "最爱湖东行不足，绿杨阴里白沙堤。",
+    "source": "https://www.pep.com.cn/rjdt/mtbd/202307/t20230718_1984406.shtml",
+    "title": "钱塘湖春行",
+    "top": 0
+  },
+  "r7sushiBack": {
+    "camera": "{\"x\":-128.88941199548822,\"y\":-116.42480015693197,\"scale\":2.1}",
+    "source": "https://www.ahstu.edu.cn/rwxy/info/1039/5500.htm",
+    "title": "饮湖上初晴后雨二首·其二",
+    "top": 394.6666564941406
+  }
+}

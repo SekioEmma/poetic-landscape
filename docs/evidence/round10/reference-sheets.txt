@@ -1,0 +1,665 @@
+- link "Skip Navigation":
+  - /url: /design/human-interface-guidelines/sheets#app-main
+- link "以中文查看":
+  - /url: /cn/design/human-interface-guidelines/sheets
+  - text: 以中文查看
+- button "Continue viewing in English":
+- navigation "Global":
+  - list:
+    - link "Apple Developer":
+      - /url: /
+    - list:
+      - link "Get Started":
+        - /url: /get-started/
+        - generic: Get Started
+      - button "Get Started menu":
+    - list:
+      - link "Platforms":
+        - /url: /platforms/
+        - generic: Platforms
+      - button "Platforms menu":
+    - list:
+      - link "Technologies":
+        - /url: /technologies/
+        - generic: Technologies
+      - button "Technologies menu":
+    - list:
+      - link "Community":
+        - /url: /community/
+        - generic: Community
+      - button "Community menu":
+    - list:
+      - link "Documentation":
+        - /url: /documentation/
+        - generic: Documentation
+      - button "Documentation menu":
+    - list:
+      - link "Downloads":
+        - /url: /download/
+        - generic: Downloads
+      - button "Downloads menu":
+    - list:
+      - link "Support":
+        - /url: /support/
+        - generic: Support
+      - button "Support menu":
+    - button "Search":
+    - link "Sign in":
+      - /url: /login/?return=%2Fdesign%2Fhuman-interface-guidelines%2Fsheets
+- navigation:
+  - link "Design":
+    - /url: /design/
+  - list:
+    - link "Overview":
+      - /url: https://developer.apple.com/design/
+    - link "What’s New":
+      - /url: https://developer.apple.com/design/whats-new/
+    - link "Get Started":
+      - /url: https://developer.apple.com/design/get-started/
+    - link "Guidelines":
+      - /url: /design/human-interface-guidelines?changes=_1_1
+    - link "Resources":
+      - /url: https://developer.apple.com/design/resources/
+- navigation:
+  - generic "Documentation Navigator":
+    - button "Getting started":
+    - link "Getting started":
+      - /url: /design/human-interface-guidelines/getting-started?changes=_1_1
+      - paragraph: Getting started
+    - button "Foundations":
+    - link "Foundations":
+      - /url: /design/human-interface-guidelines/foundations?changes=_1_1
+      - paragraph: Foundations
+    - button "Patterns":
+    - link "Patterns":
+      - /url: /design/human-interface-guidelines/patterns?changes=_1_1
+      - paragraph: Patterns
+    - button "Components" [expanded]:
+    - link "Components":
+      - /url: /design/human-interface-guidelines/components?changes=_1_1
+      - paragraph: Components
+    - button "Content":
+    - link "Content":
+      - /url: /design/human-interface-guidelines/content?changes=_1_1
+      - paragraph: Content
+    - button "Layout and organization":
+    - link "Layout and organization":
+      - /url: /design/human-interface-guidelines/layout-and-organization?changes=_1_1
+      - paragraph: Layout and organization
+    - button "Menus and actions":
+    - link "Menus and actions":
+      - /url: /design/human-interface-guidelines/menus-and-actions?changes=_1_1
+      - paragraph: Menus and actions
+    - button "Navigation and search":
+    - link "Navigation and search":
+      - /url: /design/human-interface-guidelines/navigation-and-search?changes=_1_1
+      - paragraph: Navigation and search
+    - button "Presentation" [expanded]:
+    - link "Presentation":
+      - /url: /design/human-interface-guidelines/presentation?changes=_1_1
+      - paragraph: Presentation
+    - link "Action sheets":
+      - /url: /design/human-interface-guidelines/action-sheets?changes=_1_1
+      - paragraph: Action sheets
+    - link "Alerts":
+      - /url: /design/human-interface-guidelines/alerts?changes=_1_1
+      - paragraph: Alerts
+    - link "Page controls":
+      - /url: /design/human-interface-guidelines/page-controls?changes=_1_1
+      - paragraph: Page controls
+    - link "Panels":
+      - /url: /design/human-interface-guidelines/panels?changes=_1_1
+      - paragraph: Panels
+    - link "Popovers":
+      - /url: /design/human-interface-guidelines/popovers?changes=_1_1
+      - paragraph: Popovers
+    - link "Scroll views":
+      - /url: /design/human-interface-guidelines/scroll-views?changes=_1_1
+      - paragraph: Scroll views
+    - link "Sheets":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1
+      - paragraph: Sheets
+    - link "Windows":
+      - /url: /design/human-interface-guidelines/windows?changes=_1_1
+      - paragraph: Windows
+    - button "Selection and input":
+    - link "Selection and input":
+      - /url: /design/human-interface-guidelines/selection-and-input?changes=_1_1
+      - paragraph: Selection and input
+    - button "Status":
+    - link "Status":
+      - /url: /design/human-interface-guidelines/status?changes=_1_1
+      - paragraph: Status
+    - button "System experiences":
+    - link "System experiences":
+      - /url: /design/human-interface-guidelines/system-experiences?changes=_1_1
+      - paragraph: System experiences
+    - button "Inputs":
+    - link "Inputs":
+      - /url: /design/human-interface-guidelines/inputs?changes=_1_1
+      - paragraph: Inputs
+    - button "Technologies":
+    - link "Technologies":
+      - /url: /design/human-interface-guidelines/technologies?changes=_1_1
+      - paragraph: Technologies
+  - generic: 22 items were found. Tab back to navigate through them.
+  - paragraph
+  - search:
+    - button:
+    - generic "Filter":
+      - combobox "Filter"
+  - generic: Navigator is ready
+- main:
+  - heading "Sheets" [level=1]
+  - generic: A sheet helps people perform a scoped task that’s closely related to their current context.
+  - paragraph:
+    - img "A stylized representation of a sheet extending down from the top of a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo."
+  - paragraph: A sheet is useful for requesting specific information from people or presenting a simple task that they can complete before returning to the parent view. For example, a sheet might let people supply information needed to complete an action, such as attaching a file or choosing a location to save it.
+  - heading "Anatomy in page link" [level=2]:
+    - link "Anatomy in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Anatomy
+  - paragraph:
+    - text: In macOS, tvOS, visionOS, and watchOS, a sheet is always
+    - emphasis: modal
+    - text: . A modal sheet presents a targeted experience that prevents people from interacting with the parent view until they dismiss the sheet (for more on modal presentation, see
+    - link "Modality":
+      - /url: /design/human-interface-guidelines/modality?changes=_1_1
+    - text: ).
+  - paragraph:
+    - text: In iOS and iPadOS, a sheet can be either modal or
+    - emphasis: nonmodal
+    - text: . When a nonmodal sheet is onscreen, people use its functionality to affect the parent view without dismissing the sheet. For example, Notes on iPhone and iPad uses a nonmodal sheet to let people format various text selections as they edit a note.
+  - paragraph:
+    - figure "The Notes format sheet lets people apply formatting to selected text in the editing view.":
+      - img "A screenshot of an in-progress note on iPhone. Several words are selected and highlighted. In the bottom half of the screen, the format sheet shows that the selected words use the regular body font."
+      - generic: The Notes format sheet lets people apply formatting to selected text in the editing view.
+  - paragraph:
+    - figure "Because the sheet is nonmodal, people can make additional text selections without dismissing the sheet.":
+      - img "A screenshot of the same in-progress note on iPhone. Different words are selected and highlighted. The format sheet shows that the selected words use the body font in italics."
+      - generic: Because the sheet is nonmodal, people can make additional text selections without dismissing the sheet.
+  - paragraph: There are several common buttons that help people navigate through and dismiss sheets.
+  - list:
+    - paragraph:
+      - text: The
+      - strong: Cancel
+      - text: (or Close) button dismisses a sheet without saving any changes. This type of button is common in most sheets.
+    - paragraph:
+      - text: The
+      - strong: Done
+      - text: button dismisses a sheet after completing a task or explicitly saving changes.
+    - paragraph:
+      - text: The
+      - strong: Back
+      - text: button lets people navigate to a previous step in a multi-step flow or to a parent view in a hierarchy. It isn’t intended to dismiss a sheet.
+  - paragraph:
+    - text: The placement of these buttons varies between platforms; see
+    - link "Platform considerations":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Platform-considerations
+    - text: .
+  - heading "Best practices in page link" [level=2]:
+    - link "Best practices in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Best-practices
+  - paragraph:
+    - strong: For complex or prolonged user flows, consider alternatives to sheets.
+    - text: For example, iOS and iPadOS offer a full-screen style of modal view that can work well to display content like videos, photos, or camera views or to help people perform multistep tasks like document or photo editing. (For developer guidance, see
+    - link "UIModalPresentationStyle.fullScreen":
+      - /url: /documentation/uikit/uimodalpresentationstyle/fullscreen?changes=_1_1
+      - code:
+        - text: UIModal
+        - text: Presentation
+        - text: Style
+        - text: .full
+        - text: Screen
+    - text: .) In a macOS experience, you might want to open a new window or let people enter full-screen mode instead of using a sheet. For example, a self-contained task like editing a document tends to work well in a separate window, whereas
+    - link "going full screen":
+      - /url: /design/human-interface-guidelines/going-full-screen?changes=_1_1
+    - text: can help people view media. In visionOS, you can give people a way to transition your app to a Full Space where they can dive into content or a task; for guidance, see
+    - link "Immersive experiences":
+      - /url: /design/human-interface-guidelines/immersive-experiences?changes=_1_1
+    - text: .
+  - paragraph:
+    - strong: Display only one sheet at a time from the main interface.
+    - text: When people close a sheet, they expect to return to the parent view or window. If closing a sheet takes people back to another sheet, they can lose track of where they are in your app. If something people do within a sheet results in another sheet appearing, close the first sheet before displaying the new one. If necessary, you can display the first sheet again after people dismiss the second one.
+  - paragraph:
+    - strong: Use a nonmodal view when you want to present supplementary items that affect the main task in the parent view.
+    - text: To give people access to information and actions they need while continuing to interact with the main window, consider using a
+    - link "split view":
+      - /url: /design/human-interface-guidelines/split-views?changes=_1_1
+    - text: in visionOS or a
+    - link "panel":
+      - /url: /design/human-interface-guidelines/panels?changes=_1_1
+    - text: in macOS; in iOS and iPadOS, you can use a nonmodal sheet for this workflow. For guidance, see
+    - link "iOS, iPadOS":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#iOS-iPadOS
+    - text: .
+  - paragraph:
+    - strong: Provide an alternative to the Done button.
+    - text: If you provide a Done button, always pair it with a Cancel button to give people a clear way to dismiss the sheet without confirming or saving their changes, or a Back button to move to a previous step in the sheet. Relying solely on the Done button implies that completing the task is the only way to exit the sheet, which can feel restrictive or misleading.
+  - paragraph:
+    - img "An illustration of the top half of a sheet on iPhone. A Done button appears in the top-right corner on its own."
+  - paragraph:
+    - img "An X in a circle to indicate incorrect usage."
+  - paragraph:
+    - img "An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner."
+  - paragraph:
+    - img "A checkmark in a circle to indicate correct usage."
+  - paragraph: Avoid showing all three buttons — Cancel, Done, and Back — together.
+  - paragraph:
+    - img "An illustration of the top half of a sheet on iPhone. A Back button appears in the top-left corner of the view, and Cancel and Done buttons appear together in the top-right corner."
+  - paragraph:
+    - img "An X in a circle to indicate incorrect usage."
+  - heading "Platform considerations in page link" [level=2]:
+    - link "Platform considerations in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Platform-considerations
+  - paragraph:
+    - emphasis: No additional considerations for tvOS.
+  - heading "iOS, iPadOS in page link" [level=3]:
+    - link "iOS, iPadOS in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#iOS-iPadOS
+  - paragraph: In iOS and iPadOS, for sheets with a single view, the Cancel button belongs on the leading edge of the top toolbar. When present, the Done button belongs on the trailing edge.
+  - paragraph:
+    - img "An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner."
+  - paragraph: For sheets with a multi-step flow, the placement of buttons can vary across steps.
+  - navigation:
+    - list:
+      - link "First step":
+        - /url: "#"
+      - link "Subsequent step":
+        - /url: "#"
+      - link "Final step":
+        - /url: "#"
+  - paragraph:
+    - figure "On the first step, where there isn’t a Back button, the Cancel button belongs on the leading edge. When present, the Done button belongs on the trailing edge, in an inactive state to indicate that the task isn’t complete yet.":
+      - img "An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and an inactive Done button appears in the top-right corner."
+      - generic: On the first step, where there isn’t a Back button, the Cancel button belongs on the leading edge. When present, the Done button belongs on the trailing edge, in an inactive state to indicate that the task isn’t complete yet.
+  - paragraph:
+    - text: A resizable sheet expands when people scroll its contents or drag the
+    - emphasis: grabber
+    - text: ", which is a small horizontal indicator that can appear at the top edge of a sheet. Sheets resize according to their"
+    - emphasis: detents
+    - text: ", which are particular heights at which a sheet naturally rests. Designed for iPhone, detents specify particular heights at which a sheet naturally rests. The system defines two detents:"
+    - emphasis: large
+    - text: is the height of a fully expanded sheet and
+    - emphasis: medium
+    - text: is about half of the fully expanded height. Sheets can have one or more custom detent values.
+  - paragraph:
+    - figure "Large detent":
+      - img "An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies almost all of the screen, representing a full-screen sheet. A rounded close button appears in the upper-left corner of the sheet."
+      - generic: Large detent
+  - paragraph:
+    - figure "Medium detent":
+      - img "An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies half of the screen, representing a half-screen sheet. A rounded close button appears in the upper-left corner of the sheet."
+      - generic: Medium detent
+  - paragraph:
+    - text: Sheets automatically support the large detent. Adding the medium detent allows the sheet to rest at both heights, whereas specifying only medium prevents the sheet from expanding to full height. For developer guidance, see
+    - link "detents":
+      - /url: /documentation/uikit/uisheetpresentationcontroller/detents?changes=_1_1
+      - code: detents
+    - text: .
+  - paragraph:
+    - strong: In an iPhone app, consider supporting the medium detent to allow progressive disclosure of the sheet’s content.
+    - text: For example, a share sheet displays the most relevant items within the medium detent, where they’re visible without resizing. To view more items, people can scroll or expand the sheet. In contrast, you might not want to support the medium detent if a sheet’s content is more useful when it displays at full height. For example, the compose sheets in Messages and Mail display only at full height to give people enough room to create content.
+  - paragraph:
+    - strong: Include a grabber in a resizable sheet.
+    - text: A grabber shows people that they can drag the sheet to resize it; they can also tap it to cycle through the detents. In addition to providing a visual indicator of resizability, a grabber also works with VoiceOver so people can resize the sheet without seeing the screen. For developer guidance, see
+    - link "prefersGrabberVisible":
+      - /url: /documentation/uikit/uisheetpresentationcontroller/prefersgrabbervisible?changes=_1_1
+      - code:
+        - text: prefers
+        - text: Grabber
+        - text: Visible
+    - text: .
+  - paragraph:
+    - strong: Support swiping to dismiss a sheet.
+    - text: People expect to swipe vertically to dismiss a sheet instead of tapping a dismiss button. If people have unsaved changes in the sheet when they begin swiping to dismiss it, use an action sheet to let them confirm their action.
+  - paragraph:
+    - strong: Prefer using the page or form sheet presentation styles in an iPadOS app.
+    - text: Each style uses a default size for the sheet, centering its content on top of a dimmed background view and providing a consistent experience. For developer guidance, see
+    - link "UIModalPresentationStyle":
+      - /url: /documentation/uikit/uimodalpresentationstyle?changes=_1_1
+      - code:
+        - text: UIModal
+        - text: Presentation
+        - text: Style
+    - text: .
+  - heading "macOS in page link" [level=3]:
+    - link "macOS in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#macOS
+  - paragraph: In macOS, a sheet is a cardlike view with rounded corners that floats on top of its parent window. The parent window is dimmed while the sheet is onscreen, signaling that people can’t interact with it until they dismiss the sheet. However, people expect to interact with other app windows before dismissing a sheet.
+  - paragraph:
+    - img "A screenshot of the Notes app, with the What's New in Notes sheet centered on top of a dimmed Notes document in the background."
+  - paragraph:
+    - strong: Present a sheet in a reasonable default size.
+    - text: People don’t generally expect to resize sheets, so it’s important to use a size that’s appropriate for the content you display. In some cases, however, people appreciate a resizable sheet — such as when they need to expand the contents for a clearer view — so it’s a good idea to support resizing.
+  - paragraph:
+    - strong: Let people interact with other app windows without first dismissing a sheet.
+    - text: When a sheet opens, you bring its parent window to the front — if the parent window is a document window, you also bring forward its modeless document-related panels. When people want to interact with other windows in your app, make sure they can bring those windows forward even if they haven’t dismissed the sheet yet.
+  - paragraph:
+    - strong: Use a panel instead of a sheet if people need to repeatedly provide input and observe results.
+    - text: A find and replace panel, for example, might let people initiate replacements individually, so they can observe the result of each search for correctness. For guidance, see
+    - link "Panels":
+      - /url: /design/human-interface-guidelines/panels?changes=_1_1
+    - text: .
+  - heading "visionOS in page link" [level=3]:
+    - link "visionOS in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#visionOS
+  - paragraph: While a sheet is visible in a visionOS app, it floats in front of its parent window, dimming it, and becoming the target of people’s interactions with the app.
+  - 'group "Video with custom controls. Content description: A recording showing a sheet opening above a blank window in visionOS."':
+    - link "Play":
+      - /url: "#"
+      - text: Play
+  - paragraph:
+    - strong: Avoid displaying a sheet that emerges from the bottom edge of a window.
+    - text: To help people view the sheet, prefer centering it in their
+    - link "field of view":
+      - /url: /design/human-interface-guidelines/spatial-layout?changes=_1_1#Field-of-view
+    - text: .
+  - paragraph:
+    - strong: Present a sheet in a default size that helps people retain their context.
+    - text: Avoid displaying a sheet that covers most or all of its window, but consider letting people resize the sheet if they want.
+  - heading "watchOS in page link" [level=3]:
+    - link "watchOS in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#watchOS
+  - paragraph: In watchOS, a sheet is a full-screen view that slides over your app’s current content. The sheet is semitransparent to help maintain the current context, but the system applies a material to the background that blurs and desaturates the covered content.
+  - paragraph:
+    - img "A screenshot of a sheet with a primary Action button and a default cancel button on Apple Watch."
+  - paragraph:
+    - strong: Use a sheet only when your modal task requires a custom title or custom content presentation.
+    - text: If you need to give people important information or present a set of choices, consider using an
+    - link "alert":
+      - /url: /design/human-interface-guidelines/alerts?changes=_1_1
+    - text: or
+    - link "action sheet":
+      - /url: /design/human-interface-guidelines/action-sheets?changes=_1_1
+    - text: .
+  - paragraph:
+    - strong: Keep sheet interactions brief and occasional.
+    - text: Use a sheet only as a temporary interruption to the current workflow, and only to facilitate an important task. Avoid using a sheet to help people navigate your app’s content.
+  - paragraph:
+    - strong: If you change the default label, prefer using SF Symbols to represent the action.
+    - text: Avoid using a label that might mislead people into thinking that the sheet is part of a hierarchical navigation interface. Also, if the text in the top-leading corner looks like a page or app title, people won’t know how to dismiss the sheet. For guidance, see
+    - link "Standard icons":
+      - /url: /design/human-interface-guidelines/icons?changes=_1_1#Standard-icons
+    - text: .
+  - paragraph:
+    - img "A screenshot that shows a top toolbar with a custom Back button at the top of the screen on Apple Watch."
+  - paragraph:
+    - img "An X in a circle to indicate incorrect usage."
+  - paragraph:
+    - img "A screenshot that shows a top toolbar with a button with the words Page title at the top of the screen on Apple Watch."
+  - paragraph:
+    - img "An X in a circle to indicate incorrect usage."
+  - paragraph:
+    - img "A screenshot that shows a top toolbar with the default Cancel button at the top of the screen on Apple Watch."
+  - paragraph:
+    - img "A checkmark in a circle to indicate correct usage."
+  - heading "Resources in page link" [level=2]:
+    - link "Resources in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Resources
+  - heading "Related in page link" [level=4]:
+    - link "Related in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Related
+  - paragraph:
+    - link "Modality":
+      - /url: /design/human-interface-guidelines/modality?changes=_1_1
+  - paragraph:
+    - link "Action sheets":
+      - /url: /design/human-interface-guidelines/action-sheets?changes=_1_1
+  - paragraph:
+    - link "Popovers":
+      - /url: /design/human-interface-guidelines/popovers?changes=_1_1
+  - paragraph:
+    - link "Panels":
+      - /url: /design/human-interface-guidelines/panels?changes=_1_1
+  - heading "Developer documentation in page link" [level=4]:
+    - link "Developer documentation in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Developer-documentation
+  - paragraph:
+    - link "sheet(item:onDismiss:content:)":
+      - /url: /documentation/swiftui/view/sheet(item:ondismiss:content:)?changes=_1_1
+      - code:
+        - text: "sheet(item:"
+        - text: "on"
+        - text: "Dismiss:"
+        - text: content:)
+    - text: — SwiftUI
+  - paragraph:
+    - link "UISheetPresentationController":
+      - /url: /documentation/uikit/uisheetpresentationcontroller?changes=_1_1
+      - code:
+        - text: UISheet
+        - text: Presentation
+        - text: Controller
+    - text: — UIKit
+  - paragraph:
+    - link "presentAsSheet(_:)":
+      - /url: /documentation/appkit/nsviewcontroller/presentassheet(_:)?changes=_1_1
+      - code:
+        - text: present
+        - text: As
+        - text: Sheet(_:)
+    - text: — AppKit
+  - heading "Change log in page link" [level=2]:
+    - link "Change log in page link":
+      - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Change-log
+  - table:
+    - rowgroup:
+      - row "Date Changes":
+        - columnheader "Date":
+          - paragraph: Date
+        - columnheader "Changes":
+          - paragraph: Changes
+    - rowgroup:
+      - row "March 24, 2026 Updated guidance for button placement.":
+        - cell "March 24, 2026":
+          - paragraph: March 24, 2026
+        - cell "Updated guidance for button placement.":
+          - paragraph: Updated guidance for button placement.
+      - row "March 29, 2024 Added guidance to use form or page sheet styles in iPadOS apps.":
+        - cell "March 29, 2024":
+          - paragraph: March 29, 2024
+        - cell "Added guidance to use form or page sheet styles in iPadOS apps.":
+          - paragraph: Added guidance to use form or page sheet styles in iPadOS apps.
+      - row "December 5, 2023 Recommended using a split view to offer supplementary items in a visionOS app.":
+        - cell "December 5, 2023":
+          - paragraph: December 5, 2023
+        - cell "Recommended using a split view to offer supplementary items in a visionOS app.":
+          - paragraph: Recommended using a split view to offer supplementary items in a visionOS app.
+      - row "June 21, 2023 Updated to include guidance for visionOS.":
+        - cell "June 21, 2023":
+          - paragraph: June 21, 2023
+        - cell "Updated to include guidance for visionOS.":
+          - paragraph: Updated to include guidance for visionOS.
+      - row "June 5, 2023 Updated guidance for using sheets in watchOS.":
+        - cell "June 5, 2023":
+          - paragraph: June 5, 2023
+        - cell "Updated guidance for using sheets in watchOS.":
+          - paragraph: Updated guidance for using sheets in watchOS.
+- generic: Current page is Sheets
+- heading "Supported platforms" [level=5]
+- list:
+- list:
+  - link "Sheets":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#app-top
+  - link "Anatomy":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Anatomy
+  - link "Best practices":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Best-practices
+  - link "Platform considerations":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Platform-considerations
+  - link "Resources":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Resources
+  - link "Change log":
+    - /url: /design/human-interface-guidelines/sheets?changes=_1_1#Change-log
+- contentinfo:
+  - navigation:
+    - link "Apple":
+      - /url: https://www.apple.com
+      - text: 
+      - generic: Apple
+    - list:
+      - link "Developer":
+        - /url: /
+      - link "Documentation":
+        - /url: /documentation/?changes=_1_1
+    - heading "Platforms" [level=3]
+    - list:
+      - link "iOS":
+        - /url: /ios/
+      - link "iPadOS":
+        - /url: /ipados/
+      - link "macOS":
+        - /url: /macos/
+      - link "tvOS":
+        - /url: /tvos/
+      - link "visionOS":
+        - /url: /visionos/
+      - link "watchOS":
+        - /url: /watchos/
+    - heading "Tools" [level=3]
+    - list:
+      - link "Swift":
+        - /url: /swift/
+      - link "SwiftUI":
+        - /url: /swiftui/
+      - link "Swift Playground":
+        - /url: /swift-playground/
+      - link "TestFlight":
+        - /url: /testflight/
+      - link "Xcode":
+        - /url: /xcode/
+      - link "Xcode Cloud":
+        - /url: /xcode-cloud/
+      - link "SF Symbols":
+        - /url: /sf-symbols/
+    - heading "Topics & Technologies" [level=3]
+    - list:
+      - link "Accessibility":
+        - /url: /accessibility/
+      - link "Accessories":
+        - /url: /accessories/
+      - link "App Extension":
+        - /url: /app-extensions/
+      - link "App Store":
+        - /url: /app-store/
+      - link "Audio & Video":
+        - /url: /audio/
+      - link "Augmented Reality":
+        - /url: /augmented-reality/
+      - link "Design":
+        - /url: /design/
+      - link "Distribution":
+        - /url: /distribute/
+      - link "Education":
+        - /url: /education/
+      - link "Fonts":
+        - /url: /fonts/
+      - link "Games":
+        - /url: /games/
+      - link "Health & Fitness":
+        - /url: /health-fitness/
+      - link "In-App Purchase":
+        - /url: /in-app-purchase/
+      - link "Localization":
+        - /url: /localization/
+      - link "Maps & Location":
+        - /url: /maps/
+      - link "Machine Learning & AI":
+        - /url: /machine-learning/
+      - link "Open Source":
+        - /url: https://opensource.apple.com/
+      - link "Security":
+        - /url: /security/
+      - link "Safari & Web":
+        - /url: /safari/
+    - heading "Resources" [level=3]
+    - list:
+      - link "Documentation":
+        - /url: /documentation/
+      - link "Tutorials":
+        - /url: /learn/
+      - link "Downloads":
+        - /url: /download/
+      - link "Forums":
+        - /url: /forums/
+      - link "Videos":
+        - /url: /videos/
+    - heading "Support" [level=3]
+    - list:
+      - link "Support Articles":
+        - /url: /support/articles/
+      - link "Contact Us":
+        - /url: /contact/
+      - link "Bug Reporting":
+        - /url: /bug-reporting/
+      - link "System Status":
+        - /url: /system-status/
+    - heading "Account" [level=3]
+    - list:
+      - link "Apple Developer":
+        - /url: /account/
+      - link "App Store Connect":
+        - /url: https://appstoreconnect.apple.com/
+      - link "Certificates, IDs, & Profiles":
+        - /url: /account/ios/certificate/
+      - link "Feedback Assistant":
+        - /url: https://feedbackassistant.apple.com/
+    - heading "Programs" [level=3]
+    - list:
+      - link "Apple Developer Program":
+        - /url: /programs/
+      - link "Apple Developer Enterprise Program":
+        - /url: /programs/enterprise/
+      - link "App Store Small Business Program":
+        - /url: /app-store/small-business-program/
+      - link "MFi Program":
+        - /url: https://mfi.apple.com/
+      - link "News Partner Program":
+        - /url: /programs/news-partner/
+      - link "Video Partner Program":
+        - /url: /programs/video-partner/
+      - link "Security Bounty Program":
+        - /url: /security-bounty/
+      - link "Security Research Device Program":
+        - /url: /programs/security-research-device/
+    - heading "Events" [level=3]
+    - list:
+      - link "Meet with Apple":
+        - /url: /events/
+      - link "Apple Developer Centers":
+        - /url: /events/developer-centers/
+      - link "App Store Awards":
+        - /url: /app-store/app-store-awards/
+      - link "Apple Design Awards":
+        - /url: /design/awards/
+      - link "Apple Developer Academies":
+        - /url: /academies/
+      - link "WWDC":
+        - /url: /wwdc/
+  - text: To submit feedback on documentation, visit
+  - link "Feedback Assistant":
+    - /url: applefeedback://new?form_identifier=developertools.fba&answers%5B%3Aarea%5D=seedADC%3Adevpubs&answers%5B%3Adoc_type_req%5D=Technology%20Documentation&answers%5B%3Adocumentation_link_req%5D=https%3A%2F%2Fdeveloper.apple.com%2Fdesign%2Fhuman-interface-guidelines%2Fsheets%3Fchanges%3D_1_1
+  - text: .
+  - radiogroup "Select a color scheme preference":
+    - generic: Select a color scheme preference
+    - radio "Light"
+    - generic: Light
+    - radio "Dark"
+    - generic: Dark
+    - radio "Auto" [checked]
+    - generic: Auto
+  - combobox "Select the language for this page":
+    - option "English" [selected]
+    - option "简体中文"
+    - option "日本語"
+    - option "한국어"
+  - text: Copyright © 2026
+  - link "Apple Inc.":
+    - /url: https://www.apple.com
+  - text: All rights reserved.
+  - link "Terms of Use":
+    - /url: https://www.apple.com/legal/internet-services/terms/site.html
+  - link "Privacy Policy":
+    - /url: https://www.apple.com/legal/privacy/
+  - link "Agreements and Guidelines":
+    - /url: /support/terms/

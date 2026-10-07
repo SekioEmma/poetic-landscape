@@ -1,0 +1,362 @@
+[
+  {
+    "path": "docs/screenshots/round5/after-directory-empty-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "35d68b3774fbc2c3a3106b99177a0af7ce255d522d7f6970cf0350953fc9584a"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "c0c09f60c9220793a361846f0ef27354903d947c1f801756523dcb07902795a8"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "b86cfea3b52465233edcc69b844ed0432b30e619a326a180d715d11df9081712"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "3ebb4996ea43287262036cf6c928be9023632f0929d04e2bdf22424105e584c9"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-libai-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "e4d81d5180937993f2cf5e637e9b0c2d5166edb5ef59c887f0cdaff6cbfdb5e9"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-libai-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "5aee4d2c4238b099f7d4513be7e8b6f3f82589d882fc05e8f237a449a9154c7b"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huanghe-libai-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "27ebecf5d91987da7887516f3609fc4fdeb1ddbadb009dd025b00eab64af72ca"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huxin-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "e556257813c1a78eb4448c092112f8c7960438e416c6eab29774ea86c0b5b75b"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huxin-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "6bab3af09f7f561fb9eabc2ceeb447835837858dabc9fdf962279d41a411b10e"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huxin-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "66ed66447c3dc5adee83a0f93f570194ea4e218ce851de6ebc8dc53aade00b64"
+  },
+  {
+    "path": "docs/screenshots/round5/after-huxin-expanded-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "c62fea4a6848e7aed80fa2b323672ebf2879940e893d941c6d3f53c1aad5e3bd"
+  },
+  {
+    "path": "docs/screenshots/round5/after-local-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "89adaa78bee8e109bbb4364a7c1b3c6f461f1633fbd2102349fcb60b9bb63a6c"
+  },
+  {
+    "path": "docs/screenshots/round5/after-local-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "99632c6b8db49f075eebac5db18b56c2bb758746b28263941f7da87452995d6f"
+  },
+  {
+    "path": "docs/screenshots/round5/after-local-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "5e9cc9f3d307f3199d24d7b3bc9375c49a3d14ef9a98a9ff56b1f6788eee86ea"
+  },
+  {
+    "path": "docs/screenshots/round5/after-overview-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "6313f6f55583f19ce240e839ff96b07c32465ca6c04d76b9b6b27bca25029c2c"
+  },
+  {
+    "path": "docs/screenshots/round5/after-overview-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "1b00969a2336fa994c2f1ed33e9c7af92d2993dd533560a5ce78644c2583477a"
+  },
+  {
+    "path": "docs/screenshots/round5/after-overview-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "526568f40b5629217e764a380d87a15545da5516eb85cfd00d2c0350e19898b6"
+  },
+  {
+    "path": "docs/screenshots/round5/after-xihu-bai-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "2819446f5e8657b329732d27b4dc709c29d2370f4d53a487b92eb8accc6c7123"
+  },
+  {
+    "path": "docs/screenshots/round5/after-xihu-sushi-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "c9988ac7089067c9a911cb8981fffdc3436b1920c5e408140b5742de8b067f98"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huanghe-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "239820985d6b92e99947661a0dfaf13b765877e354d90de6bde75a3bd013ad15"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huanghe-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "1038a18258680a5dac27e617df1aab8cddf21d9dae14415d21f9ae26188df5be"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huanghe-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "6274255ec1c42e547749f9f9be35183fbe6cbacec32a03f67e3ac88c642127a6"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huxin-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "17f3dc4f612d80f9cb3e2c8231e0b0fdd34740cd19a2c42147265691efaeb78a"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huxin-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "ceb6544512f9dc679adb57d43011b4bacee65a32989745092579c3183ae37295"
+  },
+  {
+    "path": "docs/screenshots/round5/before-huxin-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "b6d3739e35dbfac0fc78e55b6f9384ee4ca3c13e2b3a5c01c0700eba995399c2"
+  },
+  {
+    "path": "docs/screenshots/round5/before-local-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "f5c56a52a7e6d57fec30635a0151c351799705b8db98e88b46b0e6a1e7b9b903"
+  },
+  {
+    "path": "docs/screenshots/round5/before-local-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "a76b8eb7ab555aecc668ba7c092491b14b7a7925574861ac0ac92085b279e1f8"
+  },
+  {
+    "path": "docs/screenshots/round5/before-local-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "b71700c5afdae6a663e85177adbc3d06ce31f5b5c3e1563254f5401017c28f68"
+  },
+  {
+    "path": "docs/screenshots/round5/before-overview-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "925a8d8b14f9b458bffb4555752d61495c7a802af5257b1e1f811eb5fe59d36f"
+  },
+  {
+    "path": "docs/screenshots/round5/before-overview-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "541784d6f68168e093a42f442326458e12eb97b851c8c024103519515636137a"
+  },
+  {
+    "path": "docs/screenshots/round5/before-overview-768.jpg",
+    "dimensions": [
+      768,
+      1024
+    ],
+    "format": "JPEG",
+    "sha256": "890ae2a9ce7e6578a1c2ab43c6fd547ebbc1e94ce56ffc8bdaade12db29a93cb"
+  },
+  {
+    "path": "docs/screenshots/round5/failure-local-reading-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "71231e91cfc5b987aa6c55eeb3617a4214118dcd7d8fc97b4f3f7b4ca9757691"
+  },
+  {
+    "path": "docs/screenshots/round5/icons-actual-22.jpg",
+    "dimensions": [
+      570,
+      132
+    ],
+    "format": "JPEG",
+    "sha256": "d7128c600ca56c7aa8b66988d9a17fbb37e29b793e2b45afafc91e9b0fb20438"
+  },
+  {
+    "path": "docs/screenshots/round5/iteration1-huanghe-390.jpg",
+    "dimensions": [
+      390,
+      844
+    ],
+    "format": "JPEG",
+    "sha256": "5d899a0b3cf73d742d9a4a3557a5c5c3e157b5994c3b85c18f4c84e03563321d"
+  },
+  {
+    "path": "docs/screenshots/round5/iteration1-huxin-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "a08c35353d6966ed350e04dd61a2fb3da7ec32d668e15abae32d2adf5635dc53"
+  },
+  {
+    "path": "docs/screenshots/round5/painting-actual-240.jpg",
+    "dimensions": [
+      240,
+      150
+    ],
+    "format": "JPEG",
+    "sha256": "d9af7a5ebe308754bebcfa53ec8e72b73f58c707304834aa9a83be9112f6dabe"
+  },
+  {
+    "path": "docs/screenshots/round5/tone-a-focused.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "775caa3fb40a13d5f911940eb63f6b2d3bfefeb127f83e930e3a87001bbc4191"
+  },
+  {
+    "path": "docs/screenshots/round5/tone-a-overview.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "a760ee2a751663da53519cd90a85c26f79059a8fce69e0e1bc8ce22cefd741c9"
+  },
+  {
+    "path": "docs/screenshots/round5/tone-b-focused.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "feae7dbf73838ed1ea0b87eab80891641e607d2b42c3ca74a7f78adc390581c5"
+  },
+  {
+    "path": "docs/screenshots/round5/tone-b-overview.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "format": "JPEG",
+    "sha256": "9057d7c80e9d9f55eca4721fe264d3ea5a04eb9aa768f6e78d877c5fd8c7d984"
+  }
+]

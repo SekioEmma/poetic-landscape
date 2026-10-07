@@ -1,0 +1,88 @@
+[
+  {
+    "place": "huanghe",
+    "before": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-87.78933066811055,\"y\":-120.37912804668728,\"scale\":1.6}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:27:54.724Z",
+      "top": 212,
+      "width": 380,
+      "work": "huanghelou"
+    },
+    "newWork": {
+      "anchor": "inscription",
+      "camera": "{\"x\":-87.78933066811055,\"y\":-120.37912804668728,\"scale\":1.6}",
+      "height": 243,
+      "offset": 12,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:27:55.285Z",
+      "top": 0,
+      "width": 380,
+      "work": "song-menghaoran"
+    },
+    "returned": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-87.78933066811055,\"y\":-120.37912804668728,\"scale\":1.6}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "huanghe",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:27:55.324Z",
+      "top": 212,
+      "width": 380,
+      "work": "huanghelou"
+    }
+  },
+  {
+    "place": "xihu",
+    "before": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7048816464834,\"y\":-118.98194301407482,\"scale\":1.6}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:28:11.679Z",
+      "top": 212,
+      "width": 380,
+      "work": "yin-hushang"
+    },
+    "newWork": {
+      "anchor": "inscription",
+      "camera": "{\"x\":-129.7048816464834,\"y\":-118.98194301407482,\"scale\":1.6}",
+      "height": 243,
+      "offset": 12,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:28:12.212Z",
+      "top": 0,
+      "width": 380,
+      "work": "qiantang-chunxing"
+    },
+    "returned": {
+      "anchor": "paragraph-p2",
+      "camera": "{\"x\":-129.7048816464834,\"y\":-118.98194301407482,\"scale\":1.6}",
+      "height": 243,
+      "offset": -40.51788330078125,
+      "place": "xihu",
+      "space": "reading",
+      "tab": "诗文",
+      "time": "2026-10-07T05:28:12.767Z",
+      "top": 212,
+      "width": 380,
+      "work": "yin-hushang"
+    },
+    "spring": "./assets/qiantang-spring-r9-v1.png",
+    "suShiArt": 0
+  }
+]

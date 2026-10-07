@@ -1,0 +1,93 @@
+[
+  {
+    "action": "last + Tab",
+    "state": {
+      "directory": true,
+      "expanded": true,
+      "heading": "湖心亭",
+      "id": "",
+      "inDirectory": true,
+      "inert": true,
+      "label": "收起地点目录",
+      "text": "×"
+    }
+  },
+  {
+    "action": "first + ShiftTab",
+    "state": {
+      "directory": true,
+      "expanded": true,
+      "heading": "湖心亭",
+      "id": "",
+      "inDirectory": true,
+      "inert": true,
+      "label": null,
+      "text": "清空搜索与筛选"
+    }
+  },
+  {
+    "action": "Escape",
+    "state": {
+      "directory": false,
+      "expanded": true,
+      "heading": "湖心亭",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "☷ 寻诗文 0处"
+    }
+  },
+  {
+    "action": "close button",
+    "state": {
+      "directory": false,
+      "expanded": true,
+      "heading": "湖心亭",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "☷ 寻诗文 0处"
+    }
+  },
+  {
+    "action": "choose new reading",
+    "state": {
+      "directory": false,
+      "expanded": false,
+      "heading": "黄鹤楼",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "黄鹤楼"
+    }
+  },
+  {
+    "action": "source modal",
+    "state": {
+      "directory": false,
+      "expanded": false,
+      "heading": "黄鹤楼",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": "关闭资料与来源",
+      "text": "×"
+    }
+  },
+  {
+    "action": "source Escape",
+    "state": {
+      "directory": false,
+      "expanded": false,
+      "heading": "黄鹤楼",
+      "id": "",
+      "inDirectory": false,
+      "inert": false,
+      "label": null,
+      "text": "出处"
+    }
+  }
+]

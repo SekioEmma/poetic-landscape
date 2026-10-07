@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-07T04:52:01.608Z",
+  "commands": [
+    "npm run check:data",
+    "node scripts/check-design.mjs",
+    "node scripts/check-reading.mjs docs/evidence/round8/reading-check.json",
+    "node scripts/check-overview.mjs docs/evidence/round8/overview-check.json",
+    "node scripts/check-reader-layout.mjs"
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "e848b8",
+        "wall_time_seconds": 1.3105362,
+        "exit_code": 0,
+        "original_token_count": 86,
+        "output": "\n> poetic-landscape@0.1.0 check:data\n> node scripts/check-data.mjs\n\nPASS: 6 places, 8 works, 8 exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + 6 image anchors; UTF-8.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c85d10",
+        "wall_time_seconds": 0.633958,
+        "exit_code": 0,
+        "original_token_count": 53,
+        "output": "PASS: 8 continuous excerpts; intentional lake-only raster assignment and hash; static local texture; frozen content, dependencies, image anchors, camera mathematics, historical PNG, OSM geometry and photograph.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c63ca5",
+        "wall_time_seconds": 0.633457,
+        "exit_code": 0,
+        "original_token_count": 24,
+        "output": "8 works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "2a6584",
+        "wall_time_seconds": 0.6404945,
+        "exit_code": 0,
+        "original_token_count": 66,
+        "output": "PASS overview geometry: {\"date\":\"2026-10-07\",\"passed\":true,\"focusAndResizeCases\":24,\"checks\":[\"full-extent fit and aspect\",\"safe-area target lands exactly\",\"resize round-trip\",\"saved camera immutable\",\"screen collision grouping separates cities at high scale\"]}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "4736e3",
+        "wall_time_seconds": 0.3493222,
+        "exit_code": 0,
+        "original_token_count": 18,
+        "output": "PASS: recorded Round 8 layout budgets, reading and camera regressions.\n"
+      }
+    }
+  ]
+}

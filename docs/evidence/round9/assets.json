@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "files": [
+    {
+      "path": "public/assets/huxin-snow-r9-v1.png",
+      "bytes": 1723669,
+      "sha256": "b38f25e6e2cfc45e39ba625c47beed148d27d9193562ed76e8188883f4858f41",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 1195404,
+        "opaquePixels": 0,
+        "partialPixels": 377460
+      },
+      "processing": "copied byte-identical from built-in tool; no postprocessing"
+    },
+    {
+      "path": "public/assets/qiantang-spring-r9-v1.png",
+      "bytes": 2223693,
+      "sha256": "46b4cedfb68bdd3af4d88ed8697d8a8a343b7f1c306a90613ebd144f7d0f744d",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 250,
+        "transparentPixels": 617036,
+        "opaquePixels": 0,
+        "partialPixels": 955828
+      },
+      "processing": "copied byte-identical from built-in tool; no postprocessing"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-07",
+  "scope": "round9 new runtime evidence; developer self-test",
+  "results": [
+    {
+      "cmd": "npm run check:data",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b6fab6",
+        "wall_time_seconds": 1.5131754,
+        "exit_code": 0,
+        "original_token_count": 86,
+        "output": "\n> poetic-landscape@0.1.0 check:data\n> node scripts/check-data.mjs\n\nPASS: 6 places, 8 works, 8 exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + 6 image anchors; UTF-8.\n"
+      }
+    },
+    {
+      "cmd": "node scripts/check-design.mjs",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "831e30",
+        "wall_time_seconds": 0.7764481,
+        "exit_code": 0,
+        "original_token_count": 61,
+        "output": "PASS: 8 continuous excerpts; two work-specific seasonal paintings / alpha / hashes and explicit focus scales; static local texture; frozen content, dependencies, image anchors, camera mathematics, historical PNG, OSM geometry and photograph.\n"
+      }
+    },
+    {
+      "cmd": "node scripts/check-reading.mjs docs/evidence/round9/reading-check.json",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "6c87c4",
+        "wall_time_seconds": 0.6416362,
+        "exit_code": 0,
+        "original_token_count": 24,
+        "output": "8 works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.\n"
+      }
+    },
+    {
+      "cmd": "node scripts/check-overview.mjs docs/evidence/round9/overview-check.json",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7bd5cd",
+        "wall_time_seconds": 0.6486365,
+        "exit_code": 0,
+        "original_token_count": 66,
+        "output": "PASS overview geometry: {\"date\":\"2026-10-07\",\"passed\":true,\"focusAndResizeCases\":24,\"checks\":[\"full-extent fit and aspect\",\"safe-area target lands exactly\",\"resize round-trip\",\"saved camera immutable\",\"screen collision grouping separates cities at high scale\"]}\n"
+      }
+    },
+    {
+      "cmd": "node scripts/check-reader-layout.mjs docs/evidence/round9",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "6027e4",
+        "wall_time_seconds": 0.3882563,
+        "exit_code": 0,
+        "original_token_count": 20,
+        "output": "PASS: recorded current recorded layout budgets, reading and camera regressions.\n"
+      }
+    }
+  ]
+}

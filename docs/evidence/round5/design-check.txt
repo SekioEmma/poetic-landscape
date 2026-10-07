@@ -1,0 +1,1 @@
+PASS: 8 continuous excerpts; intentional lake-only raster assignment and hash; static local texture; frozen content, dependencies, image anchors, camera mathematics, historical PNG, OSM geometry and photograph.

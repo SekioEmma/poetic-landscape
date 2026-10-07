@@ -1,0 +1,30 @@
+[
+  {
+    "path": "package-lock.json",
+    "sha256": "2cb284ab39fb28375f3b09e54d92f3aa5aec89e45be18707a2c4e7efbb513e6e"
+  },
+  {
+    "path": "src/data/content.ts",
+    "sha256": "e45a05cd62eaf31726600659ce802ea66ab8651494f46277c20ac2b3326a39ba"
+  },
+  {
+    "path": "src/map/overview-math.ts",
+    "sha256": "93e6a115ea717824ace672ba7bbd5409c07eeb7cfb3987bc65de821e5176c556"
+  },
+  {
+    "path": "public/geodata/westlake.json",
+    "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28"
+  },
+  {
+    "path": "public/geodata/causeways.json",
+    "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22"
+  },
+  {
+    "path": "public/assets/china-design-paper-v1.png",
+    "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+  },
+  {
+    "path": "public/assets/huxin-2017.jpg",
+    "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+  }
+]

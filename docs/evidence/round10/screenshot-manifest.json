@@ -1,0 +1,946 @@
+{
+  "at": "2026-10-07T14:39:13.653022+00:00",
+  "method": "cua_repl tab.screenshot fullPage:false; explicit full viewport clip for oversized stable screenshots to avoid side-panel clipping; animation samples use ordinary capture; nominal viewport measured separately in DOM; raster rounding may differ by one pixel; developmental captures are retained separately",
+  "files": [
+    {
+      "file": "1000x750-collapsed.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 44438,
+      "sha256": "cbea4c341340b91cbca9df2dfc10882c25bc320183bc10134b43c176a9cdb1e1"
+    },
+    {
+      "file": "1000x750-exploring.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 45021,
+      "sha256": "4dcd8bb8ed4475425178bc38c331da241f50dfc72110832d4011c4fd3ec23565"
+    },
+    {
+      "file": "1000x750-focused.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 76200,
+      "sha256": "7bc90257e5c184be6bcfa4b7e4452fa1e3ed4bf52649245ec92c390420c1e298"
+    },
+    {
+      "file": "1000x750-motion-0.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 71475,
+      "sha256": "7340b63e8eb00762737e16bdff593d930f608a9754a4dcc7e37531c748cfa784"
+    },
+    {
+      "file": "1000x750-motion-end.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 73860,
+      "sha256": "db8c9aed9d03be3f827e8d5b9c3c585bfed8277d183afcc509db5b8a3f8313cf"
+    },
+    {
+      "file": "1000x750-motion-middle.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 73655,
+      "sha256": "573c5c624a230c6b800d1d25e85d4cdcf066dbf7b4322895af05a6ceab5a1126"
+    },
+    {
+      "file": "1000x750-reading.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 72066,
+      "sha256": "2e0cd06457a65b9230f9ac79fb01e98f1235002e187566e6db71347026245947"
+    },
+    {
+      "file": "1000x750-restored.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 72148,
+      "sha256": "8de602f1abe65a7b3811a52dd530b162f265ce15236cbd92b2541580ceff99e5"
+    },
+    {
+      "file": "1024x768-collapsed.jpg",
+      "raster": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 53295,
+      "sha256": "7b1981287e2b4db70622eee52883fe9b3bab5dc859666480750947fb73ffb7a1"
+    },
+    {
+      "file": "1024x768-exploring.jpg",
+      "raster": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 47185,
+      "sha256": "e7f8d9be4c66edd0178ae459736b5b37bde23e9b82b50e6cdaedf65984186d75"
+    },
+    {
+      "file": "1024x768-focused.jpg",
+      "raster": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 83060,
+      "sha256": "a9ec1160873ec58f5c80ea97683865b3043250f486a9ad7d57b877295ffe5112"
+    },
+    {
+      "file": "1024x768-reading.jpg",
+      "raster": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 78892,
+      "sha256": "8e6b67971ab468c68e44ed431777bb2eb0dc4e014e12eb6b5ce09c15eb6b7851"
+    },
+    {
+      "file": "1024x768-restored.jpg",
+      "raster": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 82573,
+      "sha256": "587f8ed0c3858d8e4634ae63cd4548ed2e3bd4f5617a86e167c26193c62e87a3"
+    },
+    {
+      "file": "1280x720-collapsed.jpg",
+      "raster": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "bytes": 51232,
+      "sha256": "5b10853c2cc2eb079f2cd70f40fa225c8ebc647d1ad68e17563facaf8ad09f94"
+    },
+    {
+      "file": "1280x720-exploring.jpg",
+      "raster": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "bytes": 46003,
+      "sha256": "e73e9e174095470897a083ccd22ca405380b31dc2e7c35122c11fbdda546298d"
+    },
+    {
+      "file": "1280x720-focused.jpg",
+      "raster": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "bytes": 79900,
+      "sha256": "e960a1ca8991170693fee0a8bb6b6bffd1ec03c18ae5dd5d31401f8fff352431"
+    },
+    {
+      "file": "1280x720-reading.jpg",
+      "raster": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "bytes": 77488,
+      "sha256": "42327422f178141728b8b45498e534af1e92d394323d1ee5ecb8d0f3ce57a706"
+    },
+    {
+      "file": "1280x720-restored.jpg",
+      "raster": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "bytes": 78940,
+      "sha256": "a82b209a71d90475c68029118c4a9178519a40af9946882045aa8e93e4e05009"
+    },
+    {
+      "file": "1440x900-collapsed.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 72868,
+      "sha256": "c3e8631b4184117c76674e97eb71173d178f97bb760d5a6e2c6ec8f3ffd46b84"
+    },
+    {
+      "file": "1440x900-exploring.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 61669,
+      "sha256": "f0b1f85c2008594e9408e808226dd92a9f2df79e91c15a550507decfd6df4b84"
+    },
+    {
+      "file": "1440x900-focused.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 116967,
+      "sha256": "79d18de5c47d69ca5917a7169de47d054c52bd4e3e7b0864f743300065a7fa4b"
+    },
+    {
+      "file": "1440x900-reading.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 111777,
+      "sha256": "8bef3f043763f6d3885883ed2e0e50c0bce9020ee796e32e500433843c1b0c50"
+    },
+    {
+      "file": "1440x900-restored.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 113381,
+      "sha256": "c18cea426c680283906e71f4fe49ef44efbd286499dc56375ad7b459045f08b2"
+    },
+    {
+      "file": "360x800-collapsed.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 24316,
+      "sha256": "7980e6f2dfa51dae0d7b45f52827d1f4563812a228e5c7382aacd3dfa8f79eca"
+    },
+    {
+      "file": "360x800-exploring.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 20230,
+      "sha256": "62097a315c322d1cdbc127dd0d2d599f2d84e0c569121df9b3ffd594ed58ba08"
+    },
+    {
+      "file": "360x800-focused.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 38273,
+      "sha256": "75c49abbfe5dc2dd8eaba2911aa9e9d5eec6422b1465477eabb2348be6aa00b2"
+    },
+    {
+      "file": "360x800-long-place.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 23192,
+      "sha256": "5050fc5bceb830f193e379ff96f199c084aeb5b931906309d0f336b441c36180"
+    },
+    {
+      "file": "360x800-reading.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 32513,
+      "sha256": "eeefba01d08c4a00f35c8afe03082fee7bfb7a6f5cc952fda64f33916084826b"
+    },
+    {
+      "file": "360x800-restored.jpg",
+      "raster": [
+        360,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 32502,
+      "sha256": "07162ff231a55583bb38cc7bf5ded55411d59406cb2a59dfd73d7e5ab84ee200"
+    },
+    {
+      "file": "390x844-artFail.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 32271,
+      "sha256": "8908ffec203716ce0f948a12e02360306e1d02c1395adbbbb4cb1a6c15c039c1"
+    },
+    {
+      "file": "390x844-collapsed.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 27153,
+      "sha256": "b72871d89c16d43e260afb21b063e38c7d53bc24b8561600ca00d0d820851146"
+    },
+    {
+      "file": "390x844-directory-zero.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 21287,
+      "sha256": "bf2b0f7b7c191e8cd206b98bc4d5190e8c0742053829a96a73bc8c4b3dba0d42"
+    },
+    {
+      "file": "390x844-drag-restored.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 34568,
+      "sha256": "d444b9357119903d895a79f6fbf8274da8df5ed2240bd98d0c750590ad93dff0"
+    },
+    {
+      "file": "390x844-exploring.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 22417,
+      "sha256": "6ba17f4efe5c7a305321d24e620958d19890f9c3fda87fd3c927086aab046fa1"
+    },
+    {
+      "file": "390x844-focused.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 41983,
+      "sha256": "7b9d742916fe2a6411f0c9279d223f9d304088205cd50e84c486b6502b1bfac6"
+    },
+    {
+      "file": "390x844-keyboard-focus.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 37114,
+      "sha256": "293b7977828cd06cb6f37ef1669f4c76fa1e7b05b3ee7e88405d63684406d48e"
+    },
+    {
+      "file": "390x844-local.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 24967,
+      "sha256": "8b430b2bb7834ad28a90da60f089cbd81ebd9aef86bc8d1adebe1022885a9572"
+    },
+    {
+      "file": "390x844-long-title.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 38664,
+      "sha256": "8c54976f3ad24db0541467a7a19071a53d0b794257eb7ceb03cdd83d704453f3"
+    },
+    {
+      "file": "390x844-mapFail.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 29257,
+      "sha256": "388547b7bc0ddc187f673382aedcd41ebd32c785dbb9da190ecf47613591aaa5"
+    },
+    {
+      "file": "390x844-motion-0.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 36702,
+      "sha256": "9eef0b3490b3db825d3af5bcbd2838a48ef2b4d9f036c5b118d4d6c43808bf51"
+    },
+    {
+      "file": "390x844-motion-end.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 41939,
+      "sha256": "30b35dcd40cc9f0bad94b4205f3fb0fadc2c05008ff147cae23bca0993012186"
+    },
+    {
+      "file": "390x844-motion-middle.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 41649,
+      "sha256": "eea201847e72e1e83f421a8f2b19cd60ede45d111bd7c7bb78ad382f520f920f"
+    },
+    {
+      "file": "390x844-original-later.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 35877,
+      "sha256": "872a49c3cc72f528b4e15c5230a24595ac415a192e37aae8cf41048232c50f50"
+    },
+    {
+      "file": "390x844-original.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 19913,
+      "sha256": "1af601569dc7d0eb4289db20391fab523661cefe980fa8eaf417b0d18a773797"
+    },
+    {
+      "file": "390x844-outside-filter.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 39909,
+      "sha256": "8b67a9c89525875e51894904b7c6e57d5349ece580aa0d2d4a01e9113d633bcf"
+    },
+    {
+      "file": "390x844-overviewFail.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 28661,
+      "sha256": "e00d44572429638589f9ef59d2e2522757b1d8c3faba72c9c9d9ed87c406ae04"
+    },
+    {
+      "file": "390x844-reading.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 37333,
+      "sha256": "261089ab0c56c673d4f7fb283ce1b59df1356799cfc4d88954d1dbae45de2645"
+    },
+    {
+      "file": "390x844-restored.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 37333,
+      "sha256": "261089ab0c56c673d4f7fb283ce1b59df1356799cfc4d88954d1dbae45de2645"
+    },
+    {
+      "file": "768x1024-body-selection-final.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 72245,
+      "sha256": "2a87416716cfcc5a0d1c623ad0c1059d06de26f400b27656aaa44be8c93a4d63"
+    },
+    {
+      "file": "768x1024-body-selection.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 69308,
+      "sha256": "c0f2aa0e41471f354cf1572a1185108edcb3ea7a38c9163b1bea6a49718552bb"
+    },
+    {
+      "file": "768x1024-collapsed.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 56775,
+      "sha256": "e22010111a21aea0e8eaa1ddcc6dca1b1bdf98dabd5016985cc7e5a55f9898a6"
+    },
+    {
+      "file": "768x1024-drag-restored.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 71149,
+      "sha256": "74746fe441ebe99f3679ceaca94a06206831c0cb718e47778361ec82b9e43e84"
+    },
+    {
+      "file": "768x1024-exploring.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 65658,
+      "sha256": "3fdf6f984165269e5b18463628f401e57a6300e2002b815ebbb3dfa10e77e846"
+    },
+    {
+      "file": "768x1024-focused.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 70399,
+      "sha256": "c2a05bfacdfe96700042a8189a65c35297ab87d2a3066fc98394782621638d82"
+    },
+    {
+      "file": "768x1024-reading.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 67882,
+      "sha256": "e8134b2d6ad4cda77f2fe30412aa1728ac9dd053ab45a7e7eecc90c3322bdd20"
+    },
+    {
+      "file": "768x1024-restored.jpg",
+      "raster": [
+        768,
+        1024
+      ],
+      "format": "JPEG",
+      "bytes": 67899,
+      "sha256": "d439fdc862a1afb29549af6f852b1ea04a39b0aa5dbc7fe593f7b67f6d420e12"
+    },
+    {
+      "file": "844x390-collapsed.jpg",
+      "raster": [
+        843,
+        390
+      ],
+      "format": "JPEG",
+      "bytes": 21788,
+      "sha256": "8eb34a677c91b583d817514de4d51aabca1af62351bfb9154b71a535ee3845ff"
+    },
+    {
+      "file": "844x390-exploring.jpg",
+      "raster": [
+        843,
+        390
+      ],
+      "format": "JPEG",
+      "bytes": 21501,
+      "sha256": "dfeced98ed5e00ae7d803629f7be4e636a9bb53fe61c29bfad6c30cfafe8187f"
+    },
+    {
+      "file": "844x390-focused.jpg",
+      "raster": [
+        843,
+        390
+      ],
+      "format": "JPEG",
+      "bytes": 29815,
+      "sha256": "22cf3eabe8dd6c110a7b6f0216fefc7356266dea65c9cfc03558c52c3041aa45"
+    },
+    {
+      "file": "844x390-reading.jpg",
+      "raster": [
+        843,
+        390
+      ],
+      "format": "JPEG",
+      "bytes": 28310,
+      "sha256": "e2916cc2eaba28c69b69b5342ba61a45f074c7ad6b9c44b77008a1d9e29e3456"
+    },
+    {
+      "file": "844x390-restored.jpg",
+      "raster": [
+        843,
+        390
+      ],
+      "format": "JPEG",
+      "bytes": 27697,
+      "sha256": "68c424607e08363949f6ce9282ad2029cd7d3d5f8a1db8a9c4c7d416a57da533"
+    },
+    {
+      "file": "after-1000x750-directory.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 35584,
+      "sha256": "f9e96dd9b81c1f8f78bffe79bc0ff9cf9d385a5ee475aa95de89ad6f1ac8b41e"
+    },
+    {
+      "file": "after-1000x750-focused.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 73860,
+      "sha256": "db8c9aed9d03be3f827e8d5b9c3c585bfed8277d183afcc509db5b8a3f8313cf"
+    },
+    {
+      "file": "after-1000x750-reading.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 71475,
+      "sha256": "7340b63e8eb00762737e16bdff593d930f608a9754a4dcc7e37531c748cfa784"
+    },
+    {
+      "file": "after-390x844-directory.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 28461,
+      "sha256": "af4b86eac7cee1008a1b44edc7facd286a1093426bbb49e214363d8d0aefd337"
+    },
+    {
+      "file": "after-390x844-focused.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 41939,
+      "sha256": "30b35dcd40cc9f0bad94b4205f3fb0fadc2c05008ff147cae23bca0993012186"
+    },
+    {
+      "file": "after-390x844-reading.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 36702,
+      "sha256": "9eef0b3490b3db825d3af5bcbd2838a48ef2b4d9f036c5b118d4d6c43808bf51"
+    },
+    {
+      "file": "before-1000x750-directory.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 36318,
+      "sha256": "051518ae6ba6dbf2f88a98ad838b15ee290444bec84b70268b5ac9b7e805544f"
+    },
+    {
+      "file": "before-1000x750-focused.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 78291,
+      "sha256": "d304692d74611d80f908be75c17340b4dd69e80ff6ae845326cdd7f0ef21fa03"
+    },
+    {
+      "file": "before-1000x750-reading.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 75346,
+      "sha256": "6e1154057cd31a85633239dee01693c2be30fb0f991149b5d51ac297107a5e24"
+    },
+    {
+      "file": "before-390x844-directory.jpg",
+      "raster": [
+        390,
+        844
+      ],
+      "format": "JPEG",
+      "bytes": 26506,
+      "sha256": "123bd49f042147a545e76f03bca3bf94efad42882dc3c4b15ab6fb4eb25d64ae"
+    },
+    {
+      "file": "before-390x844-focused.jpg",
+      "raster": [
+        390,
+        844
+      ],
+      "format": "JPEG",
+      "bytes": 43247,
+      "sha256": "7f3a24a238e5ab263ff6afa7653ab764fb9655d36c42127b4627bc153df4c6bb"
+    },
+    {
+      "file": "before-390x844-reading.jpg",
+      "raster": [
+        390,
+        844
+      ],
+      "format": "JPEG",
+      "bytes": 35832,
+      "sha256": "55121e4064b0ec2f67c9106b2ef05616146315c6226bb7d6df9d942cb8aaca03"
+    },
+    {
+      "file": "capture-1440-clip.jpg",
+      "raster": [
+        1440,
+        900
+      ],
+      "format": "JPEG",
+      "bytes": 111548,
+      "sha256": "cd28bb0413f009595edcb5bc410126a7a14b63e11221147496d64e4d6fa6785d"
+    },
+    {
+      "file": "motion-1000-0.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 67234,
+      "sha256": "8ac6a5ea66d9c1162fb63a8aed5f8e4dce26c43000dcf64f74523abd5b9b1086"
+    },
+    {
+      "file": "motion-1000-end.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 68917,
+      "sha256": "487e47f0de9f9aa51985fa205d3a85dfdd11da104ebac38629b59d2267893243"
+    },
+    {
+      "file": "motion-1000-middle.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 69696,
+      "sha256": "9f0eb6fb3fc9e4e09c2028b443f900adbc683355be9dc2834cde95f866fd64d0"
+    },
+    {
+      "file": "motion-390-0.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 31746,
+      "sha256": "d0cea017bf56966c1c971002820a31828d02c8d904993bc19d0c737a1e510a55"
+    },
+    {
+      "file": "motion-390-end.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 35974,
+      "sha256": "dc71e70e7eb1b62859e9ed2ff4b21427aa939c5c949f9bbc2268692c83c920e0"
+    },
+    {
+      "file": "motion-390-middle.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 35631,
+      "sha256": "ae488fa5eb09e79efec492745027419910bee4f058e4efea768390ec3c2d57f3"
+    },
+    {
+      "file": "rapid-1000-0.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 72380,
+      "sha256": "85d1486b8f3db3bc26e9fd60bbcebce3bfac8134412c4ace15e92e761ac8fdd2"
+    },
+    {
+      "file": "rapid-1000-end.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 72391,
+      "sha256": "1c0a45efccfe98199bccadbe8971b7743e797adf00694b3c1eecb9c475038bd0"
+    },
+    {
+      "file": "rapid-1000-first.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 80716,
+      "sha256": "ebabb44538f35d9031915e2dc998fa79962ec7489d0c03947198d696c77be1dd"
+    },
+    {
+      "file": "rapid-1000-second.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 69359,
+      "sha256": "ec884598736391025fd205a15b908fe048fb3ea455077b3723b3531ec295b97c"
+    },
+    {
+      "file": "rapid-exit-0.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 71475,
+      "sha256": "7340b63e8eb00762737e16bdff593d930f608a9754a4dcc7e37531c748cfa784"
+    },
+    {
+      "file": "rapid-exit-end.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 72380,
+      "sha256": "85d1486b8f3db3bc26e9fd60bbcebce3bfac8134412c4ace15e92e761ac8fdd2"
+    },
+    {
+      "file": "rapid-exit-new.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 70186,
+      "sha256": "863f85226831669269c596cb8f89bcfc598ebc70819e1fdfd1a7a8a74c91e8b2"
+    },
+    {
+      "file": "research-apple.jpg",
+      "raster": [
+        1280,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 71161,
+      "sha256": "e835680141f78ea4dc0db44a5bb660a293414c9a0a2cd533a93531641c4d6413"
+    },
+    {
+      "file": "research-google.jpg",
+      "raster": [
+        1280,
+        800
+      ],
+      "format": "JPEG",
+      "bytes": 208909,
+      "sha256": "7081bf0730a63a40c27aa9ae5a3ef358b546134e14829db0887d52df0a4c2b64"
+    },
+    {
+      "file": "resize-local-1024x768.jpg",
+      "raster": [
+        1019,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 57958,
+      "sha256": "e0a6cdf134b9350f44b1f0c6e32d6ef097867fb443976f3ce56ca590a8e79e16"
+    },
+    {
+      "file": "resize-local-1025x768.jpg",
+      "raster": [
+        1019,
+        768
+      ],
+      "format": "JPEG",
+      "bytes": 57850,
+      "sha256": "878c4c0828ddea87c8d705b83e77f2e23e391048fac8b9a445b01d877849b46c"
+    },
+    {
+      "file": "resize-local-390x844.jpg",
+      "raster": [
+        390,
+        843
+      ],
+      "format": "JPEG",
+      "bytes": 35979,
+      "sha256": "1427e3c9376a27b9f361f85a4afe8bc4ba02b8c3d6c2e59536a59ea7bf769f71"
+    },
+    {
+      "file": "resize-local-768x1024.jpg",
+      "raster": [
+        768,
+        1009
+      ],
+      "format": "JPEG",
+      "bytes": 50783,
+      "sha256": "28cd323931df11539c0abd86a946e9906cddba16e161350689bb55fa38054ce6"
+    },
+    {
+      "file": "viewport-sampling-check.jpg",
+      "raster": [
+        1000,
+        750
+      ],
+      "format": "JPEG",
+      "bytes": 68096,
+      "sha256": "90271a52b187e91c5cb03a0b7886a5a01564914400f3a11ee7124624f6098e10"
+    }
+  ]
+}

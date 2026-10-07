@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-06",
+  "passed": true,
+  "checkedPixels": 42232674,
+  "mapping": "Same monotone RGB mapping at every original pixel; no positions, borders, island or label pixels selectively removed",
+  "dimensions": [
+    5826,
+    7249
+  ],
+  "semanticLayerSeparation": false,
+  "vectorConversionVerified": false
+}

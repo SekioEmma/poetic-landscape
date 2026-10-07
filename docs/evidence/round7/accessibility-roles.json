@@ -1,0 +1,31 @@
+{
+  "r7colors": {
+    "focusableBody": "0",
+    "paper": "color(srgb 0.969412 0.956863 0.923922)",
+    "roles": [
+      {
+        "color": "rgb(46, 52, 48)",
+        "font": "18px",
+        "selector": ".original-text"
+      },
+      {
+        "color": "rgb(96, 104, 94)",
+        "font": "14px",
+        "selector": ".poet-byline"
+      },
+      {
+        "color": "rgb(141, 80, 68)",
+        "font": "14px",
+        "selector": ".detail-tabs button"
+      },
+      {
+        "color": "rgb(141, 80, 68)",
+        "font": "18px",
+        "selector": ".original-text mark"
+      }
+    ]
+  },
+  "r7expandedLocalBefore": "[[120.10076619449262,30.21338778964943],[120.23576430710841,30.286273008969744]]",
+  "r7expandedLocalAfter": "[[120.12053621036222,30.22406496170902],[120.21599429124018,30.27560259568523]]",
+  "logs": []
+}

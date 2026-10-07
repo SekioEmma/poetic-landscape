@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const text=ts.transpileModule(await fs.readFile('src/layout/reader-gesture.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {settleReaderGesture:settle}=await import('data:text/javascript;base64,'+Buffer.from(text).toString('base64'));
+const heights=[112,361,707];
+assert.equal(settle('reading',-240,-.7,601,heights,true),'reading','cancelled fast gesture restores the previous detent');
+assert.equal(settle('reading',7,1,354,heights),'reading','small pointer movement cannot fling');
+assert.equal(settle('reading',40,.2,321,heights),'reading','slow sub-threshold gesture keeps its detent');
+assert.equal(settle('collapsed',-80,-.6,192,heights),'reading','fast upward gesture advances exactly one detent');
+assert.equal(settle('focused',80,.6,627,heights),'reading','fast downward gesture advances exactly one detent');
+assert.equal(settle('reading',-220,-.2,581,heights),'focused','slow drag settles to closest physical height');
+assert.equal(settle('reading',240,.2,121,heights),'collapsed');
+assert.equal(settle('collapsed',120,1,104,heights),'collapsed','lowest detent keeps the reading, never closes');
+assert.equal(settle('focused',-120,-1,707,heights),'focused','upper bound remains valid');
+console.log('PASS: gesture cancellation, movement threshold, one-step flings, nearest-height settling and valid endpoint bounds (pure logic; not a touch-device test).');

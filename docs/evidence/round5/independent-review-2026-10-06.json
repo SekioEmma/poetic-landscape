@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-06",
+  "kind": "independent-review",
+  "preview": "http://127.0.0.1:4173/",
+  "browser": "Codex in-app Chromium",
+  "testedViewportSizes": [[1440,900],[768,1024],[390,844]],
+  "scope": "Targeted UI continuity and visual review; not the full fifth-round matrix or physical touch acceptance",
+  "observations": {
+    "huxinReadingTabRoundTrip": {"beforeScrollTop":582,"afterScrollTop":0,"originalStillOpen":true},
+    "huangheKeyboardWorkSwitch": {"activation":"Enter","newWork":"黄鹤楼送孟浩然之广陵","activeElementTag":"BODY"},
+    "groupThenSourceEscape": {"sequence":["open 江南","open 原图与出处","Escape on source close button"],"groupStillPresent":false,"sourceDialogStillOpen":true},
+    "groupNextTab": {"sequence":["open 江南","Tab from group button"],"focusAriaLabel":"地图地点：黄鹤楼"},
+    "readingSheetComputedStyle": {"transitionDuration":"0s","animationName":"none"},
+    "compactEmptyDirectory": {"lastTabLoopsToClose":true,"escapeClosesDirectoryOnly":true,"focusReturnsToDirectoryTrigger":true},
+    "normalConsoleWarnErrorEntries":0
+  },
+  "checks": {
+    "npm run check:data":"PASS",
+    "node scripts/check-design.mjs":"PASS",
+    "build":"Prior fifth-round build record inspected; not rerun in this review",
+    "zip":"releases/诗文山河_第五轮静态包_2026-10-06.zip",
+    "zipSha256":"DDFCE62E5BA24C170A832D439912A31D98E579BF2FC51BC7EDC6AF969B561C24",
+    "zipFileCount":25,
+    "distFileCount":25,
+    "zipDistFileHashMismatches":[],
+    "zipIndexAtRoot":true
+  },
+  "notTested":["physical phone pinch","Safari/Firefox","OS reduced motion","sustained interaction frame timing","full failure matrix rerun"],
+  "verdict":"Keep fifth-round increments; interaction and full-site visual finalization remain pending",
+  "appSourceEdited":false,
+  "committedPushedDeployed":false
+}

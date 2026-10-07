@@ -1,0 +1,212 @@
+[
+  {
+    "file": "after-overview-1440.jpg",
+    "time": "2026-10-07T01:58:14.952Z",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "actual": [
+      1440,
+      900
+    ],
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huxin-1440.jpg",
+    "time": "2026-10-07T01:58:15.929Z",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "actual": [
+      1440,
+      900
+    ],
+    "camera": "{\"x\":-301.6767330442596,\"y\":-4.250866289106067,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-local-1440.jpg",
+    "time": "2026-10-07T01:58:16.632Z",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "actual": [
+      1440,
+      900
+    ],
+    "camera": "{\"x\":-301.6767330442596,\"y\":-4.250866289106067,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huanghe-1440.jpg",
+    "time": "2026-10-07T01:58:18.178Z",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "actual": [
+      1440,
+      900
+    ],
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-libai-1440.jpg",
+    "time": "2026-10-07T01:58:18.525Z",
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "actual": [
+      1440,
+      900
+    ],
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-overview-768.jpg",
+    "time": "2026-10-07T01:58:19.319Z",
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": [
+      768,
+      1024
+    ],
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huxin-768.jpg",
+    "time": "2026-10-07T01:58:20.268Z",
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": [
+      768,
+      1024
+    ],
+    "camera": "{\"x\":-241.97332716907823,\"y\":-104.28812592976473,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-local-768.jpg",
+    "time": "2026-10-07T01:58:20.976Z",
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": [
+      768,
+      1024
+    ],
+    "camera": "{\"x\":-241.97332716907823,\"y\":-104.28812592976473,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huanghe-768.jpg",
+    "time": "2026-10-07T01:58:22.510Z",
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": [
+      768,
+      1024
+    ],
+    "camera": "{\"x\":-163.67287193387352,\"y\":-106.89814110427156,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-libai-768.jpg",
+    "time": "2026-10-07T01:58:22.862Z",
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": [
+      768,
+      1024
+    ],
+    "camera": "{\"x\":-163.67287193387352,\"y\":-106.89814110427156,\"scale\":1.85}",
+    "horizontal": false
+  },
+  {
+    "file": "after-overview-390.jpg",
+    "time": "2026-10-07T01:58:23.655Z",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": [
+      390,
+      844
+    ],
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huxin-390.jpg",
+    "time": "2026-10-07T01:58:24.595Z",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": [
+      390,
+      844
+    ],
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-local-390.jpg",
+    "time": "2026-10-07T01:58:25.279Z",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": [
+      390,
+      844
+    ],
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-huanghe-390.jpg",
+    "time": "2026-10-07T01:58:26.686Z",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": [
+      390,
+      844
+    ],
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "horizontal": false
+  },
+  {
+    "file": "after-libai-390.jpg",
+    "time": "2026-10-07T01:58:27.031Z",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": [
+      390,
+      844
+    ],
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "horizontal": false
+  }
+]

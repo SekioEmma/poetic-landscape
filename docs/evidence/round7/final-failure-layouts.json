@@ -1,0 +1,50 @@
+[
+  {
+    "alert": {
+      "bottom": 252,
+      "height": 115,
+      "left": 22,
+      "right": 368,
+      "top": 137,
+      "width": 346,
+      "x": 22,
+      "y": 137
+    },
+    "paragraphs": 4,
+    "reader": {
+      "bottom": 844.0091247558594,
+      "height": 557.03125,
+      "left": 0,
+      "right": 390,
+      "top": 286.9778747558594,
+      "width": 390,
+      "x": 0,
+      "y": 286.9778747558594
+    },
+    "test": "overviewFail"
+  },
+  {
+    "alert": {
+      "bottom": 258.8541717529297,
+      "height": 123.85417175292967,
+      "left": 22,
+      "right": 368,
+      "top": 135,
+      "width": 346,
+      "x": 22,
+      "y": 135
+    },
+    "paragraphs": 4,
+    "reader": {
+      "bottom": 844,
+      "height": 557.03125,
+      "left": 0,
+      "right": 390,
+      "top": 286.96875,
+      "width": 390,
+      "x": 0,
+      "y": 286.96875
+    },
+    "test": "mapFail"
+  }
+]

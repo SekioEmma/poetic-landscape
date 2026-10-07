@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "planVersion": "2.0",
+  "updatedAt": "2026-10-06",
+  "status": "planned-release-scope-not-runtime-data",
+  "description": "第一版成品目标。新增内容尚未核读完整原文、完成坐标及入库；不得将本文件计作已上线内容。",
+  "baseline": {"places": 6, "works": 8, "relations": 8, "stories": 0},
+  "target": {"places": 12, "works": 16, "relations": 17, "stories": 2, "chapters": 6},
+  "places": [
+    {"id":"huxin","name":"湖心亭","status":"implemented","workIds":["huxinting-kanxue"]},
+    {"id":"huanghe","name":"黄鹤楼","status":"implemented","workIds":["huanghelou","song-menghaoran"]},
+    {"id":"dufu","name":"杜甫草堂","status":"implemented","workIds":["maowu"]},
+    {"id":"xihu","name":"西湖","status":"implemented","workIds":["yin-hushang","qiantang-chunxing"]},
+    {"id":"hanshan","name":"寒山寺与枫桥","status":"implemented","workIds":["fengqiao-yebo"]},
+    {"id":"guazhou","name":"瓜洲渡","status":"implemented-additional-relation-planned","workIds":["bochuan-guazhou","shufen"]},
+    {"id":"yueyang","name":"岳阳楼","status":"planned","workIds":["deng-yueyanglou","yueyanglou-ji"]},
+    {"id":"dasan","name":"大散关","status":"planned","workIds":["shufen"]},
+    {"id":"yumen","name":"玉门关","status":"planned","workIds":["liangzhouci-1","guanshanyue"]},
+    {"id":"yangguan","name":"阳关","status":"planned","workIds":["song-yuaner"]},
+    {"id":"loulan","name":"楼兰","status":"planned","workIds":["congjunxing-4"]},
+    {"id":"shanhaiguan","name":"山海关（榆关）","status":"planned","workIds":["changxiangsi-shanyicheng"]}
+  ],
+  "newWorks": [
+    {"id":"deng-yueyanglou","title":"登岳阳楼","author":"杜甫"},
+    {"id":"yueyanglou-ji","title":"岳阳楼记","author":"范仲淹"},
+    {"id":"shufen","title":"书愤","author":"陆游"},
+    {"id":"liangzhouci-1","title":"凉州词二首·其一（黄河远上白云间）","author":"王之涣（通行署名）"},
+    {"id":"guanshanyue","title":"关山月","author":"李白"},
+    {"id":"song-yuaner","title":"送元二使安西（渭城曲）","author":"王维"},
+    {"id":"congjunxing-4","title":"从军行七首·其四","author":"王昌龄"},
+    {"id":"changxiangsi-shanyicheng","title":"长相思·山一程","author":"纳兰性德"}
+  ],
+  "stories": [
+    {"id":"water-sounds","title":"水上清音","chapters":[
+      {"id":"water-1","placeId":"xihu","workId":"yin-hushang"},
+      {"id":"water-2","placeId":"huxin","workId":"huxinting-kanxue"},
+      {"id":"water-3","placeId":"hanshan","workId":"fengqiao-yebo"}
+    ]},
+    {"id":"frontier-return","title":"关山望归","chapters":[
+      {"id":"frontier-1","placeId":"dasan","workId":"shufen"},
+      {"id":"frontier-2","placeId":"yumen","workId":"guanshanyue"},
+      {"id":"frontier-3","placeId":"yangguan","workId":"song-yuaner"}
+    ]}
+  ],
+  "reducedRelease": {
+    "status":"contingency-only-not-full-scope-completion",
+    "placeIds":["huxin","huanghe","dufu","xihu","hanshan","guazhou","yumen","yangguan","loulan"],
+    "target":{"places":9,"works":12,"relations":12,"stories":1,"chapters":3},
+    "storyIds":["water-sounds"],
+    "excludedWorkIds":["shufen"]
+  }
+}

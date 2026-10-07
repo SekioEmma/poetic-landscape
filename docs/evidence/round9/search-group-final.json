@@ -1,0 +1,1012 @@
+{
+  "checks": [
+    {
+      "query": "苏轼",
+      "snapshot": "- main:\n  - region \"山河探索地图\":\n    - generic \"可拖动缩放的全国图面\":\n      - img \"基于自然资源部标准地图原件制作的项目设计版，完整保留边界、岛屿与注记\"\n      - button \"地图地点：西湖\":\n        - generic: 西湖\n      - generic \"全国图面控制\":\n        - button \"放大全国地图\": ＋\n        - button \"缩小全国地图\": −\n        - button \"看全国\"\n        - button \"对照原图\"\n  - link \"诗文山河首页\":\n    - /url: \"#\"\n    - generic: 山河\n    - text: 诗文山河\n    - generic: 一笺诗文 · 一处山河\n  - navigation \"页面导航\":\n    - button \"寻诗文 1处\" [expanded]:\n      - text: ☷ 寻诗文\n      - generic: 1处\n    - button \"出处\"\n  - region \"探索介绍\":\n    - text: 山河为卷\n    - heading \"循诗， 入山河。\" [level=1]:\n      - text: 循诗，\n      - text: 入山河。\n    - paragraph: 点一处，读一篇。\n    - button \"苏轼 · 1处 ↗\"\n  - generic: 六处山河，八篇诗文\n  - button \"原图与出处\"\n  - generic: 诗画同观\n  - dialog \"地点目录\":\n    - generic: 寻山河 · 读诗文\n    - button \"收起地点目录\": ×\n    - generic: 搜索地点与诗文\n    - searchbox \"搜索地点与诗文\" [active]: 苏轼\n    - button \"清空搜索\": ×\n    - group \"主题筛选\":\n      - button \"全部\" [pressed]\n      - button \"楼台与城郭\"\n      - button \"江湖与行旅\"\n      - button \"山川与隐逸\"\n      - button \"关山与家国\" [disabled]\n    - status: 1 处地点\n    - button \"西湖 浙江 · 杭州 苏轼《饮湖上初晴后雨二首·其二》\":\n      - strong: 西湖\n      - generic: 浙江 · 杭州\n      - generic: 苏轼《饮湖上初晴后雨二首·其二》\n    - paragraph: 六处山河，八篇诗文。关山与家国主题本轮尚未收录。\n  - status: ，中国地图总览，详情关闭",
+      "reading": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:52:07.116Z",
+        "body": {
+          "bottom": 738,
+          "height": 526,
+          "left": 630,
+          "right": 980,
+          "top": 212,
+          "width": 350,
+          "x": 630,
+          "y": 212
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-306.90087859918856,\"y\":-8.288380323564253,\"scale\":1.45}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 644,
+              "right": 704,
+              "top": 94,
+              "width": 60,
+              "x": 644,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 844,
+              "right": 916,
+              "top": 94,
+              "width": 72,
+              "x": 844,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 922,
+              "right": 966,
+              "top": 94,
+              "width": 44,
+              "x": 922,
+              "y": 94
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 654,
+              "right": 698,
+              "top": 168,
+              "width": 44,
+              "x": 654,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 722,
+              "right": 766,
+              "top": 168,
+              "width": 44,
+              "x": 722,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "dot": {
+          "bottom": 410.3020935058594,
+          "height": 9,
+          "left": 491.0729370117187,
+          "right": 500.0729370117187,
+          "top": 401.3020935058594,
+          "width": 9,
+          "x": 491.0729370117187,
+          "y": 401.3020935058594
+        },
+        "entries": [
+          {
+            "box": {
+              "bottom": 427.8020935058594,
+              "height": 44,
+              "left": 504.8125,
+              "right": 561.3333358764648,
+              "top": 383.8020935058594,
+              "width": 56.52083587646485,
+              "x": 504.8125,
+              "y": 383.8020935058594
+            },
+            "name": "地图地点：西湖"
+          }
+        ],
+        "fixed": {
+          "bottom": 212,
+          "height": 118,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "fullParagraphs": 2,
+        "header": {
+          "bottom": 86,
+          "height": 86,
+          "left": 0,
+          "right": 1000,
+          "top": 0,
+          "width": 1000,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "side",
+        "map": {
+          "bottom": 738,
+          "height": 644,
+          "left": 20,
+          "right": 980,
+          "top": 94,
+          "width": 960,
+          "x": 20,
+          "y": 94
+        },
+        "mapRatio": 0.6104166666666667,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "xihu",
+        "safe": {
+          "height": 636,
+          "left": 8,
+          "top": 0,
+          "width": 586
+        },
+        "sheet": {
+          "bottom": 738,
+          "height": 644,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "space": "reading",
+        "title": "饮湖上初晴后雨二首·其二",
+        "viewport": [
+          1000,
+          750
+        ],
+        "work": {
+          "bottom": 738,
+          "height": 644,
+          "top": 94,
+          "width": 960
+        },
+        "workId": "yin-hushang"
+      }
+    },
+    {
+      "query": "茅屋",
+      "snapshot": "- main:\n  - region \"山河探索地图\":\n    - generic \"可拖动缩放的全国图面\":\n      - img \"基于自然资源部标准地图原件制作的项目设计版，完整保留边界、岛屿与注记\"\n      - button \"地图地点：西湖\" [pressed]:\n        - generic: 西湖\n        - generic: 当前阅读\n      - button \"地图地点：杜甫草堂\":\n        - generic: 杜甫草堂\n      - generic \"全国图面控制\":\n        - button \"放大全国地图\": ＋\n        - button \"缩小全国地图\": −\n        - button \"看全国\"\n        - button \"对照原图\"\n  - link \"诗文山河首页\":\n    - /url: \"#\"\n    - generic: 山河\n    - text: 诗文山河\n    - generic: 一笺诗文 · 一处山河\n  - navigation \"页面导航\":\n    - button \"寻诗文 1处\" [expanded]:\n      - text: ☷ 寻诗文\n      - generic: 1处\n    - button \"出处\"\n  - complementary \"西湖阅读案\":\n    - button \"收起读案\"\n    - button \"展开阅读\"\n    - button \"关闭阅读案\": ×\n    - heading \"西湖\" [level=2]\n    - generic \"当前阅读 · 不在筛选结果中\": 筛选外\n    - tablist \"阅读内容\":\n      - tab \"诗文\" [selected]\n      - tab \"地点\"\n    - button \"诗篇 2篇\": 诗篇 2篇 ⌄\n    - generic \"阅读案正文\":\n      - tabpanel \"诗文\":\n        - heading \"饮湖上初晴后雨二首·其二\" [level=3]\n        - paragraph:\n          - text: 苏轼\n          - generic: 北宋\n        - article \"完整原文\":\n          - paragraph:\n            - mark: 水光潋滟晴方好，\n            - mark: 山色空蒙雨亦奇。\n          - paragraph:\n            - generic: 欲把西湖比西子，\n            - generic: 淡妆浓抹总相宜。\n        - heading \"诗文与此地\" [level=4]\n        - paragraph: 晴时的水光和雨中的山色，都是西湖的好看。诗人没有在两种天气中选出胜者，而用西子的淡妆与浓抹，让不同姿态相互成全。读这首诗，可以先看湖，再看山；也可以想想，同一片山水如何在光线与雨雾里，显出不同的性情。\n        - button \"看看诗文中的地点\":\n          - text: 看看诗文中的地点\n          - generic: →\n        - generic \"底本与版本\"\n  - dialog \"地点目录\":\n    - generic: 寻山河 · 读诗文\n    - button \"收起地点目录\": ×\n    - generic: 搜索地点与诗文\n    - searchbox \"搜索地点与诗文\" [active]: 茅屋\n    - button \"清空搜索\": ×\n    - group \"主题筛选\":\n      - button \"全部\" [pressed]\n      - button \"楼台与城郭\"\n      - button \"江湖与行旅\"\n      - button \"山川与隐逸\"\n      - button \"关山与家国\" [disabled]\n    - status: 1 处地点\n    - button \"杜甫草堂 四川 · 成都 杜甫《茅屋为秋风所破歌》\":\n      - strong: 杜甫草堂\n      - generic: 四川 · 成都\n      - generic: 杜甫《茅屋为秋风所破歌》\n    - paragraph: 六处山河，八篇诗文。关山与家国主题本轮尚未收录。\n  - status: ，当前地点西湖，诗文",
+      "reading": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:52:07.712Z",
+        "body": {
+          "bottom": 738,
+          "height": 526,
+          "left": 630,
+          "right": 980,
+          "top": 212,
+          "width": 350,
+          "x": 630,
+          "y": 212
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-146.9003267989402,\"y\":-14.418329282041283,\"scale\":1.45}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 644,
+              "right": 704,
+              "top": 94,
+              "width": 60,
+              "x": 644,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 844,
+              "right": 916,
+              "top": 94,
+              "width": 72,
+              "x": 844,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 922,
+              "right": 966,
+              "top": 94,
+              "width": 44,
+              "x": 922,
+              "y": 94
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 654,
+              "right": 698,
+              "top": 168,
+              "width": 44,
+              "x": 654,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 722,
+              "right": 766,
+              "top": 168,
+              "width": 44,
+              "x": 722,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "dot": {
+          "bottom": 407.6979370117187,
+          "height": 9,
+          "left": 202.3854217529297,
+          "right": 211.3854217529297,
+          "top": 398.6979370117187,
+          "width": 9,
+          "x": 202.3854217529297,
+          "y": 398.6979370117187
+        },
+        "entries": [
+          {
+            "box": {
+              "bottom": 425.1979370117187,
+              "height": 44,
+              "left": 215.86459350585935,
+              "right": 310.90626525878906,
+              "top": 381.1979370117187,
+              "width": 95.04167175292967,
+              "x": 215.86459350585935,
+              "y": 381.1979370117187
+            },
+            "name": "地图地点：杜甫草堂"
+          }
+        ],
+        "fixed": {
+          "bottom": 212,
+          "height": 118,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "fullParagraphs": 4,
+        "header": {
+          "bottom": 86,
+          "height": 86,
+          "left": 0,
+          "right": 1000,
+          "top": 0,
+          "width": 1000,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "side",
+        "map": {
+          "bottom": 738,
+          "height": 644,
+          "left": 20,
+          "right": 980,
+          "top": 94,
+          "width": 960,
+          "x": 20,
+          "y": 94
+        },
+        "mapRatio": 0.6104166666666667,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "dufu",
+        "safe": {
+          "height": 636,
+          "left": 8,
+          "top": 0,
+          "width": 586
+        },
+        "sheet": {
+          "bottom": 738,
+          "height": 644,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "space": "reading",
+        "title": "茅屋为秋风所破歌",
+        "viewport": [
+          1000,
+          750
+        ],
+        "work": {
+          "bottom": 738,
+          "height": 644,
+          "top": 94,
+          "width": 960
+        },
+        "workId": "maowu"
+      }
+    },
+    {
+      "query": "枫桥",
+      "snapshot": "- main:\n  - region \"山河探索地图\":\n    - generic \"可拖动缩放的全国图面\":\n      - img \"基于自然资源部标准地图原件制作的项目设计版，完整保留边界、岛屿与注记\"\n      - button \"地图地点：杜甫草堂\" [pressed]:\n        - generic: 杜甫草堂\n        - generic: 当前阅读\n      - button \"地图地点：寒山寺与枫桥\":\n        - generic: 寒山寺与枫桥\n      - generic \"全国图面控制\":\n        - button \"放大全国地图\": ＋\n        - button \"缩小全国地图\": −\n        - button \"看全国\"\n        - button \"对照原图\"\n  - link \"诗文山河首页\":\n    - /url: \"#\"\n    - generic: 山河\n    - text: 诗文山河\n    - generic: 一笺诗文 · 一处山河\n  - navigation \"页面导航\":\n    - button \"寻诗文 1处\" [expanded]:\n      - text: ☷ 寻诗文\n      - generic: 1处\n    - button \"出处\"\n  - complementary \"杜甫草堂阅读案\":\n    - button \"收起读案\"\n    - button \"展开阅读\"\n    - button \"关闭阅读案\": ×\n    - heading \"杜甫草堂\" [level=2]\n    - generic \"当前阅读 · 不在筛选结果中\": 筛选外\n    - tablist \"阅读内容\":\n      - tab \"诗文\" [selected]\n      - tab \"地点\"\n    - generic \"阅读案正文\":\n      - tabpanel \"诗文\":\n        - heading \"茅屋为秋风所破歌\" [level=3]\n        - paragraph:\n          - text: 杜甫\n          - generic: 唐\n        - article \"完整原文\":\n          - paragraph:\n            - generic: 八月秋高风怒号，\n            - generic: 卷我屋上三重茅。\n            - generic: 茅飞渡江洒江郊，\n            - generic: 高者挂罥长林梢，\n            - generic: 下者飘转沉塘坳。\n          - paragraph:\n            - generic: 南村群童欺我老无力，\n            - generic: 忍能对面为盗贼。\n            - generic: 公然抱茅入竹去，\n            - generic: 唇焦口燥呼不得，\n            - generic: 归来倚杖自叹息。\n          - paragraph:\n            - generic: 俄顷风定云墨色，\n            - generic: 秋天漠漠向昏黑。\n            - generic: 布衾多年冷似铁，\n            - generic: 娇儿恶卧踏里裂。\n            - generic: 床头屋漏无干处，\n            - generic: 雨脚如麻未断绝。\n            - generic: 自经丧乱少睡眠，\n            - generic: 长夜沾湿何由彻！\n          - paragraph:\n            - mark: 安得广厦千万间，\n            - mark: 大庇天下寒士俱欢颜！\n            - generic: 风雨不动安如山。\n            - generic: 呜呼！何时眼前突兀见此屋，\n            - generic: 吾庐独破受冻死亦足！\n        - heading \"诗文与此地\" [level=4]\n        - paragraph: 风卷走屋茅，雨又浸透床铺，诗把困顿写得触手可及。到了结尾，愿望却从自己的屋子转向天下寒士：只要更多人有安稳的住处，个人的受冻也可以承担。这间小小茅屋因而承载了一个远比屋檐更宽广的胸怀。\n        - button \"看看诗文中的地点\":\n          - text: 看看诗文中的地点\n          - generic: →\n        - generic \"底本与版本\"\n  - dialog \"地点目录\":\n    - generic: 寻山河 · 读诗文\n    - button \"收起地点目录\": ×\n    - generic: 搜索地点与诗文\n    - searchbox \"搜索地点与诗文\" [active]: 枫桥\n    - button \"清空搜索\": ×\n    - group \"主题筛选\":\n      - button \"全部\" [pressed]\n      - button \"楼台与城郭\"\n      - button \"江湖与行旅\"\n      - button \"山川与隐逸\"\n      - button \"关山与家国\" [disabled]\n    - status: 1 处地点\n    - button \"寒山寺与枫桥 江苏 · 苏州 张继《枫桥夜泊》\":\n      - strong: 寒山寺与枫桥\n      - generic: 江苏 · 苏州\n      - generic: 张继《枫桥夜泊》\n    - paragraph: 六处山河，八篇诗文。关山与家国主题本轮尚未收录。\n  - status: ，当前地点杜甫草堂，诗文",
+      "reading": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:52:08.305Z",
+        "body": {
+          "bottom": 738,
+          "height": 526,
+          "left": 630,
+          "right": 980,
+          "top": 212,
+          "width": 350,
+          "x": 630,
+          "y": 212
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-311.6093901180187,\"y\":4.859915993169055,\"scale\":1.45}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 644,
+              "right": 704,
+              "top": 94,
+              "width": 60,
+              "x": 644,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 844,
+              "right": 916,
+              "top": 94,
+              "width": 72,
+              "x": 844,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 922,
+              "right": 966,
+              "top": 94,
+              "width": 44,
+              "x": 922,
+              "y": 94
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 654,
+              "right": 698,
+              "top": 168,
+              "width": 44,
+              "x": 654,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 722,
+              "right": 766,
+              "top": 168,
+              "width": 44,
+              "x": 722,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "dot": {
+          "bottom": 393.4583435058594,
+          "height": 9,
+          "left": 392.875,
+          "right": 401.875,
+          "top": 384.4583435058594,
+          "width": 9,
+          "x": 392.875,
+          "y": 384.4583435058594
+        },
+        "entries": [
+          {
+            "box": {
+              "bottom": 410.9583435058594,
+              "height": 44,
+              "left": 406.59375,
+              "right": 540.15625,
+              "top": 366.9583435058594,
+              "width": 133.5625,
+              "x": 406.59375,
+              "y": 366.9583435058594
+            },
+            "name": "地图地点：寒山寺与枫桥"
+          }
+        ],
+        "fixed": {
+          "bottom": 212,
+          "height": 118,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "fullParagraphs": 2,
+        "header": {
+          "bottom": 86,
+          "height": 86,
+          "left": 0,
+          "right": 1000,
+          "top": 0,
+          "width": 1000,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "side",
+        "map": {
+          "bottom": 738,
+          "height": 644,
+          "left": 20,
+          "right": 980,
+          "top": 94,
+          "width": 960,
+          "x": 20,
+          "y": 94
+        },
+        "mapRatio": 0.6104166666666667,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "hanshan",
+        "safe": {
+          "height": 636,
+          "left": 8,
+          "top": 0,
+          "width": 586
+        },
+        "sheet": {
+          "bottom": 738,
+          "height": 644,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "space": "reading",
+        "title": "枫桥夜泊",
+        "viewport": [
+          1000,
+          750
+        ],
+        "work": {
+          "bottom": 738,
+          "height": 644,
+          "top": 94,
+          "width": 960
+        },
+        "workId": "fengqiao-yebo"
+      }
+    },
+    {
+      "theme": "江湖与行旅",
+      "snapshot": "- main:\n  - region \"山河探索地图\":\n    - generic \"可拖动缩放的全国图面\":\n      - img \"基于自然资源部标准地图原件制作的项目设计版，完整保留边界、岛屿与注记\"\n      - button \"地图地点：寒山寺与枫桥\" [pressed]:\n        - generic: 寒山寺与枫桥\n      - button \"地图分组：杭州\":\n        - generic: \"2\"\n        - generic: 杭州\n        - generic: ▾\n      - button \"地图地点：黄鹤楼\":\n        - generic: 黄鹤楼\n      - button \"地图地点：瓜洲渡\":\n        - generic: 瓜洲渡\n      - generic \"全国图面控制\":\n        - button \"放大全国地图\": ＋\n        - button \"缩小全国地图\": −\n        - button \"看全国\"\n        - button \"对照原图\"\n  - link \"诗文山河首页\":\n    - /url: \"#\"\n    - generic: 山河\n    - text: 诗文山河\n    - generic: 一笺诗文 · 一处山河\n  - navigation \"页面导航\":\n    - button \"寻诗文 5处\" [expanded]:\n      - text: ☷ 寻诗文\n      - generic: 5处\n    - button \"出处\"\n  - complementary \"寒山寺与枫桥阅读案\":\n    - button \"收起读案\"\n    - button \"展开阅读\"\n    - button \"关闭阅读案\": ×\n    - heading \"寒山寺与枫桥\" [level=2]\n    - tablist \"阅读内容\":\n      - tab \"诗文\" [selected]\n      - tab \"地点\"\n    - generic \"阅读案正文\":\n      - tabpanel \"诗文\":\n        - heading \"枫桥夜泊\" [level=3]\n        - paragraph:\n          - text: 张继\n          - generic: 唐\n        - article \"完整原文\":\n          - paragraph:\n            - generic: 月落乌啼霜满天，\n            - generic: 江枫渔火对愁眠。\n          - paragraph:\n            - mark: 姑苏城外寒山寺，\n            - mark: 夜半钟声到客船。\n        - heading \"诗文与此地\" [level=4]\n        - paragraph: 月已落，霜满天，船中的人却还没有安睡。江边树影与渔火相对，是眼前的景，也是愁绪停留的地方。后两句让远处的钟声穿过夜色，来到客船；寺与舟因此在听觉里相连，一座城外的寺院也留在了旅人的记忆中。\n        - button \"看看诗文中的地点\":\n          - text: 看看诗文中的地点\n          - generic: →\n        - generic \"底本与版本\"\n  - dialog \"地点目录\":\n    - generic: 寻山河 · 读诗文\n    - button \"收起地点目录\": ×\n    - generic: 搜索地点与诗文\n    - searchbox \"搜索地点与诗文\"\n    - group \"主题筛选\":\n      - button \"全部\"\n      - button \"楼台与城郭\"\n      - button \"江湖与行旅\" [active] [pressed]\n      - button \"山川与隐逸\"\n      - button \"关山与家国\" [disabled]\n    - status: 5 处地点 · 江湖与行旅\n    - button \"湖心亭 浙江 · 杭州\":\n      - strong: 湖心亭\n      - generic: 浙江 · 杭州\n    - button \"黄鹤楼 湖北 · 武汉\":\n      - strong: 黄鹤楼\n      - generic: 湖北 · 武汉\n    - button \"西湖 浙江 · 杭州\":\n      - strong: 西湖\n      - generic: 浙江 · 杭州\n    - button \"寒山寺与枫桥 江苏 · 苏州\" [pressed]:\n      - strong: 寒山寺与枫桥\n      - generic: 江苏 · 苏州\n    - button \"瓜洲渡 江苏 · 扬州\":\n      - strong: 瓜洲渡\n      - generic: 江苏 · 扬州\n    - paragraph: 六处山河，八篇诗文。关山与家国主题本轮尚未收录。\n  - status: ，当前地点寒山寺与枫桥，诗文",
+      "ids": [
+        "huxin",
+        "huanghe",
+        "xihu",
+        "hanshan",
+        "guazhou"
+      ]
+    },
+    {
+      "groupChoice": "xihu",
+      "reading": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:52:26.578Z",
+        "body": {
+          "bottom": 738,
+          "height": 526,
+          "left": 630,
+          "right": 980,
+          "top": 212,
+          "width": 350,
+          "x": 630,
+          "y": 212
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-306.90087859918856,\"y\":-8.288380323564253,\"scale\":1.45}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 644,
+              "right": 704,
+              "top": 94,
+              "width": 60,
+              "x": 644,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 844,
+              "right": 916,
+              "top": 94,
+              "width": 72,
+              "x": 844,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 922,
+              "right": 966,
+              "top": 94,
+              "width": 44,
+              "x": 922,
+              "y": 94
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 654,
+              "right": 698,
+              "top": 168,
+              "width": 44,
+              "x": 654,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 722,
+              "right": 766,
+              "top": 168,
+              "width": 44,
+              "x": 722,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "dot": {
+          "bottom": 409.6145935058594,
+          "height": 9,
+          "left": 471.8541870117187,
+          "right": 480.8541870117187,
+          "top": 400.6145935058594,
+          "width": 9,
+          "x": 471.8541870117187,
+          "y": 400.6145935058594
+        },
+        "entries": [
+          {
+            "box": {
+              "bottom": 427.1145935058594,
+              "height": 44,
+              "left": 485.59375,
+              "right": 542.1145858764648,
+              "top": 383.1145935058594,
+              "width": 56.52083587646485,
+              "x": 485.59375,
+              "y": 383.1145935058594
+            },
+            "name": "地图地点：西湖"
+          },
+          {
+            "box": {
+              "bottom": 427.1145935058594,
+              "height": 44,
+              "left": 389.59375,
+              "right": 467.1145858764648,
+              "top": 383.1145935058594,
+              "width": 77.52083587646484,
+              "x": 389.59375,
+              "y": 383.1145935058594
+            },
+            "name": "地图分组：江南"
+          },
+          {
+            "box": {
+              "bottom": 374.625,
+              "height": 44,
+              "left": 310.2083435058594,
+              "right": 400.8958435058594,
+              "top": 330.625,
+              "width": 90.6875,
+              "x": 310.2083435058594,
+              "y": 330.625
+            },
+            "name": "地图地点：黄鹤楼"
+          },
+          {
+            "box": {
+              "bottom": 434.9791870117187,
+              "height": 44,
+              "left": 154.7604217529297,
+              "right": 262.0104217529297,
+              "top": 390.9791870117187,
+              "width": 107.25,
+              "x": 154.7604217529297,
+              "y": 390.9791870117187
+            },
+            "name": "地图地点：杜甫草堂"
+          }
+        ],
+        "fixed": {
+          "bottom": 212,
+          "height": 118,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "fullParagraphs": 2,
+        "header": {
+          "bottom": 86,
+          "height": 86,
+          "left": 0,
+          "right": 1000,
+          "top": 0,
+          "width": 1000,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "side",
+        "map": {
+          "bottom": 738,
+          "height": 644,
+          "left": 20,
+          "right": 980,
+          "top": 94,
+          "width": 960,
+          "x": 20,
+          "y": 94
+        },
+        "mapRatio": 0.6104166666666667,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "xihu",
+        "safe": {
+          "height": 636,
+          "left": 8,
+          "top": 0,
+          "width": 586
+        },
+        "sheet": {
+          "bottom": 738,
+          "height": 644,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "space": "reading",
+        "title": "饮湖上初晴后雨二首·其二",
+        "viewport": [
+          1000,
+          750
+        ],
+        "work": {
+          "bottom": 738,
+          "height": 644,
+          "top": 94,
+          "width": 960
+        },
+        "workId": "yin-hushang"
+      }
+    },
+    {
+      "groupChoice": "huxin",
+      "reading": {
+        "anchor": "inscription",
+        "at": "2026-10-07T08:52:27.459Z",
+        "body": {
+          "bottom": 738,
+          "height": 526,
+          "left": 630,
+          "right": 980,
+          "top": 212,
+          "width": 350,
+          "x": 630,
+          "y": 212
+        },
+        "bodyTop": 0,
+        "bodyVisible": true,
+        "bundle": "./assets/index-BWepV7ok.js",
+        "camera": "{\"x\":-306.90087859918856,\"y\":-8.288380323564253,\"scale\":1.45}",
+        "controls": [
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 644,
+              "right": 704,
+              "top": 94,
+              "width": 60,
+              "x": 644,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "收起读案"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 844,
+              "right": 916,
+              "top": 94,
+              "width": 72,
+              "x": 844,
+              "y": 94
+            },
+            "font": "14px",
+            "label": "展开阅读"
+          },
+          {
+            "box": {
+              "bottom": 138,
+              "height": 44,
+              "left": 922,
+              "right": 966,
+              "top": 94,
+              "width": 44,
+              "x": 922,
+              "y": 94
+            },
+            "font": "24px",
+            "label": "×"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 654,
+              "right": 698,
+              "top": 168,
+              "width": 44,
+              "x": 654,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "诗文"
+          },
+          {
+            "box": {
+              "bottom": 212,
+              "height": 44,
+              "left": 722,
+              "right": 766,
+              "top": 168,
+              "width": 44,
+              "x": 722,
+              "y": 168
+            },
+            "font": "14px",
+            "label": "地点"
+          }
+        ],
+        "dot": {
+          "bottom": 409.6145935058594,
+          "height": 9,
+          "left": 471.8541870117187,
+          "right": 480.8541870117187,
+          "top": 400.6145935058594,
+          "width": 9,
+          "x": 471.8541870117187,
+          "y": 400.6145935058594
+        },
+        "entries": [
+          {
+            "box": {
+              "bottom": 427.1145935058594,
+              "height": 44,
+              "left": 485.4635620117187,
+              "right": 561.2448120117188,
+              "top": 383.1145935058594,
+              "width": 75.78125,
+              "x": 485.4635620117187,
+              "y": 383.1145935058594
+            },
+            "name": "地图地点：湖心亭"
+          },
+          {
+            "box": {
+              "bottom": 429.625,
+              "height": 44,
+              "left": 301.21875,
+              "right": 391.90625,
+              "top": 385.625,
+              "width": 90.6875,
+              "x": 301.21875,
+              "y": 385.625
+            },
+            "name": "地图地点：黄鹤楼"
+          },
+          {
+            "box": {
+              "bottom": 434.9791870117187,
+              "height": 44,
+              "left": 154.77084350585938,
+              "right": 262.0208435058594,
+              "top": 390.9791870117187,
+              "width": 107.25,
+              "x": 154.77084350585938,
+              "y": 390.9791870117187
+            },
+            "name": "地图地点：杜甫草堂"
+          },
+          {
+            "box": {
+              "bottom": 372.1145935058594,
+              "height": 44,
+              "left": 398.59375,
+              "right": 476.1145858764648,
+              "top": 328.1145935058594,
+              "width": 77.52083587646484,
+              "x": 398.59375,
+              "y": 328.1145935058594
+            },
+            "name": "地图分组：江南"
+          }
+        ],
+        "fixed": {
+          "bottom": 212,
+          "height": 118,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "fullParagraphs": 4,
+        "header": {
+          "bottom": 86,
+          "height": 86,
+          "left": 0,
+          "right": 1000,
+          "top": 0,
+          "width": 1000,
+          "x": 0,
+          "y": 0
+        },
+        "layout": "side",
+        "map": {
+          "bottom": 738,
+          "height": 644,
+          "left": 20,
+          "right": 980,
+          "top": 94,
+          "width": 960,
+          "x": 20,
+          "y": 94
+        },
+        "mapRatio": 0.6104166666666667,
+        "originalSize": "18px",
+        "overflow": false,
+        "place": "huxin",
+        "safe": {
+          "height": 636,
+          "left": 8,
+          "top": 0,
+          "width": 586
+        },
+        "sheet": {
+          "bottom": 738,
+          "height": 644,
+          "left": 630,
+          "right": 980,
+          "top": 94,
+          "width": 350,
+          "x": 630,
+          "y": 94
+        },
+        "space": "reading",
+        "title": "湖心亭看雪",
+        "viewport": [
+          1000,
+          750
+        ],
+        "work": {
+          "bottom": 738,
+          "height": 644,
+          "top": 94,
+          "width": 960
+        },
+        "workId": "huxinting-kanxue"
+      }
+    }
+  ],
+  "logs": []
+}

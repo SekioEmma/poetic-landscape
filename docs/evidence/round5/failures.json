@@ -1,0 +1,21 @@
+[
+  {
+    "type": "local injection",
+    "status": "failed"
+  },
+  {
+    "readAfterFailure": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。"
+  },
+  {
+    "exitLocalFailure": 0
+  },
+  {
+    "nationalFailure": "设计地图未能加载\n\n可从目录继续读诗文，或切换图面。\n\n切换到官方原图从目录阅读"
+  },
+  {
+    "nationalRead": "晴川历历汉阳树，芳草萋萋鹦鹉洲。"
+  },
+  {
+    "exitNationalFailure": 0
+  }
+]

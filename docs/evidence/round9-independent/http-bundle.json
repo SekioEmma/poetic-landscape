@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-07T09:15:00.554Z",
+  "assets": [
+    {
+      "asset": "./assets/index-BWepV7ok.js",
+      "equal": true,
+      "sha256": "8d25745b2d0237aceaf809abd930b045e8485fdf2de59ae9dd2f24d03577902c"
+    },
+    {
+      "asset": "./assets/index-CwLpw4y7.css",
+      "equal": true,
+      "sha256": "ad46a8d43baa0c44abae3e56db8223973582ca7728f36a669486f476aedc9089"
+    }
+  ]
+}

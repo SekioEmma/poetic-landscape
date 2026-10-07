@@ -1,0 +1,240 @@
+[
+  {
+    "label": "I01 settled original",
+    "time": "2026-10-06T12:10:01.854Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "出处",
+    "focusTag": "BUTTON",
+    "group": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": true,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "top": 329.34375
+      },
+      {
+        "id": "p2",
+        "top": 417.7395935058594
+      },
+      {
+        "id": "p3",
+        "top": 608.7291870117188
+      },
+      {
+        "id": "p4",
+        "top": 765.5208740234375
+      }
+    ],
+    "readingCamera": "null",
+    "saved": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "scroll": 607.3333129882812,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I01 history return",
+    "time": "2026-10-06T12:10:02.397Z",
+    "camera": "{\"x\":-128.88941199548822,\"y\":-83.73908587121767,\"scale\":2.1}",
+    "focus": "诗文",
+    "focusTag": "BUTTON",
+    "group": false,
+    "key": "huxin/huxinting-kanxue/诗文",
+    "original": true,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "top": 329.34375
+      },
+      {
+        "id": "p2",
+        "top": 417.7395935058594
+      },
+      {
+        "id": "p3",
+        "top": 608.7291870117188
+      },
+      {
+        "id": "p4",
+        "top": 765.5208740234375
+      }
+    ],
+    "readingCamera": "null",
+    "saved": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "scroll": 607.3333129882812,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I01 local return",
+    "time": "2026-10-06T12:10:03.496Z",
+    "camera": "{\"x\":-128.8895238095238,\"y\":-83.73904761904761,\"scale\":2.1}",
+    "focus": "出处",
+    "focusTag": "BUTTON",
+    "group": false,
+    "instance": "1",
+    "key": "huxin/huxinting-kanxue/诗文",
+    "localBounds": "[[116.65943127479329,21.027446089363764],[123.61989492520945,34.320912293833175]]",
+    "maps": "1",
+    "original": true,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "top": 325.34375
+      },
+      {
+        "id": "p2",
+        "top": 413.7395935058594
+      },
+      {
+        "id": "p3",
+        "top": 604.7291870117188
+      },
+      {
+        "id": "p4",
+        "top": 761.5208740234375
+      }
+    ],
+    "readingCamera": "{\"scale\":2.1,\"x\":-128.8895238095238,\"y\":-83.73904761904761}",
+    "saved": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "scroll": 607.3333129882812,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I02 keyboard Li Bai",
+    "time": "2026-10-06T12:10:28.999Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "阅读李白《黄鹤楼送孟浩然之广陵》",
+    "focusTag": "BUTTON",
+    "group": false,
+    "instance": "1",
+    "key": "huanghe/song-menghaoran/诗文",
+    "localBounds": "[[110.81671217479175,21.565903232395414],[117.77717582520802,34.796855991748814]]",
+    "maps": "1",
+    "original": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "top": 0
+      },
+      {
+        "id": "p2",
+        "top": 1047.322998046875
+      }
+    ],
+    "readingCamera": "{\"scale\":2.1,\"x\":-128.8895238095238,\"y\":-83.73904761904761}",
+    "saved": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "scroll": 0,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I02 keyboard Cui Hao",
+    "time": "2026-10-06T12:10:29.026Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "阅读崔颢《黄鹤楼》",
+    "focusTag": "BUTTON",
+    "group": false,
+    "instance": "1",
+    "key": "huanghe/huanghelou/诗文",
+    "localBounds": "[[110.81671217479175,21.565903232395414],[117.77717582520802,34.796855991748814]]",
+    "maps": "1",
+    "original": false,
+    "paragraphs": [
+      {
+        "id": "p1",
+        "top": 993.125
+      },
+      {
+        "id": "p2",
+        "top": 1047.322998046875
+      },
+      {
+        "id": "p3",
+        "top": 1101.5208740234375
+      },
+      {
+        "id": "p4",
+        "top": 1155.71875
+      }
+    ],
+    "readingCamera": "{\"scale\":2.1,\"x\":-128.8895238095238,\"y\":-83.73904761904761}",
+    "saved": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "scroll": 0,
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I04 group first choice",
+    "time": "2026-10-06T12:10:29.333Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": " 湖心亭浙江 · 杭州",
+    "focusTag": "BUTTON",
+    "group": true,
+    "instance": "1",
+    "localBounds": "[[59.59868421052576,-48.36474384777445],[149.40131578947313,79.88643218550811]]",
+    "maps": "1",
+    "paragraphs": [],
+    "readingCamera": "null",
+    "saved": "null",
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I03 top source Esc",
+    "time": "2026-10-06T12:10:29.630Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "原图与出处",
+    "focusTag": "BUTTON",
+    "group": true,
+    "instance": "1",
+    "localBounds": "[[59.59868421052576,-48.36474384777445],[149.40131578947313,79.88643218550811]]",
+    "maps": "1",
+    "paragraphs": [],
+    "readingCamera": "null",
+    "saved": "null",
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "I04 group Esc return",
+    "time": "2026-10-06T12:10:29.653Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "地图分组：江南",
+    "focusTag": "BUTTON",
+    "group": false,
+    "instance": "1",
+    "localBounds": "[[59.59868421052576,-48.36474384777445],[149.40131578947313,79.88643218550811]]",
+    "maps": "1",
+    "paragraphs": [],
+    "readingCamera": "null",
+    "saved": "null",
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  }
+]

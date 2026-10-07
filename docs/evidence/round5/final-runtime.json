@@ -1,0 +1,89 @@
+[
+  {
+    "height": 900,
+    "instance": "1",
+    "localTitle": {
+      "bottom": 153.66666793823242,
+      "height": 52.66666793823242,
+      "left": 100,
+      "right": 300,
+      "top": 101,
+      "width": 200,
+      "x": 100,
+      "y": 101
+    },
+    "mapStatus": "ready",
+    "mapsCreated": "1",
+    "scrollWidth": 1440,
+    "tools": {
+      "bottom": 230.33334350585935,
+      "height": 137.33334350585938,
+      "left": 32,
+      "right": 76,
+      "top": 93,
+      "width": 44,
+      "x": 32,
+      "y": 93
+    },
+    "width": 1440
+  },
+  {
+    "height": 1024,
+    "instance": "1",
+    "localTitle": {
+      "bottom": 151,
+      "height": 50,
+      "left": 100,
+      "right": 273,
+      "top": 101,
+      "width": 173,
+      "x": 100,
+      "y": 101
+    },
+    "mapStatus": "ready",
+    "mapsCreated": "1",
+    "scrollWidth": 768,
+    "tools": {
+      "bottom": 230.33334350585935,
+      "height": 137.33334350585938,
+      "left": 24,
+      "right": 68,
+      "top": 93,
+      "width": 44,
+      "x": 24,
+      "y": 93
+    },
+    "width": 768
+  },
+  {
+    "height": 844,
+    "instance": "1",
+    "localTitle": {
+      "bottom": 146.89583587646484,
+      "height": 45.89583587646485,
+      "left": 100,
+      "right": 264,
+      "top": 101,
+      "width": 164,
+      "x": 100,
+      "y": 101
+    },
+    "mapStatus": "ready",
+    "mapsCreated": "1",
+    "scrollWidth": 390,
+    "tools": {
+      "bottom": 226.33334350585935,
+      "height": 137.33334350585938,
+      "left": 10,
+      "right": 54,
+      "top": 89,
+      "width": 44,
+      "x": 10,
+      "y": 89
+    },
+    "width": 390
+  },
+  {
+    "console": []
+  }
+]

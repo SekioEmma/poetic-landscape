@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-07",
+  "kind": "independent-browser-spot-check",
+  "origin": "http://127.0.0.1:4173/",
+  "bundle": [
+    "index-BWepV7ok.js",
+    "index-CwLpw4y7.css"
+  ],
+  "fullMatrixRerun": false,
+  "physicalTouchTested": false,
+  "normalSessionWarningsErrors": [],
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "headerHeight": 72,
+    "readerWidth": 390,
+    "readerHeight": 360.9583435058594,
+    "readerTop": 471.0416870117187,
+    "bodyHeight": 242.95834350585935,
+    "radius": "0px",
+    "before": {
+      "anchor": "paragraph-p2",
+      "offset": -67.58331298828125,
+      "scrollTop": 248.6666717529297
+    },
+    "afterFocused": {
+      "anchor": "paragraph-p2",
+      "offset": -67.58332824707031,
+      "scrollTop": 248.6666717529297
+    }
+  },
+  "tablet": {
+    "width": 768,
+    "height": 1024,
+    "headerHeight": 86,
+    "reader": {
+      "width": 630,
+      "height": 440.6354370117187,
+      "top": 571.3646240234375
+    },
+    "mapSafeHeight": 465,
+    "workspaceHeight": 918
+  },
+  "notes": [
+    "Measurements transcribed from this session cua_repl read-only DOM outputs.",
+    "40-state check audits developer round9 records, not an independent rerun.",
+    "Spring screenshot clipped; excluded from full 1280 layout acceptance."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-07T15:01:23.084Z",
+  "path": "docs/evidence/basemaps/original/中国地图 1∶1000万 (界线版 无邻国 无河流 线划(一).eps",
+  "bytes": 22676637,
+  "sha256": "9875e44f9aa76aee270c341164ba7ec8a8ace43f43e84e6a55a60f5c4b94a73a",
+  "postscript": {
+    "offset": 30,
+    "length": 14253197
+  },
+  "boundingBox": [
+    "%%BoundingBox: 486 880 1885 2621 ",
+    "%%BoundingBox: 0 0 2383 3370"
+  ],
+  "prologEnd": 39425,
+  "bodyOperatorOccurrences": {
+    "m": 7754,
+    "l": 18871,
+    "c": 150202,
+    "@c": 7689,
+    "image": 0,
+    "colorimage": 0,
+    "imagemask": 0
+  },
+  "scope": "Text inspection only; vector paths exist. No EPS rendering, semantic layer extraction or geographic registration validated."
+}

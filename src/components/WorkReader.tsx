@@ -1,12 +1,11 @@
 import type {Relation,Work} from '../data/catalog';
-export function WorkReader({work,relation,onSource,onPlace}:{work:Work;relation:Relation;onSource:()=>void;onPlace:()=>void}){
- return <div data-work-id={work.id}>
-  <div className="work-card"><p className="section-label">关联作品</p><h3>{work.title}</h3><p className="work-meta">{work.author} <span>·</span> {work.era} <span>·</span> {work.collection}</p><blockquote>{relation.highlight.text}</blockquote></div>
-  <p className="body-copy interpretation">{work.interpretation}</p>
-  <details className="original"><summary>展开完整原文 <span aria-hidden="true">＋</span></summary><div className="original-text">{work.paragraphs.map(p=>{
-   const h=relation.highlight;const at=p.id===h.paragraphId?p.text.indexOf(h.text):-1;
-   return <p key={p.id} data-paragraph-id={p.id}>{at<0?p.text:<>{p.text.slice(0,at)}<mark>{h.text}</mark>{p.text.slice(at+h.text.length)}</>}</p>;
-  })}</div><a href={work.source} target="_blank" rel="noreferrer">底本：{work.sourceTitle} ↗</a><button className="text-link" onClick={onSource}>出处与版本说明 ↗</button></details>
-  <button className="text-link" onClick={onPlace}>看看诗文中的此地 <span aria-hidden="true">→</span></button>
- </div>;
+import {readingLayouts} from '../data/reading-layout';
+export function WorkReader({work,relation}:{work:Work;relation:Relation}){
+ const layout=readingLayouts[work.id];
+ return <article className={`original-text ${layout.form}`} aria-label="完整原文" data-work-id={work.id} data-form={layout.form}>{work.paragraphs.map(p=>{
+  const h=relation.highlight,at=p.id===h.paragraphId?p.text.indexOf(h.text):-1;
+  function fragment(start:number,end:number){const a=Math.max(start,at),b=Math.min(end,at+h.text.length);return at<0||b<=a?p.text.slice(start,end):<>{p.text.slice(start,a)}<mark>{p.text.slice(a,b)}</mark>{p.text.slice(b,end)}</>;}
+  const offsets=layout.paragraphs[p.id];
+  return <p key={p.id} data-paragraph-id={p.id} data-read-anchor={`paragraph-${p.id}`}>{layout.form==='prose'?fragment(0,p.text.length):offsets.slice(0,-1).map((start,i)=><span className="poem-line" key={start} data-line-start={start} data-read-anchor={`line-${p.id}-${start}`}>{fragment(start,offsets[i+1])}</span>)}</p>;
+ })}</article>;
 }

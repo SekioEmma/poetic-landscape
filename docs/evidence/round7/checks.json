@@ -1,0 +1,51 @@
+{
+  "recordedAt": "2026-10-07T03:12:57.785392+00:00",
+  "node": "v22.17.0",
+  "npm": "10.9.2",
+  "priorFinalRun": {
+    "npm run check:data": "passed",
+    "node scripts/check-design.mjs": "passed",
+    "node scripts/check-reading.mjs": "passed",
+    "node scripts/check-overview.mjs docs/evidence/round7/overview-math-check.json": "passed (24 cases)",
+    "npm run build": "passed (650 modules)"
+  },
+  "note": "Summary of the final implementation check run, not a new run at recordedAt; subsequent changes are documentation and release packaging only. Browser evidence records its bundle separately.",
+  "entryJs": "assets/index-C5C-OSMB.js",
+  "entryCss": "assets/index-CCsy8G7f.css",
+  "diffCheck": "CRLF interpreted as trailing whitespace by default; cr-at-eol scoped check still reports EOF blank lines. No repository-wide formatting or cleanup performed.",
+  "rootAndProjectPlanBytesEqual": true,
+  "runtimeEvidence": [
+    "final-layouts.json",
+    "R01-regression.json",
+    "original-dom-check.json",
+    "six-place-pages.json",
+    "local-navigation.json",
+    "development.json",
+    "final-failure-layouts.json"
+  ],
+  "packageEvidence": "release.json",
+  "evidenceSha256": {
+    "final-layouts.json": "cfae38d99ac6837f0fa9a5d2302e4afc42251753865fc13009725c6fc1691226",
+    "R01-regression.json": "b6852ea2411c63dbbd7d40800eb0cb0bdd7b896e73ee545f85dbd135135192cd",
+    "original-dom-check.json": "7c3943527c0b461de28f044acd1ab913962d4600b4d7775007f0494bb1070f0d",
+    "six-place-pages.json": "030f3fae16a23e1f5d15343074e3213116c5cc47c2a8b5bade524b38f3899f88",
+    "local-navigation.json": "10ac797367f43d91bfea002234eb9af3c00efef32eba99d97d5b593c93a1a6bf",
+    "development.json": "b8ae6f8b768982ac96f35e89b5b8203d02fa3c3a12699f8d80d56ddca766d014",
+    "final-failure-layouts.json": "14a4113a8f99a8aec75dbd88b94c74a48e28d2e23da3226155c55e737daaa1de"
+  },
+  "delivery": {
+    "url": "http://127.0.0.1:4173/",
+    "viewportOverrideReset": true,
+    "viewport": [
+      1280,
+      720
+    ],
+    "screenshot": "docs/screenshots/round7/delivery-reading.jpg",
+    "logs": [],
+    "temporaryServersStopped": [
+      4175,
+      4176
+    ],
+    "temporaryBaselineCleanup": "blocked by automatic policy; retained without retry"
+  }
+}

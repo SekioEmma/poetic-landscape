@@ -1,0 +1,17 @@
+
+> poetic-landscape@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 645 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                 0.42 kB │ gzip:   0.32 kB
+dist/assets/paper-fibres-v5-bf1_Qo3z.svg       42.73 kB │ gzip:  10.20 kB
+dist/assets/maplibre-gl-worker-MfjJLauD.js    510.70 kB
+dist/assets/index-BRGTByLU.css                123.60 kB │ gzip:  19.11 kB
+dist/assets/index-rghEuE49.js                 292.86 kB │ gzip:  97.43 kB
+dist/assets/MapAdapter-DomfOuLy.js          2,502.01 kB │ gzip: 662.49 kB
+
+✓ built in 612ms

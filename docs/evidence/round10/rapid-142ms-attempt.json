@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "reverse-0",
+    "motion": "idle",
+    "panels": 1,
+    "place": "huanghe",
+    "rect": {
+      "bottom": 738.0000076293945,
+      "height": 644,
+      "left": 630,
+      "right": 980.000030517578,
+      "top": 94.00000762939452,
+      "width": 350.0000305175781,
+      "x": 630,
+      "y": 94.00000762939452
+    },
+    "space": "reading",
+    "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"}]"
+  },
+  {
+    "stage": "reverse-first",
+    "frames": "[{\"t\":1280.300000000745,\"left\":629.982177734375,\"top\":94.00000762939453,\"width\":350.0089416503906,\"height\":644,\"space\":\"focused\"},{\"t\":1278.8,\"left\":629.982177734375,\"top\":94.00000762939453,\"width\":350.0089416503906,\"height\":644,\"space\":\"focused\"},{\"t\":1284.8,\"left\":615.357177734375,\"top\":94.00000762939453,\"width\":364.6339416503906,\"height\":644,\"space\":\"focused\"},{\"t\":1290.9,\"left\":595.3660888671875,\"top\":94.00000762939453,\"width\":384.6250305175781,\"height\":644,\"space\":\"focused\"},{\"t\":1296.9,\"left\":575.8482666015625,\"top\":94.00000762939453,\"width\":404.14288330078125,\"height\":644,\"space\":\"focused\"}]",
+    "motion": "moving",
+    "panels": 1,
+    "place": "huanghe",
+    "rect": {
+      "bottom": 738.0000076293945,
+      "height": 644,
+      "left": 575.8482666015625,
+      "right": 979.9911499023438,
+      "top": 94.00000762939452,
+      "width": 404.1428833007813,
+      "x": 575.8482666015625,
+      "y": 94.00000762939452
+    },
+    "space": "focused",
+    "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"}]"
+  },
+  {
+    "stage": "reverse-second",
+    "frames": "[{\"t\":1423.199999999255,\"left\":522.7410888671875,\"top\":94.00000762939453,\"width\":457.2410888671875,\"height\":644,\"space\":\"reading\"},{\"t\":1418.2,\"left\":522.7410888671875,\"top\":94.00000762939453,\"width\":457.2410888671875,\"height\":644,\"space\":\"reading\"},{\"t\":1424.1,\"left\":524.232177734375,\"top\":94.00000762939453,\"width\":455.7500305175781,\"height\":644,\"space\":\"reading\"},{\"t\":1430.2,\"left\":534.3928833007812,\"top\":94.00000762939453,\"width\":445.58929443359375,\"height\":644,\"space\":\"reading\"},{\"t\":1436.2,\"left\":544.4285888671875,\"top\":94.00000762939453,\"width\":435.5625305175781,\"height\":644,\"space\":\"reading\"},{\"t\":1442.4,\"left\":554.625,\"top\":94.00000762939453,\"width\":425.3571472167969,\"height\":644,\"space\":\"reading\"}]",
+    "motion": "moving",
+    "panels": 1,
+    "place": "huanghe",
+    "rect": {
+      "bottom": 738.0000076293945,
+      "height": 644,
+      "left": 554.625,
+      "right": 979.9821472167968,
+      "top": 94.00000762939452,
+      "width": 425.3571472167969,
+      "x": 554.625,
+      "y": 94.00000762939452
+    },
+    "space": "reading",
+    "trace": "[{\"t\":79.19999999925494,\"selected\":null,\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":false,\"controls\":\"visible\"},{\"t\":724,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1280.8999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":true,\"space\":\"focused\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"},{\"t\":1423.3999999985099,\"selected\":\"huanghe\",\"retained\":null,\"expanded\":false,\"space\":\"reading\",\"layout\":\"side\",\"closing\":false,\"present\":true,\"height\":644,\"controls\":\"visible\"}]"
+  }
+]

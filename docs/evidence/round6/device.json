@@ -1,0 +1,9 @@
+{
+  "cpu": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics      ",
+  "os": "Microsoft Windows 11 家庭版 中文版",
+  "gpus": [
+    "AMD Radeon 780M Graphics",
+    "NVIDIA GeForce RTX 4060 Laptop GPU"
+  ],
+  "version": "10.0.26200"
+}

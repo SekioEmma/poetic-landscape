@@ -1,0 +1,194 @@
+[
+  {
+    "label": "before expand",
+    "time": "2026-10-07T01:50:03.276Z",
+    "camera": "{\"x\":48.39846814958836,\"y\":32.123646268586754,\"scale\":1.06133}",
+    "focus": "出处",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 330.95835876464844,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 261.66668701171875,
+      "width": 336,
+      "x": 22,
+      "y": 261.66668701171875
+    },
+    "scroll": 414.6666564941406,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 189.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 610.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 610.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "expanded": false,
+    "sheet": {
+      "bottom": 844,
+      "height": 422,
+      "left": 0,
+      "right": 390,
+      "top": 422,
+      "width": 390,
+      "x": 0,
+      "y": 422
+    },
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  {
+    "label": "expand in motion",
+    "time": "2026-10-07T01:50:03.309Z",
+    "camera": "{\"x\":48.39846814958836,\"y\":32.123646268586754,\"scale\":1.06133}",
+    "focus": "半屏阅读",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 447.57838439941406,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 378.2867126464844,
+      "width": 336,
+      "x": 22,
+      "y": 378.2867126464844
+    },
+    "scroll": 278,
+    "scrollRect": {
+      "bottom": 1080.9533996582031,
+      "height": 490.2083435058594,
+      "left": 0,
+      "right": 390,
+      "top": 590.7450561523438,
+      "width": 390,
+      "x": 0,
+      "y": 590.7450561523438
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "expanded": true,
+    "sheet": {
+      "bottom": 1069.7757568359375,
+      "height": 723,
+      "left": 0,
+      "right": 390,
+      "top": 346.7757568359375,
+      "width": 390,
+      "x": 0,
+      "y": 346.7757568359375
+    },
+    "transform": "matrix(1, 0, 0, 1, 0, 225.776)"
+  },
+  {
+    "label": "reverse in motion",
+    "time": "2026-10-07T01:50:03.391Z",
+    "camera": "{\"x\":48.39846814958836,\"y\":32.123646268586754,\"scale\":1.06133}",
+    "focus": "展开阅读",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 266.38255310058594,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 197.09088134765625,
+      "width": 336,
+      "x": 22,
+      "y": 197.09088134765625
+    },
+    "scroll": 278,
+    "scrollRect": {
+      "bottom": 598.7575988769531,
+      "height": 189.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 409.54925537109375,
+      "width": 390,
+      "x": 0,
+      "y": 409.54925537109375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "expanded": false,
+    "sheet": {
+      "bottom": 656.1116180419922,
+      "height": 422,
+      "left": 0,
+      "right": 390,
+      "top": 234.1116180419922,
+      "width": 390,
+      "x": 0,
+      "y": 234.1116180419922
+    },
+    "transform": "matrix(1, 0, 0, 1, 0, -187.888)"
+  },
+  {
+    "label": "settled half",
+    "time": "2026-10-07T01:50:04.036Z",
+    "camera": "{\"x\":48.39846814958836,\"y\":32.123646268586754,\"scale\":1.06133}",
+    "focus": "出处",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 432.9791793823242,
+      "height": 34.645835876464844,
+      "left": 22,
+      "right": 368,
+      "top": 398.3333435058594,
+      "width": 346,
+      "x": 22,
+      "y": 398.3333435058594
+    },
+    "scroll": 278,
+    "scrollRect": {
+      "bottom": 800.0000305175781,
+      "height": 189.20834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 610.7916870117188,
+      "width": 390,
+      "x": 0,
+      "y": 610.7916870117188
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false,
+    "expanded": false,
+    "sheet": {
+      "bottom": 844,
+      "height": 422,
+      "left": 0,
+      "right": 390,
+      "top": 422,
+      "width": 390,
+      "x": 0,
+      "y": 422
+    },
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  }
+]

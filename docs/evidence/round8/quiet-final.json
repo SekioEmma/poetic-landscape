@@ -1,0 +1,56 @@
+{
+  "classes": "app official-mode has-detail  ",
+  "motion": "idle",
+  "place": "huxin",
+  "space": "reading",
+  "trace": [
+    {
+      "closing": false,
+      "controls": "hidden",
+      "expanded": true,
+      "height": 862.919677734375,
+      "layout": "bottom",
+      "present": true,
+      "retained": null,
+      "selected": "huxin",
+      "space": "focused",
+      "t": 91938.29999999888
+    },
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "height": 440.6339416503906,
+      "layout": "bottom",
+      "present": true,
+      "retained": null,
+      "selected": "huxin",
+      "space": "reading",
+      "t": 91956.09999999964
+    },
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "height": 112.58929443359376,
+      "layout": "bottom",
+      "present": true,
+      "retained": null,
+      "selected": "huxin",
+      "space": "collapsed",
+      "t": 91977.29999999888
+    },
+    {
+      "closing": false,
+      "controls": "visible",
+      "expanded": false,
+      "height": 440.6339416503906,
+      "layout": "bottom",
+      "present": true,
+      "retained": null,
+      "selected": "huxin",
+      "space": "reading",
+      "t": 91994.89999999852
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "candidate": "a",
+  "input": {
+    "path": "public/assets/official-china-gs20232763.jpg",
+    "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+  },
+  "output": {
+    "path": "public/assets/china-design-paper-v5a.png",
+    "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc",
+    "bytes": 3286169,
+    "dimensions": [
+      5826,
+      7249
+    ]
+  },
+  "formula": "d=(255-min(R,G,B))/255; RGB=round([244,240,230]+([70, 87, 83]-[244,240,230])*d^1.08)",
+  "power": 1.08,
+  "ink": [
+    70,
+    87,
+    83
+  ],
+  "transform": {
+    "xScale": 1,
+    "yScale": 1,
+    "xOffset": 0,
+    "yOffset": 0,
+    "oldWidth": 5826,
+    "oldHeight": 7249
+  },
+  "sampleRowsVerified": true,
+  "limitation": "Uniform monotone colour mapping only. No layer separation, geometry changes, mask, blur, alpha or erasure.",
+  "decision": "Selected A after actual overview and focused screenshots; B slightly weakens the pale annotations. Existing coarse borders remain baked into raster."
+}

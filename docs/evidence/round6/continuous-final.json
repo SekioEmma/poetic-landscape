@@ -1,0 +1,1187 @@
+[
+  {
+    "label": "rapid 0 A",
+    "time": "2026-10-07T01:49:38.583Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 0 B",
+    "time": "2026-10-07T01:49:38.612Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 0 close",
+    "time": "2026-10-07T01:49:38.638Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 1 A",
+    "time": "2026-10-07T01:49:38.678Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 1 B",
+    "time": "2026-10-07T01:49:38.702Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 1 close",
+    "time": "2026-10-07T01:49:38.727Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 2 A",
+    "time": "2026-10-07T01:49:38.764Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 2 B",
+    "time": "2026-10-07T01:49:38.792Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 2 close",
+    "time": "2026-10-07T01:49:38.821Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 3 A",
+    "time": "2026-10-07T01:49:38.862Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 3 B",
+    "time": "2026-10-07T01:49:38.891Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 3 close",
+    "time": "2026-10-07T01:49:38.921Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 4 A",
+    "time": "2026-10-07T01:49:38.959Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 4 B",
+    "time": "2026-10-07T01:49:38.990Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 4 close",
+    "time": "2026-10-07T01:49:39.017Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 5 A",
+    "time": "2026-10-07T01:49:39.053Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 5 B",
+    "time": "2026-10-07T01:49:39.082Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 5 close",
+    "time": "2026-10-07T01:49:39.109Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 6 A",
+    "time": "2026-10-07T01:49:39.148Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 6 B",
+    "time": "2026-10-07T01:49:39.177Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 6 close",
+    "time": "2026-10-07T01:49:39.204Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 7 A",
+    "time": "2026-10-07T01:49:39.239Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 7 B",
+    "time": "2026-10-07T01:49:39.266Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 7 close",
+    "time": "2026-10-07T01:49:39.292Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 8 A",
+    "time": "2026-10-07T01:49:39.329Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 8 B",
+    "time": "2026-10-07T01:49:39.357Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 8 close",
+    "time": "2026-10-07T01:49:39.382Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "rapid 9 A",
+    "time": "2026-10-07T01:49:39.420Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1035,
+      "right": 1439,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 9 B",
+    "time": "2026-10-07T01:49:39.449Z",
+    "camera": "{\"x\":-234.66611088947963,\"y\":-6.484553694265411,\"scale\":1.85}",
+    "focus": "杜甫草堂",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 426.53125,
+      "height": 77,
+      "left": 1063,
+      "right": 1411,
+      "top": 349.53125,
+      "width": 348,
+      "x": 1063,
+      "y": 349.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000610351562,
+      "height": 526.8021240234375,
+      "left": 1035,
+      "right": 1439,
+      "top": 263.19793701171875,
+      "width": 404,
+      "x": 1035,
+      "y": 263.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "rapid 9 close",
+    "time": "2026-10-07T01:49:39.479Z",
+    "camera": "{\"x\":-118.8189595582615,\"y\":-11.256522241651236,\"scale\":1.85}",
+    "focus": "地图地点：黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "dufu/maowu/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 456.625,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 379.625,
+      "width": 348,
+      "x": 1039,
+      "y": 379.625
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 496.7083435058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 293.29168701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 293.29168701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false,
+    "closing": true,
+    "exitInert": true
+  },
+  {
+    "label": "latest final settled",
+    "time": "2026-10-07T01:49:40.052Z",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "focus": "原图与出处",
+    "group": false,
+    "horizontal": false,
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "manual drag during movement",
+    "time": "2026-10-07T01:49:40.266Z",
+    "camera": "{\"x\":77.37489753422591,\"y\":51.35625017666512,\"scale\":1.06133}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1039.28515625,
+      "right": 1387.2852478027344,
+      "top": 393.53125,
+      "width": 348.0000915527344,
+      "x": 1039.28515625,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1011.2850952148438,
+      "right": 1415.285186767578,
+      "top": 307.19793701171875,
+      "width": 404.0000915527344,
+      "x": 1011.2850952148438,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  },
+  {
+    "label": "manual drag after old deadline",
+    "time": "2026-10-07T01:49:40.887Z",
+    "camera": "{\"x\":77.37489753422591,\"y\":51.35625017666512,\"scale\":1.06133}",
+    "focus": "出处",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 470.53125,
+      "height": 77,
+      "left": 1039,
+      "right": 1387,
+      "top": 393.53125,
+      "width": 348,
+      "x": 1039,
+      "y": 393.53125
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 790.0000305175781,
+      "height": 482.8020935058594,
+      "left": 1011,
+      "right": 1415,
+      "top": 307.19793701171875,
+      "width": 404,
+      "x": 1011,
+      "y": 307.19793701171875
+    },
+    "size": [
+      1440,
+      900
+    ],
+    "source": false
+  }
+]

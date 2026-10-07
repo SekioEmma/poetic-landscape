@@ -1,0 +1,39 @@
+{
+  "date":"2026-10-07",
+  "preview":"http://127.0.0.1:4173/",
+  "browser":"Codex in-app Chromium",
+  "scope":"Targeted independent acceptance: reading structure, information density, previous fixes and expanded exit regression",
+  "viewports":[[1440,900],[768,1024],[390,844]],
+  "oldFixes":{
+    "I01":{"place":"huxin","beforeScrollTop":567.3333129882812,"afterScrollTop":567.3333129882812,"originalOpen":true,"via":"沿革 then 诗文"},
+    "I02":{"activation":"Enter","focusAriaLabel":"阅读李白《黄鹤楼送孟浩然之广陵》","currentWork":"黄鹤楼送孟浩然之广陵"},
+    "I03":{"sourceClosed":true,"groupRemainsOpen":true,"focusText":"原图与出处"},
+    "I04":{"keyboardGroupOpenFocusText":"湖心亭浙江 · 杭州"}
+  },
+  "R01":{
+    "priority":"P1",
+    "testedPaths":["390 Huanghe: expand then close","768 Huxin: expand then return to China map"],
+    "afterReadingDetachedRootClasses":"app official-mode   reader-expanded",
+    "cultureEntriesVisibility":"hidden",
+    "overviewControlsVisibility":"hidden",
+    "sourceCause":"App close does not clear expanded; official-map.css line 39 hides controls by reader-expanded alone"
+  },
+  "readingMeasurements":{
+    "huanghe1440":{"sheetWidth":404,"originalWidth":338,"headingHeight":156.1979217529297,"scrollHeight":482.8020935058594,"originalTopAfterOpening":723.375},
+    "huanghe390":{"sheetHeight":422,"toolsHeight":45,"headingHeight":143.7916717529297,"scrollHeight":189.20834350585935,"originalToggleTop":929.2604370117188,"originalInitiallyOpen":false},
+    "huxin390":{"headingHeight":99.79167175292967,"scrollHeight":233.20834350585935,"paintingTop":691.186279296875,"originalToggleTop":1070.91552734375},
+    "huxin768":{"sheetHeight":460.7916870117187,"headingHeight":112.19792175292967,"scrollHeight":258.59375,"originalToggleTop":1243.0833740234375}
+  },
+  "checks":{
+    "npm run check:data":"PASS",
+    "node scripts/check-design.mjs":"PASS",
+    "zipSha256":"440739AFF6E10283E1FBD84127739280ADFB3FE715E02CBBA9005AC81A31A367",
+    "zipFiles":26,"distFiles":26,"zipDistHashMismatches":[],"indexAtRoot":true,
+    "build":"Prior sixth-round checks.json inspected; not rerun",
+    "normalConsoleWarnErrorEntries":0
+  },
+  "notTested":["physical touch","OS reduced motion","other browsers","full continuous/performance matrix rerun","clean install"],
+  "applicationSourcesEdited":false,
+  "deliverables":"Independent acceptance, reading IA spec, separate layout prototype, seventh-round prompt, plan v2.3",
+  "verdict":"Keep round-six improvements. Reading layout needs restructuring; R01 must be fixed. Overall aesthetic gates remain pending."
+}

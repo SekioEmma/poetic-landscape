@@ -1,0 +1,1204 @@
+[
+  {
+    "label": "reading",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:02.024Z",
+    "body": {
+      "bottom": 738,
+      "height": 526,
+      "left": 630,
+      "right": 980,
+      "top": 212,
+      "width": 350,
+      "x": 630,
+      "y": 212
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-248.26658421375603,\"y\":-10.242856803078679,\"scale\":1.45}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 644,
+          "right": 704,
+          "top": 94,
+          "width": 60,
+          "x": 644,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 844,
+          "right": 916,
+          "top": 94,
+          "width": 72,
+          "x": 844,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "展开阅读"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 922,
+          "right": 966,
+          "top": 94,
+          "width": 44,
+          "x": 922,
+          "y": 94
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 654,
+          "right": 698,
+          "top": 168,
+          "width": 44,
+          "x": 654,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 722,
+          "right": 766,
+          "top": 168,
+          "width": 44,
+          "x": 722,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 403.7708435058594,
+      "height": 9,
+      "left": 304.7708435058594,
+      "right": 313.7708435058594,
+      "top": 394.7708435058594,
+      "width": 9,
+      "x": 304.7708435058594,
+      "y": 394.7708435058594
+    },
+    "entries": [
+      {
+        "box": {
+          "bottom": 421.2708435058594,
+          "height": 44,
+          "left": 318.3802185058594,
+          "right": 394.1614685058594,
+          "top": 377.2708435058594,
+          "width": 75.78125,
+          "x": 318.3802185058594,
+          "y": 377.2708435058594
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 418.4375,
+          "height": 44,
+          "left": 403.53125,
+          "right": 481.0520858764648,
+          "top": 374.4375,
+          "width": 77.52083587646484,
+          "x": 403.53125,
+          "y": 374.4375
+        },
+        "name": "地图分组：江南"
+      },
+      {
+        "box": {
+          "bottom": 427.3333435058594,
+          "height": 44,
+          "left": 171.1666717529297,
+          "right": 278.4166717529297,
+          "top": 383.3333435058594,
+          "width": 107.25,
+          "x": 171.1666717529297,
+          "y": 383.3333435058594
+        },
+        "name": "地图地点：杜甫草堂"
+      }
+    ],
+    "fixed": {
+      "bottom": 212,
+      "height": 118,
+      "left": 630,
+      "right": 980,
+      "top": 94,
+      "width": 350,
+      "x": 630,
+      "y": 94
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 86,
+      "height": 86,
+      "left": 0,
+      "right": 1000,
+      "top": 0,
+      "width": 1000,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "side",
+    "map": {
+      "bottom": 738,
+      "height": 644,
+      "left": 20,
+      "right": 980,
+      "top": 94,
+      "width": 960,
+      "x": 20,
+      "y": 94
+    },
+    "mapRatio": 0.6104166666666667,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huanghe",
+    "safe": {
+      "height": 636,
+      "left": 8,
+      "top": 0,
+      "width": 586
+    },
+    "sheet": {
+      "bottom": 738,
+      "height": 644,
+      "left": 630,
+      "right": 980,
+      "top": 94,
+      "width": 350,
+      "x": 630,
+      "y": 94
+    },
+    "space": "reading",
+    "title": "黄鹤楼",
+    "viewport": [
+      1000,
+      750
+    ],
+    "work": {
+      "bottom": 738,
+      "height": 644,
+      "top": 94,
+      "width": 960
+    },
+    "workId": "huanghelou"
+  },
+  {
+    "label": "focused",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:02.404Z",
+    "body": {
+      "bottom": 738,
+      "height": 526,
+      "left": 420,
+      "right": 980,
+      "top": 212,
+      "width": 560,
+      "x": 420,
+      "y": 212
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-237.21614277990935,\"y\":-9.786943295523248,\"scale\":1.45}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 434,
+          "right": 494,
+          "top": 94,
+          "width": 60,
+          "x": 434,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 844,
+          "right": 916,
+          "top": 94,
+          "width": 72,
+          "x": 844,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "恢复分屏"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 922,
+          "right": 966,
+          "top": 94,
+          "width": 44,
+          "x": 922,
+          "y": 94
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 444,
+          "right": 488,
+          "top": 168,
+          "width": 44,
+          "x": 444,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 512,
+          "right": 556,
+          "top": 168,
+          "width": 44,
+          "x": 512,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 404.4375,
+      "height": 9,
+      "left": 320.8020935058594,
+      "right": 329.8020935058594,
+      "top": 395.4375,
+      "width": 9,
+      "x": 320.8020935058594,
+      "y": 395.4375
+    },
+    "entries": [
+      {
+        "box": {
+          "bottom": 421.9375,
+          "height": 44,
+          "left": 240.41146850585935,
+          "right": 316.1927185058594,
+          "top": 377.9375,
+          "width": 75.78125,
+          "x": 240.41146850585935,
+          "y": 377.9375
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 354,
+          "height": 44,
+          "left": 304.2395935058594,
+          "right": 381.7604293823242,
+          "top": 310,
+          "width": 77.52083587646484,
+          "x": 304.2395935058594,
+          "y": 310
+        },
+        "name": "地图分组：江南"
+      },
+      {
+        "box": {
+          "bottom": 427.9895935058594,
+          "height": 44,
+          "left": 62.1875,
+          "right": 169.4375,
+          "top": 383.9895935058594,
+          "width": 107.25,
+          "x": 62.1875,
+          "y": 383.9895935058594
+        },
+        "name": "地图地点：杜甫草堂"
+      }
+    ],
+    "fixed": {
+      "bottom": 212,
+      "height": 118,
+      "left": 420,
+      "right": 980,
+      "top": 94,
+      "width": 560,
+      "x": 420,
+      "y": 94
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 86,
+      "height": 86,
+      "left": 0,
+      "right": 1000,
+      "top": 0,
+      "width": 1000,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "side",
+    "map": {
+      "bottom": 738,
+      "height": 644,
+      "left": 20,
+      "right": 980,
+      "top": 94,
+      "width": 960,
+      "x": 20,
+      "y": 94
+    },
+    "mapRatio": 0.39166666666666666,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huanghe",
+    "safe": {
+      "height": 636,
+      "left": 8,
+      "top": 0,
+      "width": 376
+    },
+    "sheet": {
+      "bottom": 738,
+      "height": 644,
+      "left": 420,
+      "right": 980,
+      "top": 94,
+      "width": 560,
+      "x": 420,
+      "y": 94
+    },
+    "space": "focused",
+    "title": "黄鹤楼",
+    "viewport": [
+      1000,
+      750
+    ],
+    "work": {
+      "bottom": 738,
+      "height": 644,
+      "top": 94,
+      "width": 960
+    },
+    "workId": "huanghelou"
+  },
+  {
+    "label": "directory",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:03.037Z",
+    "body": {
+      "bottom": 738,
+      "height": 526,
+      "left": 630,
+      "right": 980,
+      "top": 212,
+      "width": 350,
+      "x": 630,
+      "y": 212
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-237.21614277990935,\"y\":-9.786943295523248,\"scale\":1.45}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 644,
+          "right": 704,
+          "top": 94,
+          "width": 60,
+          "x": 644,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 844,
+          "right": 916,
+          "top": 94,
+          "width": 72,
+          "x": 844,
+          "y": 94
+        },
+        "font": "14px",
+        "label": "展开阅读"
+      },
+      {
+        "box": {
+          "bottom": 138,
+          "height": 44,
+          "left": 922,
+          "right": 966,
+          "top": 94,
+          "width": 44,
+          "x": 922,
+          "y": 94
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 654,
+          "right": 698,
+          "top": 168,
+          "width": 44,
+          "x": 654,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 212,
+          "height": 44,
+          "left": 722,
+          "right": 766,
+          "top": 168,
+          "width": 44,
+          "x": 722,
+          "y": 168
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 404.4375,
+      "height": 9,
+      "left": 320.8020935058594,
+      "right": 329.8020935058594,
+      "top": 395.4375,
+      "width": 9,
+      "x": 320.8020935058594,
+      "y": 395.4375
+    },
+    "entries": [
+      {
+        "box": {
+          "bottom": 421.9375,
+          "height": 44,
+          "left": 334.4114685058594,
+          "right": 410.1927185058594,
+          "top": 377.9375,
+          "width": 75.78125,
+          "x": 334.4114685058594,
+          "y": 377.9375
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 419.1041870117187,
+          "height": 44,
+          "left": 419.5625,
+          "right": 497.0833358764648,
+          "top": 375.1041870117187,
+          "width": 77.52083587646484,
+          "x": 419.5625,
+          "y": 375.1041870117187
+        },
+        "name": "地图分组：江南"
+      },
+      {
+        "box": {
+          "bottom": 427.9895935058594,
+          "height": 44,
+          "left": 187.1875,
+          "right": 294.4375,
+          "top": 383.9895935058594,
+          "width": 107.25,
+          "x": 187.1875,
+          "y": 383.9895935058594
+        },
+        "name": "地图地点：杜甫草堂"
+      }
+    ],
+    "fixed": {
+      "bottom": 212,
+      "height": 118,
+      "left": 630,
+      "right": 980,
+      "top": 94,
+      "width": 350,
+      "x": 630,
+      "y": 94
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 86,
+      "height": 86,
+      "left": 0,
+      "right": 1000,
+      "top": 0,
+      "width": 1000,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "side",
+    "map": {
+      "bottom": 738,
+      "height": 644,
+      "left": 20,
+      "right": 980,
+      "top": 94,
+      "width": 960,
+      "x": 20,
+      "y": 94
+    },
+    "mapRatio": 0.6104166666666667,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huanghe",
+    "safe": {
+      "height": 636,
+      "left": 8,
+      "top": 0,
+      "width": 586
+    },
+    "sheet": {
+      "bottom": 738,
+      "height": 644,
+      "left": 630,
+      "right": 980,
+      "top": 94,
+      "width": 350,
+      "x": 630,
+      "y": 94
+    },
+    "space": "reading",
+    "title": "黄鹤楼",
+    "viewport": [
+      1000,
+      750
+    ],
+    "work": {
+      "bottom": 738,
+      "height": 644,
+      "top": 94,
+      "width": 960
+    },
+    "workId": "huanghelou"
+  },
+  {
+    "label": "reading",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:03.970Z",
+    "body": {
+      "bottom": 832.0000305175781,
+      "height": 242.95834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 589.0416870117188,
+      "width": 390,
+      "x": 0,
+      "y": 589.0416870117188
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 14,
+          "right": 72,
+          "top": 471.0416870117187,
+          "width": 58,
+          "x": 14,
+          "y": 471.0416870117187
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 254,
+          "right": 326,
+          "top": 471.0416870117187,
+          "width": 72,
+          "x": 254,
+          "y": 471.0416870117187
+        },
+        "font": "14px",
+        "label": "展开阅读"
+      },
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 332,
+          "right": 376,
+          "top": 471.0416870117187,
+          "width": 44,
+          "x": 332,
+          "y": 471.0416870117187
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 589.0416870117188,
+          "height": 44,
+          "left": 22,
+          "right": 66,
+          "top": 545.0416870117188,
+          "width": 44,
+          "x": 22,
+          "y": 545.0416870117188
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 589.0416870117188,
+          "height": 44,
+          "left": 90,
+          "right": 134,
+          "top": 545.0416870117188,
+          "width": 44,
+          "x": 90,
+          "y": 545.0416870117188
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 302.60418701171875,
+      "height": 9,
+      "left": 171.05209350585938,
+      "right": 180.05209350585938,
+      "top": 293.60418701171875,
+      "width": 9,
+      "x": 171.05209350585938,
+      "y": 293.60418701171875
+    },
+    "entries": [
+      {
+        "box": {
+          "bottom": 320.10418701171875,
+          "height": 44,
+          "left": 184.765625,
+          "right": 253.3385467529297,
+          "top": 276.10418701171875,
+          "width": 68.57292175292969,
+          "x": 184.765625,
+          "y": 276.10418701171875
+        },
+        "name": "地图地点：湖心亭"
+      },
+      {
+        "box": {
+          "bottom": 291.2916717529297,
+          "height": 44,
+          "left": 68.02083587646484,
+          "right": 151.6041717529297,
+          "top": 247.2916717529297,
+          "width": 83.58333587646484,
+          "x": 68.02083587646484,
+          "y": 247.2916717529297
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 375.1041870117187,
+          "height": 44,
+          "left": 175.7916717529297,
+          "right": 249.31250762939453,
+          "top": 331.10418701171875,
+          "width": 73.52083587646484,
+          "x": 175.7916717529297,
+          "y": 331.10418701171875
+        },
+        "name": "地图分组：江南"
+      }
+    ],
+    "fixed": {
+      "bottom": 589.0416870117188,
+      "height": 118,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "bottom",
+    "map": {
+      "bottom": 832,
+      "height": 752,
+      "left": 10,
+      "right": 380,
+      "top": 80,
+      "width": 370,
+      "x": 10,
+      "y": 80
+    },
+    "mapRatio": 0.5039893617021277,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huxin",
+    "safe": {
+      "height": 379,
+      "left": 8,
+      "top": 0,
+      "width": 354
+    },
+    "sheet": {
+      "bottom": 832.0000305175781,
+      "height": 360.9583435058594,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "space": "reading",
+    "title": "湖心亭看雪",
+    "viewport": [
+      390,
+      844
+    ],
+    "work": {
+      "bottom": 832,
+      "height": 752,
+      "top": 80,
+      "width": 370
+    },
+    "workId": "huxinting-kanxue"
+  },
+  {
+    "label": "focused",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:04.343Z",
+    "body": {
+      "bottom": 832,
+      "height": 588.875,
+      "left": 0,
+      "right": 390,
+      "top": 243.125,
+      "width": 390,
+      "x": 0,
+      "y": 243.125
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 169.125,
+          "height": 44,
+          "left": 14,
+          "right": 72,
+          "top": 125.125,
+          "width": 58,
+          "x": 14,
+          "y": 125.125
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 169.125,
+          "height": 44,
+          "left": 254,
+          "right": 326,
+          "top": 125.125,
+          "width": 72,
+          "x": 254,
+          "y": 125.125
+        },
+        "font": "14px",
+        "label": "恢复分屏"
+      },
+      {
+        "box": {
+          "bottom": 169.125,
+          "height": 44,
+          "left": 332,
+          "right": 376,
+          "top": 125.125,
+          "width": 44,
+          "x": 332,
+          "y": 125.125
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 243.125,
+          "height": 44,
+          "left": 22,
+          "right": 66,
+          "top": 199.125,
+          "width": 44,
+          "x": 22,
+          "y": 199.125
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 243.125,
+          "height": 44,
+          "left": 90,
+          "right": 134,
+          "top": 199.125,
+          "width": 44,
+          "x": 90,
+          "y": 199.125
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 266.41668701171875,
+      "height": 9,
+      "left": 183.4166717529297,
+      "right": 192.4166717529297,
+      "top": 257.41668701171875,
+      "width": 9,
+      "x": 183.4166717529297,
+      "y": 257.41668701171875
+    },
+    "entries": [],
+    "fixed": {
+      "bottom": 243.125,
+      "height": 118,
+      "left": 0,
+      "right": 390,
+      "top": 125.125,
+      "width": 390,
+      "x": 0,
+      "y": 125.125
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "bottom",
+    "map": {
+      "bottom": 832,
+      "height": 752,
+      "left": 10,
+      "right": 380,
+      "top": 80,
+      "width": 370,
+      "x": 10,
+      "y": 80
+    },
+    "mapRatio": 0.043882978723404256,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huxin",
+    "safe": {
+      "height": 33,
+      "left": 8,
+      "top": 0,
+      "width": 354
+    },
+    "sheet": {
+      "bottom": 832,
+      "height": 706.875,
+      "left": 0,
+      "right": 390,
+      "top": 125.125,
+      "width": 390,
+      "x": 0,
+      "y": 125.125
+    },
+    "space": "focused",
+    "title": "湖心亭看雪",
+    "viewport": [
+      390,
+      844
+    ],
+    "work": {
+      "bottom": 832,
+      "height": 752,
+      "top": 80,
+      "width": 370
+    },
+    "workId": "huxinting-kanxue"
+  },
+  {
+    "label": "directory",
+    "anchor": "inscription",
+    "at": "2026-10-07T09:41:04.972Z",
+    "body": {
+      "bottom": 832.0000305175781,
+      "height": 242.95834350585935,
+      "left": 0,
+      "right": 390,
+      "top": 589.0416870117188,
+      "width": 390,
+      "x": 0,
+      "y": 589.0416870117188
+    },
+    "bodyTop": 0,
+    "bodyVisible": true,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+    "controls": [
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 14,
+          "right": 72,
+          "top": 471.0416870117187,
+          "width": 58,
+          "x": 14,
+          "y": 471.0416870117187
+        },
+        "font": "14px",
+        "label": "收起读案"
+      },
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 254,
+          "right": 326,
+          "top": 471.0416870117187,
+          "width": 72,
+          "x": 254,
+          "y": 471.0416870117187
+        },
+        "font": "14px",
+        "label": "展开阅读"
+      },
+      {
+        "box": {
+          "bottom": 515.0416870117188,
+          "height": 44,
+          "left": 332,
+          "right": 376,
+          "top": 471.0416870117187,
+          "width": 44,
+          "x": 332,
+          "y": 471.0416870117187
+        },
+        "font": "24px",
+        "label": "×"
+      },
+      {
+        "box": {
+          "bottom": 589.0416870117188,
+          "height": 44,
+          "left": 22,
+          "right": 66,
+          "top": 545.0416870117188,
+          "width": 44,
+          "x": 22,
+          "y": 545.0416870117188
+        },
+        "font": "14px",
+        "label": "诗文"
+      },
+      {
+        "box": {
+          "bottom": 589.0416870117188,
+          "height": 44,
+          "left": 90,
+          "right": 134,
+          "top": 545.0416870117188,
+          "width": 44,
+          "x": 90,
+          "y": 545.0416870117188
+        },
+        "font": "14px",
+        "label": "地点"
+      }
+    ],
+    "dot": {
+      "bottom": 266.41668701171875,
+      "height": 9,
+      "left": 183.4166717529297,
+      "right": 192.4166717529297,
+      "top": 257.41668701171875,
+      "width": 9,
+      "x": 183.4166717529297,
+      "y": 257.41668701171875
+    },
+    "entries": [
+      {
+        "box": {
+          "bottom": 283.9166717529297,
+          "height": 44,
+          "left": 197.13021850585935,
+          "right": 265.70314025878906,
+          "top": 239.9166717529297,
+          "width": 68.57292175292969,
+          "x": 197.13021850585935,
+          "y": 239.9166717529297
+        },
+        "name": "地图地点：湖心亭"
+      },
+      {
+        "box": {
+          "bottom": 286.1458435058594,
+          "height": 44,
+          "left": 28.0625,
+          "right": 111.64583587646484,
+          "top": 242.14584350585935,
+          "width": 83.58333587646484,
+          "x": 28.0625,
+          "y": 242.14584350585935
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 228.9166717529297,
+          "height": 44,
+          "left": 114.15625,
+          "right": 187.67708587646484,
+          "top": 184.9166717529297,
+          "width": 73.52083587646484,
+          "x": 114.15625,
+          "y": 184.9166717529297
+        },
+        "name": "地图分组：江南"
+      }
+    ],
+    "fixed": {
+      "bottom": 589.0416870117188,
+      "height": 118,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "fullParagraphs": 4,
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "bottom",
+    "map": {
+      "bottom": 832,
+      "height": 752,
+      "left": 10,
+      "right": 380,
+      "top": 80,
+      "width": 370,
+      "x": 10,
+      "y": 80
+    },
+    "mapRatio": 0.5039893617021277,
+    "originalSize": "18px",
+    "overflow": false,
+    "place": "huxin",
+    "safe": {
+      "height": 379,
+      "left": 8,
+      "top": 0,
+      "width": 354
+    },
+    "sheet": {
+      "bottom": 832.0000305175781,
+      "height": 360.9583435058594,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "space": "reading",
+    "title": "湖心亭看雪",
+    "viewport": [
+      390,
+      844
+    ],
+    "work": {
+      "bottom": 832,
+      "height": 752,
+      "top": 80,
+      "width": 370
+    },
+    "workId": "huxinting-kanxue"
+  }
+]

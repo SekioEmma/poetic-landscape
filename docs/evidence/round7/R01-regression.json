@@ -1,0 +1,156 @@
+{
+  "before": {
+    "className": "app official-mode   reader-expanded",
+    "controlsVisibility": "hidden",
+    "points": [
+      {
+        "name": "地图分组：江南",
+        "visibility": "hidden"
+      },
+      {
+        "name": "地图地点：黄鹤楼",
+        "visibility": "hidden"
+      },
+      {
+        "name": "地图地点：杜甫草堂",
+        "visibility": "hidden"
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ],
+    "tablet": {
+      "controls": "hidden",
+      "expanded": true,
+      "viewport": [
+        768,
+        1024
+      ]
+    }
+  },
+  "after": [
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:45.548Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "close",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:47.325Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "return",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:49.068Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "escape",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:50.746Z",
+      "viewport": [
+        390,
+        844
+      ],
+      "exit": "home",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:53.163Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "close",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:54.878Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "return",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 4,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:56.526Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "escape",
+      "zoomOperable": true
+    },
+    {
+      "bundle": "./assets/index-C5C-OSMB.js",
+      "controlsVisible": true,
+      "entriesVisible": 3,
+      "expandedCleared": true,
+      "focus": "directory",
+      "panelRemoved": true,
+      "time": "2026-10-07T02:58:58.210Z",
+      "viewport": [
+        768,
+        1024
+      ],
+      "exit": "home",
+      "zoomOperable": true
+    }
+  ],
+  "runner": "scripts/check-reader-exit.cua.mjs",
+  "environment": "supported cua_repl, real production DOM"
+}

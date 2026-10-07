@@ -1,0 +1,296 @@
+{
+  "before": {
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+    "height": 243,
+    "offset": -30.91668701171875,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T08:51:34.137Z",
+    "top": 212,
+    "width": 380,
+    "work": "huxinting-kanxue"
+  },
+  "afterTabs": {
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-129.7906024716787,\"y\":-118.98194301407482,\"scale\":1.6}",
+    "height": 243,
+    "offset": -30.91668701171875,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T08:51:34.675Z",
+    "top": 212,
+    "width": 380,
+    "work": "huxinting-kanxue"
+  },
+  "localBefore": {
+    "at": "2026-10-07T08:51:44.754Z",
+    "bounds": "[[120.11728391363096,30.178570719330054],[120.1657160863711,30.26913528059471]]",
+    "controls": [
+      {
+        "disabled": false,
+        "name": "放大地图",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 20,
+          "right": 64,
+          "top": 84,
+          "width": 44,
+          "x": 20,
+          "y": 84
+        },
+        "visible": "visible"
+      },
+      {
+        "disabled": false,
+        "name": "缩小地图",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 64,
+          "right": 108,
+          "top": 84,
+          "width": 44,
+          "x": 64,
+          "y": 84
+        },
+        "visible": "visible"
+      },
+      {
+        "disabled": false,
+        "name": "定位此地",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 108,
+          "right": 180,
+          "top": 84,
+          "width": 72,
+          "x": 108,
+          "y": 84
+        },
+        "visible": "visible"
+      }
+    ],
+    "created": "1",
+    "fit": "{\"left\":8,\"top\":80,\"width\":374,\"height\":379}",
+    "instance": "1",
+    "layout": "bottom",
+    "marker": {
+      "bottom": 214,
+      "height": 44,
+      "left": 192,
+      "right": 267.78125,
+      "top": 170,
+      "width": 75.78125,
+      "x": 192,
+      "y": 170
+    },
+    "mode": "local",
+    "safe": "{\"left\":8,\"top\":80,\"width\":374,\"height\":379}",
+    "sheet": {
+      "bottom": 832.0000305175781,
+      "height": 360.9583435058594,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "space": "reading",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "localAfter": {
+    "at": "2026-10-07T08:51:45.356Z",
+    "bounds": "[[120.11728391363096,30.178570719330054],[120.1657160863711,30.26913528059471]]",
+    "controls": [
+      {
+        "disabled": false,
+        "name": "放大地图",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 20,
+          "right": 64,
+          "top": 84,
+          "width": 44,
+          "x": 20,
+          "y": 84
+        },
+        "visible": "visible"
+      },
+      {
+        "disabled": false,
+        "name": "缩小地图",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 64,
+          "right": 108,
+          "top": 84,
+          "width": 44,
+          "x": 64,
+          "y": 84
+        },
+        "visible": "visible"
+      },
+      {
+        "disabled": false,
+        "name": "定位此地",
+        "rect": {
+          "bottom": 128,
+          "height": 44,
+          "left": 108,
+          "right": 180,
+          "top": 84,
+          "width": 72,
+          "x": 108,
+          "y": 84
+        },
+        "visible": "visible"
+      }
+    ],
+    "created": "1",
+    "fit": "{\"left\":8,\"top\":80,\"width\":374,\"height\":379}",
+    "instance": "1",
+    "layout": "bottom",
+    "marker": {
+      "bottom": 214,
+      "height": 44,
+      "left": 192,
+      "right": 267.78125,
+      "top": 170,
+      "width": 75.78125,
+      "x": 192,
+      "y": 170
+    },
+    "mode": "local",
+    "safe": "{\"left\":8,\"top\":80,\"width\":374,\"height\":379}",
+    "sheet": {
+      "bottom": 832.0000305175781,
+      "height": 360.9583435058594,
+      "left": 0,
+      "right": 390,
+      "top": 471.0416870117187,
+      "width": 390,
+      "x": 0,
+      "y": 471.0416870117187
+    },
+    "space": "reading",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "afterRoundtrip": {
+    "anchor": "paragraph-p2",
+    "camera": "{\"x\":-129.79062499999998,\"y\":-118.981875,\"scale\":1.6}",
+    "height": 243,
+    "offset": -30.91668701171875,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T08:51:45.911Z",
+    "top": 212,
+    "width": 380,
+    "work": "huxinting-kanxue"
+  },
+  "exit": {
+    "at": "2026-10-07T08:51:46.207Z",
+    "bodyVisible": false,
+    "bundle": "./assets/index-BWepV7ok.js",
+    "camera": "{\"x\":0,\"y\":0,\"scale\":1}",
+    "controls": [],
+    "entries": [
+      {
+        "box": {
+          "bottom": 425.6041870117187,
+          "height": 44,
+          "left": 209.46875,
+          "right": 282.98958587646484,
+          "top": 381.6041870117187,
+          "width": 73.52083587646484,
+          "x": 209.46875,
+          "y": 381.6041870117187
+        },
+        "name": "地图分组：江南"
+      },
+      {
+        "box": {
+          "bottom": 372.2916870117187,
+          "height": 44,
+          "left": 157.84375,
+          "right": 241.42708587646484,
+          "top": 328.29168701171875,
+          "width": 83.58333587646484,
+          "x": 157.84375,
+          "y": 328.29168701171875
+        },
+        "name": "地图地点：黄鹤楼"
+      },
+      {
+        "box": {
+          "bottom": 430.8958435058594,
+          "height": 44,
+          "left": 46.11458587646485,
+          "right": 145.21875762939453,
+          "top": 386.8958435058594,
+          "width": 99.10417175292967,
+          "x": 46.11458587646485,
+          "y": 386.8958435058594
+        },
+        "name": "地图地点：杜甫草堂"
+      }
+    ],
+    "fullParagraphs": 0,
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layout": "bottom",
+    "map": {
+      "bottom": 832,
+      "height": 752,
+      "left": 10,
+      "right": 380,
+      "top": 80,
+      "width": 370,
+      "x": 10,
+      "y": 80
+    },
+    "mapRatio": 0.922872340425532,
+    "originalSize": "16px",
+    "overflow": false,
+    "safe": {
+      "height": 694,
+      "left": 8,
+      "top": 0,
+      "width": 354
+    },
+    "space": "exploring",
+    "viewport": [
+      390,
+      844
+    ],
+    "work": {
+      "bottom": 832,
+      "height": 752,
+      "top": 80,
+      "width": 370
+    }
+  },
+  "logs": []
+}

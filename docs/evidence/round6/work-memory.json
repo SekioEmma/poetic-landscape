@@ -1,0 +1,146 @@
+[
+  {
+    "label": "corrected phone half",
+    "time": "2026-10-07T01:45:09.779Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "黄鹤楼",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": false,
+    "quoteRect": {
+      "bottom": 711.6458358764648,
+      "height": 34.645835876464844,
+      "left": 22,
+      "right": 368,
+      "top": 677,
+      "width": 346,
+      "x": 22,
+      "y": 677
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 611.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 611.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "Cui settled",
+    "time": "2026-10-07T01:45:10.607Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "出处",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 366.2916717529297,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 297,
+      "width": 336,
+      "x": 22,
+      "y": 297
+    },
+    "scroll": 380,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 611.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 611.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "Li first",
+    "time": "2026-10-07T01:45:10.633Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "阅读李白《黄鹤楼送孟浩然之广陵》",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/song-menghaoran/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 746.2916717529297,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 677,
+      "width": 336,
+      "x": 22,
+      "y": 677
+    },
+    "scroll": 0,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 611.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 611.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  },
+  {
+    "label": "Cui restored",
+    "time": "2026-10-07T01:45:10.660Z",
+    "camera": "{\"x\":-86.9738610171154,\"y\":-85.13627090383014,\"scale\":2.1}",
+    "focus": "阅读崔颢《黄鹤楼》",
+    "group": false,
+    "horizontal": false,
+    "key": "huanghe/huanghelou/诗文",
+    "original": true,
+    "quoteRect": {
+      "bottom": 366.2916717529297,
+      "height": 69.29167175292969,
+      "left": 22,
+      "right": 358,
+      "top": 297,
+      "width": 336,
+      "x": 22,
+      "y": 297
+    },
+    "scroll": 380,
+    "scrollRect": {
+      "bottom": 800.0000457763672,
+      "height": 188.5416717529297,
+      "left": 0,
+      "right": 390,
+      "top": 611.4583740234375,
+      "width": 390,
+      "x": 0,
+      "y": 611.4583740234375
+    },
+    "size": [
+      390,
+      844
+    ],
+    "source": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "before": {
+    "focus": "继续阅读",
+    "hidden": true,
+    "inert": true
+  },
+  "tab1": "关闭阅读案",
+  "tab2": {
+    "insideHidden": false,
+    "label": null
+  }
+}

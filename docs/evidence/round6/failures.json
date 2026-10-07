@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-07T02:04:24.188Z",
+  "results": [
+    {
+      "mode": "overviewFail",
+      "actual": [
+        390,
+        844
+      ],
+      "alert": "设计地图未能加载\n\n可从目录继续读诗文，或切换图面。\n\n切换到官方原图从目录阅读",
+      "marks": 1,
+      "logs": [],
+      "closed": true
+    },
+    {
+      "mode": "mapFail",
+      "actual": [
+        390,
+        844
+      ],
+      "alert": "局部地图暂不可交互\n\n测试入口主动禁用地图 诗文与全国原图仍可查看。\n\n从目录继续阅读 →",
+      "marks": 1,
+      "logs": [],
+      "closed": true
+    }
+  ]
+}

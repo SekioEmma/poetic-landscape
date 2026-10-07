@@ -1,0 +1,11 @@
+{
+  "focusScales": {
+    "side": 1.45,
+    "bottom": 1.6
+  },
+  "frozen": "round5 historical inputs plus original map/image anchors/OSM/photo/text/dependencies",
+  "artMapping": {
+    "huxinting-kanxue": "huxin-snow-r9-v1.png",
+    "qiantang-chunxing": "qiantang-spring-r9-v1.png"
+  }
+}

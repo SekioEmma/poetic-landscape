@@ -1,0 +1,10 @@
+{
+  "status":"MVP设计建议，非历史颜料或宋代书法复原",
+  "colors":{"paper":"#F4F0E6","readingPaper":"#FCFAF4","ink":"#2E3430","mutedInk":"#60685E","green":"#506553","water":"#A8BBB9","ochreRed":"#8D5044","border":"#D7D6CB"},
+  "contrastOnPaper":{"ink":11.18,"mutedInk":5.07,"green":5.55,"ochreRed":5.49},
+  "typography":{"titlePx":[36,48],"readingTitlePx":[26,32],"originalTextPx":18,"originalLineHeight":1.9,"descriptionPx":16,"descriptionLineHeight":1.7,"mapLabelPx":[14,16],"captionPx":[13,14]},
+  "layout":{"desktopHeaderPx":64,"desktopDirectoryPx":220,"desktopReadingWidthPx":[360,400],"mobileBreakpointPx":768,"directoryCollapseBreakpointPx":1200,"minimumTouchTargetPx":44},
+  "texture":{"mapOpacity":[0.02,0.04],"readingOpacity":[0,0.02],"tilePx":256,"animated":false,"pointerEvents":"none"},
+  "motion":{"panelDurationMs":[180,240],"cameraDurationMs":[600,900],"respectReducedMotion":true,"automaticRotation":false},
+  "assets":{"categoryIcons":["楼阁","寺桥","亭岛","山岳","渡口","关隘"],"plannedDetailedScenes":["湖心亭","黄鹤楼","大散关"],"existingBoardScene":"原创亭岛示意，非历史建筑复原"}
+}

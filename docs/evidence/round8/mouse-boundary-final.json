@@ -1,0 +1,46 @@
+{
+  "drag": {
+    "before": "{\"x\":-343.32083601026017,\"y\":-7.053578930981927,\"scale\":1.85}",
+    "after": "{\"x\":-316.29403755806584,\"y\":6.459945945945946,\"scale\":1.85}"
+  },
+  "beforeScroll": {
+    "anchor": "inscription",
+    "camera": "{\"x\":-316.29403755806584,\"y\":6.459945945945946,\"scale\":1.85}",
+    "height": 676,
+    "offset": 12,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:36:18.765Z",
+    "top": 0,
+    "width": 420,
+    "work": "huxinting-kanxue"
+  },
+  "afterReadingScroll": {
+    "anchor": "paragraph-p4",
+    "camera": "{\"x\":-316.29403755806584,\"y\":6.459945945945946,\"scale\":1.85}",
+    "height": 676,
+    "offset": -1.7678680419921875,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:36:25.430Z",
+    "top": 505.1428527832031,
+    "width": 420,
+    "work": "huxinting-kanxue"
+  },
+  "afterMapWheel": {
+    "anchor": "paragraph-p4",
+    "camera": "{\"x\":-304.9774226853573,\"y\":0.853071924040242,\"scale\":2.0445661984399486}",
+    "height": 676,
+    "offset": -1.7678680419921875,
+    "place": "huxin",
+    "space": "reading",
+    "tab": "诗文",
+    "time": "2026-10-07T04:36:25.472Z",
+    "top": 505.1428527832031,
+    "width": 420,
+    "work": "huxinting-kanxue"
+  },
+  "bundle": "./assets/index-DbUZe37j.js"
+}

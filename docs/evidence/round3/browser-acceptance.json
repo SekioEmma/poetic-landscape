@@ -1,0 +1,963 @@
+{
+  "date": "2026-10-06",
+  "environment": "Codex IAB Chromium; viewport simulation, mouse and keyboard",
+  "cases": [
+    {
+      "case": "production-home",
+      "pass": true,
+      "canvas": 0
+    },
+    {
+      "case": "buttons-and-mouse-drag",
+      "pass": true,
+      "camera": {
+        "x": -54.88116360940264,
+        "y": 21.952465443761056,
+        "scale": 1.822118800390509
+      }
+    },
+    {
+      "case": "wheel-zoom-and-shared-anchor-transform",
+      "pass": true,
+      "savedExplore": {
+        "x": -49.65852988968305,
+        "y": 30.465359321612343,
+        "scale": 2.0137527074704766
+      },
+      "anchorReport": [
+        {
+          "error": 0.01686867783330189,
+          "id": "huxin"
+        },
+        {
+          "error": 0.01165389662163231,
+          "id": "huanghe"
+        },
+        {
+          "error": 0.003298289592170726,
+          "id": "dufu"
+        },
+        {
+          "error": 0.01686867783330189,
+          "id": "xihu"
+        },
+        {
+          "error": 0.010435297146456074,
+          "id": "hanshan"
+        },
+        {
+          "error": 0.01404442268918086,
+          "id": "guazhou"
+        }
+      ]
+    },
+    {
+      "case": "local-to-national-restores-exploration",
+      "pass": true,
+      "restored": {
+        "x": -49.65852988968305,
+        "y": 30.465359321612343,
+        "scale": 2.0137527074704766
+      },
+      "observedCamera": "Exact restored values read before close/reset in prior observation"
+    },
+    {
+      "case": "reduced-motion-setting",
+      "pass": true
+    },
+    {
+      "case": "selected-safe-area-1440",
+      "pass": true,
+      "layout": {
+        "anchor": {
+          "bottom": 432.7916870117187,
+          "height": 8,
+          "left": 528.6771240234375,
+          "right": 536.6771240234375,
+          "top": 424.7916870117187,
+          "width": 8,
+          "x": 528.6771240234375,
+          "y": 424.7916870117187
+        },
+        "overflow": false,
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "local-safe-area-and-reuse-1440",
+      "pass": true,
+      "localLayout": {
+        "created": "1",
+        "instance": "1",
+        "point": {
+          "bottom": 489,
+          "height": 44,
+          "left": 480,
+          "right": 568,
+          "top": 445,
+          "width": 88,
+          "x": 480,
+          "y": 445
+        },
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "selected-safe-area-768",
+      "pass": true,
+      "layout": {
+        "anchor": {
+          "bottom": 321.0520935058594,
+          "height": 8,
+          "left": 365.59375,
+          "right": 373.59375,
+          "top": 313.0520935058594,
+          "width": 8,
+          "x": 365.59375,
+          "y": 313.0520935058594
+        },
+        "overflow": false,
+        "sheet": {
+          "bottom": 1024.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 563.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 563.2083740234375
+        }
+      }
+    },
+    {
+      "case": "local-safe-area-and-reuse-768",
+      "pass": true,
+      "localLayout": {
+        "created": "1",
+        "instance": "1",
+        "point": {
+          "bottom": 547,
+          "height": 44,
+          "left": 144,
+          "right": 232,
+          "top": 503,
+          "width": 88,
+          "x": 144,
+          "y": 503
+        },
+        "sheet": {
+          "bottom": 1020.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 559.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 559.2083740234375
+        }
+      }
+    },
+    {
+      "case": "selected-safe-area-390",
+      "pass": true,
+      "layout": {
+        "anchor": {
+          "bottom": 247.27084350585935,
+          "height": 8,
+          "left": 183.59375,
+          "right": 191.59375,
+          "top": 239.27084350585935,
+          "width": 8,
+          "x": 183.59375,
+          "y": 239.27084350585935
+        },
+        "overflow": false,
+        "sheet": {
+          "bottom": 844,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 422,
+          "width": 390,
+          "x": 0,
+          "y": 422
+        }
+      }
+    },
+    {
+      "case": "local-safe-area-and-reuse-390",
+      "pass": true,
+      "localLayout": {
+        "created": "1",
+        "instance": "1",
+        "point": {
+          "bottom": 408,
+          "height": 44,
+          "left": 44,
+          "right": 120,
+          "top": 364,
+          "width": 76,
+          "x": 44,
+          "y": 364
+        },
+        "sheet": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "initial-resize-local-composition",
+      "pass": false,
+      "resolvedBy": "verified-local-framing-768",
+      "note": "Screenshot showed the resized lake at the lower left: camera used stale MapLibre dimensions. Added synchronous resize and default-fit on layout change, while preserving manual camera."
+    },
+    {
+      "case": "local-safe-area-rerun-1440",
+      "pass": true,
+      "evidence": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 489,
+          "height": 44,
+          "left": 480,
+          "right": 568,
+          "top": 445,
+          "width": 88,
+          "x": 480,
+          "y": 445
+        },
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "local-safe-area-rerun-768",
+      "pass": true,
+      "evidence": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 547,
+          "height": 44,
+          "left": 144,
+          "right": 232,
+          "top": 503,
+          "width": 88,
+          "x": 144,
+          "y": 503
+        },
+        "sheet": {
+          "bottom": 1020.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 559.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 559.2083740234375
+        }
+      }
+    },
+    {
+      "case": "local-safe-area-rerun-390",
+      "pass": true,
+      "evidence": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 408,
+          "height": 44,
+          "left": 44,
+          "right": 120,
+          "top": 364,
+          "width": 76,
+          "x": 44,
+          "y": 364
+        },
+        "sheet": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "final-local-composition-1440",
+      "pass": true,
+      "evidence": {
+        "map": {
+          "cameraBounds": "[[120.08863615574421,30.209652091217947],[120.23863405865058,30.29063540779819]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "overflow": false,
+        "point": {
+          "bottom": 489,
+          "height": 44,
+          "left": 480,
+          "right": 568,
+          "top": 445,
+          "width": 88,
+          "x": 480,
+          "y": 445
+        },
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "final-local-composition-768",
+      "pass": true,
+      "evidence": {
+        "map": {
+          "cameraBounds": "[[120.123635666425,30.204070783573954],[120.20363454797513,30.296211800058884]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "overflow": false,
+        "point": {
+          "bottom": 547,
+          "height": 44,
+          "left": 144,
+          "right": 232,
+          "top": 503,
+          "width": 88,
+          "x": 144,
+          "y": 503
+        },
+        "sheet": {
+          "bottom": 1020.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 559.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 559.2083740234375
+        }
+      }
+    },
+    {
+      "case": "final-local-composition-390",
+      "pass": true,
+      "evidence": {
+        "map": {
+          "cameraBounds": "[[120.1340381786402,30.207726172133547],[120.17466261067665,30.28367396281662]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "overflow": false,
+        "point": {
+          "bottom": 408,
+          "height": 44,
+          "left": 44,
+          "right": 120,
+          "top": 364,
+          "width": 76,
+          "x": 44,
+          "y": 364
+        },
+        "sheet": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "verified-local-framing-1440",
+      "pass": true,
+      "actual": {
+        "map": {
+          "cameraBounds": "[[120.08863615574421,30.209652091217947],[120.23863405865058,30.29063540779819]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "fitArea": "{\"left\":24,\"top\":130,\"width\":967,\"height\":710}",
+          "fitCamera": "{\"center\":{\"lng\":120.1636351071997,\"lat\":30.250152093728474},\"zoom\":12.720691956742321,\"bearing\":0}",
+          "fitSize": "[1440,900]",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "point": {
+          "bottom": 489,
+          "height": 44,
+          "left": 480,
+          "right": 568,
+          "top": 445,
+          "width": 88,
+          "x": 480,
+          "y": 445
+        },
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "verified-local-framing-768",
+      "pass": true,
+      "actual": {
+        "map": {
+          "cameraBounds": "[[120.07407588238777,30.143290569550828],[120.2089241176165,30.298651951688015]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "fitArea": "{\"left\":24,\"top\":130,\"width\":720,\"height\":421.2083740234375}",
+          "fitCamera": "{\"center\":{\"lng\":120.14150000000001,\"lat\":30.221001934791147},\"zoom\":11.967407050924209,\"bearing\":0}",
+          "fitSize": "[768,1024]",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "point": {
+          "bottom": 348,
+          "height": 44,
+          "left": 364,
+          "right": 452,
+          "top": 304,
+          "width": 88,
+          "x": 364,
+          "y": 304
+        },
+        "sheet": {
+          "bottom": 1020.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 559.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 559.2083740234375
+        }
+      }
+    },
+    {
+      "case": "verified-local-framing-390",
+      "pass": true,
+      "actual": {
+        "map": {
+          "cameraBounds": "[[120.08999402366965,30.11594325404525],[120.19300597633594,30.30859051445715]]",
+          "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+          "fitArea": "{\"left\":24,\"top\":130,\"width\":342,\"height\":280}",
+          "fitCamera": "{\"center\":{\"lng\":120.14150000000001,\"lat\":30.2123140319906},\"zoom\":11.378299759294942,\"bearing\":0}",
+          "fitSize": "[390,844]",
+          "instanceId": "1",
+          "l7Layers": "literary-places",
+          "l7PointVisibility": "visible",
+          "localVisibility": "visible",
+          "mapStatus": "ready",
+          "mapView": "local",
+          "maxZoom": "14",
+          "naturalEarthVisibility": "none",
+          "renderState": "idle",
+          "selectedPlace": "huxin",
+          "testid": "map"
+        },
+        "point": {
+          "bottom": 281,
+          "height": 44,
+          "left": 178,
+          "right": 254,
+          "top": 237,
+          "width": 76,
+          "x": 178,
+          "y": 237
+        },
+        "sheet": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    },
+    {
+      "case": "read-huxin-0",
+      "pass": true,
+      "title": "湖心亭看雪",
+      "fullTextLength": 203,
+      "highlight": "惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。"
+    },
+    {
+      "case": "history-huxin",
+      "pass": true
+    },
+    {
+      "case": "read-huanghe-0",
+      "pass": true,
+      "title": "黄鹤楼",
+      "fullTextLength": 70,
+      "highlight": "晴川历历汉阳树，芳草萋萋鹦鹉洲。"
+    },
+    {
+      "case": "read-huanghe-1",
+      "pass": true,
+      "title": "黄鹤楼送孟浩然之广陵",
+      "fullTextLength": 34,
+      "highlight": "故人西辞黄鹤楼，烟花三月下扬州。"
+    },
+    {
+      "case": "history-huanghe",
+      "pass": true
+    },
+    {
+      "case": "read-dufu-0",
+      "pass": true,
+      "title": "茅屋为秋风所破歌",
+      "fullTextLength": 201,
+      "highlight": "安得广厦千万间，大庇天下寒士俱欢颜！"
+    },
+    {
+      "case": "history-dufu",
+      "pass": true
+    },
+    {
+      "case": "read-xihu-0",
+      "pass": true,
+      "title": "饮湖上初晴后雨二首·其二",
+      "fullTextLength": 34,
+      "highlight": "水光潋滟晴方好，山色空蒙雨亦奇。"
+    },
+    {
+      "case": "read-xihu-1",
+      "pass": true,
+      "title": "钱塘湖春行",
+      "fullTextLength": 70,
+      "highlight": "最爱湖东行不足，绿杨阴里白沙堤。"
+    },
+    {
+      "case": "history-xihu",
+      "pass": true
+    },
+    {
+      "case": "read-hanshan-0",
+      "pass": true,
+      "title": "枫桥夜泊",
+      "fullTextLength": 34,
+      "highlight": "姑苏城外寒山寺，夜半钟声到客船。"
+    },
+    {
+      "case": "history-hanshan",
+      "pass": true
+    },
+    {
+      "case": "read-guazhou-0",
+      "pass": true,
+      "title": "泊船瓜洲",
+      "fullTextLength": 34,
+      "highlight": "京口瓜洲一水间，钟山只隔数重山。"
+    },
+    {
+      "case": "history-guazhou",
+      "pass": true
+    },
+    {
+      "case": "search-苏轼",
+      "pass": true,
+      "title": "饮湖上初晴后雨二首·其二",
+      "mapids": "xihu"
+    },
+    {
+      "case": "search-茅屋",
+      "pass": true,
+      "title": "茅屋为秋风所破歌",
+      "mapids": "dufu"
+    },
+    {
+      "case": "search-枫桥",
+      "pass": true,
+      "title": "枫桥夜泊",
+      "mapids": "hanshan"
+    },
+    {
+      "case": "theme-map-directory-consistent",
+      "pass": true,
+      "themeCount": 2,
+      "themeMap": [
+        "huanghe",
+        "hanshan"
+      ]
+    },
+    {
+      "case": "full-reading-scroll-does-not-zoom-map",
+      "pass": true,
+      "scrollState": {
+        "height": 624,
+        "scrollTop": 806.6666870117188,
+        "total": 1431
+      }
+    },
+    {
+      "case": "photo-credit-license-retained",
+      "pass": true,
+      "photoText": "湖心亭岛 · 真实图景\n\n西湖水面上的湖心亭岛，亭阁与林木环水而立。\n\n摄影：Bjoertvedt · 2017-07-21\n\n来源页 · CC BY-SA 4.0\n\n原图打包，等比例显示；未裁切、调色或改写图像。"
+    },
+    {
+      "case": "manual-local-camera-survives-tabs",
+      "pass": true,
+      "before": "[[120.1050797748656,30.14417935539889],[120.1779202251393,30.280401560818234]]",
+      "after": "[[120.1050797748656,30.14417935539889],[120.1779202251393,30.280401560818234]]"
+    },
+    {
+      "case": "local-locate-control",
+      "pass": true
+    },
+    {
+      "case": "1024-bottom-reading-layout",
+      "pass": true,
+      "tabletRect": {
+        "bottom": 896,
+        "height": 405,
+        "left": 0,
+        "right": 1024,
+        "top": 491,
+        "width": 1024,
+        "x": 0,
+        "y": 491
+      }
+    },
+    {
+      "case": "west-lake-distinct-local-and-reuse",
+      "pass": true
+    },
+    {
+      "case": "max-scale-and-separate-suzhou-yangzhou",
+      "pass": true,
+      "maxCam": {
+        "x": -220.10253000413854,
+        "y": 1.5464044301676672,
+        "scale": 7
+      },
+      "labelRects": [
+        {
+          "bottom": 450.7916870117187,
+          "font": "16px",
+          "height": 44,
+          "ids": "huxin,xihu",
+          "left": 541.7760620117188,
+          "right": 700.5781555175781,
+          "top": 406.7916870117187,
+          "width": 158.80209350585938,
+          "x": 541.7760620117188,
+          "y": 406.7916870117187
+        },
+        {
+          "bottom": 465.875,
+          "font": "16px",
+          "height": 44,
+          "ids": "huanghe",
+          "left": 89.16667175292969,
+          "right": 182.1666717529297,
+          "top": 421.875,
+          "width": 93,
+          "x": 89.16667175292969,
+          "y": 421.875
+        },
+        {
+          "bottom": 349.32293701171875,
+          "font": "16px",
+          "height": 44,
+          "ids": "hanshan",
+          "left": 578.0104370117188,
+          "right": 722.0104370117188,
+          "top": 305.32293701171875,
+          "width": 144,
+          "x": 578.0104370117188,
+          "y": 305.32293701171875
+        },
+        {
+          "bottom": 267.0520935058594,
+          "font": "16px",
+          "height": 44,
+          "ids": "guazhou",
+          "left": 467.625,
+          "right": 560.625,
+          "top": 223.05209350585935,
+          "width": 93,
+          "x": 467.625,
+          "y": 223.05209350585935
+        }
+      ]
+    },
+    {
+      "case": "rapid-place-selection-last-wins",
+      "pass": true
+    },
+    {
+      "case": "complete-unmodified-original-viewer",
+      "pass": true,
+      "originalInfo": {
+        "src": "http://127.0.0.1:4173/assets/official-china-gs20232763.jpg",
+        "width": 5826
+      }
+    },
+    {
+      "case": "complete-view-restoration-loop",
+      "pass": true,
+      "restoreBaseline": "{\"x\":-55.561366551128835,\"y\":33.3368199306773,\"scale\":1.3498588075760032}",
+      "restoreAfterLocal": "{\"x\":-55.561366551128835,\"y\":33.3368199306773,\"scale\":1.3498588075760032}",
+      "restoreAfterClose": "{\"x\":-55.561366551128835,\"y\":33.3368199306773,\"scale\":1.3498588075760032}"
+    },
+    {
+      "case": "design-image-failure-readable",
+      "pass": true,
+      "alert": "设计地图未能加载\n\n可从目录继续读诗文，或切换图面。\n\n切换到官方原图从目录阅读"
+    },
+    {
+      "case": "original-image-failure-readable",
+      "pass": true
+    },
+    {
+      "case": "webgl-failure-readable-and-return",
+      "pass": true
+    },
+    {
+      "case": "development-lazy-load-search-and-local",
+      "pass": true,
+      "homeCanvas": 0,
+      "title": "饮湖上初晴后雨二首·其二"
+    },
+    {
+      "case": "development-console",
+      "pass": true,
+      "logs": []
+    },
+    {
+      "case": "production-console",
+      "pass": true,
+      "logs": []
+    },
+    {
+      "case": "minimum-scale-reset-and-escape-list",
+      "pass": true,
+      "camera": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      }
+    },
+    {
+      "case": "keyboard-place-and-escape-reading",
+      "pass": true
+    },
+    {
+      "case": "final-expanded-reading-and-map-strip-390",
+      "pass": true,
+      "fullLayout": {
+        "overflow": false,
+        "point": {
+          "bottom": 110,
+          "height": 8,
+          "left": 183.59375,
+          "right": 191.59375,
+          "top": 102,
+          "width": 8,
+          "x": 183.59375,
+          "y": 102
+        },
+        "sheet": {
+          "bottom": 844,
+          "height": 723,
+          "left": 0,
+          "right": 390,
+          "top": 121,
+          "width": 390,
+          "x": 0,
+          "y": 121
+        },
+        "text": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。是日更定矣，余拏一小舟，拥毳衣炉火，独往湖心亭看雪。雾凇沆砀，天与云、与山、与水，上下一白。湖上影子，惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。到亭上，有两人铺毡对坐，一童子烧酒，炉正沸。见余大喜，曰：“湖中焉得更有此人？”拉余同饮。余强饮三大白而别。问其姓氏，是金陵人，客此。及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”"
+      }
+    },
+    {
+      "case": "final-build-layout-1440",
+      "pass": true,
+      "finalFrame": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 487,
+          "height": 44,
+          "left": 478,
+          "right": 566,
+          "top": 443,
+          "width": 88,
+          "x": 478,
+          "y": 443
+        },
+        "sheet": {
+          "bottom": 834,
+          "height": 729,
+          "left": 1011,
+          "right": 1415,
+          "top": 105,
+          "width": 404,
+          "x": 1011,
+          "y": 105
+        }
+      }
+    },
+    {
+      "case": "final-build-layout-768",
+      "pass": true,
+      "finalFrame": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 347,
+          "height": 44,
+          "left": 362,
+          "right": 450,
+          "top": 303,
+          "width": 88,
+          "x": 362,
+          "y": 303
+        },
+        "sheet": {
+          "bottom": 1020.0000610351562,
+          "height": 460.7916870117187,
+          "left": 0,
+          "right": 768,
+          "top": 559.2083740234375,
+          "width": 768,
+          "x": 0,
+          "y": 559.2083740234375
+        }
+      }
+    },
+    {
+      "case": "final-build-layout-390",
+      "pass": true,
+      "finalFrame": {
+        "instance": "1",
+        "overflow": false,
+        "point": {
+          "bottom": 280,
+          "height": 44,
+          "left": 177,
+          "right": 253,
+          "top": 236,
+          "width": 76,
+          "x": 177,
+          "y": 236
+        },
+        "sheet": {
+          "bottom": 840,
+          "height": 422,
+          "left": 0,
+          "right": 390,
+          "top": 418,
+          "width": 390,
+          "x": 0,
+          "y": 418
+        }
+      }
+    }
+  ]
+}

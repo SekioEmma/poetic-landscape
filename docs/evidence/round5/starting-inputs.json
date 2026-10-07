@@ -1,0 +1,42 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2CB284AB39FB28375F3B09E54D92F3AA5AEC89E45BE18707A2C4E7EFBB513E6E",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\package-lock.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E45A05CD62EAF31726600659CE802EA66AB8651494F46277C20AC2B3326A39BA",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\src\\data\\content.ts"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "226E527008180EFFE59F3EB554AF4F61D5A9C88385AEB7727D69FD4660B6EB1E",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\src\\data\\basemap.ts"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "93E6A115EA717824ACE672BA7BBD5409C07EEB7CFB3987BC65DE821E5176C556",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\src\\map\\overview-math.ts"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3C0875B6B806928019CA0F2D1E8DFE94D7A293E43A9D6476C368D77066E83B28",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\public\\geodata\\westlake.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3443A26D4CCD50D0AA485E5CE8B475F655212AF94222A2EF19AEEFC2A216FF22",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\public\\geodata\\causeways.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "32E08C8F689FEBCB4E456B473F234A2B409F6AD7EC05420D70685B004C2D5ECC",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\public\\assets\\china-design-paper-v1.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "505BFFE63B443C120EDDBD7928942B2DE9B926484CF4B6A8A105D842CB6F5591",
+    "Path": "G:\\project\\数媒\\poetic-landscape\\public\\assets\\huxin-2017.jpg"
+  }
+]
