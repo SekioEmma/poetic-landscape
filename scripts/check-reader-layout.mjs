@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const evidence=process.argv[2]??'docs/evidence/round8';
 const base=evidence.replace(/\\/g,'/').replace(/\/$/,'')+'/';
+if(evidence.includes('round11')){await import('./check-reader-layout-round11.mjs');process.exit(0);}
 if(evidence.includes('round10')){await import('./check-reader-layout-round10.mjs');process.exit(0);}
 const focusScales=evidence.includes('round9')?JSON.parse(await fs.readFile(base+'invariants.json','utf8')).focusScales:{side:1.85,bottom:2.1};
 const load=async name=>JSON.parse(await fs.readFile(base+name,'utf8'));

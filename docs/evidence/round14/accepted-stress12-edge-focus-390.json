@@ -1,0 +1,313 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "interfaceReadyMs": "119.1",
+    "mapExplored": "true",
+    "readerLayout": "bottom",
+    "readingSpace": "exploring",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin,huanghe,dufu,xihu,hanshan,guazhou,yumen,yangguan,loulan"
+  },
+  "at": "2026-10-09T04:04:08.450Z",
+  "entries": [
+    {
+      "annotationKey": "test-03",
+      "aria": "地图地点：测试4",
+      "candidate": "1",
+      "count": "1",
+      "labelVisible": "true",
+      "memberIds": "test-03",
+      "nodeSerial": "1",
+      "placeId": "test-03",
+      "rect": {
+        "bottom": 447,
+        "height": 44,
+        "left": 118,
+        "right": 162,
+        "top": 403,
+        "width": 44
+      },
+      "title": {
+        "bottom": 440,
+        "height": 30,
+        "left": 70,
+        "right": 120.72916793823242,
+        "top": 410,
+        "width": 50.72916793823242
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-07",
+      "aria": "地图地点：测试8·近邻长地名边缘题注",
+      "candidate": "3",
+      "count": "1",
+      "labelVisible": "true",
+      "memberIds": "test-07",
+      "nodeSerial": "6",
+      "placeId": "test-07",
+      "rect": {
+        "bottom": 354,
+        "height": 44,
+        "left": 245,
+        "right": 289,
+        "top": 310,
+        "width": 44
+      },
+      "title": {
+        "bottom": 384,
+        "height": 30,
+        "left": 160,
+        "right": 373.125,
+        "top": 354,
+        "width": 213.125
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-02",
+      "aria": "地图地点：测试3",
+      "candidate": "null",
+      "count": "1",
+      "labelVisible": "false",
+      "memberIds": "test-02",
+      "nodeSerial": "7",
+      "placeId": "test-02",
+      "rect": {
+        "bottom": 448,
+        "height": 44,
+        "left": 201,
+        "right": 245,
+        "top": 404,
+        "width": 44
+      },
+      "title": {
+        "bottom": 456,
+        "height": 30,
+        "left": 223,
+        "right": 273.7291679382324,
+        "top": 426,
+        "width": 50.72916793823242
+      },
+      "visible": "hidden"
+    },
+    {
+      "annotationKey": "test-10",
+      "aria": "地图地点：测试11",
+      "candidate": "0",
+      "count": "1",
+      "labelVisible": "true",
+      "memberIds": "test-10",
+      "nodeSerial": "8",
+      "placeId": "test-10",
+      "rect": {
+        "bottom": 515,
+        "height": 44,
+        "left": 193,
+        "right": 237,
+        "top": 471,
+        "width": 44
+      },
+      "title": {
+        "bottom": 508,
+        "height": 30,
+        "left": 234,
+        "right": 292.96875,
+        "top": 478,
+        "width": 58.96875
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-00|test-01|test-09",
+      "aria": "地图分组：测试区域·3处",
+      "candidate": "null",
+      "count": "3",
+      "labelVisible": "false",
+      "memberIds": "test-00,test-01,test-09",
+      "nodeSerial": "9",
+      "placeId": "",
+      "rect": {
+        "bottom": 447,
+        "height": 44,
+        "left": 252,
+        "right": 296,
+        "top": 403,
+        "width": 44
+      },
+      "title": {
+        "bottom": 455,
+        "height": 30,
+        "left": 274,
+        "right": 389.6875,
+        "top": 425,
+        "width": 115.6875
+      },
+      "visible": "hidden"
+    },
+    {
+      "annotationKey": "test-04|test-05",
+      "aria": "地图分组：西北·2处",
+      "candidate": "0",
+      "count": "2",
+      "labelVisible": "true",
+      "memberIds": "test-04,test-05",
+      "nodeSerial": "10",
+      "placeId": "",
+      "rect": {
+        "bottom": 353,
+        "height": 44,
+        "left": 37,
+        "right": 81,
+        "top": 309,
+        "width": 44
+      },
+      "title": {
+        "bottom": 346,
+        "height": 30,
+        "left": 78,
+        "right": 161.20833587646484,
+        "top": 316,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-08",
+      "aria": "地图地点：测试9",
+      "candidate": "null",
+      "count": "1",
+      "labelVisible": "false",
+      "memberIds": "test-08",
+      "nodeSerial": "11",
+      "placeId": "test-08",
+      "rect": {
+        "bottom": 291,
+        "height": 44,
+        "left": 300,
+        "right": 344,
+        "top": 247,
+        "width": 44
+      },
+      "title": {
+        "bottom": 299,
+        "height": 30,
+        "left": 322,
+        "right": 372.7291679382324,
+        "top": 269,
+        "width": 50.72916793823242
+      },
+      "visible": "hidden"
+    },
+    {
+      "annotationKey": "test-11",
+      "aria": "地图地点：测试12",
+      "candidate": "null",
+      "count": "1",
+      "labelVisible": "false",
+      "memberIds": "test-11",
+      "nodeSerial": "3",
+      "placeId": "test-11",
+      "rect": {
+        "bottom": 456,
+        "height": 44,
+        "left": 14,
+        "right": 58,
+        "top": 412,
+        "width": 44
+      },
+      "title": {
+        "bottom": 464,
+        "height": 30,
+        "left": 36,
+        "right": 94.96875,
+        "top": 434,
+        "width": 58.96875
+      },
+      "visible": "hidden"
+    }
+  ],
+  "focus": "地图地点：测试8·近邻长地名边缘题注",
+  "listRect": null,
+  "map": {
+    "annotationCamera": "{\"center\":[110.81872906527792,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0}",
+    "annotationListOpen": "false",
+    "annotationSourceVersion": "2",
+    "annotations": "[{\"key\":\"test-07\",\"ids\":[\"test-07\"],\"selected\":false,\"focused\":true,\"priority\":350,\"nodeSerial\":\"6\",\"anchor\":{\"x\":266.90231686357833,\"y\":332.3846536142008},\"visual\":{\"x\":266.90231686357833,\"y\":332.3846536142008},\"offset\":[0,0],\"label\":{\"left\":159.90231686357833,\"top\":354.3846536142008,\"right\":373.90231686357833,\"bottom\":384.3846536142008},\"candidate\":3,\"reused\":false,\"count\":1},{\"key\":\"test-03\",\"ids\":[\"test-03\"],\"selected\":false,\"focused\":false,\"priority\":103,\"nodeSerial\":\"1\",\"anchor\":{\"x\":140.37241114686628,\"y\":424.6075466074565},\"visual\":{\"x\":140.37241114686628,\"y\":424.6075466074565},\"offset\":[0,0],\"label\":{\"left\":70.37241114686628,\"top\":409.6075466074565,\"right\":121.37241114686628,\"bottom\":439.6075466074565},\"candidate\":1,\"reused\":false,\"count\":1},{\"key\":\"test-11\",\"ids\":[\"test-11\"],\"selected\":false,\"focused\":false,\"priority\":103,\"nodeSerial\":\"3\",\"anchor\":{\"x\":36.44988077649873,\"y\":434.0271538551735},\"visual\":{\"x\":36.44988077649873,\"y\":434.0271538551735},\"offset\":[0,0],\"label\":null,\"candidate\":null,\"reused\":false,\"count\":1},{\"key\":\"test-02\",\"ids\":[\"test-02\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"7\",\"anchor\":{\"x\":223.02698143250802,\"y\":425.68396458990975},\"visual\":{\"x\":223.02698143250802,\"y\":425.68396458990975},\"offset\":[0,0],\"label\":null,\"candidate\":null,\"reused\":false,\"count\":1},{\"key\":\"test-10\",\"ids\":[\"test-10\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"8\",\"anchor\":{\"x\":214.76413296594978,\"y\":492.6304572934396},\"visual\":{\"x\":214.76413296594978,\"y\":492.6304572934396},\"offset\":[0,0],\"label\":{\"left\":233.76413296594978,\"top\":477.6304572934396,\"right\":292.7641329659498,\"bottom\":507.6304572934396},\"candidate\":0,\"reused\":true,\"count\":1},{\"key\":\"test-00|test-01|test-09\",\"ids\":[\"test-00\",\"test-01\",\"test-09\"],\"selected\":false,\"focused\":false,\"priority\":101,\"nodeSerial\":\"9\",\"anchor\":{\"x\":273.5801593452596,\"y\":425.4296813712433},\"visual\":{\"x\":273.5801593452596,\"y\":425.4296813712433},\"offset\":[0,0],\"label\":null,\"candidate\":null,\"reused\":false,\"count\":3},{\"key\":\"test-04|test-05\",\"ids\":[\"test-04\",\"test-05\"],\"selected\":false,\"focused\":false,\"priority\":101,\"nodeSerial\":\"10\",\"anchor\":{\"x\":59.23841629808733,\"y\":330.7657610398942},\"visual\":{\"x\":59.23841629808733,\"y\":330.7657610398942},\"offset\":[0,0],\"label\":{\"left\":78.23841629808733,\"top\":315.7657610398942,\"right\":162.23841629808732,\"bottom\":345.7657610398942},\"candidate\":0,\"reused\":false,\"count\":2},{\"key\":\"test-08\",\"ids\":[\"test-08\"],\"selected\":false,\"focused\":false,\"priority\":100,\"nodeSerial\":\"11\",\"anchor\":{\"x\":322.33490709027296,\"y\":269.07350988069453},\"visual\":{\"x\":322.33490709027296,\"y\":269.07350988069453},\"offset\":[0,0],\"label\":null,\"candidate\":null,\"reused\":false,\"count\":1}]",
+    "camera": "{\"center\":[110.81872906527792,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0}",
+    "cameraActive": "false",
+    "cameraBounds": "[[86.58098685859079,-19.503697349355207],[135.05647127196465,64.44526055623601]]",
+    "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+    "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+    "cameraTrace": "[{\"t\":391.5,\"event\":\"moving\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":391.70000000018626,\"event\":\"idle\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":471.5,\"event\":\"moving\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":474.1000000005588,\"event\":\"idle\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":482.40000000037253,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":486.20000000018626,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":487.20000000018626,\"event\":\"fit-national\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":953,\"event\":\"cluster-step\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,31.91481327458054],\"zoom\":1.8351764306670981,\"bearing\":0,\"pitch\":0},{\"t\":954,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.51035165985195,31.91403174703686],\"zoom\":1.8355138028701135,\"bearing\":0,\"pitch\":0},{\"t\":959.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.68399799586405,31.900920841011427],\"zoom\":1.8411968002008279,\"bearing\":0,\"pitch\":0},{\"t\":966.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.92785567687088,31.882505579596682],\"zoom\":1.8492541682296388,\"bearing\":0,\"pitch\":0},{\"t\":972.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[105.30718678485528,31.85385252994203],\"zoom\":1.8619704327177995,\"bearing\":0,\"pitch\":0},{\"t\":978,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[105.72232830912151,31.822484308093905],\"zoom\":1.87615156242507,\"bearing\":0,\"pitch\":0},{\"t\":982.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[106.10692065000933,31.793414878820258],\"zoom\":1.889546410437222,\"bearing\":0,\"pitch\":0},{\"t\":987.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[106.52537849883402,31.76177533536729],\"zoom\":1.904414789132232,\"bearing\":0,\"pitch\":0},{\"t\":991.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[106.94051716714569,31.730376062559827],\"zoom\":1.9194823816915803,\"bearing\":0,\"pitch\":0},{\"t\":996.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[107.44476114060944,31.69222293903951],\"zoom\":1.9382317876473876,\"bearing\":0,\"pitch\":0},{\"t\":1002.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[108.0290686348551,31.647992260631924],\"zoom\":1.9606110551918126,\"bearing\":0,\"pitch\":0},{\"t\":1007.7999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[108.65322003032338,31.600722236609244],\"zoom\":1.985348429314675,\"bearing\":0,\"pitch\":0},{\"t\":1013.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[109.2701713139179,31.553973920858525],\"zoom\":2.010715709404147,\"bearing\":0,\"pitch\":0},{\"t\":1019.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[109.96510776436173,31.501288362090932],\"zoom\":2.040481382096099,\"bearing\":0,\"pitch\":0},{\"t\":1024.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.49771366596337,31.460889539562274],\"zoom\":2.0642289997352985,\"bearing\":0,\"pitch\":0},{\"t\":1034.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.47086018111804,31.387030135968047],\"zoom\":2.1099689514997277,\"bearing\":0,\"pitch\":0},{\"t\":1040.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[112.02993315967592,31.344571588136276],\"zoom\":2.137786675315829,\"bearing\":0,\"pitch\":0},{\"t\":1047,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[112.55872678123467,31.304394949425074],\"zoom\":2.1652652483911203,\"bearing\":0,\"pitch\":0},{\"t\":1053.7999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[113.0679516094317,31.265688907039305],\"zoom\":2.1929139309805636,\"bearing\":0,\"pitch\":0},{\"t\":1058.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[113.37658383398582,31.2422221233645],\"zoom\":2.2102914771477806,\"bearing\":0,\"pitch\":0},{\"t\":1064.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[113.6946619237167,31.218031022980412],\"zoom\":2.22873135074584,\"bearing\":0,\"pitch\":0},{\"t\":1069.2000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[114.04419168866548,31.19144075772857],\"zoom\":2.249662097024782,\"bearing\":0,\"pitch\":0},{\"t\":1074.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[114.32101853180802,31.170376019941415],\"zoom\":2.266772723336337,\"bearing\":0,\"pitch\":0},{\"t\":1079.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[114.58970851400227,31.149925963595535],\"zoom\":2.2838651156720826,\"bearing\":0,\"pitch\":0},{\"t\":1085.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[114.83576677518784,31.131194541868695],\"zoom\":2.299965486401099,\"bearing\":0,\"pitch\":0},{\"t\":1090.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.06123000562138,31.114027688753225],\"zoom\":2.315119137811442,\"bearing\":0,\"pitch\":0},{\"t\":1096.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.27156088939091,31.09801021861618],\"zoom\":2.3296234613256344,\"bearing\":0,\"pitch\":0},{\"t\":1102.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.46426331997486,31.083332848690915],\"zoom\":2.3432427467563617,\"bearing\":0,\"pitch\":0},{\"t\":1107.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.63792552279631,31.070103754357064],\"zoom\":2.355802888295171,\"bearing\":0,\"pitch\":0},{\"t\":1113.2000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.80028922229621,31.057733683040823],\"zoom\":2.367805043298871,\"bearing\":0,\"pitch\":0},{\"t\":1118.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.9493568461371,31.04637518903],\"zoom\":2.3790563129270135,\"bearing\":0,\"pitch\":0},{\"t\":1124.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.08629016042914,31.035940097449],\"zoom\":2.3895970673635194,\"bearing\":0,\"pitch\":0},{\"t\":1129.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.20781419231741,31.026678322290877],\"zoom\":2.399123939167339,\"bearing\":0,\"pitch\":0},{\"t\":1135.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.32383430540438,31.01783517984262],\"zoom\":2.408377069514473,\"bearing\":0,\"pitch\":0},{\"t\":1141.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.4304918934015,31.009704932196556],\"zoom\":2.4170249917976534,\"bearing\":0,\"pitch\":0},{\"t\":1146.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.52685564349053,31.002358762336144],\"zoom\":2.424959354433602,\"bearing\":0,\"pitch\":0},{\"t\":1152.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.61863384217361,30.995361639968493],\"zoom\":2.4326269331994226,\"bearing\":0,\"pitch\":0},{\"t\":1157.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.69855547763609,30.989268037657908],\"zoom\":2.439394989472507,\"bearing\":0,\"pitch\":0},{\"t\":1163,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.77474612393553,30.983458541122943],\"zoom\":2.4459285219632902,\"bearing\":0,\"pitch\":0},{\"t\":1168.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.84460683524958,30.978131387918225],\"zoom\":2.451991176838446,\"bearing\":0,\"pitch\":0},{\"t\":1174.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.90748537075478,30.973336398729003],\"zoom\":2.4575083882729603,\"bearing\":0,\"pitch\":0},{\"t\":1179.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.96706153538707,30.968793019393033],\"zoom\":2.4627900852448033,\"bearing\":0,\"pitch\":0},{\"t\":1185.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.01949971594331,30.964793815913552],\"zoom\":2.467483698303562,\"bearing\":0,\"pitch\":0},{\"t\":1191,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.06812496071575,30.961085256718846],\"zoom\":2.471874287632984,\"bearing\":0,\"pitch\":0},{\"t\":1196.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.11148468740225,30.9577781675672],\"zoom\":2.4758211185473336,\"bearing\":0,\"pitch\":0},{\"t\":1202.2000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.15074253473995,30.954783834031147],\"zoom\":2.4794208273592337,\"bearing\":0,\"pitch\":0},{\"t\":1207.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.1867385859432,30.952038206624508],\"zoom\":2.4827437506018777,\"bearing\":0,\"pitch\":0},{\"t\":1213.2000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.21840084299424,30.949623077580284],\"zoom\":2.4856845174033766,\"bearing\":0,\"pitch\":0},{\"t\":1218.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.24707993972265,30.94743544491385],\"zoom\":2.4883628847957207,\"bearing\":0,\"pitch\":0},{\"t\":1232.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.3032139218825,30.943153417088027],\"zoom\":2.493646360474373,\"bearing\":0,\"pitch\":0},{\"t\":1236.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.31548738249455,30.942217144037045],\"zoom\":2.4948089187311435,\"bearing\":0,\"pitch\":0},{\"t\":1241,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.32932866313308,30.94116125983902],\"zoom\":2.4961231857807435,\"bearing\":0,\"pitch\":0},{\"t\":1246.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.34208642306862,30.940188021851696],\"zoom\":2.4973375941628104,\"bearing\":0,\"pitch\":0},{\"t\":1252.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.35266089782033,30.939381330363503],\"zoom\":2.4983463875825,\"bearing\":0,\"pitch\":0},{\"t\":1257.5,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.36051680758283,30.938782024743546],\"zoom\":2.499097136789775,\"bearing\":0,\"pitch\":0},{\"t\":1263.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.3660363952971,30.938360948421035],\"zoom\":2.4996252829314733,\"bearing\":0,\"pitch\":0},{\"t\":1268.7999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.36910855829274,30.938126579551778],\"zoom\":2.4999194844734873,\"bearing\":0,\"pitch\":0},{\"t\":1282.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.36994902004835,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1284.9000000003725,\"event\":\"idle\",\"selected\":null,\"intent\":5,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.36994902004835,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1670.1000000005588,\"event\":\"user-input\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[117.36994902004835,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1692.9000000003725,\"event\":\"native-gesture-start\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.62417233676751,30.938062462386696],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1693.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[116.62417233676751,30.938062462386696],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1713.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.75409953960434,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1730.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[115.00832285632305,30.938062462386696],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1753.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[114.2625461730454,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1775.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[113.5167694897633,30.938062462386696],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1797.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[112.64669669260252,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1814.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.90092000932327,30.938062462386696],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1836,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.1551433260413,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1853,\"event\":\"native-drag-end\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.1551433260413,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1857.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.12560053036248,30.93806246238678],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1863.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.0747651655264,30.938062462386938],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1869.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[111.02352824116974,30.938062462387066],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1882.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.94730968508088,30.938062462387293],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1886.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.92807255171033,30.938062462387364],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1891,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.9087445938685,30.93806246238742],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1898.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.88017940937516,30.93806246238752],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1903.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.86586965258493,30.93806246238755],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1908.2000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.85438169961185,30.938062462387563],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1913.5,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.84329031042421,30.93806246238765],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1918.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.83396007394686,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1924.7000000001863,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.82674585817995,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1930.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.82202567503214,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1935.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.81942509688929,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1941.6000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.81872906527792,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0},{\"t\":1943.2999999998137,\"event\":\"idle\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[110.81872906527792,30.938062462387677],\"zoom\":2.5,\"bearing\":0,\"pitch\":0}]",
+    "clusterDecision": "{\"key\":\"test-00|test-01|test-02|test-09|test-10\",\"ids\":[\"test-00\",\"test-01\",\"test-02\",\"test-09\",\"test-10\"],\"current\":1.8274561281141133,\"expansion\":2,\"fit\":4.657797622084346,\"target\":2.5,\"margin\":40,\"action\":\"expand\",\"sourceVersion\":2,\"request\":5}",
+    "coordinateSystem": "GCJ-02 / Web Mercator",
+    "featureCount": "35",
+    "fixture": "true",
+    "instanceId": "1",
+    "l7Layers": "literary-places",
+    "labelCount": "4",
+    "labelObstacles": "[{\"left\":321,\"right\":375,\"top\":675,\"bottom\":825},{\"left\":-5,\"right\":395,\"top\":-5,\"bottom\":77},{\"left\":9,\"right\":75,\"top\":93,\"bottom\":125.92708396911621},{\"left\":7,\"right\":162.5729217529297,\"top\":795,\"bottom\":849},{\"left\":11,\"right\":330.10418701171875,\"top\":97,\"bottom\":136.3333339691162},{\"left\":254.90231686357833,\"right\":278.90231686357833,\"top\":320.3846536142008,\"bottom\":344.3846536142008},{\"left\":128.37241114686628,\"right\":152.37241114686628,\"top\":412.6075466074565,\"bottom\":436.6075466074565},{\"left\":24.44988077649873,\"right\":48.44988077649873,\"top\":422.0271538551735,\"bottom\":446.0271538551735},{\"left\":211.02698143250802,\"right\":235.02698143250802,\"top\":413.68396458990975,\"bottom\":437.68396458990975},{\"left\":202.76413296594978,\"right\":226.76413296594978,\"top\":480.6304572934396,\"bottom\":504.6304572934396},{\"left\":261.5801593452596,\"right\":285.5801593452596,\"top\":413.4296813712433,\"bottom\":437.4296813712433},{\"left\":47.23841629808733,\"right\":71.23841629808733,\"top\":318.7657610398942,\"bottom\":342.7657610398942},{\"left\":310.33490709027296,\"right\":334.33490709027296,\"top\":257.07350988069453,\"bottom\":281.07350988069453}]",
+    "level": "national",
+    "manualCamera": "true",
+    "mapStatus": "ready",
+    "mapView": "national",
+    "readyMs": "490.9",
+    "renderState": "idle",
+    "safeArea": "{\"left\":8,\"top\":80,\"width\":374,\"height\":752}",
+    "selectedPlace": "",
+    "sourceUpdating": "false",
+    "sourceVersion": "2",
+    "testid": "map",
+    "z0": "1.8274561281141133",
+    "zoomLimits": "{\"min\":1.4774561281141132,\"max\":11.5,\"target\":2.5}"
+  },
+  "marks": [],
+  "reader": null,
+  "tools": [
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 724,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 680,
+        "width": 44
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 776,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 732,
+        "width": 44
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 820,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 776,
+        "width": 44
+      }
+    }
+  ],
+  "viewport": [
+    390,
+    844
+  ],
+  "listButtons": [],
+  "listScroll": null,
+  "scripts": [
+    "http://127.0.0.1:4173/assets/index-BDga-7fc.js"
+  ],
+  "scrollWidth": 390
+}

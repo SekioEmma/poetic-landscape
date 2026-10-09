@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises';import ts from 'typescript';import assert from 'node:assert/strict';
+const code=ts.transpileModule(await fs.readFile('src/map/annotation-layout.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const {memberKey,uniqueGroups,closeGroups,layoutLabels,overlaps,progressiveZoom,placeList}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+assert.equal(memberKey(['b','a','b']),'a|b');
+const g=closeGroups([{id:'a',point:{x:100,y:100}},{id:'b',point:{x:100,y:100}},{id:'c',point:{x:117,y:100}},{id:'d',point:{x:240,y:100}}]);
+assert.deepEqual(g.map(x=>x.length).sort(),[1,3]);assert.deepEqual(g.flat().map(x=>x.id).sort(),['a','b','c','d']);
+const groups=uniqueGroups([{key:'parent',members:[{id:'a'},{id:'b'},{id:'c'}],count:3},{key:'a',members:[{id:'a'}],count:1}]);assert.deepEqual(groups.map(g=>g.members.map(p=>p.id)),[['a'],['b','c']]);
+const safe={left:0,top:0,right:500,bottom:300},input=[{key:'old',anchor:{x:150,y:150},width:110,priority:100,required:false},{key:'selected',anchor:{x:200,y:150},width:110,priority:400,required:true}],obstacles=input.map(p=>({left:p.anchor.x-12,right:p.anchor.x+12,top:p.anchor.y-12,bottom:p.anchor.y+12})),memory=new Map();
+let r=layoutLabels(input,safe,obstacles,1,memory);assert.ok(r.result.get('selected').rect);assert.equal(r.result.get('old').rect,null);
+const candidate=r.result.get('selected').candidate;for(let i=0;i<3;i++){r=layoutLabels(input,safe,obstacles,1,memory);assert.equal(r.result.get('selected').candidate,candidate);assert.equal(r.result.get('selected').reused,true);}
+const old=r.result.get('selected').rect;r=layoutLabels(input,safe,[...obstacles,old],1,memory);assert.ok(r.result.get('selected').rect);assert.ok(!overlaps(r.result.get('selected').rect,old));
+const edge=layoutLabels([{key:'edge',anchor:{x:495,y:100},width:160,priority:350,required:true}],safe,[],0,new Map());assert.equal(edge.result.get('edge').candidate,1);
+assert.equal(progressiveZoom(2.68,4,7.6,11.5,false),4.5);assert.equal(progressiveZoom(1.83,6,8,11.5,false),null);assert.equal(progressiveZoom(5.73,7,6,11.5,false),null);assert.equal(progressiveZoom(10,11,12,11.5,true),null);assert.equal(progressiveZoom(11.5,12,12,11.5,false),null);
+const list=placeList({x:227,y:458},{left:8,top:80,right:382,bottom:828},248,179,[{left:139,top:427,right:183,bottom:471},{left:205,top:436,right:249,bottom:480},{left:326,top:680,right:370,bottom:820}]);assert.ok(list.bottom<427);
+const dense=JSON.parse(await fs.readFile('docs/evidence/round14/stress40-reader-safe-390.json','utf8'));
+const area=JSON.parse(dense.map.safeArea),blocked=JSON.parse(dense.map.labelObstacles);
+for(const e of dense.entries)blocked.push(e.rect);
+const denseList=placeList({x:196,y:414},{left:area.left,top:area.top,right:area.left+area.width,bottom:area.top+area.height},248,260,blocked);
+assert.ok(!blocked.some(o=>overlaps(denseList,o,4)),'dense phone list clears controls, notice and culture anchors');
+const edgeCapture=JSON.parse(await fs.readFile('docs/evidence/round14/accepted-stress12-edge-left-390.json','utf8'));
+const edgeArea=JSON.parse(edgeCapture.map.safeArea),edgePoint=JSON.parse(edgeCapture.map.annotations).find(a=>a.focused);
+const edgeResult=layoutLabels([{key:edgePoint.key,anchor:edgePoint.anchor,width:214,priority:350,required:true}],{left:edgeArea.left,top:edgeArea.top,right:edgeArea.left+edgeArea.width,bottom:edgeArea.top+edgeArea.height},JSON.parse(edgeCapture.map.labelObstacles),0,new Map());
+assert.ok(edgeResult.result.get(edgePoint.key).rect,'focused edge name remains visible beside other culture glyphs');
+const before=JSON.parse(await fs.readFile('docs/evidence/round14/input-content.json','utf8'));
+const now=await import('data:text/javascript;base64,'+Buffer.from(ts.transpileModule(await fs.readFile('src/data/content.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText).toString('base64'));
+for(const k of ['places','works','relations','placeDetails'])assert.deepEqual(now[k],before[k],k+' frozen');
+await fs.writeFile('docs/evidence/round14/annotation-layout-check.json',JSON.stringify({at:new Date().toISOString(),passed:true,checks:['stable sorted unique membership','overlapping and exact-coordinate targets remain complete','selected priority over budget','three settles reuse previous candidate','blocked candidate changes legally','long edge label chooses left','automatic <=2 levels; otherwise complete list','9/12/12 content exact freeze'],scope:'pure placement and decision contract; runtime evidence separate'},null,2));
+console.log('PASS: true-anchor grouping, candidate memory, priority, edge clearance, progressive decision and all formal content frozen.');

@@ -1,0 +1,32 @@
+[
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'x')\n    at Ge (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:88584)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91650\n    at Array.map (<anonymous>)\n    at Xe.F.current (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91638)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:100391",
+    "timestamp": "2026-10-09T03:54:28.383Z",
+    "url": "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'x')\n    at Ge (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:88584)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91650\n    at Array.map (<anonymous>)\n    at Xe.F.current (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91638)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:97982",
+    "timestamp": "2026-10-09T03:54:28.389Z",
+    "url": "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'x')\n    at Ge (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:88584)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91650\n    at Array.map (<anonymous>)\n    at Xe.F.current (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91638)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:99890",
+    "timestamp": "2026-10-09T03:54:35.283Z",
+    "url": "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'x')\n    at Ge (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:88584)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91650\n    at Array.map (<anonymous>)\n    at Xe.F.current (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91638)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:99890",
+    "timestamp": "2026-10-09T03:54:40.938Z",
+    "url": "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'x')\n    at Ge (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:88584)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91650\n    at Array.map (<anonymous>)\n    at Xe.F.current (http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:91638)\n    at http://127.0.0.1:4173/assets/index-BxbdMEvE.js:9:100107",
+    "timestamp": "2026-10-09T03:54:40.941Z",
+    "url": "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  }
+]

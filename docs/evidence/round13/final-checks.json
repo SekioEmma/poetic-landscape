@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-08T13:56:52.808Z",
+  "commands": [
+    "npm run check:data",
+    "node scripts/check-reading.mjs docs/evidence/round13/reading-layout-check.json",
+    "node scripts/check-design.mjs",
+    "node scripts/check-camera-intent.mjs",
+    "node scripts/check-national.mjs",
+    "npm run build"
+  ],
+  "exitCode": 0,
+  "result": "All passed; build runs tsc -b and Vite. These are developer checks, not independent acceptance.",
+  "additional": [
+    "npm run check:data after docs and C1 status update: passed",
+    "node scripts/check-round13-runtime.mjs: passed",
+    "git -c core.whitespace=cr-at-eol diff --check: passed; default check treats inherited CR line endings as whitespace",
+    "new local document links and synchronized root plan: passed"
+  ]
+}

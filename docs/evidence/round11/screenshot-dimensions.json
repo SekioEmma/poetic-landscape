@@ -1,0 +1,322 @@
+[
+  {
+    "file": "final-1000x750-collapsed.jpg",
+    "width": 1000,
+    "height": 750,
+    "expectedWidth": 1000,
+    "expectedHeight": 750,
+    "passed": true
+  },
+  {
+    "file": "final-1000x750-focused.jpg",
+    "width": 1000,
+    "height": 750,
+    "expectedWidth": 1000,
+    "expectedHeight": 750,
+    "passed": true
+  },
+  {
+    "file": "final-1000x750-national.jpg",
+    "width": 1000,
+    "height": 750,
+    "expectedWidth": 1000,
+    "expectedHeight": 750,
+    "passed": true
+  },
+  {
+    "file": "final-1000x750-reading.jpg",
+    "width": 1000,
+    "height": 750,
+    "expectedWidth": 1000,
+    "expectedHeight": 750,
+    "passed": true
+  },
+  {
+    "file": "final-1000x750-restored.jpg",
+    "width": 1000,
+    "height": 750,
+    "expectedWidth": 1000,
+    "expectedHeight": 750,
+    "passed": true
+  },
+  {
+    "file": "final-1024x768-collapsed.jpg",
+    "width": 1024,
+    "height": 768,
+    "expectedWidth": 1024,
+    "expectedHeight": 768,
+    "passed": true
+  },
+  {
+    "file": "final-1024x768-focused.jpg",
+    "width": 1024,
+    "height": 768,
+    "expectedWidth": 1024,
+    "expectedHeight": 768,
+    "passed": true
+  },
+  {
+    "file": "final-1024x768-national.jpg",
+    "width": 1024,
+    "height": 768,
+    "expectedWidth": 1024,
+    "expectedHeight": 768,
+    "passed": true
+  },
+  {
+    "file": "final-1024x768-reading.jpg",
+    "width": 1024,
+    "height": 768,
+    "expectedWidth": 1024,
+    "expectedHeight": 768,
+    "passed": true
+  },
+  {
+    "file": "final-1024x768-restored.jpg",
+    "width": 1024,
+    "height": 768,
+    "expectedWidth": 1024,
+    "expectedHeight": 768,
+    "passed": true
+  },
+  {
+    "file": "final-1280x720-collapsed.jpg",
+    "width": 1280,
+    "height": 720,
+    "expectedWidth": 1280,
+    "expectedHeight": 720,
+    "passed": true
+  },
+  {
+    "file": "final-1280x720-focused.jpg",
+    "width": 1280,
+    "height": 720,
+    "expectedWidth": 1280,
+    "expectedHeight": 720,
+    "passed": true
+  },
+  {
+    "file": "final-1280x720-national.jpg",
+    "width": 1280,
+    "height": 720,
+    "expectedWidth": 1280,
+    "expectedHeight": 720,
+    "passed": true
+  },
+  {
+    "file": "final-1280x720-reading.jpg",
+    "width": 1280,
+    "height": 720,
+    "expectedWidth": 1280,
+    "expectedHeight": 720,
+    "passed": true
+  },
+  {
+    "file": "final-1280x720-restored.jpg",
+    "width": 1280,
+    "height": 720,
+    "expectedWidth": 1280,
+    "expectedHeight": 720,
+    "passed": true
+  },
+  {
+    "file": "final-1440x900-collapsed.jpg",
+    "width": 1440,
+    "height": 900,
+    "expectedWidth": 1440,
+    "expectedHeight": 900,
+    "passed": true
+  },
+  {
+    "file": "final-1440x900-focused.jpg",
+    "width": 1440,
+    "height": 900,
+    "expectedWidth": 1440,
+    "expectedHeight": 900,
+    "passed": true
+  },
+  {
+    "file": "final-1440x900-national.jpg",
+    "width": 1440,
+    "height": 900,
+    "expectedWidth": 1440,
+    "expectedHeight": 900,
+    "passed": true
+  },
+  {
+    "file": "final-1440x900-reading.jpg",
+    "width": 1440,
+    "height": 900,
+    "expectedWidth": 1440,
+    "expectedHeight": 900,
+    "passed": true
+  },
+  {
+    "file": "final-1440x900-restored.jpg",
+    "width": 1440,
+    "height": 900,
+    "expectedWidth": 1440,
+    "expectedHeight": 900,
+    "passed": true
+  },
+  {
+    "file": "final-360x800-collapsed.jpg",
+    "width": 360,
+    "height": 800,
+    "expectedWidth": 360,
+    "expectedHeight": 800,
+    "passed": true
+  },
+  {
+    "file": "final-360x800-focused.jpg",
+    "width": 360,
+    "height": 800,
+    "expectedWidth": 360,
+    "expectedHeight": 800,
+    "passed": true
+  },
+  {
+    "file": "final-360x800-national.jpg",
+    "width": 360,
+    "height": 800,
+    "expectedWidth": 360,
+    "expectedHeight": 800,
+    "passed": true
+  },
+  {
+    "file": "final-360x800-reading.jpg",
+    "width": 360,
+    "height": 800,
+    "expectedWidth": 360,
+    "expectedHeight": 800,
+    "passed": true
+  },
+  {
+    "file": "final-360x800-restored.jpg",
+    "width": 360,
+    "height": 800,
+    "expectedWidth": 360,
+    "expectedHeight": 800,
+    "passed": true
+  },
+  {
+    "file": "final-390x844-collapsed.jpg",
+    "width": 390,
+    "height": 844,
+    "expectedWidth": 390,
+    "expectedHeight": 844,
+    "passed": true
+  },
+  {
+    "file": "final-390x844-focused.jpg",
+    "width": 390,
+    "height": 844,
+    "expectedWidth": 390,
+    "expectedHeight": 844,
+    "passed": true
+  },
+  {
+    "file": "final-390x844-national.jpg",
+    "width": 390,
+    "height": 844,
+    "expectedWidth": 390,
+    "expectedHeight": 844,
+    "passed": true
+  },
+  {
+    "file": "final-390x844-reading.jpg",
+    "width": 390,
+    "height": 844,
+    "expectedWidth": 390,
+    "expectedHeight": 844,
+    "passed": true
+  },
+  {
+    "file": "final-390x844-restored.jpg",
+    "width": 390,
+    "height": 844,
+    "expectedWidth": 390,
+    "expectedHeight": 844,
+    "passed": true
+  },
+  {
+    "file": "final-768x1024-collapsed.jpg",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "passed": true
+  },
+  {
+    "file": "final-768x1024-focused.jpg",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "passed": true
+  },
+  {
+    "file": "final-768x1024-national.jpg",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "passed": true
+  },
+  {
+    "file": "final-768x1024-reading.jpg",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "passed": true
+  },
+  {
+    "file": "final-768x1024-restored.jpg",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "passed": true
+  },
+  {
+    "file": "final-844x390-collapsed.jpg",
+    "width": 844,
+    "height": 390,
+    "expectedWidth": 844,
+    "expectedHeight": 390,
+    "passed": true
+  },
+  {
+    "file": "final-844x390-focused.jpg",
+    "width": 844,
+    "height": 390,
+    "expectedWidth": 844,
+    "expectedHeight": 390,
+    "passed": true
+  },
+  {
+    "file": "final-844x390-national.jpg",
+    "width": 844,
+    "height": 390,
+    "expectedWidth": 844,
+    "expectedHeight": 390,
+    "passed": true
+  },
+  {
+    "file": "final-844x390-reading.jpg",
+    "width": 844,
+    "height": 390,
+    "expectedWidth": 844,
+    "expectedHeight": 390,
+    "passed": true
+  },
+  {
+    "file": "final-844x390-restored.jpg",
+    "width": 844,
+    "height": 390,
+    "expectedWidth": 844,
+    "expectedHeight": 390,
+    "passed": true
+  }
+]

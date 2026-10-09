@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';import crypto from 'node:crypto';import assert from 'node:assert/strict';
+const base='docs/evidence/round11/',sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const downloads=JSON.parse(await fs.readFile(base+'downloads.json','utf8'));
+const outlineUrl='https://geo.datav.aliyun.com/areas_v3/bound/100000.json';
+const response=await fetch(outlineUrl);assert.ok(response.ok);const bytes=Buffer.from(await response.arrayBuffer());
+assert.equal(sha(bytes),sha(await fs.readFile(base+'geoatlas-100000-outline.json')),'outline changed since acquisition');
+assert.equal(sha(bytes),sha(await fs.readFile('public/geodata/national-outline-geoatlas.json')));
+downloads.records=downloads.records.filter(r=>r.url!==outlineUrl);
+downloads.records.push({url:outlineUrl,file:'geoatlas-100000-outline.json',at:new Date().toISOString(),status:response.status,bytes:bytes.length,sha256:sha(bytes),note:'repeat GET verified archived and runtime bytes; no geometry processing'});
+const full=JSON.parse(await fs.readFile('public/geodata/national-geoatlas.json','utf8')),outline=JSON.parse(bytes);
+const coords=[];function visit(v){if(Array.isArray(v)&&typeof v[0]==='number')coords.push(v);else if(Array.isArray(v))v.forEach(visit);}
+full.features.forEach(f=>visit(f.geometry.coordinates));outline.features.forEach(f=>visit(f.geometry.coordinates));
+const bounds=[[Infinity,Infinity],[-Infinity,-Infinity]];for(const [x,y] of coords){bounds[0][0]=Math.min(bounds[0][0],x);bounds[0][1]=Math.min(bounds[0][1],y);bounds[1][0]=Math.max(bounds[1][0],x);bounds[1][1]=Math.max(bounds[1][1],y);}
+const activeMap={id:'geoatlas-learning-v1',recorded:'2026-10-08',mode:'local learning prototype; true client GeoJSON geometry',provider:'GeoAtlas / 高德',publication:'仅学习交流；正式发布授权尚未落实，未参赛送审，未继承GS(2023)2763号',sourceCRS:'采用DataV官方文档GCJ-02约定；响应没有crs字段，具体文件坐标系确认仍待提供方补证',renderCRS:'GCJ-02 coordinate domain / Web Mercator projection',sourcePlacesCRS:'WGS84, unchanged',adaptation:'WGS84地点与OSM局部所有环、洞、堤及注记一致使用MIT coordtransform近似转换；全国GeoAtlas保持源坐标，不做二次转换',sourceGeometryBounds:bounds,fitBounds:[[73,3],[136,54]],files:[downloads.records[0],downloads.records.at(-1)].map(r=>({...r,runtime:r.file.includes('outline')?'public/geodata/national-outline-geoatlas.json':'public/geodata/national-geoatlas.json'})),features:full.features.length,specialFeature:'100000_JD',outlinePolygons:outline.features[0].geometry.coordinates.length,processing:'完整响应字节复制；没有简化、删环、裁边、删岛或按空名称过滤。设置省面/省界/国界淡设色，文化点独立叠加；无EPS地理配准产物',providerDocuments:['https://help.aliyun.com/zh/datav/datav-7-0/user-guide/datav-geoatlas-widgets/','https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-data-format'],coordinateReferenceLicense:'public/legal/coordtransform-MIT.txt',originalRole:'官方JPG完整对照、EPS独立留存；历史v5a PNG仅故障降级',onlineService:'本轮未配置在线服务、未引用示例Key；替换源文件路径与来源元数据集中于national-config.ts。若换坐标域还需更新渲染适配并重测，不能无条件互换所有服务。'};
+downloads.outline={features:outline.features.length,polygons:activeMap.outlinePolygons,bounds};await fs.writeFile(base+'downloads.json',JSON.stringify(downloads,null,2)+'\n');
+for(const file of ['docs/evidence/basemaps/manifest.json','public/legal/basemap-manifest.json']){const record=JSON.parse(await fs.readFile(file,'utf8'));record.activeMap=activeMap;record.runtime.role='historical official original viewer, not current main map';await fs.writeFile(file,JSON.stringify(record,null,2)+'\n');}
+await fs.writeFile(base+'source-manifest.json',JSON.stringify(activeMap,null,2)+'\n');
+await fs.copyFile('README.md',base+'README.md.before');console.log('Recorded full/outline exact bytes, source conditions, coordinate convention and preserved original metadata.');

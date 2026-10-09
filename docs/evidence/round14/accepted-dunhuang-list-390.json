@@ -1,0 +1,179 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "interfaceReadyMs": "121.3",
+    "readerLayout": "bottom",
+    "readingSpace": "exploring",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin,huanghe,dufu,xihu,hanshan,guazhou,yumen,yangguan,loulan"
+  },
+  "at": "2026-10-09T03:31:07.743Z",
+  "entries": [
+    {
+      "annotationKey": "dufu",
+      "aria": "地图地点：杜甫草堂",
+      "candidate": "1",
+      "count": "1",
+      "labelVisible": "true",
+      "memberIds": "dufu",
+      "nodeSerial": "4",
+      "placeId": "dufu",
+      "rect": {
+        "bottom": 667,
+        "height": 44,
+        "left": 367,
+        "right": 411,
+        "top": 623,
+        "width": 44
+      },
+      "title": {
+        "bottom": 660,
+        "height": 30,
+        "left": 295,
+        "right": 369.96875,
+        "top": 630,
+        "width": 74.96875
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "loulan",
+      "aria": "地图地点：楼兰",
+      "candidate": "1",
+      "count": "1",
+      "labelVisible": "true",
+      "memberIds": "loulan",
+      "nodeSerial": "5",
+      "placeId": "loulan",
+      "rect": {
+        "bottom": 472,
+        "height": 44,
+        "left": 139,
+        "right": 183,
+        "top": 428,
+        "width": 44
+      },
+      "title": {
+        "bottom": 465,
+        "height": 30,
+        "left": 99,
+        "right": 141.48958587646484,
+        "top": 435,
+        "width": 42.48958587646485
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "yangguan|yumen",
+      "aria": "地图分组：敦煌·2处",
+      "candidate": "0",
+      "count": "2",
+      "labelVisible": "true",
+      "memberIds": "yangguan,yumen",
+      "nodeSerial": "6",
+      "placeId": "",
+      "rect": {
+        "bottom": 480,
+        "height": 44,
+        "left": 205,
+        "right": 249,
+        "top": 436,
+        "width": 44
+      },
+      "title": {
+        "bottom": 473,
+        "height": 30,
+        "left": 246,
+        "right": 329.20833587646484,
+        "top": 443,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    }
+  ],
+  "focus": "关闭邻近地点",
+  "list": "敦煌·2处\n关闭\n阳关　1篇\n甘肃 · 敦煌\n玉门关　2篇\n甘肃 · 敦煌",
+  "listRect": {
+    "bottom": 409.7604217529297,
+    "height": 178.9166717529297,
+    "left": 103.32292175292967,
+    "right": 351.3229217529297,
+    "top": 230.84375,
+    "width": 248
+  },
+  "map": {
+    "annotationCamera": "{\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0}",
+    "annotationListOpen": "true",
+    "annotationSourceVersion": "2",
+    "annotations": "[{\"key\":\"dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"4\",\"anchor\":{\"x\":389.32671587787183,\"y\":645.4435517014266},\"visual\":{\"x\":389.32671587787183,\"y\":645.4435517014266},\"offset\":[0,0],\"label\":{\"left\":295.32671587787183,\"top\":630.4435517014266,\"right\":370.32671587787183,\"bottom\":660.4435517014266},\"candidate\":1,\"reused\":true,\"count\":1},{\"key\":\"loulan\",\"ids\":[\"loulan\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"5\",\"anchor\":{\"x\":161.06637908270181,\"y\":449.67595059399923},\"visual\":{\"x\":161.06637908270181,\"y\":449.67595059399923},\"offset\":[0,0],\"label\":{\"left\":99.06637908270181,\"top\":434.67595059399923,\"right\":142.06637908270181,\"bottom\":464.67595059399923},\"candidate\":1,\"reused\":true,\"count\":1},{\"key\":\"yangguan|yumen\",\"ids\":[\"yumen\",\"yangguan\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"6\",\"anchor\":{\"x\":227.32389122325895,\"y\":457.8483689139504},\"visual\":{\"x\":227.32389122325895,\"y\":457.8483689139504},\"offset\":[0,0],\"label\":{\"left\":246.32389122325895,\"top\":442.8483689139504,\"right\":330.32389122325895,\"bottom\":472.8483689139504},\"candidate\":0,\"reused\":true,\"count\":2}]",
+    "camera": "{\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0}",
+    "cameraActive": "false",
+    "cameraBounds": "[[79.83283315344408,19.50901952167561],[104.0705753601311,58.41023869484607]]",
+    "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+    "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+    "cameraTrace": "[{\"t\":377.1999999997206,\"event\":\"moving\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":377.39999999990687,\"event\":\"idle\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":446.6999999997206,\"event\":\"moving\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":447.89999999990687,\"event\":\"idle\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":457.09999999962747,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":458.6999999997206,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":459.5,\"event\":\"fit-national\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":3673.399999999907,\"event\":\"cluster-step\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,31.91481327458054],\"zoom\":2.381807237486754,\"bearing\":0,\"pitch\":0},{\"t\":4609.899999999907,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":4611.5999999996275,\"event\":\"idle\",\"selected\":null,\"intent\":5,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":6827.0999999996275,\"event\":\"cluster-list\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0}]",
+    "clusterDecision": "{\"key\":\"yangguan|yumen\",\"ids\":[\"yumen\",\"yangguan\"],\"current\":3.5,\"expansion\":6,\"fit\":9.732327893806074,\"target\":null,\"margin\":40,\"action\":\"list\",\"sourceVersion\":2,\"request\":6}",
+    "coordinateSystem": "GCJ-02 / Web Mercator",
+    "featureCount": "35",
+    "fixture": "false",
+    "instanceId": "1",
+    "l7Layers": "literary-places",
+    "labelCount": "3",
+    "labelObstacles": "[{\"left\":98.32292175292969,\"right\":356.3229217529297,\"top\":225.84375,\"bottom\":414.7604217529297},{\"left\":321,\"right\":375,\"top\":675,\"bottom\":825},{\"left\":-5,\"right\":395,\"top\":-5,\"bottom\":77},{\"left\":9,\"right\":75,\"top\":93,\"bottom\":125.92708396911621},{\"left\":7,\"right\":162.5729217529297,\"top\":795,\"bottom\":849},{\"left\":377.32671587787183,\"right\":401.32671587787183,\"top\":633.4435517014266,\"bottom\":657.4435517014266},{\"left\":149.06637908270181,\"right\":173.06637908270181,\"top\":437.67595059399923,\"bottom\":461.67595059399923},{\"left\":215.32389122325895,\"right\":239.32389122325895,\"top\":445.8483689139504,\"bottom\":469.8483689139504}]",
+    "level": "regional",
+    "manualCamera": "false",
+    "mapStatus": "ready",
+    "mapView": "national",
+    "readyMs": "463.1",
+    "renderState": "idle",
+    "safeArea": "{\"left\":8,\"top\":80,\"width\":374,\"height\":752}",
+    "selectedPlace": "",
+    "sourceUpdating": "false",
+    "sourceVersion": "2",
+    "testid": "map",
+    "z0": "1.8274561281141133",
+    "zoomLimits": "{\"min\":1.4774561281141132,\"max\":11.5,\"target\":3.5}"
+  },
+  "marks": [],
+  "reader": null,
+  "tools": [
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 724,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 680,
+        "width": 44
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 776,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 732,
+        "width": 44
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 820,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 776,
+        "width": 44
+      }
+    }
+  ],
+  "viewport": [
+    390,
+    844
+  ]
+}

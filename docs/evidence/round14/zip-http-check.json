@@ -1,0 +1,194 @@
+{
+  "at": "2026-10-09T04:09:39.482Z",
+  "origin": "http://127.0.0.1:4191/",
+  "passed": true,
+  "fileCount": 31,
+  "files": [
+    {
+      "path": "assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc",
+      "identical": true
+    },
+    {
+      "path": "assets/china-design-paper-v5a.png",
+      "bytes": 3286169,
+      "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc",
+      "identical": true
+    },
+    {
+      "path": "assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591",
+      "identical": true
+    },
+    {
+      "path": "assets/huxin-snow-r9-v1.png",
+      "bytes": 1723669,
+      "sha256": "b38f25e6e2cfc45e39ba625c47beed148d27d9193562ed76e8188883f4858f41",
+      "identical": true
+    },
+    {
+      "path": "assets/index-Ch9MxVe_.css",
+      "bytes": 152089,
+      "sha256": "585e7c650b48025220905ed8c1316c6cfc7bb0f48acd37f9ad9e110aecd5accc",
+      "identical": true
+    },
+    {
+      "path": "assets/index-DOOfxvyu.js",
+      "bytes": 326761,
+      "sha256": "056adc166c77afdd07f23191c9cb5042d5ac4b95ec159349d0a17c8f56ed9d86",
+      "identical": true
+    },
+    {
+      "path": "assets/lake-painting-v5.png",
+      "bytes": 1781644,
+      "sha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b",
+      "identical": true
+    },
+    {
+      "path": "assets/lake-scene.svg",
+      "bytes": 1708,
+      "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df",
+      "identical": true
+    },
+    {
+      "path": "assets/lake-song.svg",
+      "bytes": 2612,
+      "sha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc",
+      "identical": true
+    },
+    {
+      "path": "assets/LayoutLab-xkYA6vcE.js",
+      "bytes": 6719,
+      "sha256": "85341326559a880dfae33394753b6df0d3f439dbc4c29f9ff6583b9aff756b36",
+      "identical": true
+    },
+    {
+      "path": "assets/MapAdapter-BVO5S8w1.js",
+      "bytes": 2526988,
+      "sha256": "aa5aea2bf0f451883c6d82fa4b36603486d1d3182c36b2ef4ac6aba7a4002d47",
+      "identical": true
+    },
+    {
+      "path": "assets/maplibre-gl-worker-MfjJLauD.js",
+      "bytes": 510701,
+      "sha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a",
+      "identical": true
+    },
+    {
+      "path": "assets/official-china-gs20232763.jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+      "identical": true
+    },
+    {
+      "path": "assets/paper-fibres-v5-bf1_Qo3z.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c",
+      "identical": true
+    },
+    {
+      "path": "assets/paper-fibres-v5.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c",
+      "identical": true
+    },
+    {
+      "path": "assets/paper.svg",
+      "bytes": 691,
+      "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78",
+      "identical": true
+    },
+    {
+      "path": "assets/qiantang-spring-r9-v1.png",
+      "bytes": 2223693,
+      "sha256": "46b4cedfb68bdd3af4d88ed8697d8a8a343b7f1c306a90613ebd144f7d0f744d",
+      "identical": true
+    },
+    {
+      "path": "assets/reading-fibres.svg",
+      "bytes": 405,
+      "sha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220",
+      "identical": true
+    },
+    {
+      "path": "assets/tower-song.svg",
+      "bytes": 2294,
+      "sha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66",
+      "identical": true
+    },
+    {
+      "path": "geodata/causeways.json",
+      "bytes": 6503,
+      "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22",
+      "identical": true
+    },
+    {
+      "path": "geodata/land.json",
+      "bytes": 286071,
+      "sha256": "5b1fca23209497dfae262ac164a30fb6d2c210ac1cb2a5487dbae5750659c930",
+      "identical": true
+    },
+    {
+      "path": "geodata/local-labels.json",
+      "bytes": 366,
+      "sha256": "608545caeedb67610586ee95560efdc0a0cf58175ef699cd322da0f18e8a9023",
+      "identical": true
+    },
+    {
+      "path": "geodata/national-geoatlas.json",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+      "identical": true
+    },
+    {
+      "path": "geodata/national-outline-geoatlas.json",
+      "bytes": 162746,
+      "sha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c",
+      "identical": true
+    },
+    {
+      "path": "geodata/westlake.json",
+      "bytes": 77850,
+      "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 425,
+      "sha256": "af0ff6e3c436eb4892de4410029d8252773017e41f681ca9ce7c3ecdeb40f066",
+      "identical": true
+    },
+    {
+      "path": "legal/basemap-manifest.json",
+      "bytes": 12515,
+      "sha256": "06dc950880cedec9687d8cff60c193a3c8c3a700ed321a11a7cf3f2febf650a6",
+      "identical": true
+    },
+    {
+      "path": "legal/coordtransform-MIT.txt",
+      "bytes": 1083,
+      "sha256": "801448faad6ec70fbd0d1bf384f6b20cdbd332f333898b1b8122ec26cb0b5d79",
+      "identical": true
+    },
+    {
+      "path": "legal/data-licenses.txt",
+      "bytes": 18032,
+      "sha256": "8b190d2b9883553dfcb771038cead1df729f73aebdaa8e9a551d5ead90e509cd",
+      "identical": true
+    },
+    {
+      "path": "legal/dependency-notices.txt",
+      "bytes": 361847,
+      "sha256": "5546d0ebb64036621161d0e3caf4b608077a9307cd743b87fb56ff443c4ad12e",
+      "identical": true
+    },
+    {
+      "path": "legal/panzoom-MIT.txt",
+      "bytes": 1059,
+      "sha256": "db74524b3ab3853bcfc7300dade1f5e0176e59ed3c0cff43848a2c300091a22c",
+      "identical": true
+    }
+  ]
+}

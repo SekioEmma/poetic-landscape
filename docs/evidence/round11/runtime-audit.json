@@ -1,0 +1,244 @@
+{
+  "checkedAt": "2026-10-08T04:18:12.688Z",
+  "bundle": "./assets/index-BDxQ25ie.js",
+  "passed": true,
+  "budget": [
+    {
+      "size": "1440x900",
+      "type": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6777778201633029,
+      "sheet": {
+        "bottom": 888.0000686645508,
+        "height": 794.0000610351562,
+        "left": 1000.0000610351562,
+        "right": 1420.0000915527344,
+        "top": 94.00000762939452,
+        "width": 420.0000305175781,
+        "x": 1000.0000610351562,
+        "y": 94.00000762939452
+      },
+      "originalBody": {
+        "bottom": 888.0000762939453,
+        "height": 698.0000610351562,
+        "left": 1000.0000610351562,
+        "right": 1420.0000915527344,
+        "top": 190.00001525878903,
+        "width": 420.0000305175781,
+        "x": 1000.0000610351562,
+        "y": 190.00001525878903
+      }
+    },
+    {
+      "size": "1280x720",
+      "type": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6656250476837158,
+      "sheet": {
+        "bottom": 708.0000076293945,
+        "height": 614,
+        "left": 876.0000610351562,
+        "right": 1260.0000915527344,
+        "top": 94.00000762939452,
+        "width": 384.0000305175781,
+        "x": 876.0000610351562,
+        "y": 94.00000762939452
+      },
+      "originalBody": {
+        "bottom": 708.0000152587891,
+        "height": 518,
+        "left": 876.0000610351562,
+        "right": 1260.0000915527344,
+        "top": 190.00001525878903,
+        "width": 384.0000305175781,
+        "x": 876.0000610351562,
+        "y": 190.00001525878903
+      }
+    },
+    {
+      "size": "1024x768",
+      "type": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.6070382595062256,
+      "sheet": {
+        "bottom": 756.0000076293945,
+        "height": 662,
+        "left": 645.607177734375,
+        "right": 1004.0000610351562,
+        "top": 94.00000762939452,
+        "width": 358.39288330078125,
+        "x": 645.607177734375,
+        "y": 94.00000762939452
+      },
+      "originalBody": {
+        "bottom": 756.0000152587891,
+        "height": 566,
+        "left": 645.607177734375,
+        "right": 1004.0000610351562,
+        "top": 190.00001525878903,
+        "width": 358.39288330078125,
+        "x": 645.607177734375,
+        "y": 190.00001525878903
+      }
+    },
+    {
+      "size": "1000x750",
+      "type": "side",
+      "defaultSpace": "reading",
+      "mapRatio": 0.606,
+      "sheet": {
+        "bottom": 738.0000076293945,
+        "height": 644,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 94.00000762939452,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 94.00000762939452
+      },
+      "originalBody": {
+        "bottom": 738.0000152587891,
+        "height": 548,
+        "left": 630,
+        "right": 980.000030517578,
+        "top": 190.00001525878903,
+        "width": 350.0000305175781,
+        "x": 630,
+        "y": 190.00001525878903
+      }
+    },
+    {
+      "size": "768x1024",
+      "type": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5069347332302812,
+      "sheet": {
+        "bottom": 1012.000030517578,
+        "height": 440.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 571.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 571.3660888671875
+      },
+      "originalBody": {
+        "bottom": 1012.000030517578,
+        "height": 332.6339416503906,
+        "left": 69,
+        "right": 699,
+        "top": 679.3660888671875,
+        "width": 630,
+        "x": 69,
+        "y": 679.3660888671875
+      }
+    },
+    {
+      "size": "390x844",
+      "type": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5040487735829455,
+      "sheet": {
+        "bottom": 832.0000610351562,
+        "height": 360.9553833007813,
+        "left": 12.142857551574709,
+        "right": 378.1428880691528,
+        "top": 471.044677734375,
+        "width": 366.0000305175781,
+        "x": 12.142857551574709,
+        "y": 471.044677734375
+      },
+      "originalBody": {
+        "bottom": 832.0000457763672,
+        "height": 252.9553680419922,
+        "left": 12.142857551574709,
+        "right": 378.1428880691528,
+        "top": 579.044677734375,
+        "width": 366.0000305175781,
+        "x": 12.142857551574709,
+        "y": 579.044677734375
+      }
+    },
+    {
+      "size": "360x800",
+      "type": "bottom",
+      "defaultSpace": "reading",
+      "mapRatio": 0.5030518871242717,
+      "sheet": {
+        "bottom": 788.0000305175781,
+        "height": 339.83929443359375,
+        "left": 12.000000953674316,
+        "right": 348.0000009536743,
+        "top": 448.1607360839844,
+        "width": 336,
+        "x": 12.000000953674316,
+        "y": 448.1607360839844
+      },
+      "originalBody": {
+        "bottom": 788.0000610351562,
+        "height": 231.83929443359375,
+        "left": 12.000000953674316,
+        "right": 348.0000009536743,
+        "top": 556.1607666015625,
+        "width": 336,
+        "x": 12.000000953674316,
+        "y": 556.1607666015625
+      }
+    },
+    {
+      "size": "844x390",
+      "type": "side",
+      "defaultSpace": "collapsed",
+      "mapRatio": 0.6161137440758294,
+      "sheet": {
+        "bottom": 168.00000762939453,
+        "height": 104.00000762939452,
+        "left": 544,
+        "right": 824,
+        "top": 64,
+        "width": 280,
+        "x": 544,
+        "y": 64
+      },
+      "originalBody": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "originals": [
+    "huxinting-kanxue",
+    "huanghelou",
+    "song-menghaoran",
+    "maowu",
+    "yin-hushang",
+    "qiantang-chunxing",
+    "fengqiao-yebo",
+    "bochuan-guazhou"
+  ],
+  "stressRecords": 24,
+  "rapidSelectionMilliseconds": 125.90000000037253,
+  "userTakeoverMilliseconds": 23.399999999906868,
+  "lifecycle": {
+    "cycles": 20,
+    "createdAfterCycles": 1,
+    "afterRemount": {
+      "created": 2,
+      "destroyed": 1
+    }
+  },
+  "scope": "current-bundle final 40 layouts and 8 originals; earlier same-round unchanged camera/cluster/lifecycle implementation traces retained as identified samples, not independent user acceptance",
+  "unverified": [
+    "physical mobile touch/pinch",
+    "OS reduce dynamic change",
+    "other browser/device",
+    "formal GeoAtlas publication permission",
+    "file-specific provider CRS confirmation"
+  ]
+}

@@ -1,4 +1,6 @@
 import fs from 'node:fs/promises';
+// Historical image fallback validation only. Round 11 primary engine uses
+// check-national.mjs and check-reader-layout-round11.mjs, with new cameras.
 import assert from 'node:assert/strict';
 import ts from 'typescript';
 const compiled=ts.transpileModule(await fs.readFile('src/map/overview-math.ts','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;

@@ -21,10 +21,10 @@ const asset=JSON.parse(await fs.readFile('docs/evidence/round5/assets.json','utf
 for(const f of asset.files){const bytes=await fs.readFile(f.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256);}
 const texture=await fs.readFile('public/assets/paper-fibres-v5.svg','utf8');assert.ok(!/<image|<filter|<animate|<foreignObject/i.test(texture));
 const frozen=JSON.parse(await fs.readFile('docs/evidence/round5/frozen-inputs.json','utf8'));
-for(const f of frozen){assert.ok(!f.path.includes('..'),'invalid frozen input path');const bytes=await fs.readFile(f.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256,'frozen input changed: '+f.path);}
+for(const f of frozen){assert.ok(!f.path.includes('..'),'invalid frozen input path');const bytes=await fs.readFile(f.path);if(f.path==='src/data/content.ts'){await import('./check-c1-preservation.mjs');}else assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256,'frozen input changed: '+f.path);}
 const mapText=ts.transpileModule(await fs.readFile('src/data/basemap.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
 const {basemap,imageAnchors}=await import('data:text/javascript;base64,'+Buffer.from(mapText).toString('base64'));
 const before=JSON.parse(await fs.readFile('docs/evidence/basemaps/manifest-round4.json','utf8'));
 assert.equal(basemap.width,before.width);assert.equal(basemap.height,before.height);
 assert.deepEqual(imageAnchors.map(a=>[a.placeId,a.x,a.y]),before.imageAnchors.map(a=>[a.place,...a.pixel]));
-console.log('PASS: 8 continuous excerpts; two work-specific seasonal paintings / alpha / hashes and explicit focus scales; static local texture; frozen content, dependencies, image anchors, camera mathematics, historical PNG, OSM geometry and photograph.');
+console.log('PASS: source-exact excerpts, two work-specific paintings, texture/content/dependency/OSM/photo hashes. Historical PNG anchors and mathematics retained for fallback only; national engine validation is check-national.mjs and recorded round11 runtime audit.');

@@ -1,0 +1,67 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "readerLayout": "side",
+    "readingSpace": "reading",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin"
+  },
+  "at": "2026-10-08T04:10:21.436Z",
+  "bundle": "./assets/index-BDxQ25ie.js",
+  "canvases": 2,
+  "map": [],
+  "reading": "湖心亭阅读案",
+  "url": "http://127.0.0.1:4191/",
+  "console": [],
+  "nationalReturn": {
+    "created": "1",
+    "map": {
+      "annotations": "[{\"key\":\"selected-huxin\",\"ids\":[\"huxin\"],\"selected\":true,\"anchor\":{\"x\":311,\"y\":416.21745226378573},\"visual\":{\"x\":311,\"y\":416.21745226378573},\"offset\":[0,0],\"label\":{\"left\":330,\"top\":401.21745226378573,\"right\":407,\"bottom\":431.21745226378573},\"leader\":19,\"count\":1}]",
+      "camera": "{\"center\":[126.34058546576188,31.406619248614177],\"zoom\":4.422714650833047,\"bearing\":0,\"pitch\":0}",
+      "cameraBounds": "[[109.94855426765815,20.371607820662575],[142.73261666387157,41.283405257931264]]",
+      "cameraMemory": "{\"exploration\":{\"center\":[104.49999599803925,30.246303346487522],\"zoom\":2.4227146508330475,\"bearing\":0,\"pitch\":0},\"nationalReading\":{\"center\":[126.34058546576188,31.406619248614177],\"zoom\":4.422714650833047,\"bearing\":0,\"pitch\":0},\"local\":{\"center\":[120.16370399236723,30.24796314611592],\"zoom\":12.892028612664369,\"bearing\":0,\"pitch\":0}}",
+      "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+      "coordinateSystem": "GCJ-02 / Web Mercator",
+      "featureCount": "35",
+      "fixture": "false",
+      "instanceId": "1",
+      "l7Layers": "literary-places",
+      "labelCount": "1",
+      "level": "regional",
+      "manualCamera": "false",
+      "mapStatus": "ready",
+      "mapView": "national",
+      "renderState": "idle",
+      "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":606,\"height\":643.9999923706055}",
+      "selectedPlace": "huxin",
+      "testid": "map",
+      "z0": "2.4227146508330475"
+    }
+  },
+  "local": {
+    "created": "1",
+    "map": {
+      "annotations": "[{\"key\":\"selected-huxin\",\"ids\":[\"huxin\"],\"selected\":true,\"anchor\":{\"x\":291.2847096405029,\"y\":396.04791126696267},\"visual\":{\"x\":291.2847096405029,\"y\":396.04791126696267},\"offset\":[0,0],\"label\":{\"left\":310.2847096405029,\"top\":381.04791126696267,\"right\":387.2847096405029,\"bottom\":411.04791126696267},\"leader\":19,\"count\":1}]",
+      "camera": "{\"center\":[120.16370399236723,30.24796314611592],\"zoom\":12.892028612664369,\"bearing\":0,\"pitch\":0}",
+      "cameraBounds": "[[120.1174536207331,30.21799342165201],[120.20995436400057,30.27792373198153]]",
+      "cameraMemory": "{\"exploration\":{\"center\":[104.49999599803925,30.246303346487522],\"zoom\":2.4227146508330475,\"bearing\":0,\"pitch\":0},\"nationalReading\":{\"center\":[126.34058546576188,31.406619248614177],\"zoom\":4.422714650833047,\"bearing\":0,\"pitch\":0},\"local\":{\"center\":[120.16370399236723,30.24796314611592],\"zoom\":12.892028612664369,\"bearing\":0,\"pitch\":0}}",
+      "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+      "coordinateSystem": "GCJ-02 / Web Mercator",
+      "featureCount": "35",
+      "fixture": "false",
+      "instanceId": "1",
+      "l7Layers": "literary-places",
+      "labelCount": "1",
+      "level": "city",
+      "manualCamera": "false",
+      "mapStatus": "ready",
+      "mapView": "local",
+      "renderState": "idle",
+      "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":606,\"height\":643.9999923706055}",
+      "selectedPlace": "huxin",
+      "testid": "map",
+      "z0": "2.4227146508330475"
+    }
+  }
+}

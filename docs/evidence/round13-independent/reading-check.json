@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-10-09T02:44:43.821Z",
+  "works": [
+    {
+      "workId": "huxinting-kanxue",
+      "form": "prose",
+      "paragraphs": 4,
+      "lines": 0,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "huanghelou",
+      "form": "regulated",
+      "paragraphs": 4,
+      "lines": 8,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "song-menghaoran",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "maowu",
+      "form": "song",
+      "paragraphs": 4,
+      "lines": 23,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "yin-hushang",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "qiantang-chunxing",
+      "form": "regulated",
+      "paragraphs": 4,
+      "lines": 8,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "fengqiao-yebo",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "bochuan-guazhou",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "liangzhouci-1",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "guanshanyue",
+      "form": "ancient",
+      "paragraphs": 6,
+      "lines": 12,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "song-yuaner",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    },
+    {
+      "workId": "congjunxing-4",
+      "form": "quatrain",
+      "paragraphs": 2,
+      "lines": 4,
+      "lossless": true,
+      "highlight": true
+    }
+  ]
+}

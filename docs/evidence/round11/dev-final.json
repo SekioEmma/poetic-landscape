@@ -1,0 +1,33 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "readerLayout": "side",
+    "readingSpace": "reading",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin,huanghe,dufu,xihu,hanshan,guazhou"
+  },
+  "created": "1",
+  "map": {
+    "annotations": "[{\"key\":\"selected-huxin\",\"ids\":[\"huxin\"],\"selected\":true,\"anchor\":{\"x\":291.2847096400791,\"y\":396.0479074520535},\"visual\":{\"x\":291.2847096400791,\"y\":396.0479074520535},\"offset\":[0,0],\"label\":{\"left\":310.2847096400791,\"top\":381.0479074520535,\"right\":387.2847096400791,\"bottom\":411.0479074520535},\"leader\":19,\"count\":1}]",
+    "camera": "{\"center\":[120.16370399236729,30.247963145811084],\"zoom\":12.892028612663736,\"bearing\":0,\"pitch\":0}",
+    "cameraBounds": "[[120.1174536207331,30.217993421346733],[120.20995436400062,30.277923731676452]]",
+    "cameraMemory": "{\"exploration\":{\"center\":[104.5,30.229077389080658],\"zoom\":2.421834015704538,\"bearing\":0,\"pitch\":0},\"nationalReading\":{\"center\":[126.34436883382813,31.407319625147636],\"zoom\":4.421834015704539,\"bearing\":0,\"pitch\":0},\"local\":null}",
+    "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+    "coordinateSystem": "GCJ-02 / Web Mercator",
+    "featureCount": "35",
+    "fixture": "false",
+    "instanceId": "1",
+    "l7Layers": "literary-places",
+    "labelCount": "1",
+    "level": "city",
+    "manualCamera": "false",
+    "mapStatus": "ready",
+    "mapView": "local",
+    "renderState": "idle",
+    "safeArea": "{\"left\":8,\"top\":94,\"width\":606,\"height\":644}",
+    "selectedPlace": "huxin",
+    "testid": "map",
+    "z0": "2.421834015704538"
+  }
+}

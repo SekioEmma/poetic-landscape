@@ -1,0 +1,70 @@
+/* Round 8 owns space and motion. Values come from the shared measured protocol. */
+.app{min-height:0;height:100dvh;overflow:clip}
+.app .map-canvas{overflow:hidden}
+.app .map-canvas canvas{display:block}
+.app .site-header{height:86px;padding:16px 28px 10px;align-items:center;background:var(--paper)}
+.app .site-header nav{gap:12px;font-size:14px}
+.app .site-header nav button{min-width:44px;min-height:44px}
+.app .site-header .source-button{display:block}
+.app .official-overview{inset:var(--workspace-top) 20px 12px}
+.app .reading-sheet{position:absolute;display:flex;flex-direction:column;top:var(--workspace-top);bottom:12px;right:20px;left:auto;width:var(--reading-width);height:var(--reading-height);z-index:6;container:reader / inline-size;--reader-gutter:24px;--reader-original:18px;animation:none}
+.app .reading-sheet.expanded{width:var(--focused-width);height:var(--focused-height)}
+.app[data-reader-layout=bottom] .reading-sheet{top:auto;bottom:12px;left:0;right:0;margin-inline:auto}
+.app .reader-content{display:flex;flex-direction:column;flex:1;min-height:0}
+.app .reader-content[hidden]{display:none}
+.app .reading-sheet .reader-fixed{flex-shrink:0}
+.app .reading-sheet .sheet-tools{padding:0 14px}
+.app .reading-sheet .sheet-heading{padding:0 var(--reader-gutter)}
+.app .reading-sheet .sheet-scroll{padding:12px var(--reader-gutter) 24px}
+.app .reading-sheet .place-region{margin-left:auto}
+.app .reading-sheet .original-text{font-size:18px}
+.app .reading-sheet .sheet-scroll>section{margin:0;max-width:34em}
+.app .reading-sheet .poem-inscription{margin-bottom:16px}
+.app .reading-sheet .original-text.prose{max-width:24em}
+.app .reading-sheet.closing{animation:reader-side-exit 220ms ease-in both}
+.app[data-reader-layout=bottom] .reading-sheet.closing{animation-name:reader-bottom-exit}
+.app .reading-sheet.collapsed{width:280px;height:auto;min-height:100px;max-width:calc(100vw - 24px)}
+.app[data-reader-layout=side] .reading-sheet.collapsed{bottom:auto}
+.app[data-reader-layout=bottom] .reading-sheet.collapsed{width:min(100%,630px)}
+.collapsed-inscription{padding:12px 20px 0}
+.collapsed-inscription h2{font:21px/1.4 var(--serif);margin:0 0 4px;letter-spacing:.04em}
+.collapsed-inscription p{font:16px/1.45 var(--serif);margin:0;color:var(--muted);overflow-wrap:anywhere}
+.app .reading-sheet.collapsed .sheet-tools{justify-content:flex-end}
+.app .reading-sheet.collapsed .mobile-expand{margin-left:0}
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .overview-entry,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .overview-anchor,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .annotation-guides,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .overview-controls,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .map-place,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .map-controls,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .map-place-list,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .overview-error,
+.app[data-reader-layout=bottom][data-reading-space=focused]:has(.reading-sheet) .view-caption{visibility:hidden!important}
+.app.has-detail .map-footer{display:none}
+.app .overview-controls{left:0;top:0}
+.app .map-place-list{left:8px;top:55px;bottom:auto;width:min(315px,calc(100% - 16px));overflow:auto;overscroll-behavior:contain}
+.app .local-view .map-controls,.app.local-view .map-controls{left:20px;top:calc(var(--workspace-top) + 4px);right:auto;bottom:auto;flex-direction:row;border:0}
+.app.local-view .map-controls .locate-local{font-size:14px;width:auto}
+.app.local-view .view-caption{left:20px;top:calc(var(--workspace-top) + 54px);max-width:calc(100vw - 40px)}
+.app.local-view .view-caption small{display:none}
+.app .has-detail .overview-error,.app.has-detail .overview-error{top:55px;transform:translateX(-50%);padding:10px 14px;width:min(350px,calc(100% - 24px));font-size:14px}
+.app.has-detail .overview-error p{font-size:14px;line-height:1.5;margin:6px 0}
+.app.has-detail .overview-error button{font-size:14px;min-height:44px;padding:6px 8px}
+.app.has-detail .map-failure{left:20px;top:calc(var(--workspace-top) + 50px);transform:none;width:min(350px,calc(100vw - 40px));padding:10px 14px;font-size:14px}
+.app.has-detail .map-failure p{font-size:14px;line-height:1.5;margin:6px 0}
+.app .directory{top:var(--workspace-top);max-height:calc(100dvh - var(--workspace-top) - 12px)}
+.app[data-directory-modal=true] .directory{left:12px;right:12px;width:calc(100% - 24px);padding:12px 18px}
+.app .poem-choices{max-height:calc(var(--reading-height) - 118px);overflow:auto;overscroll-behavior:contain}
+.app:has(.reading-sheet.expanded) .poem-choices{max-height:calc(var(--focused-height) - 118px)}
+@container reader (max-width:360px){.reading-sheet .place-region{display:none}.reading-sheet .place-heading{gap:6px}.reading-sheet .sheet-heading{padding:0 20px}.reading-sheet .sheet-scroll{padding-left:20px;padding-right:20px}.reading-sheet .poem-inscription h3{font-size:23px}}
+@media(max-width:599px){.app .site-header{height:72px;padding:8px 16px}.app .brand{font-size:24px;gap:8px}.app .brand small{font-size:10px;letter-spacing:.12em;margin-top:4px}.app .site-header nav{gap:4px}.app .site-header nav button{padding:6px 4px}.app .site-header nav small{display:none}.app .official-overview{left:10px;right:10px}.app .reading-sheet{--reader-gutter:22px}.app[data-reader-layout=bottom] .reading-sheet{bottom:12px;width:100%}.app[data-reader-layout=bottom] .reading-sheet.expanded{width:100%}.app[data-reader-layout=bottom] .reading-sheet.collapsed{width:100%}.app .overview-controls button{font-size:14px}.app .reading-sheet .place-region{display:none}}
+@media(max-height:480px){.app .site-header{height:56px;padding:6px 20px}.app .brand{font-size:24px}.app .brand small{display:none}.app .seal{font-size:10px;line-height:1.3}.app .directory{padding:8px 14px}.app .directory-note{display:none}.app .theme-filters{margin:4px 0}.app .directory-heading button{min-height:44px}.app .search-label{display:none}.app .search-field input{padding:4px 0}}
+/* CSS entrance compositing left residual opacity/offset in the in-app browser.
+   Keep canonical geometry and opaque text; explicit bottom space changes use WA. */
+@keyframes reader-side-exit{to{opacity:0;transform:translateX(18px)}}
+@keyframes reader-bottom-exit{to{opacity:0;transform:translateY(18px)}}
+@media(prefers-reduced-motion:reduce){.app .reading-sheet{animation:none!important}}
+
+.app .reading-sheet .sheet-heading[hidden],.app .reading-sheet .sheet-scroll[hidden]{display:none}
+
+.app .poem-choices{width:min(370px,calc(100cqw - 40px))}

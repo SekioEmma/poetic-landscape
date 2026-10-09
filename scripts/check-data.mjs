@@ -7,22 +7,24 @@ const compiled=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarge
 const {places,works,relations,placeDetails,photo}=await import('data:text/javascript;base64,'+Buffer.from(compiled).toString('base64'));
 const explorationCompiled=ts.transpileModule(await fs.readFile('src/data/exploration.ts','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
 const {explore,preferredWork,themes}=await import('data:text/javascript;base64,'+Buffer.from(explorationCompiled).toString('base64'));
-const scope=JSON.parse(await fs.readFile('docs/evidence/round2/scope.json','utf8'));
+const scope=JSON.parse(await fs.readFile('docs/planning/c1-runtime-scope.json','utf8'));
 const unique=(rows,label)=>assert.equal(new Set(rows.map(r=>r.id)).size,rows.length,label+' duplicate id');
 for(const [rows,label] of [[places,'places'],[works,'works'],[relations,'relations']])unique(rows,label);
-assert.deepEqual(places.map(p=>p.id).sort(),scope.places.map(p=>p.id).sort(),'round 2 scope');
-assert.deepEqual(works.map(w=>w.id).sort(),scope.places.flatMap(p=>p.works).sort(),'all 8 expected works');
+assert.deepEqual(places.map(p=>p.id).sort(),scope.places.map(p=>p.id).sort(),'C1 runtime scope');
+assert.deepEqual(works.map(w=>w.id).sort(),scope.places.flatMap(p=>p.works).sort(),'all 12 expected works');
 for(const p of places){assert.equal(p.coordinates.length,2);assert.ok(p.coordinates.every(Number.isFinite));assert.ok(p.coordinates[0]>=-180&&p.coordinates[0]<=180&&p.coordinates[1]>=-90&&p.coordinates[1]<=90);assert.equal(p.coordinateSystem,'WGS84');assert.ok(p.coordinateSource.startsWith('https://'));assert.ok(p.precision&&p.aliases.length&&p.themes.length);assert.ok(p.themes.every(t=>themes.includes(t)));const detail=placeDetails.filter(d=>d.placeId===p.id);assert.equal(detail.length,1);assert.ok(detail[0].intro&&detail[0].history.join('').length>=100);assert.ok(detail[0].historySources.every(s=>s.title&&s.url.startsWith('https://')));assert.ok(relations.some(r=>r.placeId===p.id));}
 for(const w of works){assert.ok(w.title&&w.author&&w.era&&w.sourceTitle&&w.source.startsWith('https://')&&w.interpretation.length>=80&&w.variant);unique(w.paragraphs,'paragraphs '+w.id);assert.ok(w.paragraphs.length&&w.paragraphs.every(p=>p.id&&p.text));assert.ok(relations.some(r=>r.workId===w.id));}
 assert.equal(new Set(relations.map(r=>r.placeId+'/'+r.workId)).size,relations.length);
 for(const r of relations){assert.ok(places.some(p=>p.id===r.placeId));const w=works.find(w=>w.id===r.workId);assert.ok(w);const paragraph=w.paragraphs.find(p=>p.id===r.highlight.paragraphId);assert.ok(paragraph?.text.includes(r.highlight.text),'exact highlight '+r.id);assert.ok(r.highlight.text);assert.ok(scope.places.find(p=>p.id===r.placeId).works.includes(r.workId));}
 const search=(q,t='全部')=>explore(places,works,relations,q,t);
+for(const [q,id,workId] of [['玉门关','yumen','liangzhouci-1'],['阳关','yangguan','song-yuaner'],['楼兰','loulan','congjunxing-4'],['王之涣','yumen','liangzhouci-1'],['王维','yangguan','song-yuaner'],['凉州词','yumen','liangzhouci-1'],['关山月','yumen','guanshanyue'],['渭城曲','yangguan','song-yuaner'],['从军行','loulan','congjunxing-4']]){const rows=search(q),row=rows.find(r=>r.place.id===id);assert.ok(row,q+' expected place');assert.equal(preferredWork(row,relations),workId,q+' opens expected poem');}
+assert.deepEqual(search('李白').map(r=>[r.place.id,preferredWork(r,relations)]),[['huanghe','song-menghaoran'],['yumen','guanshanyue']]);
 assert.deepEqual(search('杭州').map(r=>r.place.id).sort(),['huxin','xihu']);
 assert.equal(preferredWork(search('苏轼')[0],relations),'yin-hushang');
 assert.equal(preferredWork(search('李白')[0],relations),'song-menghaoran');
 assert.equal(preferredWork(search('白居易')[0],relations),'qiantang-chunxing');
 assert.equal(search('茅屋')[0].place.id,'dufu');assert.equal(search('枫桥')[0].place.id,'hanshan');assert.equal(search('钱塘')[0].place.id,'xihu');
-assert.equal(search('无此地点').length,0);assert.equal(search('').length,places.length);assert.equal(search('苏轼','楼台与城郭').length,0);assert.equal(search('杭州','江湖与行旅').length,2);assert.equal(search('  苏轼  ')[0].place.id,'xihu');assert.equal(search('','关山与家国').length,0);
+assert.equal(search('无此地点').length,0);assert.equal(search('').length,places.length);assert.equal(search('苏轼','楼台与城郭').length,0);assert.equal(search('杭州','江湖与行旅').length,2);assert.equal(search('  苏轼  ')[0].place.id,'xihu');assert.deepEqual(search('','关山与家国').map(r=>r.place.id).sort(),['loulan','yangguan','yumen']);
 assert.equal(photo.license,'CC BY-SA 4.0');assert.ok(photo.author&&photo.date&&photo.source&&photo.licenseUrl);
 assert.equal(photo.width,4032);assert.equal(photo.height,2418);
 for(const [placeId,file,osmId] of [['hanshan','hanshan-osm-search.json',741882129],['guazhou','guazhou-town-osm-search.json',14306193]]){
@@ -50,6 +52,10 @@ const officialBytes=await fs.readFile('public/'+basemap.file);assert.equal(crypt
 const derivative=JSON.parse(await fs.readFile('docs/evidence/round5/derivative.json','utf8'));const design=await fs.readFile('public/'+basemap.designFile);assert.equal(crypto.createHash('sha256').update(design).digest('hex'),basemap.designSha256);assert.equal(derivative.output.sha256,basemap.designSha256);assert.equal(design.readUInt32BE(16),basemap.width);assert.equal(design.readUInt32BE(20),basemap.height);assert.deepEqual(derivative.transform,{xScale:1,yScale:1,xOffset:0,yOffset:0,oldWidth:5826,oldHeight:7249});
 const manifest=JSON.parse(await fs.readFile('docs/evidence/basemaps/manifest.json','utf8'));assert.equal(manifest.runtime.sha256,basemap.sha256);assert.equal(manifest.files.find(f=>f.name.endsWith('.jpg')).sha256,basemap.sha256);
 for(const f of manifest.files){const bytes=await fs.readFile(f.path);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),f.sha256);assert.equal(bytes.length,f.bytes);}
-assert.equal(imageAnchors.length,places.length);assert.equal(new Set(imageAnchors.map(a=>a.placeId)).size,places.length);
+assert.equal(imageAnchors.length,6);assert.equal(new Set(imageAnchors.map(a=>a.placeId)).size,6);
 for(const a of imageAnchors){assert.ok(places.some(p=>p.id===a.placeId));assert.ok(a.x>0&&a.x<basemap.width&&a.y>0&&a.y<basemap.height);assert.ok(manifest.imageAnchors.some(m=>m.place===a.placeId&&m.pixel[0]===a.x&&m.pixel[1]===a.y));}
-console.log(`PASS: ${places.length} places, ${works.length} works, ${relations.length} exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + ${imageAnchors.length} image anchors; UTF-8.`);
+console.log(`PASS: ${places.length} places, ${works.length} works, ${relations.length} exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + ${imageAnchors.length} historical fallback image anchors; UTF-8.`);
+// Round 11 migrates primary geography; old image anchors remain checked solely
+// for the preserved fallback. Genuine geographic validation is additional.
+await import('./check-c1-preservation.mjs');
+await import('./check-national.mjs');

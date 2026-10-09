@@ -34,7 +34,8 @@
     "path": "public/assets/official-china-gs20232763.jpg",
     "bytes": 6827440,
     "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
-    "processing": "字节一致复制，未重编码、裁切、改色、重投影、切片；浏览器等比例显示"
+    "processing": "字节一致复制，未重编码、裁切、改色、重投影、切片；浏览器等比例显示",
+    "role": "historical official original viewer, not current main map"
   },
   "imageAnchors": [
     {
@@ -283,5 +284,68 @@
     "changed": "All source colours mapped into paper/green-ink range; annotation, imprint and borders undergo same mapping.",
     "unchanged": "All 5826x7249 pixels retained at their original locations; no crop, blur, morphology, erasure, alpha transparency or invented geography.",
     "limitation": "No semantic separation; existing city annotations remain dense on zoom. EPS vector route and scale-dependent city labels remain unimplemented."
+  },
+  "activeMap": {
+    "id": "geoatlas-learning-v1",
+    "recorded": "2026-10-08",
+    "mode": "local learning prototype; true client GeoJSON geometry",
+    "provider": "GeoAtlas / 高德",
+    "publication": "仅学习交流；正式发布授权尚未落实，未参赛送审，未继承GS(2023)2763号",
+    "sourceCRS": "采用DataV官方文档GCJ-02约定；响应没有crs字段，具体文件坐标系确认仍待提供方补证",
+    "renderCRS": "GCJ-02 coordinate domain / Web Mercator projection",
+    "sourcePlacesCRS": "WGS84, unchanged",
+    "adaptation": "WGS84地点与OSM局部所有环、洞、堤及注记一致使用MIT coordtransform近似转换；全国GeoAtlas保持源坐标，不做二次转换",
+    "sourceGeometryBounds": [
+      [
+        73.502355,
+        3.39716187
+      ],
+      [
+        135.09567,
+        53.563269
+      ]
+    ],
+    "fitBounds": [
+      [
+        73,
+        3
+      ],
+      [
+        136,
+        54
+      ]
+    ],
+    "files": [
+      {
+        "url": "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json",
+        "file": "geoatlas-100000-full.json",
+        "at": "2026-10-08T02:35:22.078Z",
+        "status": 200,
+        "bytes": 582522,
+        "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+        "runtime": "public/geodata/national-geoatlas.json"
+      },
+      {
+        "url": "https://geo.datav.aliyun.com/areas_v3/bound/100000.json",
+        "file": "geoatlas-100000-outline.json",
+        "at": "2026-10-08T03:12:06.978Z",
+        "status": 200,
+        "bytes": 162746,
+        "sha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c",
+        "note": "repeat GET verified archived and runtime bytes; no geometry processing",
+        "runtime": "public/geodata/national-outline-geoatlas.json"
+      }
+    ],
+    "features": 35,
+    "specialFeature": "100000_JD",
+    "outlinePolygons": 277,
+    "processing": "完整响应字节复制；没有简化、删环、裁边、删岛或按空名称过滤。设置省面/省界/国界淡设色，文化点独立叠加；无EPS地理配准产物",
+    "providerDocuments": [
+      "https://help.aliyun.com/zh/datav/datav-7-0/user-guide/datav-geoatlas-widgets/",
+      "https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-data-format"
+    ],
+    "coordinateReferenceLicense": "public/legal/coordtransform-MIT.txt",
+    "originalRole": "官方JPG完整对照、EPS独立留存；历史v5a PNG仅故障降级",
+    "onlineService": "本轮未配置在线服务、未引用示例Key；替换源文件路径与来源元数据集中于national-config.ts。若换坐标域还需更新渲染适配并重测，不能无条件互换所有服务。"
   }
 }

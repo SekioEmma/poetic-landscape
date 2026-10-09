@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "status": "C1-runtime-local-delivered",
+  "updatedAt": "2026-10-08",
+  "counts": {
+    "places": 9,
+    "works": 12,
+    "relations": 12
+  },
+  "finalTarget": "release-scope-v1.json remains 12/16/17, two stories planned",
+  "places": [
+    {
+      "id": "huxin",
+      "works": [
+        "huxinting-kanxue"
+      ]
+    },
+    {
+      "id": "huanghe",
+      "works": [
+        "huanghelou",
+        "song-menghaoran"
+      ]
+    },
+    {
+      "id": "dufu",
+      "works": [
+        "maowu"
+      ]
+    },
+    {
+      "id": "xihu",
+      "works": [
+        "yin-hushang",
+        "qiantang-chunxing"
+      ]
+    },
+    {
+      "id": "hanshan",
+      "works": [
+        "fengqiao-yebo"
+      ]
+    },
+    {
+      "id": "guazhou",
+      "works": [
+        "bochuan-guazhou"
+      ]
+    },
+    {
+      "id": "yumen",
+      "works": [
+        "liangzhouci-1",
+        "guanshanyue"
+      ]
+    },
+    {
+      "id": "yangguan",
+      "works": [
+        "song-yuaner"
+      ]
+    },
+    {
+      "id": "loulan",
+      "works": [
+        "congjunxing-4"
+      ]
+    }
+  ],
+  "acceptance": {
+    "developer": "C01-C12 local observations audited",
+    "independent": "not yet performed",
+    "publication": "not deployed or pushed"
+  }
+}

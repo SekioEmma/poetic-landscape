@@ -1,0 +1,964 @@
+{
+  "date": "2026-10-08",
+  "method": "native browser scroll and drag; rendered DOM diagnostics",
+  "samples": [
+    {
+      "label": "initial",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"visual\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"offset\":[0,0],\"label\":{\"left\":863.2415131475229,\"top\":338.3056800688278,\"right\":946.2415131475229,\"bottom\":368.3056800688278},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"visual\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"offset\":[0,0],\"label\":{\"left\":627.1366619750297,\"top\":340.4761355707545,\"right\":719.1366619750297,\"bottom\":370.4761355707545},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[0.5392095406492956,-18.538229819652216],[179.99999999990087,63.14823045233675]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 375.00000381469727,
+            "height": 44.000003814697266,
+            "left": 822.0000610351562,
+            "right": 866.0000648498535,
+            "top": 331,
+            "width": 44.000003814697266,
+            "x": 822.0000610351562,
+            "y": 331
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 377.00000381469727,
+            "height": 44.000003814697266,
+            "left": 716.0000610351562,
+            "right": 760.0000648498535,
+            "top": 333,
+            "width": 44.000003814697266,
+            "x": 716.0000610351562,
+            "y": 333
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "plus-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":928.8411178928312,\"y\":350.5328019624755},\"visual\":{\"x\":928.8411178928312,\"y\":350.5328019624755},\"offset\":[0,0],\"label\":{\"left\":947.8411178928312,\"top\":335.5328019624755,\"right\":1030.8411178928313,\"bottom\":365.5328019624755},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":778.7861983311121,\"y\":353.6022895698274},\"visual\":{\"x\":778.7861983311121,\"y\":353.6022895698274},\"offset\":[0,0],\"label\":{\"left\":797.7861983311121,\"top\":338.6022895698274,\"right\":889.7861983311121,\"bottom\":368.6022895698274},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477027512,30.112529313002568],\"zoom\":2.8262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[26.820633824856486,-4.083649168371821],[153.7185757156917,55.65996726533447]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 373.00000381469727,
+            "height": 44.000003814697266,
+            "left": 907.0000610351562,
+            "right": 951.0000648498536,
+            "top": 329,
+            "width": 44.000003814697266,
+            "x": 907.0000610351562,
+            "y": 329
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 376.00000381469727,
+            "height": 44.000003814697266,
+            "left": 757.0000610351562,
+            "right": 801.0000648498535,
+            "top": 332,
+            "width": 44.000003814697266,
+            "x": 757.0000610351562,
+            "y": 332
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "wheel-up-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-48\",\"ids\":[\"huxin\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":1066.9606484629344,\"y\":415.44625517884094},\"visual\":{\"x\":1066.9606484629344,\"y\":415.44625517884094},\"offset\":[0,0],\"label\":{\"left\":1085.9606484629344,\"top\":400.44625517884094,\"right\":1168.9606484629344,\"bottom\":430.44625517884094},\"leader\":19,\"count\":4},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":797.901293746488,\"y\":422.3980378901034},\"visual\":{\"x\":797.901293746488,\"y\":422.3980378901034},\"offset\":[0,0],\"label\":{\"left\":816.901293746488,\"top\":407.3980378901034,\"right\":908.901293746488,\"bottom\":437.3980378901034},\"leader\":19,\"count\":1},{\"key\":\"p-huanghe\",\"ids\":[\"huanghe\"],\"selected\":false,\"anchor\":{\"x\":970.3431718217321,\"y\":424.64376414391705},\"visual\":{\"x\":970.3431718217321,\"y\":424.64376414391705},\"offset\":[0,0],\"label\":{\"left\":933.3431718217321,\"top\":372.64376414391705,\"right\":1007.3431718217321,\"bottom\":402.64376414391705},\"leader\":37,\"count\":1}]",
+        "camera": "{\"center\":[94.62138065227327,33.80359648550096],\"zoom\":3.560943681263079,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[56.49183302030113,14.354283532893973],[132.75092828424528,49.674102404225124]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "3",
+        "level": "regional",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 444.0000343322754,
+            "height": 44.000003814697266,
+            "left": 776.0000610351562,
+            "right": 820.0000648498535,
+            "top": 400.0000305175781,
+            "width": 44.000003814697266,
+            "x": 776.0000610351562,
+            "y": 400.0000305175781
+          }
+        },
+        {
+          "label": "地图分组：4处地点",
+          "rect": {
+            "bottom": 437.0000343322754,
+            "height": 44.000003814697266,
+            "left": 1045,
+            "right": 1089.0000038146973,
+            "top": 393.0000305175781,
+            "width": 44.000003814697266,
+            "x": 1045,
+            "y": 393.0000305175781
+          }
+        },
+        {
+          "label": "地图地点：黄鹤楼",
+          "rect": {
+            "bottom": 447.0000343322754,
+            "height": 44.000003814697266,
+            "left": 948.0000610351562,
+            "right": 992.0000648498536,
+            "top": 403.0000305175781,
+            "width": 44.000003814697266,
+            "x": 948.0000610351562,
+            "y": 403.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "wheel-down-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":928.8411178924691,\"y\":350.5328019624884},\"visual\":{\"x\":928.8411178924691,\"y\":350.5328019624884},\"offset\":[0,0],\"label\":{\"left\":947.8411178924691,\"top\":335.5328019624884,\"right\":1030.8411178924691,\"bottom\":365.5328019624884},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":778.7861983307499,\"y\":353.6022895698403},\"visual\":{\"x\":778.7861983307499,\"y\":353.6022895698403},\"offset\":[0,0],\"label\":{\"left\":797.7861983307499,\"top\":338.6022895698403,\"right\":889.7861983307499,\"bottom\":368.6022895698403},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477031093,30.112529313003662],\"zoom\":2.826256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[26.820633824893264,-4.083649168371011],[153.71857571572843,55.659967265334956]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 376.00000381469727,
+            "height": 44.000003814697266,
+            "left": 757.0000610351562,
+            "right": 801.0000648498535,
+            "top": 332,
+            "width": 44.000003814697266,
+            "x": 757.0000610351562,
+            "y": 332
+          }
+        },
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 373.00000381469727,
+            "height": 44.000003814697266,
+            "left": 907.0000610351562,
+            "right": 951.0000648498536,
+            "top": 329,
+            "width": 44.000003814697266,
+            "x": 907.0000610351562,
+            "y": 329
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "drag-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":957.8411178924631,\"y\":359.5328011995315},\"visual\":{\"x\":957.8411178924631,\"y\":359.5328011995315},\"offset\":[0,0],\"label\":{\"left\":976.8411178924631,\"top\":344.5328011995315,\"right\":1059.841117892463,\"bottom\":374.5328011995315},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":807.7861983307439,\"y\":362.6022888068834},\"visual\":{\"x\":807.7861983307439,\"y\":362.6022888068834},\"offset\":[0,0],\"label\":{\"left\":826.7861983307439,\"top\":347.6022888068834,\"right\":918.7861983307439,\"bottom\":377.6022888068834},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[87.39457327434741,30.881333344244325],\"zoom\":2.826256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[23.945602328932893,-3.193205552795604],[150.84354421976673,56.16006035657725]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 385.00000381469727,
+            "height": 44.000003814697266,
+            "left": 786.0000610351562,
+            "right": 830.0000648498535,
+            "top": 341,
+            "width": 44.000003814697266,
+            "x": 786.0000610351562,
+            "y": 341
+          }
+        },
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 382.00000381469727,
+            "height": 44.000003814697266,
+            "left": 936.0000610351562,
+            "right": 980.0000648498536,
+            "top": 338,
+            "width": 44.000003814697266,
+            "x": 936.0000610351562,
+            "y": 338
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "four-wheel-up-burst-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":957.8411178924631,\"y\":359.5328011995315},\"visual\":{\"x\":957.8411178924631,\"y\":359.5328011995315},\"offset\":[0,0],\"label\":{\"left\":976.8411178924631,\"top\":344.5328011995315,\"right\":1059.841117892463,\"bottom\":374.5328011995315},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":807.7861983307439,\"y\":362.6022888068834},\"visual\":{\"x\":807.7861983307439,\"y\":362.6022888068834},\"offset\":[0,0],\"label\":{\"left\":826.7861983307439,\"top\":347.6022888068834,\"right\":918.7861983307439,\"bottom\":377.6022888068834},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[87.39457327434741,30.881333344244325],\"zoom\":2.826256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[23.945602328932893,-3.193205552795604],[150.84354421976673,56.16006035657725]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 385.00000381469727,
+            "height": 44.000003814697266,
+            "left": 786.0000610351562,
+            "right": 830.0000648498535,
+            "top": 341,
+            "width": 44.000003814697266,
+            "x": 786.0000610351562,
+            "y": 341
+          }
+        },
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 382.00000381469727,
+            "height": 44.000003814697266,
+            "left": 936.0000610351562,
+            "right": 980.0000648498536,
+            "top": 338,
+            "width": 44.000003814697266,
+            "x": 936.0000610351562,
+            "y": 338
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "national-reset-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":844.241513147523,\"y\":353.30568006882805},\"visual\":{\"x\":844.241513147523,\"y\":353.30568006882805},\"offset\":[0,0],\"label\":{\"left\":863.241513147523,\"top\":338.30568006882805,\"right\":946.241513147523,\"bottom\":368.30568006882805},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":738.1366619750295,\"y\":355.4761355707547},\"visual\":{\"x\":738.1366619750295,\"y\":355.4761355707547},\"offset\":[0,0],\"label\":{\"left\":627.1366619750295,\"top\":340.4761355707547,\"right\":719.1366619750295,\"bottom\":370.4761355707547},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.326256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[0.5392095406513988,-18.538229819653154],[179.99999999990297,63.148230452336264]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.326256330592422"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 377.00000381469727,
+            "height": 44.000003814697266,
+            "left": 716.0000610351562,
+            "right": 760.0000648498535,
+            "top": 333,
+            "width": 44.000003814697266,
+            "x": 716.0000610351562,
+            "y": 333
+          }
+        },
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 375.00000381469727,
+            "height": 44.000003814697266,
+            "left": 822.0000610351562,
+            "right": 866.0000648498535,
+            "top": 331,
+            "width": 44.000003814697266,
+            "x": 822.0000610351562,
+            "y": 331
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "dufu-reading-settled",
+      "map": {
+        "annotations": "[{\"key\":\"selected-dufu\",\"ids\":[\"dufu\"],\"selected\":true,\"anchor\":{\"x\":434.0000305175816,\"y\":401.2076549984549},\"visual\":{\"x\":434.0000305175816,\"y\":401.2076549984549},\"offset\":[0,0],\"label\":{\"left\":453.0000305175816,\"top\":386.2076549984549,\"right\":549.0000305175815,\"bottom\":416.2076549984549},\"leader\":19,\"count\":1},{\"key\":\"c-114\",\"ids\":[\"huxin\",\"xihu\"],\"selected\":false,\"anchor\":{\"x\":893.7596757345798,\"y\":414.93671722739884},\"visual\":{\"x\":893.7596757345798,\"y\":414.93671722739884},\"offset\":[0,0],\"label\":null,\"leader\":0,\"count\":2},{\"key\":\"c-15\",\"ids\":[\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":889.0580916289879,\"y\":363.76781021155057},\"visual\":{\"x\":889.0580916289879,\"y\":363.76781021155057},\"offset\":[0,0],\"label\":null,\"leader\":0,\"count\":2},{\"key\":\"p-huanghe\",\"ids\":[\"huanghe\"],\"selected\":false,\"anchor\":{\"x\":727.1060972852839,\"y\":405.0248019504559},\"visual\":{\"x\":727.1060972852839,\"y\":405.0248019504559},\"offset\":[0,0],\"label\":{\"left\":746.1060972852839,\"top\":390.0248019504559,\"right\":820.1060972852839,\"bottom\":420.0248019504559},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[111.24922373163855,31.894077279810745],\"zoom\":4.326256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[88.81662492422959,20.604217269293287],[133.68182253904132,41.95393396680157]]",
+        "cameraMemory": "{\"exploration\":{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.326256330592422,\"bearing\":0,\"pitch\":0},\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "regional",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":852.0000610351562,\"height\":613.9999923706055}",
+        "selectedPlace": "dufu",
+        "testid": "map",
+        "z0": "2.326256330592422"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 423.0000343322754,
+            "height": 44.000003814697266,
+            "left": 412.0000305175781,
+            "right": 456.0000343322754,
+            "top": 379.0000305175781,
+            "width": 44.000003814697266,
+            "x": 412.0000305175781,
+            "y": 379.0000305175781
+          }
+        },
+        {
+          "label": "地图地点：黄鹤楼",
+          "rect": {
+            "bottom": 427.0000343322754,
+            "height": 44.000003814697266,
+            "left": 705.0000610351562,
+            "right": 749.0000648498535,
+            "top": 383.0000305175781,
+            "width": 44.000003814697266,
+            "x": 705.0000610351562,
+            "y": 383.0000305175781
+          }
+        },
+        {
+          "label": "地图分组：杭州·2处",
+          "rect": {
+            "bottom": 437.0000343322754,
+            "height": 44.000003814697266,
+            "left": 872.0000610351562,
+            "right": 916.0000648498536,
+            "top": 393.0000305175781,
+            "width": 44.000003814697266,
+            "x": 872.0000610351562,
+            "y": 393.0000305175781
+          }
+        },
+        {
+          "label": "地图分组：江苏·2处",
+          "rect": {
+            "bottom": 386.0000343322754,
+            "height": 44.000003814697266,
+            "left": 867.0000610351562,
+            "right": 911.0000648498536,
+            "top": 342.0000305175781,
+            "width": 44.000003814697266,
+            "x": 867.0000610351562,
+            "y": 342.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "reading-four-wheel-up-settled",
+      "map": {
+        "annotations": "[{\"key\":\"selected-dufu\",\"ids\":[\"dufu\"],\"selected\":true,\"anchor\":{\"x\":434.0000305175816,\"y\":401.2076549984549},\"visual\":{\"x\":434.0000305175816,\"y\":401.2076549984549},\"offset\":[0,0],\"label\":{\"left\":453.0000305175816,\"top\":386.2076549984549,\"right\":549.0000305175815,\"bottom\":416.2076549984549},\"leader\":19,\"count\":1},{\"key\":\"c-114\",\"ids\":[\"huxin\",\"xihu\"],\"selected\":false,\"anchor\":{\"x\":893.7596757345798,\"y\":414.93671722739884},\"visual\":{\"x\":893.7596757345798,\"y\":414.93671722739884},\"offset\":[0,0],\"label\":null,\"leader\":0,\"count\":2},{\"key\":\"c-15\",\"ids\":[\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":889.0580916289879,\"y\":363.76781021155057},\"visual\":{\"x\":889.0580916289879,\"y\":363.76781021155057},\"offset\":[0,0],\"label\":null,\"leader\":0,\"count\":2},{\"key\":\"p-huanghe\",\"ids\":[\"huanghe\"],\"selected\":false,\"anchor\":{\"x\":727.1060972852839,\"y\":405.0248019504559},\"visual\":{\"x\":727.1060972852839,\"y\":405.0248019504559},\"offset\":[0,0],\"label\":{\"left\":746.1060972852839,\"top\":390.0248019504559,\"right\":820.1060972852839,\"bottom\":420.0248019504559},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[111.24922373163855,31.894077279810745],\"zoom\":4.326256330592422,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[88.81662492422959,20.604217269293287],[133.68182253904132,41.95393396680157]]",
+        "cameraMemory": "{\"exploration\":{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.326256330592422,\"bearing\":0,\"pitch\":0},\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "regional",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":852.0000610351562,\"height\":613.9999923706055}",
+        "selectedPlace": "dufu",
+        "testid": "map",
+        "z0": "2.326256330592422"
+      },
+      "markers": [
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 423.0000343322754,
+            "height": 44.000003814697266,
+            "left": 412.0000305175781,
+            "right": 456.0000343322754,
+            "top": 379.0000305175781,
+            "width": 44.000003814697266,
+            "x": 412.0000305175781,
+            "y": 379.0000305175781
+          }
+        },
+        {
+          "label": "地图地点：黄鹤楼",
+          "rect": {
+            "bottom": 427.0000343322754,
+            "height": 44.000003814697266,
+            "left": 705.0000610351562,
+            "right": 749.0000648498535,
+            "top": 383.0000305175781,
+            "width": 44.000003814697266,
+            "x": 705.0000610351562,
+            "y": 383.0000305175781
+          }
+        },
+        {
+          "label": "地图分组：杭州·2处",
+          "rect": {
+            "bottom": 437.0000343322754,
+            "height": 44.000003814697266,
+            "left": 872.0000610351562,
+            "right": 916.0000648498536,
+            "top": 393.0000305175781,
+            "width": 44.000003814697266,
+            "x": 872.0000610351562,
+            "y": 393.0000305175781
+          }
+        },
+        {
+          "label": "地图分组：江苏·2处",
+          "rect": {
+            "bottom": 386.0000343322754,
+            "height": 44.000003814697266,
+            "left": 867.0000610351562,
+            "right": 911.0000648498536,
+            "top": 342.0000305175781,
+            "width": 44.000003814697266,
+            "x": 867.0000610351562,
+            "y": 342.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "phone-initial",
+      "map": {
+        "annotations": "[{\"key\":\"c-14\",\"ids\":[\"huxin\",\"huanghe\",\"dufu\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":255.43076102435606,\"y\":409.1052167832545},\"visual\":{\"x\":255.43076102435606,\"y\":409.1052167832545},\"offset\":[0,0],\"label\":{\"left\":274.43076102435606,\"top\":394.1052167832545,\"right\":357.43076102435606,\"bottom\":424.1052167832545},\"leader\":19,\"count\":6}]",
+        "camera": "{\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[65.87432723846126,-47.13958248140217],[143.0691154884662,74.28549953275058]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":227.8999999994412,\"event\":\"moving\",\"selected\":null,\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":266.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":267.29999999981374,\"event\":\"fit\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "1",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":80,\"width\":374.2857360839844,\"height\":646.0000610351562}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "1.8287518669172957"
+      },
+      "markers": [
+        {
+          "label": "地图分组：6处地点",
+          "rect": {
+            "bottom": 431.0000343322754,
+            "height": 44.000003814697266,
+            "left": 233.00001525878903,
+            "right": 277.0000190734863,
+            "top": 387.0000305175781,
+            "width": 44.000003814697266,
+            "x": 233.00001525878903,
+            "y": 387.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    {
+      "label": "phone-four-wheel-settled",
+      "map": {
+        "annotations": "[{\"key\":\"c-14\",\"ids\":[\"huxin\",\"huanghe\",\"dufu\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":255.43076102435606,\"y\":409.1052167832545},\"visual\":{\"x\":255.43076102435606,\"y\":409.1052167832545},\"offset\":[0,0],\"label\":{\"left\":274.43076102435606,\"top\":394.1052167832545,\"right\":357.43076102435606,\"bottom\":424.1052167832545},\"leader\":19,\"count\":6}]",
+        "camera": "{\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[65.87432723846126,-47.13958248140217],[143.0691154884662,74.28549953275058]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":227.8999999994412,\"event\":\"moving\",\"selected\":null,\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":266.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":267.29999999981374,\"event\":\"fit\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12354.099999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12376.299999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12398.5,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12420.599999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "1",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":80,\"width\":374.2857360839844,\"height\":646.0000610351562}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "1.8287518669172957"
+      },
+      "markers": [
+        {
+          "label": "地图分组：6处地点",
+          "rect": {
+            "bottom": 431.0000343322754,
+            "height": 44.000003814697266,
+            "left": 233.00001525878903,
+            "right": 277.0000190734863,
+            "top": 387.0000305175781,
+            "width": 44.000003814697266,
+            "x": 233.00001525878903,
+            "y": 387.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    {
+      "label": "phone-huanghe-reader",
+      "map": {
+        "annotations": "[{\"key\":\"selected-huanghe\",\"ids\":[\"huanghe\"],\"selected\":true,\"anchor\":{\"x\":195.14286804199145,\"y\":269.6685774501437},\"visual\":{\"x\":195.14286804199145,\"y\":269.6685774501437},\"offset\":[0,0],\"label\":{\"left\":214.14286804199145,\"top\":254.6685774501437,\"right\":291.14286804199145,\"bottom\":284.6685774501437},\"leader\":19,\"count\":1},{\"key\":\"c-46\",\"ids\":[\"huxin\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":311.46811622769553,\"y\":258.59498548472857},\"visual\":{\"x\":311.46811622769553,\"y\":258.59498548472857},\"offset\":[0,0],\"label\":{\"left\":269.96811622769553,\"top\":206.59498548472857,\"right\":352.96811622769553,\"bottom\":236.59498548472857},\"leader\":37,\"count\":4}]",
+        "camera": "{\"center\":[114.29530428200394,23.84567744728082],\"zoom\":3.8287518669172957,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[104.64595575075174,3.680745613529311],[123.94465281325341,41.316972863492225]]",
+        "cameraMemory": "{\"exploration\":{\"center\":[112.29118899856735,30.404910145075874],\"zoom\":3.7581652038958504,\"bearing\":0,\"pitch\":0},\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":227.8999999994412,\"event\":\"moving\",\"selected\":null,\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":266.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":267.29999999981374,\"event\":\"fit\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12354.099999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12376.299999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12398.5,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":12420.599999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":26869.89999999944,\"event\":\"user-takeover\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":26874.699999999255,\"event\":\"fit\",\"selected\":null,\"center\":[104.47172136346336,28.668235313372108],\"zoom\":1.8287518669172957,\"bearing\":0,\"pitch\":0},{\"t\":26877.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[104.52050086650252,28.679160962197088],\"zoom\":1.8347829657693633,\"bearing\":0,\"pitch\":0},{\"t\":26883,\"event\":\"moving\",\"selected\":null,\"center\":[104.67506951966044,28.713773771390336],\"zoom\":1.854068636788368,\"bearing\":0,\"pitch\":0},{\"t\":26888.5,\"event\":\"moving\",\"selected\":null,\"center\":[104.8670101553447,28.756739410188302],\"zoom\":1.8783971890489706,\"bearing\":0,\"pitch\":0},{\"t\":26894,\"event\":\"moving\",\"selected\":null,\"center\":[105.11331634122217,28.811848806021587],\"zoom\":1.9102590577733274,\"bearing\":0,\"pitch\":0},{\"t\":26899.5,\"event\":\"moving\",\"selected\":null,\"center\":[105.40090444912289,28.876157884510206],\"zoom\":1.9484233623105358,\"bearing\":0,\"pitch\":0},{\"t\":26905.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[105.73694974969044,28.951252323349564],\"zoom\":1.9944183112342422,\"bearing\":0,\"pitch\":0},{\"t\":26910.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[106.11091168421888,29.0347558452968],\"zoom\":2.04751778610709,\"bearing\":0,\"pitch\":0},{\"t\":26916.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[106.51454499071122,29.12480906132265],\"zoom\":2.107305856063479,\"bearing\":0,\"pitch\":0},{\"t\":26922,\"event\":\"moving\",\"selected\":null,\"center\":[106.93773481630751,29.219140851741855],\"zoom\":2.173047091322215,\"bearing\":0,\"pitch\":0},{\"t\":26927.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[107.36143474879668,29.31349940447511],\"zoom\":2.2423774078312304,\"bearing\":0,\"pitch\":0},{\"t\":26933,\"event\":\"moving\",\"selected\":null,\"center\":[107.78237918082135,29.40715798069529],\"zoom\":2.315189446052148,\"bearing\":0,\"pitch\":0},{\"t\":26938.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[108.19829763604031,29.499613621632562],\"zoom\":2.3915241400969496,\"bearing\":0,\"pitch\":0},{\"t\":26943.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[108.57984405561166,29.58435444912496],\"zoom\":2.4659568964993173,\"bearing\":0,\"pitch\":0},{\"t\":26949.5,\"event\":\"moving\",\"selected\":null,\"center\":[108.95623569390625,29.667880749393035],\"zoom\":2.5441571163523347,\"bearing\":0,\"pitch\":0},{\"t\":26955.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[109.29077344928731,29.742060946983074],\"zoom\":2.6182685337586826,\"bearing\":0,\"pitch\":0},{\"t\":26960.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[109.60141375836037,29.81089304345383],\"zoom\":2.691594034538448,\"bearing\":0,\"pitch\":0},{\"t\":26966.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[109.88225727590714,29.873081977094387],\"zoom\":2.7622199864050945,\"bearing\":0,\"pitch\":0},{\"t\":26971.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[110.13049613164117,29.928018797163432],\"zoom\":2.828615394910571,\"bearing\":0,\"pitch\":0},{\"t\":26977.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[110.35717241992296,29.97815721374282],\"zoom\":2.8930022127111807,\"bearing\":0,\"pitch\":0},{\"t\":26982.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[110.55298573918645,30.021448701900823],\"zoom\":2.951944285570539,\"bearing\":0,\"pitch\":0},{\"t\":26988.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[110.73472425054615,30.06161154922721],\"zoom\":3.009809588762873,\"bearing\":0,\"pitch\":0},{\"t\":26994,\"event\":\"moving\",\"selected\":null,\"center\":[110.89976563794585,30.098070345739615],\"zoom\":3.06537194742603,\"bearing\":0,\"pitch\":0},{\"t\":26999.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.04448007048723,30.130027715185037],\"zoom\":3.116782967183212,\"bearing\":0,\"pitch\":0},{\"t\":27005.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[111.17168967680641,30.15811094330951],\"zoom\":3.164332774647953,\"bearing\":0,\"pitch\":0},{\"t\":27010.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.28774360973875,30.183724432334017],\"zoom\":3.2098852264513584,\"bearing\":0,\"pitch\":0},{\"t\":27016.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.38823051776228,30.205896848928603],\"zoom\":3.251207543011861,\"bearing\":0,\"pitch\":0},{\"t\":27021.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.48034369479711,30.226217216438073],\"zoom\":3.2908003492629647,\"bearing\":0,\"pitch\":0},{\"t\":27027.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[111.56470093327471,30.244822924386398],\"zoom\":3.3286606384041297,\"bearing\":0,\"pitch\":0},{\"t\":27032.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[111.63931555256801,30.261276879247376],\"zoom\":3.363563971139311,\"bearing\":0,\"pitch\":0},{\"t\":27038.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[111.70782262991821,30.276381576751263],\"zoom\":3.396904096178013,\"bearing\":0,\"pitch\":0},{\"t\":27043.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[111.76856449215632,30.289772226433854],\"zoom\":3.4276051964636483,\"bearing\":0,\"pitch\":0},{\"t\":27049.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.82635197741001,30.302509881983482],\"zoom\":3.4579049506039587,\"bearing\":0,\"pitch\":0},{\"t\":27055.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[111.879242766743,30.314166745811406],\"zoom\":3.486658952108255,\"bearing\":0,\"pitch\":0},{\"t\":27060.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.92144150265153,30.323466140500358],\"zoom\":3.510362982318073,\"bearing\":0,\"pitch\":0},{\"t\":27066.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.96202072117688,30.332407807305913],\"zoom\":3.5338488611021712,\"bearing\":0,\"pitch\":0},{\"t\":27071.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[111.99882947964642,30.340517943740295],\"zoom\":3.5557840352384744,\"bearing\":0,\"pitch\":0},{\"t\":27077.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[112.03222574536716,30.347875618524398],\"zoom\":3.576244083718964,\"bearing\":0,\"pitch\":0},{\"t\":27082.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.06305015433924,30.354666185617802],\"zoom\":3.5956334142654205,\"bearing\":0,\"pitch\":0},{\"t\":27088.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.09143413848659,30.360918714303736],\"zoom\":3.613945322318835,\"bearing\":0,\"pitch\":0},{\"t\":27094.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.11750148252571,30.366660572899747],\"zoom\":3.6311742593304315,\"bearing\":0,\"pitch\":0},{\"t\":27099.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.13866948794487,30.37132300525583],\"zoom\":3.6454722510364235,\"bearing\":0,\"pitch\":0},{\"t\":27105,\"event\":\"moving\",\"selected\":null,\"center\":[112.15897891846794,30.375796120238533],\"zoom\":3.6594633889848174,\"bearing\":0,\"pitch\":0},{\"t\":27110.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.17763866489082,30.37990571489651],\"zoom\":3.6725657046329276,\"bearing\":0,\"pitch\":0},{\"t\":27116.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.19413910700189,30.383539603646298],\"zoom\":3.6843588929844153,\"bearing\":0,\"pitch\":0},{\"t\":27121.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[112.20896839915974,30.38680534011928],\"zoom\":3.695130879480847,\"bearing\":0,\"pitch\":0},{\"t\":27127.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[112.22383425492774,30.390079019153475],\"zoom\":3.706100945053776,\"bearing\":0,\"pitch\":0},{\"t\":27133,\"event\":\"moving\",\"selected\":null,\"center\":[112.2344962817657,30.39242688597622],\"zoom\":3.714078590462,\"bearing\":0,\"pitch\":0},{\"t\":27138.5,\"event\":\"moving\",\"selected\":null,\"center\":[112.24495054392196,30.39472894650173],\"zoom\":3.721992843381213,\"bearing\":0,\"pitch\":0},{\"t\":27143.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.25431067017075,30.396790028918616],\"zoom\":3.7291584347185696,\"bearing\":0,\"pitch\":0},{\"t\":27149.5,\"event\":\"moving\",\"selected\":null,\"center\":[112.26232126042413,30.398553911477023],\"zoom\":3.7353522914880126,\"bearing\":0,\"pitch\":0},{\"t\":27155.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[112.26957626715745,30.400151391714417],\"zoom\":3.741011998597523,\"bearing\":0,\"pitch\":0},{\"t\":27160.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.27529288107962,30.40141011476703],\"zoom\":3.7455058318110357,\"bearing\":0,\"pitch\":0},{\"t\":27166.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.2802208595524,30.402495177664875],\"zoom\":3.7494043874706593,\"bearing\":0,\"pitch\":0},{\"t\":27171.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.28418114327474,30.403367160749767],\"zoom\":3.752554198494809,\"bearing\":0,\"pitch\":0},{\"t\":27177.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[112.28712631347611,30.404015629087723],\"zoom\":3.7549064688203235,\"bearing\":0,\"pitch\":0},{\"t\":27183.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[112.28940685414534,30.40451775616468],\"zoom\":3.7567337235495004,\"bearing\":0,\"pitch\":0},{\"t\":27188.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.29063750244188,30.404788717956265],\"zoom\":3.7577218881453174,\"bearing\":0,\"pitch\":0},{\"t\":27193.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[112.29117647762303,30.404907388245476],\"zoom\":3.758155135698769,\"bearing\":0,\"pitch\":0},{\"t\":27199.5,\"event\":\"moving\",\"selected\":null,\"center\":[112.29118899856735,30.404910145075874],\"zoom\":3.7581652038958504,\"bearing\":0,\"pitch\":0},{\"t\":33134.89999999944,\"event\":\"user-takeover\",\"selected\":null,\"center\":[112.29118899856735,30.404910145075874],\"zoom\":3.7581652038958504,\"bearing\":0,\"pitch\":0},{\"t\":33157.89999999944,\"event\":\"fit\",\"selected\":\"huanghe\",\"center\":[112.29118899856735,30.404910145075874],\"zoom\":3.7581652038958504,\"bearing\":0,\"pitch\":0},{\"t\":33159.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.29420266405941,30.395343555175202],\"zoom\":3.7582662865699183,\"bearing\":0,\"pitch\":0},{\"t\":33162,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.30263493357188,30.36857115194499],\"zoom\":3.758549192305473,\"bearing\":0,\"pitch\":0},{\"t\":33166.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.32096397983088,30.31035125826463],\"zoom\":3.75916452157285,\"bearing\":0,\"pitch\":0},{\"t\":33178.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.39265205021724,30.082311204102012],\"zoom\":3.7615762374528865,\"bearing\":0,\"pitch\":0},{\"t\":33183.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.42797565491423,29.969752718927325],\"zoom\":3.762767562235931,\"bearing\":0,\"pitch\":0},{\"t\":33189.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.47985836176531,29.8041973780485],\"zoom\":3.7645209406246773,\"bearing\":0,\"pitch\":0},{\"t\":33195.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.54173048258139,29.606407532492156],\"zoom\":3.7666175114612517,\"bearing\":0,\"pitch\":0},{\"t\":33200.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.60140428110384,29.415276893143727],\"zoom\":3.7686453971244904,\"bearing\":0,\"pitch\":0},{\"t\":33205.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.67268364749788,29.186502585157257],\"zoom\":3.771075196515098,\"bearing\":0,\"pitch\":0},{\"t\":33211.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.75296101301592,28.92823664369483],\"zoom\":3.773821603712835,\"bearing\":0,\"pitch\":0},{\"t\":33216.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.82822175137215,28.685524173063683],\"zoom\":3.7764059685087354,\"bearing\":0,\"pitch\":0},{\"t\":33222.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.90802629517577,28.4275422400695],\"zoom\":3.779156579867059,\"bearing\":0,\"pitch\":0},{\"t\":33228.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[112.9940187813686,28.148851286989384],\"zoom\":3.7821323450340274,\"bearing\":0,\"pitch\":0},{\"t\":33233.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.06896827310771,27.90535603372686],\"zoom\":3.784736103123727,\"bearing\":0,\"pitch\":0},{\"t\":33239.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.14783833300532,27.64853062413411],\"zoom\":3.787486345354229,\"bearing\":0,\"pitch\":0},{\"t\":33244.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.22405609940671,27.39976751955146],\"zoom\":3.790154204656814,\"bearing\":0,\"pitch\":0},{\"t\":33250.699999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.29838535271858,27.15662777893482],\"zoom\":3.7927656065152258,\"bearing\":0,\"pitch\":0},{\"t\":33255.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.36548978340744,26.936665592626753],\"zoom\":3.7951314272601526,\"bearing\":0,\"pitch\":0},{\"t\":33262,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.4361115740848,26.704709542688363],\"zoom\":3.7976297749531662,\"bearing\":0,\"pitch\":0},{\"t\":33266.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.4917722795783,26.52155921948726],\"zoom\":3.7996050541546,\"bearing\":0,\"pitch\":0},{\"t\":33272.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.55173243573216,26.323934271370135],\"zoom\":3.801739071047339,\"bearing\":0,\"pitch\":0},{\"t\":33278.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.60616710597856,26.14422837382655],\"zoom\":3.8036820007498298,\"bearing\":0,\"pitch\":0},{\"t\":33283.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.65646674088043,25.97792717585652],\"zoom\":3.8054820792078417,\"bearing\":0,\"pitch\":0},{\"t\":33289.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.70633429026145,25.812822040501445],\"zoom\":3.8072712154308754,\"bearing\":0,\"pitch\":0},{\"t\":33295.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.75464143729909,25.652663443283203],\"zoom\":3.8090086845297715,\"bearing\":0,\"pitch\":0},{\"t\":33300.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.79383114939611,25.522574773444205],\"zoom\":3.810421363177121,\"bearing\":0,\"pitch\":0},{\"t\":33305.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.83427277889388,25.38818240630465],\"zoom\":3.8118821310275712,\"bearing\":0,\"pitch\":0},{\"t\":33311.299999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.8714986054203,25.264344144665557],\"zoom\":3.8132294131826825,\"bearing\":0,\"pitch\":0},{\"t\":33316.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.90700757489299,25.146099468313423],\"zoom\":3.814516954500841,\"bearing\":0,\"pitch\":0},{\"t\":33322.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.94023948459937,25.035333512696326],\"zoom\":3.81572405833838,\"bearing\":0,\"pitch\":0},{\"t\":33328.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.97346611047601,24.924485088083756],\"zoom\":3.8169330352228115,\"bearing\":0,\"pitch\":0},{\"t\":33333.699999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[113.99988273838323,24.836284525757648],\"zoom\":3.817895703685714,\"bearing\":0,\"pitch\":0},{\"t\":33339.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.02706383705083,24.745465886947898],\"zoom\":3.8188876027083944,\"bearing\":0,\"pitch\":0},{\"t\":33344.699999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.05199839691176,24.6620950806018],\"zoom\":3.819798747969517,\"bearing\":0,\"pitch\":0},{\"t\":33350.299999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.07609748944873,24.581464760859276],\"zoom\":3.820680483532144,\"bearing\":0,\"pitch\":0},{\"t\":33355.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.09775849693199,24.50894741682984],\"zoom\":3.8214739563049935,\"bearing\":0,\"pitch\":0},{\"t\":33361.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.11969956094896,24.435449807107133],\"zoom\":3.8222785992019674,\"bearing\":0,\"pitch\":0},{\"t\":33371.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.150130807496,24.333441072582886],\"zoom\":3.823396124404856,\"bearing\":0,\"pitch\":0},{\"t\":33373.5,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.15746316743355,24.30884993371697],\"zoom\":3.8236656554464856,\"bearing\":0,\"pitch\":0},{\"t\":33377.89999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.17056669806226,24.264891672104014],\"zoom\":3.8241475865256414,\"bearing\":0,\"pitch\":0},{\"t\":33383.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.1860011615073,24.21309435229267],\"zoom\":3.824715669538782,\"bearing\":0,\"pitch\":0},{\"t\":33390.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.20372541757388,24.153586614369047],\"zoom\":3.8253685966934583,\"bearing\":0,\"pitch\":0},{\"t\":33395.299999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.2134119100287,24.121053288022352],\"zoom\":3.825725684262146,\"bearing\":0,\"pitch\":0},{\"t\":33400.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.22526304497228,24.081238479810892],\"zoom\":3.82616281675277,\"bearing\":0,\"pitch\":0},{\"t\":33405.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.2347663306158,24.04930251675374],\"zoom\":3.8265135443680696,\"bearing\":0,\"pitch\":0},{\"t\":33411.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.24446052354648,24.016716819608888],\"zoom\":3.826871497755609,\"bearing\":0,\"pitch\":0},{\"t\":33417,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.25304386207495,23.987858212356116],\"zoom\":3.827188585420593,\"bearing\":0,\"pitch\":0},{\"t\":33422.699999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.26086691462183,23.961550177299586],\"zoom\":3.8274777109405758,\"bearing\":0,\"pitch\":0},{\"t\":33428.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.26803344250686,23.93744524726536],\"zoom\":3.8277426768381377,\"bearing\":0,\"pitch\":0},{\"t\":33433.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.27367993090434,23.918449864916738],\"zoom\":3.827951513079837,\"bearing\":0,\"pitch\":0},{\"t\":33439.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.27896824457451,23.900656886730914],\"zoom\":3.8281471584123263,\"bearing\":0,\"pitch\":0},{\"t\":33444.799999999814,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.2835376621079,23.88528072304385],\"zoom\":3.828316251449276,\"bearing\":0,\"pitch\":0},{\"t\":33450.39999999944,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.28725695852637,23.87276388142827],\"zoom\":3.828453915446375,\"bearing\":0,\"pitch\":0},{\"t\":33456,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29019332975753,23.86288102472585],\"zoom\":3.8285626197171982,\"bearing\":0,\"pitch\":0},{\"t\":33462.199999999255,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29271558199463,23.85439135380004],\"zoom\":3.828656006746095,\"bearing\":0,\"pitch\":0},{\"t\":33467.09999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29400865673966,23.850038766469567],\"zoom\":3.8287038879752435,\"bearing\":0,\"pitch\":0},{\"t\":33472.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29498959634094,23.84673675211252],\"zoom\":3.8287402133353945,\"bearing\":0,\"pitch\":0},{\"t\":33478,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29530418275414,23.845677781379933],\"zoom\":3.828751863241803,\"bearing\":0,\"pitch\":0},{\"t\":33483.59999999963,\"event\":\"moving\",\"selected\":\"huanghe\",\"center\":[114.29530428200394,23.84567744728082],\"zoom\":3.8287518669172957,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "regional",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":80,\"width\":374.2857360839844,\"height\":379.044677734375}",
+        "selectedPlace": "huanghe",
+        "testid": "map",
+        "z0": "1.8287518669172957"
+      },
+      "markers": [
+        {
+          "label": "地图地点：黄鹤楼",
+          "rect": {
+            "bottom": 292.0000190734863,
+            "height": 44.000003814697266,
+            "left": 173.00001525878906,
+            "right": 217.00001907348633,
+            "top": 248.00001525878903,
+            "width": 44.000003814697266,
+            "x": 173.00001525878906,
+            "y": 248.00001525878903
+          }
+        },
+        {
+          "label": "地图分组：4处地点",
+          "rect": {
+            "bottom": 281.0000190734863,
+            "height": 44.000003814697266,
+            "left": 289,
+            "right": 333.00000381469727,
+            "top": 237.00001525878903,
+            "width": 44.000003814697266,
+            "x": 289,
+            "y": 237.00001525878903
+          }
+        }
+      ],
+      "size": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    {
+      "label": "desktop-trace-initial",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"visual\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"offset\":[0,0],\"label\":{\"left\":863.2415131475229,\"top\":338.3056800688278,\"right\":946.2415131475229,\"bottom\":368.3056800688278},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"visual\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"offset\":[0,0],\"label\":{\"left\":627.1366619750297,\"top\":340.4761355707545,\"right\":719.1366619750297,\"bottom\":370.4761355707545},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[0.5392095406492956,-18.538229819652216],[179.99999999990087,63.14823045233675]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":169.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[67.49999999989996,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":215,\"event\":\"moving\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":216.19999999925494,\"event\":\"fit\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 375.00000381469727,
+            "height": 44.000003814697266,
+            "left": 822.0000610351562,
+            "right": 866.0000648498535,
+            "top": 331,
+            "width": 44.000003814697266,
+            "x": 822.0000610351562,
+            "y": 331
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 377.00000381469727,
+            "height": 44.000003814697266,
+            "left": 716.0000610351562,
+            "right": 760.0000648498535,
+            "top": 333,
+            "width": 44.000003814697266,
+            "x": 716.0000610351562,
+            "y": 333
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "desktop-trace-four-wheel",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"visual\":{\"x\":844.2415131475229,\"y\":353.3056800688278},\"offset\":[0,0],\"label\":{\"left\":863.2415131475229,\"top\":338.3056800688278,\"right\":946.2415131475229,\"bottom\":368.3056800688278},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"visual\":{\"x\":738.1366619750297,\"y\":355.4761355707545},\"offset\":[0,0],\"label\":{\"left\":627.1366619750297,\"top\":340.4761355707545,\"right\":719.1366619750297,\"bottom\":370.4761355707545},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[0.5392095406492956,-18.538229819652216],[179.99999999990087,63.14823045233675]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":169.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[67.49999999989996,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":215,\"event\":\"moving\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":216.19999999925494,\"event\":\"fit\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12276.599999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12298.799999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12321.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12343.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "false",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 375.00000381469727,
+            "height": 44.000003814697266,
+            "left": 822.0000610351562,
+            "right": 866.0000648498535,
+            "top": 331,
+            "width": 44.000003814697266,
+            "x": 822.0000610351562,
+            "y": 331
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 377.00000381469727,
+            "height": 44.000003814697266,
+            "left": 716.0000610351562,
+            "right": 760.0000648498535,
+            "top": 333,
+            "width": 44.000003814697266,
+            "x": 716.0000610351562,
+            "y": 333
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "desktop-trace-drag",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":873.241513147517,\"y\":362.30567930588666},\"visual\":{\"x\":873.241513147517,\"y\":362.30567930588666},\"offset\":[0,0],\"label\":{\"left\":892.241513147517,\"top\":347.30567930588666,\"right\":975.241513147517,\"bottom\":377.30567930588666},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":767.1366619750239,\"y\":364.4761348078133},\"visual\":{\"x\":767.1366619750239,\"y\":364.4761348078133},\"offset\":[0,0],\"label\":{\"left\":656.1366619750239,\"top\":349.4761348078133,\"right\":748.1366619750239,\"bottom\":379.4761348078133},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[86.2036962364337,31.19799483256851],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[-3.5266989931874946,-17.337760061945787],[175.93409146606223,63.712608273547346]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":169.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[67.49999999989996,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":215,\"event\":\"moving\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":216.19999999925494,\"event\":\"fit\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12276.599999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12298.799999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12321.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12343.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16781.799999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16790.5,\"event\":\"user-takeover\",\"selected\":null,\"center\":[86.2036962364337,31.19799483256851],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16790.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364337,31.19799483256851],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 384.00000381469727,
+            "height": 44.000003814697266,
+            "left": 851.0000610351562,
+            "right": 895.0000648498535,
+            "top": 340,
+            "width": 44.000003814697266,
+            "x": 851.0000610351562,
+            "y": 340
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 386.0000343322754,
+            "height": 44.000003814697266,
+            "left": 745.0000610351562,
+            "right": 789.0000648498535,
+            "top": 342.0000305175781,
+            "width": 44.000003814697266,
+            "x": 745.0000610351562,
+            "y": 342.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    {
+      "label": "desktop-trace-plus",
+      "map": {
+        "annotations": "[{\"key\":\"c-47\",\"ids\":[\"huxin\",\"huanghe\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"anchor\":{\"x\":969.8533112015994,\"y\":363.2607229448607},\"visual\":{\"x\":969.8533112015994,\"y\":363.2607229448607},\"offset\":[0,0],\"label\":{\"left\":988.8533112015994,\"top\":348.2607229448607,\"right\":1071.8533112015994,\"bottom\":378.2607229448607},\"leader\":19,\"count\":5},{\"key\":\"p-dufu\",\"ids\":[\"dufu\"],\"selected\":false,\"anchor\":{\"x\":819.7983916398802,\"y\":366.3302105522126},\"visual\":{\"x\":819.7983916398802,\"y\":366.3302105522126},\"offset\":[0,0],\"label\":{\"left\":838.7983916398802,\"top\":351.3302105522126,\"right\":930.7983916398802,\"bottom\":381.3302105522126},\"leader\":19,\"count\":1}]",
+        "camera": "{\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.8262563305924218,\"bearing\":0,\"pitch\":0}",
+        "cameraBounds": "[[22.754725291021998,-2.824133127612953],[149.6526671818567,56.36532072030337]]",
+        "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+        "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+        "cameraTrace": "[{\"t\":169.29999999981374,\"event\":\"moving\",\"selected\":null,\"center\":[67.49999999989996,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":215,\"event\":\"moving\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":216.19999999925494,\"event\":\"fit\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12276.599999999627,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12298.799999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12321.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":12343.199999999255,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16781.799999999814,\"event\":\"user-takeover\",\"selected\":null,\"center\":[90.26960477027524,30.11252931300227],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16790.5,\"event\":\"user-takeover\",\"selected\":null,\"center\":[86.2036962364337,31.19799483256851],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":16790.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364337,31.19799483256851],\"zoom\":2.3262563305924218,\"bearing\":0,\"pitch\":0},{\"t\":21288.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.3270949808678463,\"bearing\":0,\"pitch\":0},{\"t\":21294,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.3348781379902466,\"bearing\":0,\"pitch\":0},{\"t\":21299.5,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.347182710383249,\"bearing\":0,\"pitch\":0},{\"t\":21305,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.36415325521321,\"bearing\":0,\"pitch\":0},{\"t\":21310.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.3854325717036544,\"bearing\":0,\"pitch\":0},{\"t\":21316.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.411400044069844,\"bearing\":0,\"pitch\":0},{\"t\":21321.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.440220797712281,\"bearing\":0,\"pitch\":0},{\"t\":21327.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.4710281933772884,\"bearing\":0,\"pitch\":0},{\"t\":21332.799999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.20369623643796,31.197994832567872],\"zoom\":2.5035748729786444,\"bearing\":0,\"pitch\":0},{\"t\":21338.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.20369623643796,31.197994832567872],\"zoom\":2.5338150996087476,\"bearing\":0,\"pitch\":0},{\"t\":21343.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.563721424913518,\"bearing\":0,\"pitch\":0},{\"t\":21364.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.6554252658965405,\"bearing\":0,\"pitch\":0},{\"t\":21366.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.665017306375879,\"bearing\":0,\"pitch\":0},{\"t\":21371.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.6816204461913324,\"bearing\":0,\"pitch\":0},{\"t\":21377.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.6989856482837054,\"bearing\":0,\"pitch\":0},{\"t\":21382.89999999944,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.714714139306213,\"bearing\":0,\"pitch\":0},{\"t\":21388.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.7291865683545886,\"bearing\":0,\"pitch\":0},{\"t\":21393.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.741791407173144,\"bearing\":0,\"pitch\":0},{\"t\":21399.5,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.7537782905031496,\"bearing\":0,\"pitch\":0},{\"t\":21405.299999999814,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.7647014439343716,\"bearing\":0,\"pitch\":0},{\"t\":21412.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.7767867268185467,\"bearing\":0,\"pitch\":0},{\"t\":21420.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.7874556839426954,\"bearing\":0,\"pitch\":0},{\"t\":21427.39999999944,\"event\":\"moving\",\"selected\":null,\"center\":[86.20369623643785,31.197994832567915],\"zoom\":2.796416610682212,\"bearing\":0,\"pitch\":0},{\"t\":21433.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.8028344780099284,\"bearing\":0,\"pitch\":0},{\"t\":21440.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.8085832280921994,\"bearing\":0,\"pitch\":0},{\"t\":21447.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567915],\"zoom\":2.81413430680455,\"bearing\":0,\"pitch\":0},{\"t\":21455,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.818322182711209,\"bearing\":0,\"pitch\":0},{\"t\":21461.599999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.82135569462183,\"bearing\":0,\"pitch\":0},{\"t\":21470.699999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.824198721973937,\"bearing\":0,\"pitch\":0},{\"t\":21478.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.1979948325679],\"zoom\":2.8256233237014428,\"bearing\":0,\"pitch\":0},{\"t\":21486.199999999255,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.8262432079370168,\"bearing\":0,\"pitch\":0},{\"t\":21496.099999999627,\"event\":\"moving\",\"selected\":null,\"center\":[86.2036962364379,31.197994832567872],\"zoom\":2.8262563305924218,\"bearing\":0,\"pitch\":0}]",
+        "coordinateSystem": "GCJ-02 / Web Mercator",
+        "featureCount": "35",
+        "fixture": "false",
+        "instanceId": "1",
+        "l7Layers": "literary-places",
+        "labelCount": "2",
+        "level": "national",
+        "manualCamera": "true",
+        "mapStatus": "ready",
+        "mapView": "national",
+        "renderState": "idle",
+        "safeArea": "{\"left\":8,\"top\":94.00000762939453,\"width\":1264,\"height\":501.99999237060547}",
+        "selectedPlace": "",
+        "testid": "map",
+        "z0": "2.3262563305924218"
+      },
+      "markers": [
+        {
+          "label": "地图分组：5处地点",
+          "rect": {
+            "bottom": 385.00000381469727,
+            "height": 44.000003814697266,
+            "left": 948.0000610351562,
+            "right": 992.0000648498536,
+            "top": 341,
+            "width": 44.000003814697266,
+            "x": 948.0000610351562,
+            "y": 341
+          }
+        },
+        {
+          "label": "地图地点：杜甫草堂",
+          "rect": {
+            "bottom": 388.0000343322754,
+            "height": 44.000003814697266,
+            "left": 798.0000610351562,
+            "right": 842.0000648498535,
+            "top": 344.0000305175781,
+            "width": 44.000003814697266,
+            "x": 798.0000610351562,
+            "y": 344.0000305175781
+          }
+        }
+      ],
+      "size": {
+        "h": 720,
+        "w": 1280
+      }
+    }
+  ]
+}

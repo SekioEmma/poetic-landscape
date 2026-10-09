@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-09T06:05:03.473Z",
+  "controls": [
+    {
+      "id": "huxin",
+      "source": [
+        120.1396631,
+        30.2485869
+      ],
+      "render": [
+        120.14439767287774,
+        30.24628125453198
+      ],
+      "errorDegrees": 0,
+      "meaning": "agrees with archived MIT reference, not independent surveyed control"
+    },
+    {
+      "id": "huanghe",
+      "source": [
+        114.296944,
+        30.546944
+      ],
+      "render": [
+        114.30237394113809,
+        30.544503840085536
+      ],
+      "errorDegrees": 0,
+      "meaning": "agrees with archived MIT reference, not independent surveyed control"
+    },
+    {
+      "id": "dufu",
+      "source": [
+        104.026331,
+        30.662169
+      ],
+      "render": [
+        104.0287320601744,
+        30.65966394117862
+      ],
+      "errorDegrees": 0,
+      "meaning": "agrees with archived MIT reference, not independent surveyed control"
+    },
+    {
+      "id": "xihu",
+      "source": [
+        120.1384499,
+        30.24597875
+      ],
+      "render": [
+        120.14318733340376,
+        30.243674681184643
+      ],
+      "errorDegrees": 0,
+      "meaning": "agrees with archived MIT reference, not independent surveyed control"
+    }
+  ],
+  "frozenFiles": 21,
+  "nationalFeatures": 35,
+  "islandHoleRetained": true,
+  "sourceGeometryUnchanged": true,
+  "sourceCRS": "GCJ-02 adopted from provider documentation; per-file CRS confirmation remains pending",
+  "passed": true
+}

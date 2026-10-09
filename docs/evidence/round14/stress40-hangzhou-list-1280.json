@@ -1,0 +1,289 @@
+{
+  "app": {
+    "directoryModal": "false",
+    "directoryOpen": "false",
+    "interfaceReadyMs": "86.9",
+    "readerLayout": "side",
+    "readingSpace": "exploring",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin,huanghe,dufu,xihu,hanshan,guazhou,yumen,yangguan,loulan"
+  },
+  "at": "2026-10-09T03:46:54.582Z",
+  "entries": [
+    {
+      "annotationKey": "test-02|test-14|test-26|test-38",
+      "aria": "地图分组：武汉·4处",
+      "candidate": "1",
+      "count": "4",
+      "labelVisible": "true",
+      "memberIds": "test-02,test-14,test-26,test-38",
+      "nodeSerial": "10",
+      "placeId": "",
+      "rect": {
+        "bottom": 432,
+        "height": 44,
+        "left": 200,
+        "right": 244,
+        "top": 388,
+        "width": 44
+      },
+      "title": {
+        "bottom": 425,
+        "height": 30,
+        "left": 119,
+        "right": 202.20833587646484,
+        "top": 395,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-00|test-01|test-12|test-13|test-24|test-25|test-36|test-37",
+      "aria": "地图分组：杭州·8处",
+      "candidate": "0",
+      "count": "8",
+      "labelVisible": "true",
+      "memberIds": "test-00,test-01,test-12,test-13,test-24,test-25,test-36,test-37",
+      "nodeSerial": "14",
+      "placeId": "",
+      "rect": {
+        "bottom": 454,
+        "height": 44,
+        "left": 576,
+        "right": 620,
+        "top": 410,
+        "width": 44
+      },
+      "title": {
+        "bottom": 447,
+        "height": 30,
+        "left": 617,
+        "right": 700.2083358764648,
+        "top": 417,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "test-09|test-21|test-33",
+      "aria": "地图分组：东部·3处",
+      "candidate": "0",
+      "count": "3",
+      "labelVisible": "true",
+      "memberIds": "test-09,test-21,test-33",
+      "nodeSerial": "15",
+      "placeId": "",
+      "rect": {
+        "bottom": 381,
+        "height": 44,
+        "left": 660,
+        "right": 704,
+        "top": 337,
+        "width": 44
+      },
+      "title": {
+        "bottom": 374,
+        "height": 30,
+        "left": 701,
+        "right": 784.2083358764648,
+        "top": 344,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    }
+  ],
+  "focus": "关闭邻近地点",
+  "list": "杭州·8处\n关闭\n测试2　2篇\n测试区域 · 杭州\n测试14　2篇\n测试区域 · 杭州\n测试26　2篇\n测试区域 · 杭州\n测试38　2篇\n测试区域 · 杭州\n测试1·近邻长地名边缘题注　1篇\n测试区域 · 杭州\n测试13　1篇\n测试区域 · 杭州\n测试25　1篇\n测试区域 · 杭州\n测试37　1篇\n测试区域 · 杭州",
+  "listRect": {
+    "bottom": 662.0520935058594,
+    "height": 260,
+    "left": 313.8958435058594,
+    "right": 561.8958435058594,
+    "top": 402.0520935058594,
+    "width": 248
+  },
+  "map": {
+    "annotationCamera": "{\"center\":[120.81982427091611,31.223656406109626],\"zoom\":5.5,\"bearing\":0,\"pitch\":0}",
+    "annotationListOpen": "true",
+    "annotationSourceVersion": "3",
+    "annotations": "[{\"key\":\"test-02|test-14|test-26|test-38\",\"ids\":[\"test-02\",\"test-14\",\"test-26\",\"test-38\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"10\",\"anchor\":{\"x\":222.0723903641691,\"y\":409.6073128398197},\"visual\":{\"x\":222.0723903641691,\"y\":409.6073128398197},\"offset\":[0,0],\"label\":{\"left\":119.07239036416911,\"top\":394.6073128398197,\"right\":203.0723903641691,\"bottom\":424.6073128398197},\"candidate\":1,\"reused\":true,\"count\":4},{\"key\":\"test-00|test-01|test-12|test-13|test-24|test-25|test-36|test-37\",\"ids\":[\"test-00\",\"test-01\",\"test-12\",\"test-13\",\"test-24\",\"test-25\",\"test-36\",\"test-37\"],\"selected\":false,\"focused\":false,\"priority\":101,\"nodeSerial\":\"14\",\"anchor\":{\"x\":597.8996445648165,\"y\":432.0579531424938},\"visual\":{\"x\":597.8996445648165,\"y\":432.0579531424938},\"offset\":[0,0],\"label\":{\"left\":616.8996445648165,\"top\":417.0579531424938,\"right\":700.8996445648165,\"bottom\":447.0579531424938},\"candidate\":0,\"reused\":true,\"count\":8},{\"key\":\"test-09|test-21|test-33\",\"ids\":[\"test-09\",\"test-21\",\"test-33\"],\"selected\":false,\"focused\":false,\"priority\":101,\"nodeSerial\":\"15\",\"anchor\":{\"x\":682.4872932642595,\"y\":359.4911197232238},\"visual\":{\"x\":682.4872932642595,\"y\":359.4911197232238},\"offset\":[0,0],\"label\":{\"left\":701.4872932642595,\"top\":344.4911197232238,\"right\":785.4872932642595,\"bottom\":374.4911197232238},\"candidate\":0,\"reused\":true,\"count\":3}]",
+    "camera": "{\"center\":[120.81982427091611,31.223656406109626],\"zoom\":5.5,\"bearing\":0,\"pitch\":0}",
+    "cameraActive": "false",
+    "cameraBounds": "[[110.87613516048032,26.32333884217779],[130.7635133813526,35.88257209924376]]",
+    "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+    "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+    "cameraTrace": "[{\"t\":268,\"event\":\"moving\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":268,\"event\":\"idle\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":325.1000000005588,\"event\":\"moving\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":327.20000000018626,\"event\":\"idle\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":335.29999999981374,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":336.5,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":337.6000000005588,\"event\":\"fit-national\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":3462,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.325634862693203,\"bearing\":0,\"pitch\":0},{\"t\":3464.100000000559,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.325634862693203,\"bearing\":0,\"pitch\":0},{\"t\":3471.100000000559,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.325634862693203,\"bearing\":0,\"pitch\":0},{\"t\":3473,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.325634862693203,\"bearing\":0,\"pitch\":0},{\"t\":3477.2999999998137,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.523397391008496,\"bearing\":0,\"pitch\":0},{\"t\":3479.4000000003725,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.523397391008496,\"bearing\":0,\"pitch\":0},{\"t\":4548,\"event\":\"moving\",\"selected\":null,\"intent\":4,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.523397391008496,\"bearing\":0,\"pitch\":0},{\"t\":4549.4000000003725,\"event\":\"idle\",\"selected\":null,\"intent\":4,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.523397391008496,\"bearing\":0,\"pitch\":0},{\"t\":4552.5,\"event\":\"fit-national\",\"selected\":null,\"intent\":6,\"active\":true,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,37.449622289151264],\"zoom\":2.523397391008496,\"bearing\":0,\"pitch\":0},{\"t\":5424.299999999814,\"event\":\"moving\",\"selected\":null,\"intent\":6,\"active\":true,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":5426.700000000186,\"event\":\"idle\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":984,\"height\":704},\"viewport\":[1000,800],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":6592.700000000186,\"event\":\"moving\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":6595,\"event\":\"idle\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":6597.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":6598.799999999814,\"event\":\"idle\",\"selected\":null,\"intent\":6,\"active\":false,\"z0\":2.873397391008496,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":7597.4000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":7599.799999999814,\"event\":\"idle\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":7604.799999999814,\"event\":\"fit-national\",\"selected\":null,\"intent\":9,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,34.79945577007405],\"zoom\":2.873397391008496,\"bearing\":0,\"pitch\":0},{\"t\":8583.5,\"event\":\"moving\",\"selected\":null,\"intent\":9,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,35.20367096406193],\"zoom\":2.6807523130661,\"bearing\":0,\"pitch\":0},{\"t\":8585.299999999814,\"event\":\"idle\",\"selected\":null,\"intent\":9,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,35.20367096406193],\"zoom\":2.6807523130661,\"bearing\":0,\"pitch\":0},{\"t\":12962.5,\"event\":\"cluster-step\",\"selected\":null,\"intent\":11,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[104.5,35.20367096406193],\"zoom\":2.6807523130661,\"bearing\":0,\"pitch\":0},{\"t\":13884.299999999814,\"event\":\"moving\",\"selected\":null,\"intent\":11,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[117.89941757478323,32.64761192463716],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":13885.5,\"event\":\"idle\",\"selected\":null,\"intent\":11,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[117.89941757478323,32.64761192463716],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":21337.60000000056,\"event\":\"cluster-step\",\"selected\":null,\"intent\":13,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[106.16893266869249,32.64761192463716],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":22268.10000000056,\"event\":\"moving\",\"selected\":null,\"intent\":13,\"active\":true,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[120.81982427091611,31.223656406109626],\"zoom\":5.5,\"bearing\":0,\"pitch\":0},{\"t\":22269.700000000186,\"event\":\"idle\",\"selected\":null,\"intent\":13,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[120.81982427091611,31.223656406109626],\"zoom\":5.5,\"bearing\":0,\"pitch\":0},{\"t\":28937.299999999814,\"event\":\"cluster-list\",\"selected\":null,\"intent\":15,\"active\":false,\"z0\":2.6807523130661,\"area\":{\"left\":8,\"top\":84,\"width\":1264,\"height\":624},\"viewport\":[1280,720],\"center\":[120.81982427091611,31.223656406109626],\"zoom\":5.5,\"bearing\":0,\"pitch\":0}]",
+    "clusterDecision": "{\"key\":\"test-00|test-01|test-12|test-13|test-24|test-25|test-36|test-37\",\"ids\":[\"test-00\",\"test-01\",\"test-12\",\"test-13\",\"test-24\",\"test-25\",\"test-36\",\"test-37\"],\"current\":5.5,\"expansion\":10,\"fit\":11.5,\"target\":null,\"margin\":64,\"action\":\"list\",\"sourceVersion\":3,\"request\":10}",
+    "coordinateSystem": "GCJ-02 / Web Mercator",
+    "featureCount": "35",
+    "fixture": "true",
+    "instanceId": "1",
+    "l7Layers": "literary-places",
+    "labelCount": "3",
+    "labelObstacles": "[{\"left\":308.8958435058594,\"right\":566.8958435058594,\"top\":397.0520935058594,\"bottom\":667.0520935058594},{\"left\":1211,\"right\":1265,\"top\":551,\"bottom\":701},{\"left\":-5,\"right\":1285,\"top\":-5,\"bottom\":81},{\"left\":27,\"right\":202,\"top\":101,\"bottom\":217.71875},{\"left\":7,\"right\":162.5729217529297,\"top\":671,\"bottom\":725},{\"left\":11,\"right\":330.10418701171875,\"top\":97,\"bottom\":136.3333339691162},{\"left\":210.0723903641691,\"right\":234.0723903641691,\"top\":397.6073128398197,\"bottom\":421.6073128398197},{\"left\":585.8996445648165,\"right\":609.8996445648165,\"top\":420.0579531424938,\"bottom\":444.0579531424938},{\"left\":670.4872932642595,\"right\":694.4872932642595,\"top\":347.4911197232238,\"bottom\":371.4911197232238}]",
+    "level": "city",
+    "manualCamera": "false",
+    "mapStatus": "ready",
+    "mapView": "national",
+    "readyMs": "340.3",
+    "renderState": "idle",
+    "safeArea": "{\"left\":8,\"top\":84,\"width\":1264,\"height\":624}",
+    "selectedPlace": "",
+    "sourceUpdating": "false",
+    "sourceVersion": "3",
+    "testid": "map",
+    "z0": "2.6807523130661",
+    "zoomLimits": "{\"min\":2.3307523130661,\"max\":11.5,\"target\":5.5}"
+  },
+  "marks": [],
+  "reader": null,
+  "tools": [
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 600,
+        "height": 44,
+        "left": 1216,
+        "right": 1260,
+        "top": 556,
+        "width": 44
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 652,
+        "height": 44,
+        "left": 1216,
+        "right": 1260,
+        "top": 608,
+        "width": 44
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 696,
+        "height": 44,
+        "left": 1216,
+        "right": 1260,
+        "top": 652,
+        "width": 44
+      }
+    }
+  ],
+  "viewport": [
+    1280,
+    720
+  ],
+  "listButtons": [
+    {
+      "name": "关闭邻近地点",
+      "rect": {
+        "bottom": 456.0520935058594,
+        "height": 44,
+        "left": 505.8958435058594,
+        "right": 549.8958435058594,
+        "top": 412.0520935058594,
+        "width": 44
+      }
+    },
+    {
+      "name": "测试2　2篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 513.5104293823242,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 456.0520935058594,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试14　2篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 570.9687728881836,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 513.5104370117188,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试26　2篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 628.4270858764648,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 570.96875,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试38　2篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 685.8854598999023,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 628.4271240234375,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试1·近邻长地名边缘题注　1篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 764.3437728881836,
+        "height": 78.45833587646484,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 685.8854370117188,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试13　1篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 821.8020858764648,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 764.34375,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试25　1篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 879.2604598999023,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 821.8021240234375,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "测试37　1篇\n测试区域 · 杭州",
+      "rect": {
+        "bottom": 936.7187728881836,
+        "height": 57.45833587646485,
+        "left": 325.8958435058594,
+        "right": 534.5625152587891,
+        "top": 879.2604370117188,
+        "width": 208.6666717529297
+      }
+    }
+  ],
+  "listScroll": {
+    "clientHeight": 196,
+    "scrollHeight": 481,
+    "scrollTop": 0
+  },
+  "scripts": [
+    "http://127.0.0.1:4173/assets/index-CqQr6YAP.js"
+  ],
+  "scrollWidth": 1280
+}

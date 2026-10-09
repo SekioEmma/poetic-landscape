@@ -1,0 +1,126 @@
+{
+  "at": "2026-10-08T09:44:48.205Z",
+  "bundle": "./assets/index-Bd6zdOms.js",
+  "passed": true,
+  "layouts": [
+    {
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      },
+      "type": "side",
+      "reader": {
+        "bottom": 708,
+        "height": 624,
+        "left": 876,
+        "right": 1260,
+        "top": 84,
+        "width": 384
+      },
+      "mapRatio": 0.665625,
+      "collapsedHeight": 88,
+      "interfaceReadyMs": 68.4,
+      "mapReadyMs": 154.7
+    },
+    {
+      "viewport": {
+        "height": 800,
+        "width": 1000
+      },
+      "type": "side",
+      "reader": {
+        "bottom": 788,
+        "height": 704,
+        "left": 620,
+        "right": 980,
+        "top": 84,
+        "width": 360
+      },
+      "mapRatio": 0.596,
+      "collapsedHeight": 88,
+      "interfaceReadyMs": 65.9,
+      "mapReadyMs": 172.6
+    },
+    {
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "type": "bottom",
+      "reader": {
+        "bottom": 832.0000305175781,
+        "height": 360.9583435058594,
+        "left": 12,
+        "right": 378,
+        "top": 471.0416870117187,
+        "width": 366
+      },
+      "mapRatio": 0.5040447965581366,
+      "collapsedHeight": 92,
+      "interfaceReadyMs": 41.7,
+      "mapReadyMs": 216.2
+    }
+  ],
+  "drags": [
+    {
+      "name": "final-f02-horizontal",
+      "requested": [
+        250,
+        0
+      ],
+      "release": [
+        250.0000000001154,
+        3.198498160555391e-11
+      ],
+      "frames": 8,
+      "method": "public camera trace at pointer input and native dragend; inertia excluded"
+    },
+    {
+      "name": "final-f02-diagonal",
+      "requested": [
+        200,
+        150
+      ],
+      "release": [
+        199.999999999211,
+        150.00000000003638
+      ],
+      "frames": 8,
+      "method": "public camera trace at pointer input and native dragend; inertia excluded"
+    }
+  ],
+  "rapidMilliseconds": 159.60000000149012,
+  "takeoverMilliseconds": 40.599999997764826,
+  "zoomButtons": {
+    "start": 2.6807523130661,
+    "afterTenPlus": 7.6807523130661,
+    "afterTenMinus": 2.6807523130661
+  },
+  "originals": [
+    "huxinting-kanxue",
+    "huanghelou",
+    "song-menghaoran",
+    "maowu",
+    "yin-hushang",
+    "qiantang-chunxing",
+    "fengqiao-yebo",
+    "bochuan-guazhou"
+  ],
+  "frozenFiles": 32,
+  "lifecycle": {
+    "cycles": 10,
+    "created": 1,
+    "remount": {
+      "created": 2,
+      "destroyed": 1
+    }
+  },
+  "scope": "native in-app-browser developer acceptance; current bundle for final layouts, gestures, buttons, rapid selection, camera memory, boundary and eight texts. Earlier same-round unchanged logic evidence for stress, long-reading, lifecycle, failure and keyboard retained with its actual bundle.",
+  "unverified": [
+    "physical phone touch/pinch/cancel",
+    "OS reduce dynamic switching",
+    "another environment/browser",
+    "independent acceptance",
+    "formal map publication permission and file-specific CRS"
+  ]
+}

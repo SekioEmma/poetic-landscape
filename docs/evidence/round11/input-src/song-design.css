@@ -1,0 +1,57 @@
+/* Typography, material and selection roles. Geography belongs to the map modules. */
+:root{--sheet-paper:color-mix(in srgb,var(--paper) 60%,var(--reading) 40%);--title-size:32px;--quote-size:22px;--body-size:16px;--note-size:14px;--annotation-size:16px;--symbol-size:22px;--quiet-line:#50655338;--selected-line:#8d504477;--feedback-time:200ms;--lake-pale:#c6d9d6;--island-pale:#e4e9da}
+.exploration-surface{display:contents}
+.official-mode .paper-fibres{background-image:url('../public/assets/paper-fibres-v5.svg');background-size:920px 700px;opacity:.65;mix-blend-mode:normal}
+.map-canvas{z-index:0;isolation:isolate}.reading-sheet,.site-header{isolation:isolate;transform:translateZ(0)}
+.local-view .site-header nav,.local-view .sheet-tools,.local-view .place-heading{transform:translateZ(0);will-change:transform}
+.category-icon{display:inline-flex;width:var(--symbol-size);height:var(--symbol-size);flex:0 0 var(--symbol-size);color:var(--green)}.category-icon svg{width:100%;height:100%;overflow:visible}.category-icon svg path{vector-effect:non-scaling-stroke}
+.brand{letter-spacing:.14em;font-size:30px}.brand small{letter-spacing:.16em}.seal{transform:none}
+.overview-entry{display:flex;align-items:center;gap:7px;font-size:var(--annotation-size);line-height:1.4;letter-spacing:.06em;padding:6px 9px;background:#f4f0e6e6;transition:color var(--feedback-time);border:0}
+.overview-entry.selected{color:var(--red);text-decoration:none;background:#f4f0e6e6;border:0}.overview-entry.selected .category-icon{color:var(--green)}.overview-entry.selected svg{stroke-width:1.2}
+.overview-entry.grouped{font-size:14px;color:var(--muted);gap:6px}.group-count{font:14px/22px var(--serif);letter-spacing:0}.overview-entry small{font-size:12px;letter-spacing:0}.reading-only-tag{color:var(--muted);margin-left:5px}
+.overview-anchor{width:6px;height:6px;border-color:var(--green)}.overview-anchor.selected{width:9px;height:9px;border-radius:50%;transform:translate(-50%,-50%);background:var(--red);border:1px solid var(--paper);outline:1px solid var(--red);outline-offset:2px;z-index:4}
+.annotation-guides{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}.annotation-guides path{fill:none;stroke:var(--selected-line);stroke-width:1}
+.map-poem-preview{bottom:auto;right:auto;width:248px;max-width:calc(100% - 16px);padding:10px 13px;background:#fcfaf4f5;border:0;border-left:1px solid var(--quiet-line)}.map-poem-preview strong{font:17px/1.5 var(--serif)}.map-poem-preview span{font:18px/1.65 var(--serif);letter-spacing:.03em;color:var(--ink);margin:7px 0}.map-poem-preview>small{font:13px/1.7 var(--serif);color:var(--muted)}
+.map-place-list>button{display:flex;gap:12px;align-items:center}.map-place-list .category-icon{width:24px;height:24px;flex-basis:24px}.map-place-list small{font-size:13px}
+.overview-controls{border:0;gap:0}.overview-controls button{font:14px/1.5 var(--serif);color:var(--green);padding:8px 11px;min-height:44px;transition:color var(--feedback-time)}.overview-controls button:hover{color:var(--red)}.overview-controls button:first-child,.overview-controls button:nth-child(2){font-size:20px}
+.official-caption{display:none}.map-footer{font-size:12px}.map-footer button{font-size:13px;min-height:44px;white-space:nowrap;flex-shrink:0}
+.local-view .view-caption{left:100px;top:101px}
+/* Static large paper field, softly varied fibres; never filters text or map pixels. */
+.reading-sheet{background-color:var(--sheet-paper);background-image:url('../public/assets/paper-fibres-v5.svg');background-size:920px 700px;border-bottom:0;border-top:0;animation:paper-enter 240ms cubic-bezier(.2,.65,.25,1)}
+.sheet-tools{padding:2px 19px 0;flex-shrink:0}.sheet-heading{padding:2px 28px 0;flex-shrink:0}.sheet-scroll{display:block;padding:8px 28px 24px;background:none;overflow-anchor:none}
+.place-heading{display:flex;gap:8px;align-items:center;flex-wrap:wrap;order:1;padding:3px 0 10px}.place-heading h2{font-size:var(--title-size);line-height:1.35;letter-spacing:.13em;margin:0;font-weight:400}.place-region{font:13px/1.8 sans-serif;color:var(--muted);margin-left:auto}
+.reading-outside-filter{order:0;font:13px/1.7 sans-serif;color:var(--red);margin:0 0 8px}.poem-front{display:contents}.poem-inscription{order:2;margin-top:5px}
+.poem-inscription h3{font:21px/1.55 var(--serif);letter-spacing:.025em;margin:0 0 5px;color:var(--ink)}.poet-byline{display:flex;gap:13px;font:14px/1.7 var(--serif);margin:0;color:var(--muted)}
+.front-quote{font:var(--quote-size)/1.75 var(--serif);letter-spacing:.045em;color:var(--ink);border:0;padding:0;margin:12px 0 3px}.front-quote small{display:block;font:12px/1.6 var(--serif);color:var(--muted);letter-spacing:0;margin-top:3px}
+.work-switcher{display:flex;align-items:center;margin:2px 0 0;gap:14px;border:0;padding:0}.work-switcher>span{font:12px/1.5 var(--serif);color:var(--muted)}.work-switcher button{position:relative;padding:7px 3px;font:14px/1.6 var(--serif);min-width:44px;min-height:44px;color:var(--green)}.work-switcher button[aria-pressed=true]{color:var(--red)}.work-switcher button[aria-pressed=true]:after{content:"";position:absolute;left:3px;right:3px;bottom:5px;height:1px;background:var(--red)}
+.detail-tabs{display:flex;position:relative;z-index:2;margin:0 0 2px;padding:3px 0 5px;gap:25px;border:0;background:transparent;clear:none}.detail-tabs button{position:relative;min-width:44px;letter-spacing:.12em;padding:4px 0 7px;min-height:44px;font-size:14px;color:var(--green)}.detail-tabs button[aria-selected=true]{color:var(--red)}.detail-tabs button[aria-selected=true]:after{content:"";position:absolute;background:var(--red);height:1px;left:0;right:0;bottom:0}
+.poem-picture{order:4;width:100%;margin:8px 0 12px}.poem-picture img{display:block;width:100%;height:auto}.poem-picture figcaption{display:flex;justify-content:space-between;align-items:center;gap:8px;font:14px/1.7 var(--serif);color:var(--green);margin-top:6px;letter-spacing:.05em}.poem-picture figcaption span{font:11px/1.6 sans-serif;letter-spacing:0;color:var(--muted)}.sheet-scroll>section{order:5;scroll-margin-top:65px}
+.sheet-footer{padding:0 24px;min-height:44px;border-top:0;gap:8px;font:12px/1.5 var(--serif);color:var(--muted)}.sheet-footer button{font-size:14px;min-height:44px}.interpretation{font-size:var(--body-size);line-height:1.9;margin:16px 0 19px;color:var(--ink)}
+.original{margin:18px 0 12px;border-top:1px solid var(--quiet-line);border-bottom:0}.original summary{font-size:16px;min-height:44px;line-height:1.7;padding:12px 0}.original[open] summary span{transform:none}.original-text{font-family:var(--serif);font-size:18px;line-height:1.9}.text-link{font-size:14px;min-height:44px}
+.local-view .map-place{gap:7px;padding:5px 9px;min-width:44px;min-height:44px;background:#fcfaf4e8;outline-offset:3px;border:0}.local-view .map-place .map-dot{display:none}.local-view .map-place .category-icon{display:inline-flex}.local-view .map-place.selected .category-icon{color:var(--green)}.local-view .map-place.selected svg{stroke-width:1.2}.local-view .map-place.selected{border:0}.local-view .map-place.label-left{width:auto;gap:7px}.local-view .map-place.label-left .map-name{position:static;padding:0;background:transparent}.local-view .map-place.label-left:after{display:none}.local-view .map-name{font-size:16px;letter-spacing:.06em}.local-label{font:14px/1.5 var(--serif);color:var(--green);padding:2px 5px;background:#f4f0e699;letter-spacing:.05em}
+.icon-specimens{display:grid;grid-template-columns:repeat(3,1fr);gap:18px 12px;margin:18px 0}.icon-specimens>div{display:flex;align-items:center;gap:9px;font:14px/1.5 var(--serif)}.icon-specimens small{display:block;font:12px/1.5 sans-serif;color:var(--muted)}.scene-specimens{display:flex;flex-wrap:wrap;gap:20px;margin-top:20px}.scene-specimens figure{margin:0}.scene-specimens img{display:block;width:240px;height:auto}.scene-specimens figcaption{font:13px/1.7 var(--serif);margin-top:8px;color:var(--muted)}
+@media(max-width:767px){
+ :root{--title-size:28px;--quote-size:21px;--annotation-size:14px}.brand{font-size:26px}
+ .sheet-tools{padding:1px 18px 0}.sheet-tools .close-button{width:44px;min-width:44px}.sheet-heading{padding:0 22px}.sheet-scroll{padding:6px 22px 22px}.sheet-footer{padding:0 22px;min-height:40px}.sheet-footer button{min-height:44px}
+ .place-heading{padding:1px 0 7px;gap:7px}.place-heading .category-icon{width:20px;height:20px;flex-basis:20px}.place-region{font-size:12px;margin-left:3px}
+ .poem-inscription{margin-top:0}.poem-inscription h3{font-size:19px;line-height:1.45;margin-bottom:3px}.poet-byline{font-size:14px;line-height:1.5;gap:10px}.front-quote{font-size:21px;line-height:1.65;letter-spacing:.025em;margin:8px 0 0}.front-quote small{font-size:12px;margin:1px 0 0}
+ .detail-tabs{margin:0 0 2px;gap:26px}.detail-tabs button{min-height:44px;padding:6px 0}.poem-picture{margin:4px 0 10px}.poem-picture figcaption{font-size:13px}.work-switcher button{font-size:14px}
+ .reading-outside-filter{font-size:12px;margin:0 0 4px}.reading-only-tag{display:none}.map-poem-preview{display:none}
+ .overview-entry{gap:5px;padding:5px 6px}.overview-entry.grouped{font-size:13px}.overview-controls button{font-size:13px;padding:7px 8px}.map-footer{padding:8px 19px;flex-wrap:nowrap;gap:8px}.map-footer .edition{display:none}.map-footer button{font-size:12px}.sheet-scroll .body-copy{font-size:16px;line-height:1.85}.map-place-list small{font-size:12px}.icon-specimens{grid-template-columns:repeat(2,1fr)}
+}
+@media(prefers-reduced-motion:reduce){.overview-entry,.overview-controls button{transition:none}}
+
+/* Presence uses compositing. Final layout changes once; text is never scaled. */
+.reading-sheet.closing{animation:paper-exit 220ms ease-in both;pointer-events:none}
+@keyframes paper-enter{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:translateX(0)}}
+@keyframes paper-exit{to{opacity:0;transform:translateX(24px)}}
+.directory{background-image:url('../public/assets/paper-fibres-v5.svg');background-size:920px 700px;animation:directory-enter 200ms ease-out}
+@keyframes directory-enter{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.sources-dialog{background-image:url('../public/assets/paper-fibres-v5.svg');background-size:920px 700px}
+.sources-dialog[open]{animation:directory-enter 200ms ease-out}
+@media(max-width:767px){.sheet-heading{padding-left:22px;padding-right:22px}.sheet-footer{min-height:40px}.sheet-footer button{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.reading-sheet,.directory,.sources-dialog[open]{animation:none!important}}
+
+.layout-summary{position:absolute;bottom:24px;left:24px;z-index:5;background:var(--reading);padding:12px 18px;max-width:360px}.layout-summary p{font-size:13px;margin:8px 0}.planning-symbol{font:11px var(--serif);color:var(--muted)}
+/* Selected names stay above neighbour captions; leaders only explain UI offsets. */
+.overview-entry.selected{z-index:5}.annotation-guides .label-leader{stroke:var(--quiet-line)}

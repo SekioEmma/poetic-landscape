@@ -1,0 +1,17 @@
+[
+  {
+    "dialogs": 0,
+    "list": 1,
+    "state": "source closed only"
+  },
+  {
+    "directory": "false",
+    "list": 1,
+    "state": "directory closed only"
+  },
+  {
+    "focus": "地图分组：杭州·2处",
+    "list": 0,
+    "state": "list closed, focus returned"
+  }
+]

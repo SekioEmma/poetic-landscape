@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-09T06:05:03.194Z",
+  "oldObjectsPreserved": {
+    "places": 6,
+    "works": 8,
+    "relations": 8,
+    "placeDetails": 6
+  },
+  "changes": [
+    {
+      "path": "src/data/content.ts",
+      "before": "e45a05cd62eaf31726600659ce802ea66ab8651494f46277c20ac2b3326a39ba",
+      "after": "fba2103c06afb6f00e65f994e333433948c9af8297e8b0c4e58c781d89580a9d",
+      "reason": "C1 approved addition; original objects and offsets checked above"
+    },
+    {
+      "path": "src/data/reading-layout.ts",
+      "before": "6c42f2bbaf4eb0765bbdd72f43320086192b492a10bfb6d70b6d61ef64cfc5b9",
+      "after": "0ced534fcd62800857d3bacf100a0d84534af7a4f9d5fc8d6dd5b7ac16b52820",
+      "reason": "C1 approved addition; original objects and offsets checked above"
+    }
+  ]
+}

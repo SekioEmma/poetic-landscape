@@ -1,0 +1,8 @@
+[
+  {
+    "level": "warn",
+    "message": "Map cannot fit within canvas with the given bounds, padding, and/or offset.",
+    "timestamp": "2026-10-08T03:23:13.390Z",
+    "url": "http://127.0.0.1:4173/assets/MapAdapter-CKnLrLOE.js"
+  }
+]

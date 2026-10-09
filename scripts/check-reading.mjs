@@ -14,9 +14,9 @@ for(const w of works){const layout=readingLayouts[w.id];assert.deepEqual(Object.
   assert.equal(spans.map(([a,b])=>p.text.slice(a,b)).join(''),p.text,'lossless original '+w.id+'/'+p.id);
   for(const [a,b] of spans){const left=Math.max(a,at),right=Math.min(b,at+h.text.length);if(at>=0&&right>left)marks+=p.text.slice(left,right);}
  }
- if(layout.form==='quatrain')assert.equal(lines,4);if(layout.form==='regulated')assert.equal(lines,8);if(layout.form==='song'||layout.form==='prose')assert.equal(w.paragraphs.length,4);
+ if(layout.form==='quatrain')assert.equal(lines,4);if(layout.form==='regulated')assert.equal(lines,8);if(layout.form==='song'||layout.form==='prose')assert.equal(w.paragraphs.length,4);if(layout.form==='ancient'){assert.equal(w.id,'guanshanyue');assert.equal(w.paragraphs.length,6);assert.equal(lines,12);}
  assert.equal(marks,relation.highlight.text,'cross-line highlight '+w.id);report.push({workId:w.id,form:layout.form,paragraphs:w.paragraphs.length,lines,lossless:true,highlight:true});
 }
 const output=process.argv[2]??'docs/evidence/round8/reading-layout-check.json';
 await fs.mkdir(path.dirname(output),{recursive:true});await fs.writeFile(output,JSON.stringify({checkedAt:new Date().toISOString(),works:report},null,2)+'\n');
-console.log('8 works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.');
+console.log(`${works.length} works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.`);

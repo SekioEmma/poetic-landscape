@@ -1,0 +1,245 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "interfaceReadyMs": "77.4",
+    "readerLayout": "bottom",
+    "readingSpace": "exploring",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "huxin,huanghe,dufu,xihu,hanshan,guazhou,yumen,yangguan,loulan"
+  },
+  "at": "2026-10-09T03:50:12.746Z",
+  "entries": [
+    {
+      "annotationKey": "guazhou|hanshan|huxin|xihu",
+      "aria": "地图分组：江南·4处",
+      "candidate": "0",
+      "count": "4",
+      "labelVisible": "true",
+      "memberIds": "guazhou,hanshan,huxin,xihu",
+      "nodeSerial": "1",
+      "placeId": "",
+      "rect": {
+        "bottom": 483,
+        "height": 44,
+        "left": 252,
+        "right": 296,
+        "top": 439,
+        "width": 44
+      },
+      "title": {
+        "bottom": 476,
+        "height": 30,
+        "left": 293,
+        "right": 376.2083358764648,
+        "top": 446,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "dufu|huanghe",
+      "aria": "地图分组：2处地点",
+      "candidate": "1",
+      "count": "2",
+      "labelVisible": "true",
+      "memberIds": "dufu,huanghe",
+      "nodeSerial": "2",
+      "placeId": "",
+      "rect": {
+        "bottom": 486,
+        "height": 44,
+        "left": 197,
+        "right": 241,
+        "top": 442,
+        "width": 44
+      },
+      "title": {
+        "bottom": 479,
+        "height": 30,
+        "left": 133,
+        "right": 199.96875,
+        "top": 449,
+        "width": 66.96875
+      },
+      "visible": "visible"
+    },
+    {
+      "annotationKey": "loulan|yangguan|yumen",
+      "aria": "地图分组：西北·3处",
+      "candidate": "0",
+      "count": "3",
+      "labelVisible": "true",
+      "memberIds": "loulan,yangguan,yumen",
+      "nodeSerial": "3",
+      "placeId": "",
+      "rect": {
+        "bottom": 426,
+        "height": 44,
+        "left": 113,
+        "right": 157,
+        "top": 382,
+        "width": 44
+      },
+      "title": {
+        "bottom": 419,
+        "height": 30,
+        "left": 154,
+        "right": 237.20833587646484,
+        "top": 389,
+        "width": 83.20833587646484
+      },
+      "visible": "visible"
+    }
+  ],
+  "focus": "关闭邻近地点",
+  "list": "江南·4处\n关闭\n湖心亭　1篇\n浙江 · 杭州\n瓜洲渡　1篇\n江苏 · 扬州\n寒山寺与枫桥　1篇\n江苏 · 苏州\n西湖　2篇\n浙江 · 杭州",
+  "listRect": {
+    "bottom": 344,
+    "height": 260,
+    "left": 130,
+    "right": 378,
+    "top": 84,
+    "width": 248
+  },
+  "map": {
+    "annotationCamera": "{\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141126,\"bearing\":0,\"pitch\":0}",
+    "annotationListOpen": "true",
+    "annotationSourceVersion": "4",
+    "annotations": "[{\"key\":\"guazhou|hanshan|huxin|xihu\",\"ids\":[\"huxin\",\"xihu\",\"hanshan\",\"guazhou\"],\"selected\":false,\"focused\":false,\"priority\":103,\"nodeSerial\":\"1\",\"anchor\":{\"x\":273.53385416666646,\"y\":461.3233382418781},\"visual\":{\"x\":273.53385416666646,\"y\":461.3233382418781},\"offset\":[0,0],\"label\":{\"left\":292.53385416666646,\"top\":446.3233382418781,\"right\":376.53385416666646,\"bottom\":476.3233382418781},\"candidate\":0,\"reused\":true,\"count\":4},{\"key\":\"dufu|huanghe\",\"ids\":[\"huanghe\",\"dufu\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"2\",\"anchor\":{\"x\":218.522693452381,\"y\":463.7633494025923},\"visual\":{\"x\":218.522693452381,\"y\":463.7633494025923},\"offset\":[0,0],\"label\":{\"left\":132.522693452381,\"top\":448.7633494025923,\"right\":199.522693452381,\"bottom\":478.7633494025923},\"candidate\":1,\"reused\":true,\"count\":2},{\"key\":\"loulan|yangguan|yumen\",\"ids\":[\"yumen\",\"yangguan\",\"loulan\"],\"selected\":false,\"focused\":false,\"priority\":102,\"nodeSerial\":\"3\",\"anchor\":{\"x\":134.8968563988096,\"y\":403.76125676866394},\"visual\":{\"x\":134.8968563988096,\"y\":403.76125676866394},\"offset\":[0,0],\"label\":{\"left\":153.8968563988096,\"top\":388.76125676866394,\"right\":237.8968563988096,\"bottom\":418.76125676866394},\"candidate\":0,\"reused\":true,\"count\":3}]",
+    "camera": "{\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141126,\"bearing\":0,\"pitch\":0}",
+    "cameraActive": "false",
+    "cameraBounds": "[[65.86792452830272,-39.57770867620172],[143.13207547169947,76.9079461740624]]",
+    "cameraMemory": "{\"exploration\":null,\"nationalReading\":null,\"local\":null}",
+    "cameraPadding": "{\"top\":0,\"bottom\":0,\"left\":0,\"right\":0}",
+    "cameraTrace": "[{\"t\":249.70000000018626,\"event\":\"moving\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":249.70000000018626,\"event\":\"idle\",\"selected\":null,\"intent\":0,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":344.29999999981374,\"event\":\"moving\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":346.5,\"event\":\"idle\",\"selected\":null,\"intent\":1,\"active\":false,\"z0\":2,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104,34],\"zoom\":2,\"bearing\":0,\"pitch\":0},{\"t\":350.79999999981374,\"event\":\"moving\",\"selected\":null,\"intent\":3,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":352.1000000005588,\"event\":\"idle\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":352.40000000037253,\"event\":\"fit-national\",\"selected\":null,\"intent\":3,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":3509.4000000003725,\"event\":\"cluster-step\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,31.91481327458054],\"zoom\":2.381807237486754,\"bearing\":0,\"pitch\":0},{\"t\":4450.9000000003725,\"event\":\"moving\",\"selected\":null,\"intent\":5,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":4452.799999999814,\"event\":\"idle\",\"selected\":null,\"intent\":5,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":6685.600000000559,\"event\":\"cluster-list\",\"selected\":null,\"intent\":7,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":13143.100000000559,\"event\":\"fit-place\",\"selected\":\"yumen\",\"intent\":9,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":379.04168701171875},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":14113.100000000559,\"event\":\"moving\",\"selected\":\"yumen\",\"intent\":9,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":379.04168701171875},\"viewport\":[390,844],\"center\":[93.86511199181268,34.36532172705938],\"zoom\":3.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":14114.299999999814,\"event\":\"idle\",\"selected\":\"yumen\",\"intent\":9,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":379.04168701171875},\"viewport\":[390,844],\"center\":[93.86511199181268,34.36532172705938],\"zoom\":3.8274561281141133,\"bearing\":0,\"pitch\":0},{\"t\":24977.5,\"event\":\"moving\",\"selected\":null,\"intent\":11,\"active\":true,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":24978.799999999814,\"event\":\"idle\",\"selected\":null,\"intent\":11,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":24979.299999999814,\"event\":\"restore\",\"selected\":null,\"intent\":11,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":26010.799999999814,\"event\":\"moving\",\"selected\":null,\"intent\":12,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":26012,\"event\":\"idle\",\"selected\":null,\"intent\":12,\"active\":false,\"z0\":1.8274561281141133,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":26014.700000000186,\"event\":\"fit-national\",\"selected\":null,\"intent\":14,\"active\":true,\"z0\":1.8274561281141126,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[91.95170425678975,41.8228212033018],\"zoom\":3.5,\"bearing\":0,\"pitch\":0},{\"t\":26990.900000000373,\"event\":\"moving\",\"selected\":null,\"intent\":14,\"active\":true,\"z0\":1.8274561281141126,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141126,\"bearing\":0,\"pitch\":0},{\"t\":26992.5,\"event\":\"idle\",\"selected\":null,\"intent\":14,\"active\":false,\"z0\":1.8274561281141126,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141126,\"bearing\":0,\"pitch\":0},{\"t\":30064.799999999814,\"event\":\"cluster-list\",\"selected\":null,\"intent\":16,\"active\":false,\"z0\":1.8274561281141126,\"area\":{\"left\":8,\"top\":80,\"width\":374,\"height\":752},\"viewport\":[390,844],\"center\":[104.5,37.449622289151264],\"zoom\":1.8274561281141126,\"bearing\":0,\"pitch\":0}]",
+    "clusterDecision": "{\"key\":\"guazhou|hanshan|huxin|xihu\",\"ids\":[\"huxin\",\"xihu\",\"hanshan\",\"guazhou\"],\"current\":1.8274561281141126,\"expansion\":4,\"fit\":7.453456118230676,\"target\":null,\"margin\":40,\"action\":\"list\",\"sourceVersion\":4,\"request\":11}",
+    "coordinateSystem": "GCJ-02 / Web Mercator",
+    "featureCount": "35",
+    "fixture": "false",
+    "instanceId": "1",
+    "l7Layers": "literary-places",
+    "labelCount": "3",
+    "labelObstacles": "[{\"left\":125,\"right\":383,\"top\":79,\"bottom\":349},{\"left\":321,\"right\":375,\"top\":675,\"bottom\":825},{\"left\":-5,\"right\":395,\"top\":-5,\"bottom\":77},{\"left\":9,\"right\":75,\"top\":93,\"bottom\":125.92708396911621},{\"left\":7,\"right\":162.5729217529297,\"top\":795,\"bottom\":849},{\"left\":261.53385416666646,\"right\":285.53385416666646,\"top\":449.3233382418781,\"bottom\":473.3233382418781},{\"left\":206.522693452381,\"right\":230.522693452381,\"top\":451.7633494025923,\"bottom\":475.7633494025923},{\"left\":122.8968563988096,\"right\":146.8968563988096,\"top\":391.76125676866394,\"bottom\":415.76125676866394}]",
+    "level": "national",
+    "manualCamera": "false",
+    "mapStatus": "ready",
+    "mapView": "national",
+    "readyMs": "354.7",
+    "renderState": "idle",
+    "safeArea": "{\"left\":8,\"top\":80,\"width\":374,\"height\":752}",
+    "selectedPlace": "",
+    "sourceUpdating": "false",
+    "sourceVersion": "4",
+    "testid": "map",
+    "z0": "1.8274561281141126",
+    "zoomLimits": "{\"min\":1.4774561281141128,\"max\":11.5,\"target\":1.8274561281141126}"
+  },
+  "marks": [],
+  "reader": null,
+  "tools": [
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 724,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 680,
+        "width": 44
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 776,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 732,
+        "width": 44
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 820,
+        "height": 44,
+        "left": 326,
+        "right": 370,
+        "top": 776,
+        "width": 44
+      }
+    }
+  ],
+  "viewport": [
+    390,
+    844
+  ],
+  "listButtons": [
+    {
+      "name": "关闭邻近地点",
+      "rect": {
+        "bottom": 138,
+        "height": 44,
+        "left": 322,
+        "right": 366,
+        "top": 94,
+        "width": 44
+      }
+    },
+    {
+      "name": "湖心亭　1篇\n浙江 · 杭州",
+      "rect": {
+        "bottom": 195.45833587646484,
+        "height": 57.45833587646485,
+        "left": 142,
+        "right": 350.6666717529297,
+        "top": 138,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "瓜洲渡　1篇\n江苏 · 扬州",
+      "rect": {
+        "bottom": 252.91667938232425,
+        "height": 57.45833587646485,
+        "left": 142,
+        "right": 350.6666717529297,
+        "top": 195.45834350585935,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "寒山寺与枫桥　1篇\n江苏 · 苏州",
+      "rect": {
+        "bottom": 310.37500762939453,
+        "height": 57.45833587646485,
+        "left": 142,
+        "right": 350.6666717529297,
+        "top": 252.9166717529297,
+        "width": 208.6666717529297
+      }
+    },
+    {
+      "name": "西湖　2篇\n浙江 · 杭州",
+      "rect": {
+        "bottom": 367.8333358764648,
+        "height": 57.45833587646485,
+        "left": 142,
+        "right": 350.6666717529297,
+        "top": 310.375,
+        "width": 208.6666717529297
+      }
+    }
+  ],
+  "listScroll": {
+    "clientHeight": 196,
+    "scrollHeight": 230,
+    "scrollTop": 0
+  },
+  "scripts": [
+    "http://127.0.0.1:4173/assets/index-BxbdMEvE.js"
+  ],
+  "scrollWidth": 390
+}

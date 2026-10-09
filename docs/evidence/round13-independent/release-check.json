@@ -1,0 +1,193 @@
+{
+  "count": 31,
+  "allEqual": true,
+  "files": [
+    {
+      "distEqual": true,
+      "zipSha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc",
+      "buildEqual": true,
+      "path": "assets/china-design-paper-v1.png"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc",
+      "buildEqual": true,
+      "path": "assets/china-design-paper-v5a.png"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591",
+      "buildEqual": true,
+      "path": "assets/huxin-2017.jpg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "b38f25e6e2cfc45e39ba625c47beed148d27d9193562ed76e8188883f4858f41",
+      "buildEqual": true,
+      "path": "assets/huxin-snow-r9-v1.png"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "ce9dfca20588091799c9f1888b7ba7d51a7ef72c39a5a93105e769656ec08bb3",
+      "buildEqual": true,
+      "path": "assets/index-8Kt4jLEd.js"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "8017ed74dfb058b295bbeabecf04f3f2484dbf1549917fd1ba2cc0e8c6ede156",
+      "buildEqual": true,
+      "path": "assets/index-DwiFYkDs.css"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b",
+      "buildEqual": true,
+      "path": "assets/lake-painting-v5.png"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df",
+      "buildEqual": true,
+      "path": "assets/lake-scene.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc",
+      "buildEqual": true,
+      "path": "assets/lake-song.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "7bb308c6e42ba9e9dc52662c501366c818631c1e0cb3ce4af3263225e048db0a",
+      "buildEqual": true,
+      "path": "assets/LayoutLab-B2aRvqhS.js"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "820cf7c52d3dfecea458514b898b433a09874c473d2616798a372dbb6e61581e",
+      "buildEqual": true,
+      "path": "assets/MapAdapter-DKkuoYdr.js"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "0ee6f64a97cd3164fbbe90f92c32dd38d0d2c971c3fb0c852bb22c3b1531df9a",
+      "buildEqual": true,
+      "path": "assets/maplibre-gl-worker-MfjJLauD.js"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97",
+      "buildEqual": true,
+      "path": "assets/official-china-gs20232763.jpg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c",
+      "buildEqual": true,
+      "path": "assets/paper-fibres-v5-bf1_Qo3z.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c",
+      "buildEqual": true,
+      "path": "assets/paper-fibres-v5.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78",
+      "buildEqual": true,
+      "path": "assets/paper.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "46b4cedfb68bdd3af4d88ed8697d8a8a343b7f1c306a90613ebd144f7d0f744d",
+      "buildEqual": true,
+      "path": "assets/qiantang-spring-r9-v1.png"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220",
+      "buildEqual": true,
+      "path": "assets/reading-fibres.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66",
+      "buildEqual": true,
+      "path": "assets/tower-song.svg"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22",
+      "buildEqual": true,
+      "path": "geodata/causeways.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "5b1fca23209497dfae262ac164a30fb6d2c210ac1cb2a5487dbae5750659c930",
+      "buildEqual": true,
+      "path": "geodata/land.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "608545caeedb67610586ee95560efdc0a0cf58175ef699cd322da0f18e8a9023",
+      "buildEqual": true,
+      "path": "geodata/local-labels.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+      "buildEqual": true,
+      "path": "geodata/national-geoatlas.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c",
+      "buildEqual": true,
+      "path": "geodata/national-outline-geoatlas.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28",
+      "buildEqual": true,
+      "path": "geodata/westlake.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "c42a3b0c891eb686a18a2d1f235619d926ba14a4c24089457294110f48727867",
+      "buildEqual": true,
+      "path": "index.html"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "06dc950880cedec9687d8cff60c193a3c8c3a700ed321a11a7cf3f2febf650a6",
+      "buildEqual": true,
+      "path": "legal/basemap-manifest.json"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "801448faad6ec70fbd0d1bf384f6b20cdbd332f333898b1b8122ec26cb0b5d79",
+      "buildEqual": true,
+      "path": "legal/coordtransform-MIT.txt"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "8b190d2b9883553dfcb771038cead1df729f73aebdaa8e9a551d5ead90e509cd",
+      "buildEqual": true,
+      "path": "legal/data-licenses.txt"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "5546d0ebb64036621161d0e3caf4b608077a9307cd743b87fb56ff443c4ad12e",
+      "buildEqual": true,
+      "path": "legal/dependency-notices.txt"
+    },
+    {
+      "distEqual": true,
+      "zipSha256": "db74524b3ab3853bcfc7300dade1f5e0176e59ed3c0cff43848a2c300091a22c",
+      "buildEqual": true,
+      "path": "legal/panzoom-MIT.txt"
+    }
+  ],
+  "zipSha256": "bf400b42c68a67c35df4ae6851b0f64bb79ee0d808cbe8ef53aacaff7f281388"
+}

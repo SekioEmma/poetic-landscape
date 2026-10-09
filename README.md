@@ -1,12 +1,14 @@
 # 诗文山河 · 地图上一页读笺
 
-第十轮完成柔和界面与地图操作统一，正式保留6地点、8作品、8关联。地图仍是首页主体，详情默认关闭；单层读纸、两行紧凑操作、同形地图工具和可恢复的搜索／阅读构成这轮改版。已有雪夜亭舟与钱塘春行意境画保留，原文先于解读与画。
+第十四轮已本地完成：**9地点、12作品、12关联冻结**，全国轻量题注、真锚点、稳定候选与节点记忆、渐进聚合及完整近邻名单。全国和西湖复用锁定L7／MapLibre实例；纸面、正文、两画、湖心亭照片与来源保持。
 
-![第十轮真实生产页：1000×750黄鹤楼](docs/screenshots/round10/after-1000x750-reading.jpg)
+全国西北在桌面2.68→4.5、手机1.83→3.5；再点敦煌直接选玉门关／阳关。杭州近邻分别选西湖和湖心亭，当前地名独立，44px按钮透明热区。普通地名用16px墨字／轻护字，选中／焦点才有短底。真实点位和地理不为构图移动。
+
+![本轮真实生产页：湖心亭](docs/screenshots/round14/delivery-selected-1280.png)
 
 ## 本地启动
 
-Node22.12+兼容版本，依赖由lockfile锁定，不需API密钥。地图、worker、原文、画与照片本地打包。
+Node22.12+兼容版本；依赖按lockfile保持，无API Key、无后端。
 
 ```powershell
 cd 'G:\project\数媒\poetic-landscape'
@@ -14,43 +16,61 @@ npm ci
 npm run dev
 ```
 
-[开发页面](http://127.0.0.1:5173/)；生产检查与预览：
+开发地址 http://127.0.0.1:5173/。生产预览：
 
 ```powershell
 npm run check:data
 node scripts/check-design.mjs
-node scripts/check-reading.mjs docs/evidence/round10/reading-check.json
-node scripts/check-overview.mjs docs/evidence/round10/overview-check.json
-node scripts/check-reader-gesture.mjs
+node scripts/check-camera-intent.mjs
+node scripts/check-reading.mjs docs/evidence/round14/reading-layout-check.json
+node scripts/check-annotation-layout.mjs
 npm run build
-node scripts/check-reader-layout.mjs docs/evidence/round10
 npm run preview
 ```
 
-[生产页面](http://127.0.0.1:4173/)，端口固定，Ctrl+C停止。check-reader-layout审计本轮已经采集的真实DOM和时序记录，核对当前dist文件名；不会启动浏览器，也不代表重新运行交互。应用改变后须先用本机cua_repl重采受影响证据。手势脚本仅测试吸附／取消纯逻辑，不等于实机触摸。
+生产地址 http://127.0.0.1:4173/，Ctrl+C停止；已有服务时直接访问。检查覆盖完整原文、连续高亮、内容／坐标、全部地理环洞、照片许可、官方原图与依赖冻结。相机单测不能代替原生输入。
 
-[第十轮静态ZIP](releases/诗文山河_第十轮静态包_2026-10-07.zip)包括dist全部文件、根index.html。解压后用HTTP服务器运行，不能双击HTML；如已有Python，可在解压目录运行`python -m http.server 8080 --bind 127.0.0.1`。逐文件字节核对与SHA在[release.json](docs/evidence/round10/release.json)及同名[校验文件](releases/诗文山河_第十轮静态包_2026-10-07.sha256.txt)。历史包继续保留。
+`node scripts/check-round14-runtime.mjs`只审计本轮已采集UI，不自动重跑浏览器。代码变化后应更新受影响实页记录。脚本默认输出为round14，旧UI证据保持；不要运行旧轮审计后改日期冒充新验收。
 
-## 阅读与操作
+## 静态包
 
-- 全国PNG＋Panzoom拖缩与近邻组选点；当前地点始终有独立名称与小朱锚点。地图空白可拖动，保留当前阅读。复位名“看全国”，局部名“定位此地”；44px复位与44×88缩放组位于可见地图右下，冲突时移动工具。
-- 顶栏“寻诗文”查地名、别名、作者、篇名及主题。命中篇名优先读该篇。目录打开暂隐并inert读案，保留篇目、tab、空间与进度；Esc回旧案，选择结果才新选点。筛选外当前阅读明确标示。
-- 地名和收起／展开／关闭在第一行，诗文／地点与选篇在第二行。18px全文连续排布，不嵌套卡片。“收起读案”保留题签，“继续阅读”恢复进度；“展开阅读”进入专注，“恢复大小”回常态。
-- 底案抓手／标题非按钮空处可拖三档；低档再下拉不关闭，×才显式退出。抓手上下键进相邻档、Enter循环；正文原生滚动、选文与链接优先。外壳260ms连续插值真实尺寸，快速操作从当前矩形接续，文字不scale。短诗扩容放得下全文时保留原常态锚点。
-- ×／读案Esc／首页退出并恢复原探索视野。Esc一次只关最上层：原图、来源、选篇、目录、读案；焦点回相应入口。手动地图拖缩后，继续／专注不会抢回镜头。
-- 地点页不自动初始化地图。“查看局部地图”首次才载入L7／MapLibre，后续复用一个组合实例。局部左上“回全国”直接返回；重入保留手动镜头。2张canvas属于同一个组合实例。
-- 湖心亭真实照片为Bjoertvedt、2017-07-21、CC BY-SA4.0；原件未改，等比例显示与署名保留。雪夜画只配《湖心亭看雪》，春景只配《钱塘湖春行》，标AI辅助原创意境／非古建复原，苏轼和其他篇不配错图。
-- “出处→查看官方原图”最多两点击看完整原件。GS(2023)2763只标原底图身份；原件与衍生处理有台账，成品未送审。
-- 出处可开“静观”。`/?overviewFail=1`、`/?mapFail=1`注入地图失败；`/?artFail=1`注入意境画失败；目录及HTML全文仍可读。诊断参数`readerTrace=1`／`motionTrace=1`仅记录DOM；普通页不采样。`/layout-lab`仅是12点隔离规划测试。
+[最终第十四轮ZIP r2](releases/诗文山河_第十四轮静态包_2026-10-09_r2.zip)含dist的31文件，根index.html，约20.3MB。ZIP、dist、4173及解压4191逐文件字节对应见[release.json](docs/evidence/round14/release.json)与同名SHA清单。最初候选包保留，不作为最终交付；第十三轮历史包保持。
 
-## 实测与边界
+解压后通过HTTP运行，不能双击HTML：
 
-八尺寸×探索／常态／收起／专注／恢复重新采集。侧案350–420px（短横屏320），手机左右12px；390固定区108px、正文约253px，360正文约232px，原文18px、操作44px。短横屏默认收起；专注由明确操作进入，不算地图主导常态。真实中段矩形、100ms内反向、退出改选、位置记忆、局部单实例、八作品DOM、搜索与故障路径均有新记录。
+```powershell
+# 在解压目录；需可运行的Python
+python -m http.server 8080 --bind 127.0.0.1
+```
 
-[设计与截图批评](docs/第十轮设计决策.md) · [实际验收U01–U09](docs/第十轮实际验收记录.md) · [改动说明](docs/第十轮界面与交互改动说明.md) · [证据审计](docs/evidence/round10/layout-budget-check.json) · [总计划v3.0](docs/tasks/诗文山河_MVP开发计划_2026-10-05.md) · [底图台账](docs/官方底图来源与改动说明.md) · [内容与许可](docs/来源与许可.md)。
+打开 http://127.0.0.1:8080/。本机默认Python曾有标准库问题，可用已验证内置运行时：
 
-**G2-layout新回归、G2-ui本轮界面在已测桌面／鼠标／键盘范围开发自测通过，等待独立验收；G1-art沿用已接受继续使用的两画样板，用户终审未完成；G2-map现有PNG粗边与嵌入密城市无法满足目标，成品地图路线尚未通过。** 本轮没有新增地图／画／字体／内容或升级依赖。真实手机触摸与双指、UI pointercancel／拖动中旋转、OS级reduce动态、另一浏览器／设备和干净安装未测；稳定态resize不能冒充旋转中断测试。没有帧率或实耗工时承诺。
+```powershell
+& 'C:\Users\13398\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m http.server 8080 --bind 127.0.0.1
+```
 
-本轮未提交、推送或公开部署，停止于6／8范围，不自动开始C1；12／16／17与两卷仍是后续计划。未重试Ghostscript或旧受阻清理。
+`scripts/package-static-round14.py`生成最终r2包，已有同名包只校验，不静默覆盖。代码改动后另取新包名。
 
-历史：[第九轮验收](docs/第九轮实际验收记录.md) · [第九轮资产与AI记录](docs/第九轮资产与AI使用记录.md) · [改前README](docs/evidence/round10/README.md.before)。
+## 使用与验证边界
+
+- 全国完整范围，原生手动最大11.5；聚合单次自动最多约2级，下一分解太远／同坐标／不宜展开时给完整成员名单。名单可以鼠标或Enter选择、Esc关闭，关闭固定44px，长名单独立滚动。
+- 当前阅读／焦点、搜索、普通地名、省名逐层让位。文字候选优先复用；正常图标仍在真实投影。边缘隐藏普通文字不删除按钮，键盘焦点显示完整名。
+- 地点、别名、作者、篇名搜索；匹配篇优先打开。关山三处，李白两地；当前阅读不匹配时标“筛选外”，不冒充匹配结果。
+- 12篇完整原文18px、真实连续高亮与版本字段保持，按篇／地点保留阅读位置。西湖局部同实例及镜头往返保持；照片按需展开并署名，意境画与实景区分。
+- 地图失败会显示官方图片降级和目录阅读。图片仅有六处已核验锚点，新增西北三地不猜锚点，仍能从目录读全文。
+
+[M01–M10实际验收](docs/第十四轮实际验收记录.md) · [方案／截图批评](docs/第十四轮设计决策.md) · [来源／底图台账](docs/第十四轮来源与底图台账.md) · [检查](docs/evidence/round14/final-checks.json) · [运行审计](docs/evidence/round14/runtime-audit.json) · [MVP v3.9](docs/tasks/诗文山河_MVP开发计划_2026-10-05.md)。
+
+1280×720／1000×800／390×844的九点和隔离12／40点均实际运行；三次安定、五次进退、原生四次滚轮与250px拖动、同坐标、边缘长名、名单／阅读避让、局部／失败路径及新ZIP烟测均有新证据。**这是开发自测，独立验收、实体触摸／双指／取消、OS reduce动态切换、另一浏览器／干净安装和用户审美终审仍待。**不宣称60fps或旧复杂矩阵全量复跑。
+
+## 来源、历史与停止范围
+
+全国GeoAtlas／高德仅学习交流，正式许可与专项CRS仍缺；按DataV约定GCJ-02，地点和OSM源WGS84经既有近似适配。35要素及全部环洞、湖岛、堤道几何不改。官方GS(2023)2763 JPG／EPS、历史设计PNG及改动记录独立保留；GeoAtlas不是EPS衍生物、不沿用原号。EPS转换／配准未完成，不重试被拒安装。照片CC BY-SA 4.0、两画AI辅助意境和非复原标识保持；许可文本见public/legal。
+
+输入v3.8、源码与哈希独立保存。第十二轮单测时间戳曾被默认路径刷新的历史说明保留，未伪造恢复；本轮只写round14。第十三轮C1开发及2026-10-09独立抽查见原记录，不把它们等同本轮独立通过。
+
+`/?mapTrace=1`诊断，`/?mapStress=12`／`40`为明确隔离测试点；`mapFail=1`／`baseFail=1`／`localFail=1`为故障注入，不冒充真实设备故障。
+
+第十四轮开发结束时仅本地交付。2026-10-09 用户另行要求上传 GitHub，第三至第十轮归档之后的第十一至十四轮成果已进入本次工程归档；详情见 [GitHub交付记录](docs/GitHub交付记录.md)。网站部署未执行。C2、主题卷、新地理／照片／画未实施。下一步仍按C2→两卷→跨设备候选版→成品材料，由后续任务推进。
+
+公开仓库保留公版古诗核读摘录及源网页 URL／哈希，完整源网页 HTML 留在本地。克隆后的 `check:data` 使用冻结摘录核验，在本地有 HTML 时另检验源档哈希与全文；两种检查路径明确记录，见 [来源归档公开范围](docs/evidence/round13/sources/README.md)。

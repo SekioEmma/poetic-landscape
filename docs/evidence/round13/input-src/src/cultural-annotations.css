@@ -1,0 +1,23 @@
+/* Round 9: culture is near information, geography remains the frozen image. */
+.app{--culture-name:16px;--culture-current:18px;--culture-symbol:18px}
+.app .overview-entry{font-size:var(--culture-name);color:var(--ink);letter-spacing:.035em;gap:5px;padding:4px 9px;min-height:44px;background:var(--paper);text-decoration:none}
+.app .overview-entry .category-icon{width:var(--culture-symbol);height:var(--culture-symbol);flex-basis:var(--culture-symbol);color:var(--muted)}
+.app .overview-entry:not(.selected):not(.grouped){color:var(--green)}
+.app .overview-entry.selected{font-size:var(--culture-current);color:var(--ink);letter-spacing:.07em;background:var(--paper);text-decoration:none}
+.app .overview-entry.selected .category-icon{display:none}
+.app .overview-anchor{width:5px;height:5px;border-color:var(--green);background:var(--paper)}
+.app .overview-anchor.selected{width:9px;height:9px;border:1px solid var(--paper);background:var(--red);outline:0;box-shadow:none}
+.app .overview-entry.grouped{font-size:14px;color:var(--muted);gap:7px;background:var(--paper)}
+.app .overview-entry .group-count{order:2;font-size:13px;color:var(--green)}
+.app .overview-entry.grouped small{font-size:12px}
+.app .overview-entry .reading-only-tag{font-size:14px}
+.app .annotation-guides .selected-label-leader{stroke:var(--green);stroke-width:.7;opacity:.6}
+.app.local-view .map-place.selected{color:var(--ink);background:var(--paper)}
+.app.local-view .map-place.selected .category-icon{display:none}
+.app.local-view .map-place.selected .map-name{font-size:18px;letter-spacing:.07em}
+.app.local-view .local-label{color:var(--muted);background:#f4f0e6b3;font-size:14px;letter-spacing:.03em}
+.app .poem-picture img{height:auto;max-width:100%;filter:none;mix-blend-mode:normal}
+.app .poem-picture figcaption{display:block;margin-top:8px;color:var(--ink);line-height:1.6}
+.app .poem-picture figcaption span{display:block;color:var(--muted);margin-top:4px;font-size:14px}
+.picture-unavailable{font:14px/1.7 var(--serif);color:var(--muted);margin:20px 0}
+@media(max-width:599px){.app{--culture-name:15px;--culture-current:17px}.app .overview-entry{padding:4px 7px}}

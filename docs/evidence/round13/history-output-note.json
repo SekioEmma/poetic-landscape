@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-08T13:30:59.909Z",
+  "file": "docs/evidence/round12/camera-intent-check.json",
+  "issue": "An initial invocation of the legacy scheduler check refreshed this historical single unit-check timestamp. Passed checks unchanged; original timestamp unavailable. No original runtime observations or screenshots overwritten. Default output corrected to round13; round12 record must not be claimed byte-frozen.",
+  "scope": "scheduler unit check only; runtime acceptance evidence is separate"
+}

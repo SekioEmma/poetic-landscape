@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-08T13:17:25.249Z",
+  "records": [
+    {
+      "id": "liangzhouci",
+      "url": "https://kxqm.hunnu.edu.cn/Article/Detail/fcb771e0-4ab1-40c0-a1b7-d529a9e8c52d",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/liangzhouci.html",
+      "bytes": 7794,
+      "sha256": "e6a2fca4beb8f11ef0c13f17a643bf4ffebe470752de740d790215ae6570a634"
+    },
+    {
+      "id": "guanshanyue",
+      "url": "https://www.sastind.gov.cn/history/n152/n81023/n81097/c112097/content.html",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/guanshanyue.html",
+      "bytes": 13596,
+      "sha256": "11d5fb1eb26ab99c7f5d91247876d6e315d0829b74cdc054b4371e9ac8a3a8a4"
+    },
+    {
+      "id": "song-yuaner",
+      "url": "https://wxyj.xju.edu.cn/info/1056/1361.htm",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/song-yuaner.html",
+      "bytes": 15604,
+      "sha256": "42eaee6398f1323ddb8e034d01b0cb4995ebd524221fa9e23bf01e533f7985c9"
+    },
+    {
+      "id": "loulan-history-poem",
+      "url": "https://www.neac.gov.cn/seac/c103391/202211/1159783.shtml",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/loulan-history-poem.html",
+      "bytes": 66096,
+      "sha256": "89d593b94c6794d64b5352eafbf7a137e2104f291e90fec7c171a57a21d79086"
+    },
+    {
+      "id": "yumen-history",
+      "url": "https://www.gswbj.gov.cn/a/2022/01/18/12369.html",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/yumen-history.html",
+      "bytes": 10057,
+      "sha256": "e3e129ebb58dd27d7efbf0b886f843ecb48319b4bf7bbeca35c7396407656e4b"
+    },
+    {
+      "id": "yangguan-history",
+      "url": "https://www.gswbj.gov.cn/a/2022/12/02/15782.html",
+      "status": 200,
+      "file": "docs/evidence/round13/sources/yangguan-history.html",
+      "bytes": 9501,
+      "sha256": "dabcf15d50ba854117e93c374a82d07186a357272e93037590fb25243da08818"
+    },
+    {
+      "id": "yumen-unesco-map",
+      "url": "https://whc.unesco.org/en/list/1442/maps/",
+      "status": 403,
+      "file": "docs/evidence/round13/sources/yumen-unesco-map.html",
+      "bytes": 5480,
+      "sha256": "d95033207af38e67a9d8a6681190ea54ecd26a06fd6d488d37b5e4e55544ec24"
+    }
+  ]
+}

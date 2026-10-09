@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-09T06:05:03.093Z",
+  "files": 2300,
+  "bytes": 463136831,
+  "largest": {
+    "path": "docs/evidence/westlake-osm.json",
+    "bytes": 24834514
+  },
+  "oversized": [],
+  "credentialPatternFiles": [],
+  "scope": "Common credential formats only; not a complete security audit. Ignored files are not candidates."
+}

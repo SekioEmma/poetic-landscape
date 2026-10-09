@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-09T04:08:59.570Z",
+  "passed": true,
+  "checks": [
+    "stable sorted unique membership",
+    "overlapping and exact-coordinate targets remain complete",
+    "selected priority over budget",
+    "three settles reuse previous candidate",
+    "blocked candidate changes legally",
+    "long edge label chooses left",
+    "automatic <=2 levels; otherwise complete list",
+    "9/12/12 content exact freeze"
+  ],
+  "scope": "pure placement and decision contract; runtime evidence separate"
+}

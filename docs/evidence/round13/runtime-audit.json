@@ -1,0 +1,432 @@
+{
+  "at": "2026-10-08T14:12:23.413Z",
+  "type": "developer audit of real browser observations; does not replay UI or grant independent acceptance",
+  "resets": [
+    {
+      "name": "final-a1-national",
+      "at": 1791467180508,
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 1.8287518669172957,
+      "safeArea": {
+        "left": 8,
+        "top": 80,
+        "width": 374.2857360839844,
+        "height": 752
+      },
+      "lastIntent": {
+        "t": 702321.6000000001,
+        "event": "idle",
+        "selected": null,
+        "intent": 97,
+        "active": false,
+        "z0": 1.8287518669172957,
+        "area": {
+          "left": 8,
+          "top": 80,
+          "width": 374.2857360839844,
+          "height": 752
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      }
+    },
+    {
+      "name": "final-a2-national",
+      "at": 1791467229253,
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "center": [
+          104.47172136346353,
+          37.444821489408625
+        ],
+        "zoom": 1.828751866917295,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 1.828751866917295,
+      "safeArea": {
+        "left": 8,
+        "top": 80,
+        "width": 374.2857360839844,
+        "height": 752
+      },
+      "lastIntent": {
+        "t": 750314,
+        "event": "idle",
+        "selected": null,
+        "intent": 119,
+        "active": false,
+        "z0": 1.828751866917295,
+        "area": {
+          "left": 8,
+          "top": 80,
+          "width": 374.2857360839844,
+          "height": 752
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "center": [
+          104.47172136346353,
+          37.444821489408625
+        ],
+        "zoom": 1.828751866917295,
+        "bearing": 0,
+        "pitch": 0
+      }
+    },
+    {
+      "name": "final-reset-1000",
+      "at": 1791467240342,
+      "viewport": [
+        1000,
+        800
+      ],
+      "camera": {
+        "center": [
+          104.49999707177926,
+          34.79945577007405
+        ],
+        "zoom": 2.8733973910084956,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 2.8733973910084956,
+      "safeArea": {
+        "left": 8,
+        "top": 84,
+        "width": 984.0000610351562,
+        "height": 704
+      },
+      "lastIntent": {
+        "t": 761821.1000000001,
+        "event": "idle",
+        "selected": null,
+        "intent": 122,
+        "active": false,
+        "z0": 2.8733973910084956,
+        "area": {
+          "left": 8,
+          "top": 84,
+          "width": 984.0000610351562,
+          "height": 704
+        },
+        "viewport": [
+          1000,
+          800
+        ],
+        "center": [
+          104.49999707177926,
+          34.79945577007405
+        ],
+        "zoom": 2.8733973910084956,
+        "bearing": 0,
+        "pitch": 0
+      }
+    },
+    {
+      "name": "final-reset-390",
+      "at": 1791467249551,
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 1.8287518669172957,
+      "safeArea": {
+        "left": 8,
+        "top": 80,
+        "width": 374.2857360839844,
+        "height": 752
+      },
+      "lastIntent": {
+        "t": 771919.1000000001,
+        "event": "idle",
+        "selected": null,
+        "intent": 125,
+        "active": false,
+        "z0": 1.8287518669172957,
+        "area": {
+          "left": 8,
+          "top": 80,
+          "width": 374.2857360839844,
+          "height": 752
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      }
+    },
+    {
+      "name": "final-reset-back1000",
+      "at": 1791467259441,
+      "viewport": [
+        1000,
+        800
+      ],
+      "camera": {
+        "center": [
+          104.49999707177926,
+          34.79945577007405
+        ],
+        "zoom": 2.8733973910084956,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 2.8733973910084956,
+      "safeArea": {
+        "left": 8,
+        "top": 84,
+        "width": 984.0000610351562,
+        "height": 704
+      },
+      "lastIntent": {
+        "t": 781866.7999999998,
+        "event": "idle",
+        "selected": null,
+        "intent": 128,
+        "active": false,
+        "z0": 2.8733973910084956,
+        "area": {
+          "left": 8,
+          "top": 84,
+          "width": 984.0000610351562,
+          "height": 704
+        },
+        "viewport": [
+          1000,
+          800
+        ],
+        "center": [
+          104.49999707177926,
+          34.79945577007405
+        ],
+        "zoom": 2.8733973910084956,
+        "bearing": 0,
+        "pitch": 0
+      }
+    },
+    {
+      "name": "delivery-cold-national-390",
+      "at": 1791467797883,
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "z0": 1.8287518669172957,
+      "safeArea": {
+        "left": 8,
+        "top": 80,
+        "width": 374.2857360839844,
+        "height": 752
+      },
+      "lastIntent": {
+        "t": 242.29999999981374,
+        "event": "idle",
+        "selected": null,
+        "intent": 3,
+        "active": false,
+        "z0": 1.8287518669172957,
+        "area": {
+          "left": 8,
+          "top": 80,
+          "width": 374.2857360839844,
+          "height": 752
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "center": [
+          104.4717213634633,
+          37.444821489408625
+        ],
+        "zoom": 1.8287518669172957,
+        "bearing": 0,
+        "pitch": 0
+      }
+    }
+  ],
+  "manualResizePreserved": true,
+  "secondCouplet": [
+    {
+      "name": "final-r02-second-desktop",
+      "scroll": 110.28571319580078,
+      "secondCoupletOffset": 61.49107360839844
+    },
+    {
+      "name": "final-r02-second-mobile",
+      "scroll": 104.57142639160156,
+      "secondCoupletOffset": 61.7589111328125
+    }
+  ],
+  "gestures": {
+    "wheelZooms": [
+      2.8733973910084956,
+      3.5081517871034764,
+      4.142906183198458,
+      4.77766057929344,
+      5.412414975388422
+    ],
+    "dragPixelsAtRelease": 250.00222780313982,
+    "dragIdlePixelsWithNativeInertia": 336.62717168481953,
+    "buttonsZoom": 6.412414975388422,
+    "takeoverEvent": true
+  },
+  "works": [
+    {
+      "workId": "huxinting-kanxue",
+      "sample": "c-local-failure-reading",
+      "paragraphs": 4,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "huanghelou",
+      "sample": "c-old-huanghelou-1280",
+      "paragraphs": 4,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "song-menghaoran",
+      "sample": "c-long-title-390",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "maowu",
+      "sample": "c-map-old-dufu",
+      "paragraphs": 4,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "yin-hushang",
+      "sample": "c-map-old-xihu",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "qiantang-chunxing",
+      "sample": "final-a2-baijuyi-start",
+      "paragraphs": 4,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "fengqiao-yebo",
+      "sample": "c-long-place-390",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "bochuan-guazhou",
+      "sample": "c-old-guazhou",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "liangzhouci-1",
+      "sample": "c-nearby-selected-yumen",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "guanshanyue",
+      "sample": "delivery-yumen-1280",
+      "paragraphs": 6,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "song-yuaner",
+      "sample": "c-official-original",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    },
+    {
+      "workId": "congjunxing-4",
+      "sample": "delivery-loulan-final390",
+      "paragraphs": 2,
+      "fullText": true,
+      "exactHighlight": true
+    }
+  ],
+  "layoutRows": [
+    "guanshanyue-390",
+    "yangguan-390",
+    "loulan-390",
+    "loulan-1000",
+    "hanshan-390",
+    "huanghelou-1280",
+    "sendmeng-390",
+    "yumen-1280",
+    "loulan-final390"
+  ],
+  "allNineOverview": true,
+  "passed": true,
+  "notVerified": [
+    "physical touch/pinch/cancel",
+    "OS reduced-motion change",
+    "another environment",
+    "independent acceptance",
+    "public map permission"
+  ]
+}

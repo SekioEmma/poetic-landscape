@@ -1,0 +1,20 @@
+import {useLayoutEffect, useState} from 'react';
+import type {RefObject} from 'react';
+import {measureReaderLayout} from './reader-layout';
+
+export function useReaderLayout(root: RefObject<HTMLElement | null>) {
+  const [layout, setLayout] = useState(() => measureReaderLayout(innerWidth, innerHeight, innerWidth < 600 ? 72 : 86));
+  useLayoutEffect(() => {
+    const header = root.current?.querySelector<HTMLElement>('.site-header');
+    const update = () => {
+      const safe=root.current?.querySelector<HTMLElement>('.safe-area-probe');
+      const next = measureReaderLayout(innerWidth, innerHeight, header?.getBoundingClientRect().bottom ?? 0,Number.parseFloat(safe?getComputedStyle(safe).paddingBottom:'0'));
+      setLayout(old => JSON.stringify(old) === JSON.stringify(next) ? old : next);
+    };
+    const observer = new ResizeObserver(update);
+    if (header) observer.observe(header);
+    window.addEventListener('resize', update); update();
+    return () => {observer.disconnect(); window.removeEventListener('resize', update);};
+  }, [root]);
+  return layout;
+}

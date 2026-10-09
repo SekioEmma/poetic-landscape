@@ -1,0 +1,104 @@
+{
+  "app": {
+    "directoryModal": "true",
+    "directoryOpen": "false",
+    "interfaceReadyMs": "416.7",
+    "readerLayout": "bottom",
+    "readingSpace": "reading",
+    "reducedMotion": "false",
+    "visiblePlaceIds": "yumen"
+  },
+  "at": "2026-10-09T03:58:18.481Z",
+  "entries": [],
+  "focus": "玉门关",
+  "listRect": null,
+  "map": {
+    "mapStatus": "failed",
+    "testid": "map"
+  },
+  "marks": [
+    "长风几万里，",
+    "吹度玉门关。"
+  ],
+  "poem": "明月出天山，\n苍茫云海间。\n\n长风几万里，\n吹度玉门关。\n\n汉下白登道，\n胡窥青海湾。\n\n由来征战地，\n不见有人还。\n\n戍客望边色，\n思归多苦颜。\n\n高楼当此夜，\n叹息未应闲。",
+  "reader": {
+    "bottom": 815.1145935058594,
+    "height": 396.75,
+    "left": 129.58334350585938,
+    "right": 498.0312805175781,
+    "top": 418.3645935058594,
+    "width": 368.4479370117187
+  },
+  "tools": [
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0
+      }
+    },
+    {
+      "name": "看全国",
+      "rect": {
+        "bottom": 351.04168701171875,
+        "height": 44,
+        "left": 316,
+        "right": 360,
+        "top": 307.04168701171875,
+        "width": 44
+      }
+    },
+    {
+      "name": "放大全国地图",
+      "rect": {
+        "bottom": 403.0416870117187,
+        "height": 44,
+        "left": 316,
+        "right": 360,
+        "top": 359.04168701171875,
+        "width": 44
+      }
+    },
+    {
+      "name": "缩小全国地图",
+      "rect": {
+        "bottom": 447.0416870117187,
+        "height": 44,
+        "left": 316,
+        "right": 360,
+        "top": 403.0416870117187,
+        "width": 44
+      }
+    }
+  ],
+  "viewport": [
+    390,
+    844
+  ]
+}

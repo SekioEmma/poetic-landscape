@@ -1,0 +1,61 @@
+/* Round 12: task hierarchy, measured shell and cultural type. No map transforms. */
+:root{--ui-ink:#353e36;--ui-meta:#59675b;--ui-paper:#f7f3e8;--ui-cinnabar:#95574b;--ui-water:#748e87;--ui-line:#65746522;--ui-radius-sheet:20px;--ui-radius-menu:14px;--ui-feedback:150ms;--ui-sans:system-ui,"Microsoft YaHei",sans-serif}
+.app .site-header{height:76px;padding:12px 28px;background:var(--paper)}
+.app .brand{font-size:28px;letter-spacing:.10em}
+.app .brand small{font-size:11px;letter-spacing:.12em;color:var(--ui-meta)}
+.app .site-header .search-entry{border-radius:12px;width:270px;font:14px/1.5 var(--ui-sans);background:#fcfaf4b8}
+.app .site-header .source-button{font:14px/1.5 var(--ui-sans)}
+.app.national-mode .map-intro{top:106px;left:32px;width:180px}
+.app.national-mode .map-intro h1{font-size:22px;line-height:1.4;margin:8px 0;letter-spacing:.06em}
+.app.national-mode .map-intro .eyebrow{font-size:12px;color:var(--ui-meta)}
+.app.national-mode .map-intro p{font:14px/1.5 var(--serif);color:var(--ui-meta)}
+.app[data-map-explored=true] .map-intro h1,.app[data-map-explored=true] .map-intro p{display:none}
+.app .map-attribution{font:11px/1.4 var(--ui-sans);background:#f4f0e6cc}
+.app .geo-title{font:16px/30px var(--serif);letter-spacing:.015em;color:var(--ui-ink);background:transparent;text-shadow:0 1px 2px var(--ui-paper),1px 0 2px var(--ui-paper),-1px 0 2px var(--ui-paper);transition:opacity 140ms ease}
+.app .geo-entry.selected .geo-title,.app .geo-entry.focused .geo-title{font-size:16px;border:0;color:var(--ui-ink);background:#fcfaf4ee;border-radius:4px;text-shadow:none}
+.app .geo-entry .geo-symbol{border-radius:0;background:transparent}
+.app .geo-entry.selected .geo-symbol{border:0;color:var(--ui-cinnabar)}
+.app .geo-entry.selected .geo-symbol svg{stroke-width:1.7}
+.app .geo-count{font:14px/22px var(--ui-sans);border-color:#50655366}
+.app .province-label{font-size:12px;color:#748270}
+.app .nearby-list{border:0;border-radius:14px;box-shadow:0 5px 18px #363e3518}
+.app .nearby-list button{font:15px/1.4 var(--serif);padding:8px 0}
+.app .nearby-list button small{display:block;font:12px/1.4 var(--ui-sans);color:var(--ui-meta);margin-top:3px}
+.app .nearby-list button[aria-pressed=true]{color:var(--ui-cinnabar)}
+.app .nearby-list{display:flex;flex-direction:column;overflow:hidden}
+.app .nearby-list-header{display:flex;align-items:center;justify-content:space-between;min-height:44px;flex-shrink:0}
+.app .nearby-list-header strong{line-height:1.4}
+.app .nearby-list-header .nearby-list-close{width:44px;height:44px;min-height:44px;margin:0;padding:0;text-align:center;border:0;flex-shrink:0}
+.app .nearby-list-items{min-height:0;overflow-y:auto;overscroll-behavior:contain;flex:1 1 auto}
+.app .map-toolset .map-reset,.app .map-zoom{border-radius:12px;box-shadow:0 2px 10px #363e3510;background:#f7f3e8eb}
+.app .map-toolset button{font-family:var(--ui-sans)}
+.app .map-toolset button:disabled{color:#899084;opacity:.55;cursor:default}
+.app .back-national{border-radius:12px;box-shadow:0 2px 10px #363e3510;font-family:var(--ui-sans)}
+.app .reading-sheet{--reader-gutter:24px;border-radius:20px;box-shadow:0 5px 24px #363e3512}
+.app .reading-sheet .reader-fixed{min-height:92px;padding-top:6px}
+.app .reading-sheet .sheet-tools .reader-icon,.app .reading-sheet .sheet-tools .reader-continue{border-radius:10px}
+.app .reading-sheet .reader-navigation button,.app .poem-chooser button{font-family:var(--ui-sans)}
+.app .reading-sheet .sheet-scroll{padding-top:12px}
+.app .reading-sheet .original-text{font-size:18px}
+.app .reading-sheet .poem-inscription h3{font-size:24px;line-height:1.45;letter-spacing:.015em}
+.app .reading-sheet .poet-byline{font-size:14px;color:var(--ui-meta)}
+.app .reading-sheet.collapsed{min-height:88px;height:88px;width:300px}
+.app .reading-sheet.collapsed .reader-fixed{padding-top:6px;padding-bottom:8px;min-height:0}
+.app .reading-sheet.collapsed .collapsed-title{font-size:14px;line-height:20px;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app .reading-sheet.closing{animation-duration:220ms}
+.app .directory{border-radius:20px;box-shadow:0 5px 24px #363e3512}
+.app .theme-filters button,.app .search-field input{font-family:var(--ui-sans)}
+.app .directory-item{border-radius:8px}
+.app .directory-item strong{color:var(--ui-ink)}
+.app .directory-item small,.app .result-count{color:var(--ui-meta)}
+.app[data-reader-layout=bottom] .reading-sheet{width:var(--reading-width);bottom:var(--bottom-inset)}
+.app[data-reader-layout=bottom] .reading-sheet.expanded{width:var(--focused-width)}
+.app[data-reader-layout=bottom] .reading-sheet .reader-fixed{min-height:108px;padding-top:20px}
+.app[data-reader-layout=bottom] .reading-sheet.collapsed{width:var(--reading-width);height:92px;min-height:92px}
+.app[data-reader-layout=bottom] .reading-sheet.collapsed .reader-fixed{min-height:0;padding-top:16px;padding-bottom:8px}
+@media(max-width:599px){.app .site-header{height:72px;padding:8px 14px}.app .brand{font-size:23px;letter-spacing:.07em;gap:8px}.app .brand small{font-size:10px}.app .site-header .search-entry{width:106px;padding:0 10px;gap:8px}.app .site-header .search-entry small{display:none}.app.national-mode .map-intro{top:98px;left:14px;width:auto}.app.national-mode .map-intro h1,.app.national-mode .map-intro p{display:none}.app .reading-sheet{--reader-gutter:20px}.app .sheet-topline h2{font-size:20px}.app .reading-sheet .sheet-tools .reader-icon{padding:11px}.app .reading-sheet .poem-inscription h3{font-size:23px}.app .reading-sheet .sheet-scroll{padding-top:8px}.app .map-attribution{font-size:11px}}
+@media(max-height:480px){.app .site-header{height:56px;padding:6px 20px}.app .brand{font-size:24px}.app .brand small{display:none}.app .reading-sheet .reader-fixed{min-height:92px;padding-top:4px}}
+@media(prefers-reduced-motion:reduce){.app button,.app .reading-sheet{animation:none!important;transition:none!important}}
+.app[data-reduced-motion=true] button,.app[data-reduced-motion=true] .reading-sheet{animation:none!important;transition:none!important}
+.app .reader-filter{position:static;font:12px/20px var(--ui-sans);white-space:nowrap;flex-shrink:0;color:var(--ui-cinnabar)}
+.app[data-directory-open=true][data-directory-modal=true] .map-attribution{visibility:hidden}

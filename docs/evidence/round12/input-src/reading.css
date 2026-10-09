@@ -1,0 +1,57 @@
+/* Round 7 reading roles. Map positioning remains in official-map.css. */
+:root{--reader-place:21px;--reader-title:24px;--reader-original:20px;--reader-prose:18px;--reader-meta:14px;--reader-gutter:30px;--reader-fixed-max:132px}
+.reader-fixed{flex:0 0 auto;position:relative;z-index:2}
+.reading-sheet .sheet-tools{min-height:44px;padding:0 22px;gap:6px}
+.reading-sheet .sheet-tools button{font-family:var(--serif);font-size:var(--reader-meta);min-height:44px}
+.reading-sheet .sheet-tools .mobile-expand{display:block;margin-left:auto;padding:0 8px}
+.reading-sheet .sheet-tools .close-button{font-size:24px;width:44px;min-width:44px}
+.reading-sheet .sheet-heading{padding:0 var(--reader-gutter)}
+.reading-sheet .place-heading{padding:0;min-height:30px;gap:8px;flex-wrap:nowrap}
+.reading-sheet .place-heading h2{font-size:var(--reader-place);line-height:1.4;letter-spacing:.05em;white-space:nowrap}
+.reading-sheet .place-heading .category-icon{width:20px;height:20px;flex-basis:20px}
+.reading-sheet .place-region{font:var(--reader-meta)/1.5 var(--serif);margin-left:auto;white-space:nowrap}
+.reader-navigation{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px}
+.reading-sheet .detail-tabs{padding:0;margin:0;gap:24px}
+.reading-sheet .detail-tabs button{padding:0;min-height:44px;font-size:var(--reader-meta);letter-spacing:.06em}
+.reading-sheet .detail-tabs button[aria-selected=true]:after{bottom:5px}
+.poem-chooser{position:relative;font:var(--reader-meta)/1.6 var(--serif)}
+.poem-chooser>button{min-height:44px;padding:0 0 0 8px;white-space:nowrap;color:var(--green)}
+.poem-choices{position:absolute;top:44px;right:0;width:min(370px,calc(100vw - 44px));padding:8px 18px;background:var(--reading);outline:1px solid var(--quiet-line);z-index:8}
+.poem-choices button{display:block;width:100%;text-align:left;padding:10px 0;min-height:44px;font:16px/1.65 var(--serif)}
+.poem-choices button small{display:block;font:14px/1.6 var(--serif);color:var(--muted)}
+.poem-choices button[aria-pressed=true]{color:var(--red)}
+.poem-choices button[aria-pressed=true]>span{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.reading-sheet .sheet-scroll{padding:14px var(--reader-gutter) 28px;overflow-x:hidden}
+.reading-sheet .sheet-scroll>section{max-width:34em;margin:0 auto}
+.reading-sheet .poem-inscription{margin:0 0 20px}
+.reading-sheet .poem-inscription h3{font:var(--reader-title)/1.5 var(--serif);letter-spacing:.04em;margin:0 0 6px}
+.reading-sheet .poet-byline{font:var(--reader-meta)/1.6 var(--serif);margin:0;gap:16px}
+.reading-sheet .original-text{font:var(--reader-original)/1.85 var(--serif);letter-spacing:.02em;margin:0 0 26px;max-width:30em}
+.reading-sheet .original-text p{margin:0 0 14px}
+.poem-line{display:block;overflow-wrap:anywhere}
+.reading-sheet .original-text.prose{font-size:var(--reader-prose);line-height:1.95;max-width:24em}
+.reading-sheet .original-text.prose p{text-indent:2em;margin-bottom:20px;text-wrap:pretty}
+.reading-sheet .original-text.song p{margin-bottom:24px}
+.reading-sheet .original-text mark{color:var(--red);background:#8d50440b;text-decoration:none}
+.poem-context h4,.place-content h3{font:17px/1.7 var(--serif);margin:0 0 10px;font-weight:400}
+.reading-sheet .interpretation,.reading-sheet .place-content .body-copy{font:16px/1.9 var(--serif);margin:0 0 18px}
+.place-content h3:not(:first-child),.local-entry{margin-top:26px}
+.reading-sheet .place-difference{font:14px/1.8 var(--serif);margin:0 0 22px;color:var(--muted)}
+.reading-sheet .text-link{font:14px/1.7 var(--serif);padding:10px 0;min-height:44px}
+.reading-sheet .geography-key{margin:10px 0;font-size:14px}
+.reading-sheet .poem-picture{max-width:420px;margin:20px 0 24px}
+.reading-sheet .poem-picture figcaption{font-size:14px;letter-spacing:0;flex-wrap:wrap;gap:4px 12px}
+.reading-sheet .poem-picture figcaption span{font:14px/1.6 var(--serif)}
+.reading-sources{margin:24px 0 0;font:14px/1.8 var(--serif);color:var(--muted)}
+.reading-sources summary{cursor:pointer;min-height:44px;padding:10px 0;color:var(--green)}
+.reading-sources p{margin:8px 0 12px}.reading-sources a{display:inline-block;min-height:44px;padding:8px 0}
+.reading-sheet .real-photo figcaption,.reading-sheet .real-photo a{font-size:14px}
+@media(max-width:767px){:root{--reader-title:23px;--reader-gutter:22px}.reading-sheet .sheet-tools{padding:0 14px}.reading-sheet .place-region{font-size:14px}.reading-sheet .poem-inscription{margin-bottom:18px}.reading-sheet .sheet-scroll{padding-top:12px}.reading-sheet .original-text{line-height:1.85}.reading-sheet .reading-outside-filter{font-size:13px;line-height:1.5;margin:0 0 2px}.reading-sheet .poem-choices{right:0}.reading-sheet .place-heading{gap:6px}}
+@media(prefers-reduced-motion:reduce){.poem-choices{animation:none}}
+/* Failure reading keeps a compact explanation in the remaining map band. */
+@media(max-width:767px){.has-detail .map-failure{top:135px;width:calc(100% - 44px);max-width:none;padding:8px 12px}.has-detail .map-failure strong{font-size:17px;line-height:1.5;letter-spacing:0}.has-detail .map-failure p{font-size:14px;line-height:1.6;margin:6px 0}.has-detail .map-failure button{font-size:14px;min-height:44px;padding:6px 0}}
+.reading-filter-tag{font:14px/1.5 var(--serif);color:var(--red);white-space:nowrap}
+
+
+
+

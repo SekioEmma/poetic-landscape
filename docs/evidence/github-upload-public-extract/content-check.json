@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-09T06:05:03.205Z",
+  "passed": true,
+  "counts": {
+    "places": 9,
+    "works": 12,
+    "relations": 12
+  },
+  "poems": [
+    {
+      "id": "liangzhouci-1",
+      "characters": 32,
+      "archive": "liangzhouci",
+      "sourceVerification": "reviewed-public-domain-extract",
+      "fullTextInSource": null,
+      "interpretationChars": 114
+    },
+    {
+      "id": "guanshanyue",
+      "characters": 72,
+      "archive": "guanshanyue",
+      "sourceVerification": "reviewed-public-domain-extract",
+      "fullTextInSource": null,
+      "interpretationChars": 121
+    },
+    {
+      "id": "song-yuaner",
+      "characters": 32,
+      "archive": "song-yuaner",
+      "sourceVerification": "reviewed-public-domain-extract",
+      "fullTextInSource": null,
+      "interpretationChars": 124
+    },
+    {
+      "id": "congjunxing-4",
+      "characters": 32,
+      "archive": "loulan-history-poem",
+      "sourceVerification": "reviewed-public-domain-extract",
+      "fullTextInSource": null,
+      "interpretationChars": 121
+    }
+  ],
+  "coordinates": [
+    [
+      "yumen",
+      "Q1324562"
+    ],
+    [
+      "yangguan",
+      "Q909541"
+    ],
+    [
+      "loulan",
+      "Q1057551"
+    ]
+  ],
+  "originalObjectsPreserved": true,
+  "finalPlanUnchanged": true
+}

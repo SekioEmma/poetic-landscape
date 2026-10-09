@@ -1,0 +1,65 @@
+# 诗文山河 · 地图上一页读笺
+
+第十一轮完成L7／MapLibre全国地理学习样板，保留6地点、8作品、8关联。全国总览、分级聚合、实际坐标文化点和西湖局部共用一个组合实例；地图仍是首页主体，详情默认关闭。原文、三档读案、两幅意境画、湖心亭照片与许可保留。
+
+![真实生产页：1000×750全国](docs/screenshots/round11/final-1000x750-national.jpg)
+
+## 本地启动
+
+Node22.12+兼容版本，依赖与兼容桥保持锁定；本地样板不需要API Key。全国JSON、地图worker、西湖、诗文、画和照片随包存储。
+
+```powershell
+cd 'G:\project\数媒\poetic-landscape'
+npm ci
+npm run dev
+```
+
+[开发页面](http://127.0.0.1:5173/)。数据、正文、生产构建和已经采集的浏览器证据审计：
+
+```powershell
+npm run check:data
+node scripts/check-design.mjs
+node scripts/check-reading.mjs docs/evidence/round11/reading-check.json
+node scripts/check-reader-gesture.mjs
+npm run build
+node scripts/check-reader-layout.mjs docs/evidence/round11
+npm run preview
+```
+
+[生产页面](http://127.0.0.1:4173/)，端口固定，Ctrl+C停止。check-reader-layout核对已采集的真实DOM、镜头与当前生产文件名，不会自动重跑浏览器交互。页面改变以后必须先重采受影响证据。手势脚本仅检查纯逻辑，不能代替实体触摸。
+
+[第十一轮静态ZIP](releases/诗文山河_第十一轮静态包_2026-10-08.zip)含dist全部文件和根index.html。解压后用HTTP服务器运行，不能双击HTML；若已有Python可在解压目录运行`python -m http.server 8080 --bind 127.0.0.1`。文件数、逐字节对照和SHA见[release.json](docs/evidence/round11/release.json)及同名校验文件。历史静态包保持。
+
+本机默认Python312缺标准库，以上简写仅适用于有效的Python安装。本轮实际使用已验证可运行的Codex内置Python；在解压目录可用以下命令，然后打开`http://127.0.0.1:8080/`：
+
+```powershell
+& 'C:\Users\13398\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m http.server 8080 --bind 127.0.0.1
+```
+
+## 探索与阅读
+
+- 全国主模式是客户端GeoJSON几何，MapLibre绘制省面／界线，L7叠加文化点。全国、地域、城市按相对缩放与滞回切换标签密度；聚合按地点计数，44px文化热区与屏幕尺寸图标不随地图放大。
+- 点选先聚焦地域，密集杭州组可打开湖心亭／西湖列表，最大缩放仍有近邻入口。选中地点始终独立，未匹配的旧阅读标“筛选外”。邻近符号短引线只避让屏幕触区，不移动地理点位。
+- 顶栏“寻诗文”查地名、别名、作者、篇名与主题，篇目命中优先读该篇。目录与地图使用同一结果集合；零结果仍可回旧读案。关山与家国目前没有正式条目。
+- 常态／收起／专注读案和18px完整原文沿用；换篇、换tab、滚动不抢镜头。手动拖缩后收起／继续／专注保留镜头与阅读位置；关闭恢复开读前探索视野。底案抓手、键盘与Esc层级保持。
+- 全国首页初始化地图，局部OSM第一次进入才载数据，后续在同一实例切图层。进入局部保留全国阅读视野，返回全国与再次进入局部恢复各自镜头；2张canvas属于一个组合实例。
+- 湖心亭照片为Bjoertvedt、2017-07-21、CC BY-SA4.0，原图、署名和等比例显示保持。两幅AI辅助原创意境分别配雪夜看雪／钱塘春行，非实景或古建复原；其他作品不套错图。
+- “出处→查看官方原图”保留完整JPG。出处有“静观”开关。故障时明确提示PNG降级或局部不可交互，目录和HTML原文可继续阅读。
+
+## 来源与边界
+
+**GeoAtlas／高德仅供学习交流；本轮技术样板不等于正式参赛／公开发布许可已解决。** 全国35要素及独立完整国界响应归档，未简化或删岛。按DataV官方文档采用GCJ-02约定，源响应未声明CRS，文件专项确认仍待补；地点和OSM源保持WGS84，渲染一致使用MIT参考近似转换。四处转换参照与亭岛洞检查验证实现一致性，不能称独立测绘认证。
+
+官方EPS/JPG及历史v1/v5a图保持。没有可靠EPS转换工具和地理配准产物，因此按授权转L7；未重试旧被拒安装。GeoAtlas不是原EPS衍生图，不沿用GS(2023)2763号。PNG只作显式故障降级。在线天地图尚未配置或实测，没有使用示例Key。
+
+[设计、路线与实页批评](docs/第十一轮地图设计决策.md) · [N01–N12实际验收](docs/第十一轮实际验收记录.md) · [来源与坐标](docs/第十一轮全国地图来源与坐标说明.md) · [底图台账](docs/官方底图来源与改动说明.md) · [来源许可](docs/来源与许可.md) · [实际证据审计](docs/evidence/round11/runtime-audit.json) · [同步主计划](docs/tasks/诗文山河_MVP开发计划_2026-10-05.md)。
+
+八尺寸五种稳定态、六地地图点选与八篇原文、搜索筛选、近邻键盘、镜头保存／中途接管、20次往返与卸载重入、开发及生产页面、故障路径都有本轮记录。实体触摸／双指、OS级减弱动画动态、拖动中旋转／pointercancel、另一浏览器／设备和干净安装未验证；G2-map本地技术自测与独立美术／正式来源资格分别记录。
+
+## 隔离验证入口
+
+`/?mapStress=12`和`/?mapStress=40`使用相同地图规则的虚拟测试点，不增加正式诗文库；`/?mapTrace=1`记录真实地图移动帧，`/?lifecycle=1`提供明确卸载／挂载操作。普通界面没有这些调试字段。
+
+`/?mapFail=1`注入地图初始化失败，`/?baseFail=1`注入全国资源缺失，`/?localFail=1`注入局部资源失败，`/?artFail=1`为已有画作失败入口。注入结果不冒充真实手机或驱动故障。`/layout-lab`历史独立规划入口保留。
+
+本轮不提交、推送、公开部署或自动开始第十二轮。12地点／16作品／17关联与主题卷仍为未来成品计划。本地输入来自已上传的第十轮main；最新第十一轮改动尚未外部同步。[改前README](docs/evidence/round11/README.md.before)与历轮证据保留。

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-09T06:05:49.045Z",
+  "checks": {
+    "localSourceData": "passed",
+    "publicExtractData": "passed",
+    "productionBuild": "passed",
+    "finalZipSha256": "passed",
+    "distManifestFiles": 31
+  },
+  "zip": "releases/诗文山河_第十四轮静态包_2026-10-09_r2.zip",
+  "sha256": "35666ec4cc48d9fc3ee1f4f4553f0632b85c55c5bb0ede1205113bf0b2e8f4e4",
+  "scope": "Upload preparation only. No new UI acceptance run; refer to round14 runtime evidence."
+}

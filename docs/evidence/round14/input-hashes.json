@@ -1,0 +1,355 @@
+{
+  "at": "2026-10-09T02:59:18.077Z",
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "bytes": 10566,
+      "sha256": "0285c50e37088011f0a1e2156368a91857498be762566dcb6f3c5191e0f97f3b"
+    },
+    {
+      "path": "src/components/CategoryIcon.tsx",
+      "bytes": 1969,
+      "sha256": "75d47395b4c67aa59f8e0213524168987e449a1cba07911de697ca627e43f4a0"
+    },
+    {
+      "path": "src/components/ExplorerDirectory.tsx",
+      "bytes": 3193,
+      "sha256": "dabed719f6d05bf12cd2681314c02b29c84f0c0bd0f534f74c874ed91bd9dff9"
+    },
+    {
+      "path": "src/components/LayoutLab.tsx",
+      "bytes": 1752,
+      "sha256": "fb7af40d44e67b781d4de01cba06b6a320ff0dd93428f24d10a72a115efe3f12"
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "bytes": 3081,
+      "sha256": "1c5b49aaf16f6ad05f3713288052e5ee46aa9ac393bbb05ea891cad8b1c21031"
+    },
+    {
+      "path": "src/components/MapControls.tsx",
+      "bytes": 2894,
+      "sha256": "039aaf947845a71747178b8b84d8989ad670bc2d936cf5ba3992bfe3e1f94664"
+    },
+    {
+      "path": "src/components/OfficialOverview.tsx",
+      "bytes": 2803,
+      "sha256": "355558506379b4f0c9f97eb16c8cb9b72d64f8a3fda7f6b53cdba27e32821347"
+    },
+    {
+      "path": "src/components/OverviewViewport.tsx",
+      "bytes": 21941,
+      "sha256": "7551b2b2184a9e6674315af0ffa37ae0e343f4076284ba81dd518dd5998ceee2"
+    },
+    {
+      "path": "src/components/PlaceContext.tsx",
+      "bytes": 2790,
+      "sha256": "f68f4d2f5e5c79416d08b218d7cea75bb4d0f701b861b6296c02e439ef080d6e"
+    },
+    {
+      "path": "src/components/PoemPicture.tsx",
+      "bytes": 819,
+      "sha256": "f741ba16a5fc583babda0524f16a82cfb0c03f76397969b54c4b25751390af27"
+    },
+    {
+      "path": "src/components/ReadingPanel.tsx",
+      "bytes": 12801,
+      "sha256": "87a247692d1689cc1d0c8fc14dd06031f7629aca7543ff7b4dc96ac2e5d07800"
+    },
+    {
+      "path": "src/components/SourceDialog.tsx",
+      "bytes": 6636,
+      "sha256": "a2a07d537bedac8ee0b57a225f1b791f2538f73b47de7b10f6e625e9b26bc129"
+    },
+    {
+      "path": "src/components/WorkReader.tsx",
+      "bytes": 1074,
+      "sha256": "ce1097cff5cdfcfa5ee04815ac0526424209e937429d5cfdeb8bc40f61b97037"
+    },
+    {
+      "path": "src/cultural-annotations.css",
+      "bytes": 2150,
+      "sha256": "4db62b37bd2234dc7aa227b999b1a7964c6d9e3400ee5d912ba03f626f6e784c"
+    },
+    {
+      "path": "src/data/basemap.ts",
+      "bytes": 2180,
+      "sha256": "2fdd4710420d60cebcf87108a508e77a14b1d653658c3be727d49fc8bd4d5155"
+    },
+    {
+      "path": "src/data/catalog.ts",
+      "bytes": 1061,
+      "sha256": "6f12426aa9e502c6d6e89666d2588f846b7c7eb8059b02dde36ab1e9a4eaaf35"
+    },
+    {
+      "path": "src/data/content.ts",
+      "bytes": 30910,
+      "sha256": "fba2103c06afb6f00e65f994e333433948c9af8297e8b0c4e58c781d89580a9d"
+    },
+    {
+      "path": "src/data/exploration.ts",
+      "bytes": 1140,
+      "sha256": "23e3e6e995de493ca94881da6aedaab6c3a2d12604fd9518d9aa546c8fda4977"
+    },
+    {
+      "path": "src/data/reading-layout.ts",
+      "bytes": 1391,
+      "sha256": "0ced534fcd62800857d3bacf100a0d84534af7a4f9d5fc8d6dd5b7ac16b52820"
+    },
+    {
+      "path": "src/data/visual.ts",
+      "bytes": 980,
+      "sha256": "6e05fed1567b3532ddcf2eb069d8045703633e9c55662e50c54dc7fa8733b66e"
+    },
+    {
+      "path": "src/exploration-interface.css",
+      "bytes": 5830,
+      "sha256": "e450e4395ea3ea002f0764f234bdb7b6ce229906084514ccc029cd98cb19f9ab"
+    },
+    {
+      "path": "src/exploration.css",
+      "bytes": 2541,
+      "sha256": "1c35dd1a40e6f3232883ce94e07239da065b6e0cdc135b97f05236e9e4d4ac8d"
+    },
+    {
+      "path": "src/layout/reader-gesture.ts",
+      "bytes": 631,
+      "sha256": "ff8a87100823e1e3d48e5917feea49b5de08f768c4861b58d11ff088d6c7c649"
+    },
+    {
+      "path": "src/layout/reader-layout.ts",
+      "bytes": 2917,
+      "sha256": "56fb0d22d9888dfaeaa25ccf01458c59381b1128d843d162670a3e5433a1cb9e"
+    },
+    {
+      "path": "src/layout/sheet-motion.ts",
+      "bytes": 3443,
+      "sha256": "0a7bec3aec1c619264cb3e687edd536f28ef7d000620425e944ecd3f7585f330"
+    },
+    {
+      "path": "src/layout/useReaderLayout.ts",
+      "bytes": 1076,
+      "sha256": "1dc7a51acb1798db05d732ee259ae8d2ebcc58556bc01ca224cb4b2dc3bc6da7"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 698,
+      "sha256": "ce8a45c60e52734f595c73daa4e886721209752c6d20a251856f6f2a5b6fa9aa"
+    },
+    {
+      "path": "src/map/camera-intent.ts",
+      "bytes": 705,
+      "sha256": "430f6862ed270da356ae8287c1152a5835a7c9dc3d409f255ed21671b28939c2"
+    },
+    {
+      "path": "src/map/coordinates.ts",
+      "bytes": 1590,
+      "sha256": "28c1621615479a99cab182b99d367cda43bd3631af4d7c5d25c8ba6e7e6ff3e2"
+    },
+    {
+      "path": "src/map/MapAdapter.ts",
+      "bytes": 31185,
+      "sha256": "39dcc8608abc6a6f98104f209f88198a78887be5dd85416e0fcb288c9e6557ca"
+    },
+    {
+      "path": "src/map/maplibre-compat.ts",
+      "bytes": 689,
+      "sha256": "9e5321f02e903a07e3b84cfab870746a75f2ab3f10f69155c93a12962d926b91"
+    },
+    {
+      "path": "src/map/national-config.ts",
+      "bytes": 4051,
+      "sha256": "395af526c37f4d75f7c5ac4abc8ac779632f2bb7b7681f1db781549b45282c91"
+    },
+    {
+      "path": "src/map/overview-math.ts",
+      "bytes": 1868,
+      "sha256": "93e6a115ea717824ace672ba7bbd5409c07eeb7cfb3987bc65de821e5176c556"
+    },
+    {
+      "path": "src/map/vendor.d.ts",
+      "bytes": 83,
+      "sha256": "828c1fe3c17d7ea5634439090dd21d34d758ce08d1ed57a392773c26079712ef"
+    },
+    {
+      "path": "src/national-map.css",
+      "bytes": 3997,
+      "sha256": "5ee2bd6757b8150948595d889b6f4814278aeb4ca56fdffcc9d05b6f2a9bf0b1"
+    },
+    {
+      "path": "src/official-map.css",
+      "bytes": 7881,
+      "sha256": "28737cbca6f47c5662578d25bc26dc6e479927cd697df0694f75dbd052dbbdf7"
+    },
+    {
+      "path": "src/paper.css",
+      "bytes": 301,
+      "sha256": "738151ccb57a0512e7ed4644045dcac0435d4978cb1cc83aa570d5d7cd486bd2"
+    },
+    {
+      "path": "src/reader-layout.css",
+      "bytes": 6870,
+      "sha256": "490f84ae22b89537e239465b563b3dd71e6b9f5ec790bbb6f6340a633c6a31d0"
+    },
+    {
+      "path": "src/reading.css",
+      "bytes": 5373,
+      "sha256": "8751fc269dc5af16425ffad625687148397f052b365abab80634b5794be487c3"
+    },
+    {
+      "path": "src/soft-interface.css",
+      "bytes": 9019,
+      "sha256": "0e41e15060d3e48e94565a9b4bbed6c6369114c0ed2cf4eed42e591c40ea828d"
+    },
+    {
+      "path": "src/song-design.css",
+      "bytes": 11064,
+      "sha256": "083580ffd2ac2ccbe2d2e21edb39042f23054ae2b3d18648aa7f2e8420f09743"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 15365,
+      "sha256": "035167266fb8419f7251c41bd535b4a047fefe11e0b2ff79b5f7d1530aecf856"
+    },
+    {
+      "path": "public/assets/china-design-paper-v1.png",
+      "bytes": 3472767,
+      "sha256": "32e08c8f689febcb4e456b473f234a2b409f6ad7ec05420d70685b004c2d5ecc"
+    },
+    {
+      "path": "public/assets/china-design-paper-v5a.png",
+      "bytes": 3286169,
+      "sha256": "7355331521eaf2dbe00f0c8e62728e4dbf0855e5c0dc0544edfdfa52252e47bc"
+    },
+    {
+      "path": "public/assets/huxin-2017.jpg",
+      "bytes": 2008926,
+      "sha256": "505bffe63b443c120eddbd7928942b2de9b926484cf4b6a8a105d842cb6f5591"
+    },
+    {
+      "path": "public/assets/huxin-snow-r9-v1.png",
+      "bytes": 1723669,
+      "sha256": "b38f25e6e2cfc45e39ba625c47beed148d27d9193562ed76e8188883f4858f41"
+    },
+    {
+      "path": "public/assets/lake-painting-v5.png",
+      "bytes": 1781644,
+      "sha256": "eb002857c1e8fa20009a642186ab35f2969ab2a5e0461b27576951f586fbad9b"
+    },
+    {
+      "path": "public/assets/lake-scene.svg",
+      "bytes": 1708,
+      "sha256": "8d73079a86a1c3739450b012416d727ba0d88fcf971a5cf33b71b284829010df"
+    },
+    {
+      "path": "public/assets/lake-song.svg",
+      "bytes": 2612,
+      "sha256": "355898052b303aadfb37c1d1e379878845b407ce5d16d4f66a8371d9c78a83dc"
+    },
+    {
+      "path": "public/assets/official-china-gs20232763.jpg",
+      "bytes": 6827440,
+      "sha256": "97406aba2103ce528d174eba29ec9eac4177a15f6d9ff9fe8b02555a35683e97"
+    },
+    {
+      "path": "public/assets/paper-fibres-v5.svg",
+      "bytes": 42737,
+      "sha256": "18f216232abb1cdb37966499eeafdb4daf7badba9d1f86dacd8fea096ba4941c"
+    },
+    {
+      "path": "public/assets/paper.svg",
+      "bytes": 691,
+      "sha256": "85019b0554091e31fc02ae419c6f1cf27150963b5bfa95eae303364910f09f78"
+    },
+    {
+      "path": "public/assets/qiantang-spring-r9-v1.png",
+      "bytes": 2223693,
+      "sha256": "46b4cedfb68bdd3af4d88ed8697d8a8a343b7f1c306a90613ebd144f7d0f744d"
+    },
+    {
+      "path": "public/assets/reading-fibres.svg",
+      "bytes": 405,
+      "sha256": "c0218fca2b29005318aef8b57e952c2d98bb2d2fec17bdb9ca27e0b63a463220"
+    },
+    {
+      "path": "public/assets/tower-song.svg",
+      "bytes": 2294,
+      "sha256": "96fd5d1c0fff282179c2eb192e410ca7de6fcb1c71286755a474f07ea32f0f66"
+    },
+    {
+      "path": "public/geodata/causeways.json",
+      "bytes": 6503,
+      "sha256": "3443a26d4ccd50d0aa485e5ce8b475f655212af94222a2ef19aeefc2a216ff22"
+    },
+    {
+      "path": "public/geodata/land.json",
+      "bytes": 286071,
+      "sha256": "5b1fca23209497dfae262ac164a30fb6d2c210ac1cb2a5487dbae5750659c930"
+    },
+    {
+      "path": "public/geodata/local-labels.json",
+      "bytes": 366,
+      "sha256": "608545caeedb67610586ee95560efdc0a0cf58175ef699cd322da0f18e8a9023"
+    },
+    {
+      "path": "public/geodata/national-geoatlas.json",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
+      "path": "public/geodata/national-outline-geoatlas.json",
+      "bytes": 162746,
+      "sha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c"
+    },
+    {
+      "path": "public/geodata/westlake.json",
+      "bytes": 77850,
+      "sha256": "3c0875b6b806928019ca0f2d1e8dfe94d7a293e43a9d6476c368d77066e83b28"
+    },
+    {
+      "path": "public/legal/basemap-manifest.json",
+      "bytes": 12515,
+      "sha256": "06dc950880cedec9687d8cff60c193a3c8c3a700ed321a11a7cf3f2febf650a6"
+    },
+    {
+      "path": "public/legal/coordtransform-MIT.txt",
+      "bytes": 1083,
+      "sha256": "801448faad6ec70fbd0d1bf384f6b20cdbd332f333898b1b8122ec26cb0b5d79"
+    },
+    {
+      "path": "public/legal/data-licenses.txt",
+      "bytes": 18032,
+      "sha256": "8b190d2b9883553dfcb771038cead1df729f73aebdaa8e9a551d5ead90e509cd"
+    },
+    {
+      "path": "public/legal/dependency-notices.txt",
+      "bytes": 361847,
+      "sha256": "5546d0ebb64036621161d0e3caf4b608077a9307cd743b87fb56ff443c4ad12e"
+    },
+    {
+      "path": "public/legal/panzoom-MIT.txt",
+      "bytes": 1059,
+      "sha256": "db74524b3ab3853bcfc7300dade1f5e0176e59ed3c0cff43848a2c300091a22c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 914,
+      "sha256": "9cdce1f8b1a4f3fd5e69ffc79c218b8f244577f5013816b7eb2c1024d32c9511"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 86376,
+      "sha256": "2cb284ab39fb28375f3b09e54d92f3aa5aec89e45be18707a2c4e7efbb513e6e"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 541,
+      "sha256": "78e883160d033d5ea8ebc8214fda2e0b3fae399c49925b9e1177cefaf1e306e2"
+    },
+    {
+      "path": "docs/planning/release-scope-v1.json",
+      "bytes": 3213,
+      "sha256": "89e8710fa66de01d9f1d593c9da95382fba0378ad4583b3fa4ec68d61d155a18"
+    }
+  ]
+}

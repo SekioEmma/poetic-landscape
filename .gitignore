@@ -12,3 +12,6 @@ docs/evidence/standard-map-home.html
 docs/evidence/standard-js-*.js
 docs/evidence/standard-download.html
 docs/evidence/standard-data-topodata-chinatopo.json
+
+# Full source-page archives stay local; public-domain poem extracts and hashes are tracked.
+docs/evidence/round13/sources/*.html

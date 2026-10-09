@@ -1,0 +1,32 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const dir='docs/evidence/round13/';
+const rows=JSON.parse(await fs.readFile(dir+'runtime-samples.json','utf8'));
+const row=name=>{const r=rows.findLast(r=>r.name===name);assert.ok(r,name);return r;};
+const camera=r=>JSON.parse(r.map.camera);
+const stable=name=>{const r=row(name);assert.equal(r.map.renderState,'idle',name);return r;};
+const resetNames=['final-a1-national','final-a2-national','final-reset-1000','final-reset-390','final-reset-back1000','delivery-cold-national-390'];
+const resets=resetNames.map(name=>{const r=stable(name),c=camera(r);assert.ok(Math.abs(c.zoom-Number(r.map.z0))<1e-8,name);assert.equal(r.app.directoryOpen,'false');assert.equal(r.map.selectedPlace,'');return {name,at:r.at,viewport:r.viewport,camera:c,z0:Number(r.map.z0),safeArea:JSON.parse(r.map.safeArea),lastIntent:JSON.parse(r.map.cameraTrace).filter(t=>t.event==='idle').at(-1)};});
+assert.deepEqual(camera(stable('final-manual-before')),camera(stable('final-manual-after390')));
+for(const name of ['final-r02-title-desktop','final-r02-title-mobile','final-a1-baijuyi-start','final-a2-baijuyi-start'])assert.equal(row(name).body.top,0,name);
+const second=['final-r02-second-desktop','final-r02-second-mobile'].map(name=>{const r=row(name),p=r.anchors.find(p=>p.anchor==='paragraph-p2');assert.ok(p.rect.top>r.body.rect.top&&p.rect.bottom<r.body.rect.bottom);assert.ok(r.body.top>100);return {name,scroll:r.body.top,secondCoupletOffset:p.rect.top-r.body.rect.top};});
+assert.ok(Math.abs(second[0].secondCoupletOffset-second[1].secondCoupletOffset)<1);
+const base=camera(stable('c-national-1000')),wheels=[1,2,3,4].map(n=>camera(stable('c-wheel-'+n)));
+for(let n=0;n<4;n++)assert.ok(wheels[n].zoom>(n?wheels[n-1]:base).zoom+.1);
+const drag=camera(stable('c-drag-250'));assert.equal(drag.zoom,wheels[3].zoom);
+const dragEnd=JSON.parse(row('c-drag-250').map.cameraTrace).filter(t=>t.event==='native-drag-end').at(-1);
+const dragPixels=Math.abs(dragEnd.center[0]-wheels[3].center[0])*512*2**drag.zoom/360;assert.ok(Math.abs(dragPixels-250)<1);
+const dragIdlePixels=Math.abs(drag.center[0]-wheels[3].center[0])*512*2**drag.zoom/360;
+const buttons=camera(stable('c-buttons-final'));assert.ok(Math.abs(buttons.zoom-drag.zoom-1)<1e-8);
+const takeover=stable('c-native-takeover'),trace=JSON.parse(takeover.map.cameraTrace);assert.ok(trace.some(t=>t.event==='cancel-automatic-before-handler'));assert.equal(takeover.map.manualCamera,'true');
+const overview=row('c-national-390-final');assert.deepEqual([...new Set(overview.annotations.flatMap(a=>a.members.split(',')))].sort(),['dufu','guazhou','hanshan','huanghe','huxin','loulan','xihu','yangguan','yumen']);
+const content=await import('data:text/javascript;base64,'+Buffer.from(ts.transpileModule(await fs.readFile('src/data/content.ts','utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText).toString('base64'));
+const works=content.works.map(w=>{const r=rows.findLast(r=>r.reader?.memoryKey?.split('/')[1]===w.id&&r.original?.length&&r.url.includes('round13')&&(r.name.startsWith('c-')||r.name.startsWith('final-')||r.name.startsWith('delivery-')));assert.ok(r,'live full text '+w.id);assert.deepEqual(r.original,w.paragraphs,w.id);const rel=content.relations.find(v=>v.workId===w.id&&v.placeId===r.reader.placeId);assert.ok(rel,w.id+' relation');assert.equal(r.highlights.join(''),rel.highlight.text,w.id+' exact highlights');return {workId:w.id,sample:r.name,paragraphs:r.original.length,fullText:true,exactHighlight:true};});
+const layout=JSON.parse(await fs.readFile(dir+'layout-measurements.json','utf8')).filter(r=>r.title&&r.author&&r.firstLine);
+for(const r of layout){assert.equal(r.originalSize,'18px');assert.equal(r.overflow,false);assert.ok(r.firstLine.bottom<=r.body.bottom+.1,r.name+' first-screen line');for(const c of r.controls)assert.ok(c.rect.width>=43.9&&c.rect.height>=43.9,r.name+' touch '+c.name);}
+assert.ok(layout.some(r=>r.viewport[0]===1280)&&layout.some(r=>r.viewport[0]===1000)&&layout.some(r=>r.viewport[0]===390));
+for(const name of ['normal-console','dev-console','delivery-console','zip-console'])assert.deepEqual(JSON.parse(await fs.readFile(dir+name+'.json','utf8')),[],name);
+const report={at:new Date().toISOString(),type:'developer audit of real browser observations; does not replay UI or grant independent acceptance',resets,manualResizePreserved:true,secondCouplet:second,gestures:{wheelZooms:[base,...wheels].map(c=>c.zoom),dragPixelsAtRelease:dragPixels,dragIdlePixelsWithNativeInertia:dragIdlePixels,buttonsZoom:buttons.zoom,takeoverEvent:true},works,layoutRows:layout.map(r=>r.name),allNineOverview:true,passed:true,notVerified:['physical touch/pinch/cancel','OS reduced-motion change','another environment','independent acceptance','public map permission']};
+await fs.writeFile(dir+'runtime-audit.json',JSON.stringify(report,null,2)+'\n');console.log('PASS: Round13 real-observation audit: two reset paths, semantic return, native gestures, 12 full texts/highlights, nine entrances, three layouts.');
+

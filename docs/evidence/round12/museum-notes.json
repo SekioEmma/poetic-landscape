@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-08",
+  "met": {
+    "url": "https://www.metmuseum.org/zh/art/collection/search/39936",
+    "observed": true
+  },
+  "dpm": {
+    "url": "https://www.dpm.org.cn/collection/paint/230125.html",
+    "viewer": "https://www.dpm.org.cn/dyx.html?path=/Uploads/tilegenerator/dest/files/image/8831/2007/0840/img0002.xml",
+    "observed": true
+  },
+  "npm": {
+    "observed": false,
+    "reason": "ERR_CONNECTION_CLOSED"
+  },
+  "usage": "Research only; images not added to application"
+}

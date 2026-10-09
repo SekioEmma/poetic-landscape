@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-09T04:10:46.5850835Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "design",
+      "chunk_id": "e18683",
+      "wall_time_seconds": 1.6968363,
+      "exit_code": 0,
+      "original_token_count": 104,
+      "output": "PASS: C1 9/12/12, complete four source texts, exact archived coordinates, concise original explanations, original 6/8/8 objects and reading offsets preserved.\nPASS: source-exact excerpts, two work-specific paintings, texture/content/dependency/OSM/photo hashes. Historical PNG anchors and mathematics retained for fallback only; national engine validation is check-national.mjs and recorded round11 runtime audit.\n"
+    },
+    {
+      "name": "camera",
+      "chunk_id": "9bdf67",
+      "wall_time_seconds": 1.6071638,
+      "exit_code": 0,
+      "original_token_count": 16,
+      "output": "PASS: camera ownership, cancellation and cumulative targets.\n"
+    },
+    {
+      "name": "reading",
+      "chunk_id": "ad7347",
+      "wall_time_seconds": 1.5396234,
+      "exit_code": 0,
+      "original_token_count": 25,
+      "output": "12 works: explicit offsets, source-exact paragraphs and continuous relation highlights verified.\n"
+    },
+    {
+      "name": "annotations",
+      "chunk_id": "1c2de4",
+      "wall_time_seconds": 1.6645227,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": "PASS: true-anchor grouping, candidate memory, priority, edge clearance, progressive decision and all formal content frozen.\n"
+    },
+    {
+      "name": "data",
+      "chunk_id": "0ee3a6",
+      "wall_time_seconds": 3.0434737,
+      "exit_code": 0,
+      "original_token_count": 179,
+      "output": "\n> poetic-landscape@0.1.0 check:data\n> node scripts/check-data.mjs\n\nPASS: 9 places, 12 works, 12 exact highlights; generic references, themes, coordinates, culture and sources; author/title/alias search + combinations; complete OSM geometry + island anchor; photograph hash/credit/license; immutable official JPG hash + 6 historical fallback image anchors; UTF-8.\nPASS: C1 9/12/12, complete four source texts, exact archived coordinates, concise original explanations, original 6/8/8 objects and reading offsets preserved.\nPASS: national source 35 full features, distinct true coordinates, reference conversion, rendered island hole, source/art/photo/dependency hashes, stable priorities and threshold hysteresis.\n"
+    },
+    {
+      "name": "runtime",
+      "chunk_id": "ae5114",
+      "wall_time_seconds": 0.8414623,
+      "exit_code": 0,
+      "original_token_count": 26,
+      "output": "PASS: 39 captured stable observations; maximum icon projection error 0.496px; 65 frozen input files."
+    }
+  ],
+  "build": {
+    "passed": true,
+    "command": "npm run build",
+    "typescript": "tsc -b",
+    "bundle": "index-DOOfxvyu.js",
+    "mapBundle": "MapAdapter-BVO5S8w1.js",
+    "css": "index-Ch9MxVe_.css",
+    "scope": "Actual final production build after focused edge fallback; final ZIP r2 verified separately"
+  },
+  "whitespace": {
+    "passed": true,
+    "command": "git -c core.whitespace=cr-at-eol diff --check"
+  },
+  "scope": "Development report assembled from actual command results and latest runtime-audit.json; final edge build and ZIP r2 verified. Not independent or device acceptance."
+}

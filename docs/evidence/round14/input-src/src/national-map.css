@@ -1,0 +1,31 @@
+/* Round 11: engine-owned geography; screen-sized cultural annotations. */
+.app.national-mode.official-mode:not(.local-view) .map-canvas,.app.national-mode .map-canvas{visibility:visible;opacity:1;z-index:0;pointer-events:auto}
+.app.national-mode.official-mode:not(.local-view) .map-loading{visibility:visible}
+.map-owned{position:absolute;inset:0}
+.national-mode .paper-fibres{opacity:.16;pointer-events:none;z-index:0}
+.national-mode .map-intro{pointer-events:none;left:32px;top:128px;width:140px}
+.national-mode .map-intro h1{font-size:28px;line-height:1.6;margin:8px 0}
+.national-mode .map-intro p{font-size:14px}.national-mode .map-intro button{pointer-events:auto}
+.geo-entry{position:absolute;width:44px;height:44px;min-width:44px;min-height:44px;padding:0;background:transparent;color:var(--green);overflow:visible;z-index:4;border:0}
+.geo-symbol{display:grid;place-items:center;width:24px;height:24px;margin:10px;line-height:1}
+.geo-symbol svg{width:22px;height:22px}
+.geo-leader{position:absolute;left:0;top:0;width:44px;height:44px;overflow:visible;pointer-events:none;stroke:currentColor;stroke-width:.65;opacity:.4;z-index:-1}
+.geo-entry .geo-symbol{position:relative;background:var(--paper);border-radius:50%}
+.geo-entry.selected{z-index:6;color:var(--red)}
+.geo-entry.selected .geo-symbol svg{stroke-width:1.8}.geo-entry.selected .geo-symbol{border-bottom:2px solid var(--red)}
+.geo-title{position:absolute;height:30px;display:block;overflow:hidden;text-overflow:ellipsis;padding:0 5px;background:#f4f0e6ed;white-space:nowrap;font:17px/30px var(--serif);letter-spacing:.025em;color:var(--green);text-align:left;pointer-events:none}
+.geo-entry.selected .geo-title{color:var(--ink);font-size:18px;border-bottom:1px solid #8d504455}
+.geo-count{font:16px/22px var(--serif);min-width:23px;border:1px solid #50655380;border-radius:50%;background:var(--paper)}
+.geo-entry:focus-visible{outline:2px solid var(--red);outline-offset:1px}.geo-entry:hover .geo-symbol{color:var(--red)}
+.province-label{font:12px/1.4 var(--serif);color:#738270;letter-spacing:.06em;pointer-events:none}
+.nearby-list{position:absolute;z-index:12;width:224px;max-height:230px;overflow:auto;padding:10px 12px;background:var(--reading-paper,#fcfaf4);border:1px solid #50655344;border-radius:16px;color:var(--ink)}
+.nearby-list strong{font:16px var(--serif)}.nearby-list button{display:block;min-height:44px;width:100%;text-align:left;font:16px var(--serif);border-bottom:1px solid #50655318}.nearby-list>button:first-of-type{width:auto;float:right;margin-top:-30px;font-size:14px}
+.map-attribution{position:absolute;z-index:8;left:12px;bottom:0;min-height:44px;font-size:11px;background:#f4f0e6e8;padding:3px 6px;color:#596c59;max-width:calc(100vw - 32px);text-align:left}
+.national-mode.has-detail[data-reader-layout=bottom] .map-attribution{top:calc(var(--workspace-top) + 2px);bottom:auto}
+.national-mode.has-detail[data-reader-layout=side] .map-attribution{right:auto;max-width:45vw}
+.national-mode .map-footer{bottom:48px}.national-mode .map-loading{pointer-events:none}
+.national-mode.map-degraded .map-canvas{visibility:hidden;pointer-events:none}.national-mode.map-degraded>.exploration-surface>.map-toolset{display:none}
+.national-mode .map-failure{z-index:15;top:130px;left:24px;transform:none;width:min(320px,calc(100vw - 48px));background:var(--reading-paper);border-radius:16px}
+.map-stress-note{position:absolute;z-index:12;left:16px;top:102px;font-size:13px;background:var(--paper);padding:6px 10px}.map-stress-note a{margin-left:10px;text-decoration:underline}
+@media(max-width:767px){.national-mode .map-intro{top:112px;left:14px;width:auto}.national-mode .map-intro h1,.national-mode .map-intro p{display:none}.national-mode .map-intro .eyebrow{font-size:12px}.national-mode .map-attribution{font-size:10px}.national-mode .map-footer{bottom:48px}.national-mode .map-intro .filter-indicator{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){.geo-entry,.nearby-list{transition:none!important}}

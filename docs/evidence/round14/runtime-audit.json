@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-09T04:10:59.877Z",
+  "passed": true,
+  "scope": "development audit of new Round14 browser observations; not independent or physical-device acceptance",
+  "manifest": {
+    "national": [
+      "accepted-national-1280",
+      "accepted-national-1000",
+      "delivery-national-390"
+    ],
+    "northwest": [
+      "delivery-northwest-1280",
+      "accepted-northwest-1000",
+      "delivery-northwest-390"
+    ],
+    "dunhuang": [
+      "delivery-dunhuang-1280",
+      "accepted-dunhuang-1000",
+      "delivery-dunhuang-390"
+    ],
+    "hangzhou": [
+      "delivery-hangzhou-1280",
+      "accepted-hangzhou-1000",
+      "delivery-hangzhou-390-settled"
+    ],
+    "selected": [
+      "delivery-selected-1280",
+      "accepted-selected-1000",
+      "delivery-escape-390"
+    ],
+    "fixtures": [
+      "stress12-national-1280",
+      "stress12-national-1000",
+      "stress12-national-390",
+      "stress40-national-1280",
+      "stress40-national-1000",
+      "stress40-national-390",
+      "stress12-long-focus-390",
+      "corrected-stress12-edge-focus-390",
+      "stress40-same-coordinate-a",
+      "stress40-same-coordinate-b",
+      "corrected-stress40-list-reader-390"
+    ],
+    "stability": [
+      "accepted-idle-1",
+      "accepted-idle-2",
+      "accepted-idle-3",
+      "accepted-in-1",
+      "accepted-in-2",
+      "accepted-in-3",
+      "accepted-in-4",
+      "accepted-in-5",
+      "accepted-out-1",
+      "accepted-out-2",
+      "accepted-out-3",
+      "accepted-out-4",
+      "accepted-out-5"
+    ]
+  },
+  "observations": 39,
+  "maxProjectionErrorPx": 0.4963961828010497,
+  "frozenFiles": 65,
+  "checks": [
+    "unique counts and complete overview 9/12/40",
+    "stable candidates and cached DOM across 3 settles and 5 cycles",
+    "zero icon displacement and DOM projection <=1px",
+    "safe text, lists and 44px controls",
+    "progressive <=2 levels and complete lists",
+    "same-coordinate separate selections",
+    "native wheels, moving drag and inertia",
+    "11.5 manual then full national reset",
+    "same-instance local return",
+    "map-failure full reading",
+    "empty normal console; input assets/content/lock frozen"
+  ]
+}
